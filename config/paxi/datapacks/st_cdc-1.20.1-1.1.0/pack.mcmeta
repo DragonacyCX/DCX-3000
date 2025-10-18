@@ -1,0 +1,13 @@
+{
+    "pack": {
+        "name": "Create Dough Compat (CDC)",
+        "id": "createdoughcompat",
+        "pack_format": 15,
+        "version": "1.0",
+        "authors": [
+            "SkellaTex"
+        ],
+        "description": "Replaces Create dough with Farmer's Delight dough",
+        "license": "MIT License"
+    }
+}

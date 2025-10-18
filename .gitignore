@@ -1,0 +1,50 @@
+# Local Minecraft instance files and large user data
+/.minecraft/
+/saves/
+/backups/
+/backups-/
+/worlds/
+/.technic/
+/.curse/
+/instances/
+/crash-reports/
+/.cache/
+/.mixin.out/
+/data/
+/datapacks/
+/downloads/
+/essential/
+/impossible_data/
+/local/
+/logs/
+/modernfix/
+/mods/
+/patchouli_books/
+/resourcepacks/
+/schematics/
+/screenshots/
+/sparsestructures/
+/xaero/
+/XaeroWaypoints_BACKUP240807/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+*.log
+
+# Minecraft instance-specific and launcher files
+instance.cfg
+*.lock
+.curseclient
+.qmenu_opened.marker
+*.json
+rhino.local.properties
+*.dat
+*.dat_old
+
+# Temp zips and local exports
+*.zip
+*.7z
+
+# Optional: ignore any personal keys or config
+secret-*.json

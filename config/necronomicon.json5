@@ -1,0 +1,17 @@
+{
+  // This is used to debug stuff
+  "debug": false,
+  // A test boolean
+  "test": false,
+  // A list!
+  // Supports multiple values using List.of()
+  "list": [
+    "test",
+    "test2"
+  ],
+  "exampleColors": {
+    "red": 155,
+    "green": 155,
+    "blue": 155
+  }
+}

@@ -1,0 +1,18 @@
+
+[Gui]
+	"Dash Gui Location on Screen when an item is in offhand xz" = -142.0
+	"Dash Gui Location on Screen when an item is in offhand y" = 16.0
+	"Dash Gui Location on Screen xz" = -114.0
+	"Dash Gui Location on Screen y" = 16.0
+
+[audio]
+	"Dash Sound Volume" = 0.2
+	"Dash Sound  Pitch" = 1.0
+
+["Dash Strenght"]
+	"Dash Power/Push Force (XZ)" = 0.5
+	"Dash Power/Push Force (Y)" = 0.2
+
+[Cooldoown]
+	"Dash CoolDoown (amount of time all 3 dashbars take to load in ticks)" = 220.0
+

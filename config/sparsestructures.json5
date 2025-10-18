@@ -1,0 +1,656 @@
+// ### THE MOD REQUIRES A RESTART OF THE GAME TO APPLY CHANGES ###
+{
+  // this is the main spread factor (default is 2)
+  //
+  // tips: a spread factor can be a decimal number (such as 1.5)
+  //       a spread factor of 1 means all structure's placements are not modified (useful if you want to use only custom spread factors)
+  //       a spread factor above 1 means all structures are rarer
+  //       a spread factor below 1 means all structures are more common
+  //       a spread factor of 0 disables all structures entirely
+  "spreadFactor": 1.58,
+
+  // Some structure mods/datapacks do not specify a custom salt or use the same salt for all their structures, which might cause structure overlap.
+  // Enabling this is supposed to reduce this phenomenon, as all structure sets will have their own salt, hashed from their id.
+  // If unsure, leave this enabled.
+  "idBasedSalt": true,
+
+  // this is a list of custom spread factors
+  "customSpreadFactors": [
+    // example of the mansion being doubled in rarity (the mod's default)
+{
+  "structure": "dungeonsdelight:rotten_dungeons",
+  "factor": 1.1
+},
+{
+  "structure": "dungeonnowloading:temple_of_duality",
+  "factor": 1.2
+},
+{
+  "structure": "biomeswevegone:aspen_manors",
+  "factor": 1.0
+},
+{
+  "structure": "biomeswevegone:dripstone_arches",
+  "factor": 1.0
+},
+{
+  "structure": "biomeswevegone:ironwood_gour_plateau",
+  "factor": 1.0
+},
+{
+  "structure": "biomeswevegone:large_cold_lake",
+  "factor": 1.0
+},
+{
+  "structure": "biomeswevegone:lush_arch",
+  "factor": 1.0
+},
+{
+  "structure": "biomeswevegone:prairie_houses",
+  "factor": 1.0
+},
+{
+  "structure": "biomeswevegone:red_rock_arches",
+  "factor": 1.0
+},
+{
+  "structure": "biomeswevegone:rugged_fossils",
+  "factor": 1.0
+},
+{
+  "structure": "biomeswevegone:sharpened_rocks",
+  "factor": 1.0
+},
+{
+  "structure": "biomeswevegone:villages",
+  "factor": 0.9
+},
+{
+  "structure": "takesapillage:bastille",
+  "factor": 1.3
+},
+{
+  "structure": "takesapillage:pillager_camp",
+  "factor": 1.3
+},
+{
+  "structure": "traveloptics:void_cathedral",
+  "factor": 1.0
+},
+{
+  "structure": "traveloptics:echo_shrine",
+  "factor": 1.0
+},
+{
+  "structure": "aether:bronze_dungeon",
+  "factor": 1.2
+},
+{
+  "structure": "aether:large_aercloud",
+  "factor": 1.2
+},
+{
+  "structure": "aether:ruined_portals",
+  "factor": 1.2
+},
+{
+  "structure": "aether:silver_and_gold_dungeons",
+  "factor": 1.3
+},
+{
+  "structure": "aether_villages:aether_villages_structures",
+  "factor": 1.5
+},
+{
+  "structure": "alexscaves:abyssal_ruins",
+  "factor": 1.0
+},
+{
+  "structure": "alexscaves:acid_pit",
+  "factor": 1.0
+},
+{
+  "structure": "alexscaves:cake_cave",
+  "factor": 1.0
+},
+{
+  "structure": "alexscaves:dino_bowl",
+  "factor": 1.0
+},
+{
+  "structure": "alexscaves:donut_arch",
+  "factor": 1.0
+},
+{
+  "structure": "alexscaves:ferrocave",
+  "factor": 1.0
+},
+{
+  "structure": "alexscaves:forlorn_bridge",
+  "factor": 1.0
+},
+{
+  "structure": "alexscaves:forlorn_canyon",
+  "factor": 1.0
+},
+{
+  "structure": "alexscaves:gingerbread_town",
+  "factor": 1.0
+},
+{
+  "structure": "alexscaves:licowitch_tower",
+  "factor": 1.0
+},
+{
+  "structure": "alexscaves:ocean_trench",
+  "factor": 1.0
+},
+{
+  "structure": "alexscaves:soda_bottle",
+  "factor": 1.0
+},
+{
+  "structure": "alexscaves:underground_cabin",
+  "factor": 1.0
+},
+{
+  "structure": "alexscaves:volcano",
+  "factor": 1.0
+},
+{
+  "structure": "aquamirae:ice_maze",
+  "factor": 1.0
+},
+{
+  "structure": "aquamirae:outpost",
+  "factor": 1.0
+},
+{
+  "structure": "aquamirae:shelter",
+  "factor": 1.0
+},
+{
+  "structure": "aquamirae:ship",
+  "factor": 1.0
+},
+{
+  "structure": "atmospheric:arid_gardens",
+  "factor": 1.0
+},
+{
+  "structure": "atmospheric:kousa_sanctums",
+  "factor": 1.0
+},
+{
+  "structure": "autumnity:maple_huts",
+  "factor": 1.0
+},
+{
+  "structure": "betterdungeons:skeleton_dungeons",
+  "factor": 1.3
+},
+{
+  "structure": "betterdungeons:small_dungeons",
+  "factor": 1.3
+},
+{
+  "structure": "betterdungeons:small_nether_dungeons",
+  "factor": 1.3
+},
+{
+  "structure": "betterdungeons:spider_dungeons",
+  "factor": 1.3
+},
+{
+  "structure": "betterdungeons:zombie_dungeons",
+  "factor": 1.3
+},
+{
+  "structure": "bettermineshafts:mineshafts",
+  "factor": 1.2
+},
+{
+  "structure": "blue_skies:everbright_blinding_dungeon",
+  "factor": 1.0
+},
+{
+  "structure": "blue_skies:everdawn_blinding_dungeon",
+  "factor": 1.0
+},
+{
+  "structure": "blue_skies:frozen_bunker",
+  "factor": 1.0
+},
+{
+  "structure": "blue_skies:gatekeeper_house",
+  "factor": 1.0
+},
+{
+  "structure": "blue_skies:nature_dungeon",
+  "factor": 1.0
+},
+{
+  "structure": "blue_skies:poison_dungeon",
+  "factor": 1.0
+},
+{
+  "structure": "blue_skies:village",
+  "factor": 1.0
+},
+{
+  "structure": "born_in_chaos_v1:firewell",
+  "factor": 0.0
+},
+{
+  "structure": "deep_aether:brass_dungeon",
+  "factor": 1.2
+},
+{
+  "structure": "dungeoncrawl:dungeons",
+  "factor": 1.5
+},
+{
+  "structure": "dungeonnowloading:labyrinth",
+  "factor": 1.7
+},
+{
+  "structure": "dungeons_enhanced:black_citadel",
+  "factor": 1.0
+},
+{
+  "structure": "dungeons_enhanced:flying_dutchman",
+  "factor": 1.1
+},
+{
+  "structure": "dungeons_enhanced:mushroom_house",
+  "factor": 1.1
+},
+{
+  "structure": "dungeons_enhanced:pillager_camp",
+  "factor": 1.4
+},
+{
+  "structure": "endergetic:eetle_nests",
+  "factor": 1.1
+},
+{
+  "structure": "environmental:log_cabins",
+  "factor": 1.0
+},
+{
+  "structure": "explorify:supply_caches",
+  "factor": 0.0
+},
+{
+  "structure": "farmers_structures:aethers_with_all",
+  "factor": 1.4
+},
+{
+  "structure": "farmers_structures:undergardens_sea_with_all",
+  "factor": 1.0
+},
+{
+  "structure": "galosphere:pink_salt_shrine",
+  "factor": 1.0
+},
+{
+  "structure": "idas:idas_rare",
+  "factor": 1.2
+},
+{
+  "structure": "incendium:greater_structures",
+  "factor": 1.2
+},
+{
+  "structure": "incendium:lesser_structures",
+  "factor": 1.3
+},
+{
+  "structure": "integrated_villages:air_villages",
+  "factor": 1.7
+},
+{
+  "structure": "irons_spellbooks:ancient_battleground",
+  "factor": 1.4
+},
+{
+  "structure": "irons_spellbooks:catacombs",
+  "factor": 1.4
+},
+{
+  "structure": "irons_spellbooks:evoker_fort",
+  "factor": 1.4
+},
+{
+  "structure": "irons_spellbooks:impaled_icebreaker",
+  "factor": 1.2
+},
+{
+  "structure": "irons_spellbooks:mangrove_hut",
+  "factor": 1.4
+},
+{
+  "structure": "irons_spellbooks:mountain_tower",
+  "factor": 1.4
+},
+{
+  "structure": "irons_spellbooks:pyromancer_tower",
+  "factor": 1.4
+},
+{
+  "structure": "lost_aether_content:platinum_dungeon",
+  "factor": 1.2
+},
+{
+  "structure": "minecraft:ancient_cities",
+  "factor": 1.0
+},
+{
+  "structure": "minecraft:buried_treasures",
+  "factor": 1.0
+},
+{
+  "structure": "minecraft:end_cities",
+  "factor": 1.0
+},
+{
+  "structure": "minecraft:mineshafts",
+  "factor": 1.0
+},
+{
+  "structure": "minecraft:pillager_outposts",
+  "factor": 1.0
+},
+{
+  "structure": "minecraft:ruined_portals",
+  "factor": 1.5
+},
+{
+  "structure": "minecraft:woodland_mansions",
+  "factor": 1.0
+},
+{
+  "structure": "mvs:other_decoration/bee_dome",
+  "factor": 0.0
+},
+{
+  "structure": "mvs:other_decoration/stone_bee",
+  "factor": 0.0
+},
+{
+  "structure": "nova_structures:illager_camp",
+  "factor": 1.4
+},
+{
+  "structure": "nova_structures:illager_hideout",
+  "factor": 1.2
+},
+{
+  "structure": "nova_structures:nether_camps",
+  "factor": 1.2
+},
+{
+  "structure": "nova_structures:taverns",
+  "factor": 1.4
+},
+{
+  "structure": "repurposed_structures:ancient_cities_end",
+  "factor": 1.0
+},
+{
+  "structure": "repurposed_structures:ancient_cities_nether",
+  "factor": 1.1
+},
+{
+  "structure": "repurposed_structures:ancient_cities_overworld",
+  "factor": 1.2
+},
+{
+  "structure": "repurposed_structures:mansions_mangrove",
+  "factor": 1.2
+},
+{
+  "structure": "repurposed_structures:mansions_overworld",
+  "factor": 1.2
+},
+{
+  "structure": "repurposed_structures:mineshafts_end",
+  "factor": 1.0
+},
+{
+  "structure": "repurposed_structures:mineshafts_nether",
+  "factor": 1.3
+},
+{
+  "structure": "repurposed_structures:mineshafts_ocean",
+  "factor": 1.3
+},
+{
+  "structure": "repurposed_structures:outposts_end",
+  "factor": 1.1
+},
+{
+  "structure": "repurposed_structures:outposts_nether",
+  "factor": 1.0
+},
+{
+  "structure": "repurposed_structures:outposts_overworld",
+  "factor": 1.0
+},
+{
+  "structure": "repurposed_structures:pyramids_mushroom",
+  "factor": 1.0
+},
+{
+  "structure": "repurposed_structures:villages_mushroom",
+  "factor": 1.0
+},
+{
+  "structure": "revampedvillages:villages",
+  "factor": 1.6
+},
+{
+  "structure": "skyarena:ice_arena",
+  "factor": 1.7
+},
+{
+  "structure": "skyarena:sky_arena",
+  "factor": 1.7
+},
+{
+  "structure": "totw_modded:aether",
+  "factor": 1.3
+},
+{
+  "structure": "totw_modded:end",
+  "factor": 1.1
+},
+{
+  "structure": "totw_modded:everbright",
+  "factor": 1.3
+},
+{
+  "structure": "totw_modded:everdawn",
+  "factor": 1.3
+},
+{
+  "structure": "totw_modded:nether",
+  "factor": 1.4
+},
+{
+  "structure": "totw_modded:overworld",
+  "factor": 1.5
+},
+{
+  "structure": "totw_modded:planets",
+  "factor": 1.3
+},
+{
+  "structure": "totw_modded:ratlantis",
+  "factor": 1.4
+},
+{
+  "structure": "totw_modded:twilightforest",
+  "factor": 1.4
+},
+{
+  "structure": "traveloptics:aqua_mage_tower",
+  "factor": 1.2
+},
+{
+  "structure": "twilightforest:aurora_palace",
+  "factor": 1.0
+},
+{
+  "structure": "twilightforest:dark_tower",
+  "factor": 1.0
+},
+{
+  "structure": "twilightforest:final_castle",
+  "factor": 1.0
+},
+{
+  "structure": "twilightforest:hedge_maze",
+  "factor": 1.0
+},
+{
+  "structure": "twilightforest:hydra_lair",
+  "factor": 1.0
+},
+{
+  "structure": "twilightforest:knight_stronghold",
+  "factor": 1.0
+},
+{
+  "structure": "twilightforest:labyrinth",
+  "factor": 1.0
+},
+{
+  "structure": "twilightforest:large_hollow_hill",
+  "factor": 1.0
+},
+{
+  "structure": "twilightforest:lich_tower",
+  "factor": 1.0
+},
+{
+  "structure": "twilightforest:medium_hollow_hill",
+  "factor": 1.0
+},
+{
+  "structure": "twilightforest:mushroom_tower",
+  "factor": 1.0
+},
+{
+  "structure": "twilightforest:naga_courtyard",
+  "factor": 1.0
+},
+{
+  "structure": "twilightforest:quest_grove",
+  "factor": 1.0
+},
+{
+  "structure": "twilightforest:small_hollow_hill",
+  "factor": 1.0
+},
+{
+  "structure": "twilightforest:troll_cave",
+  "factor": 1.0
+},
+{
+  "structure": "twilightforest:yeti_cave",
+  "factor": 1.0
+},
+{
+  "structure": "undergarden:catacombs",
+  "factor": 1.0
+},
+{
+  "structure": "undergarden:forgotten_vestige",
+  "factor": 1.0
+},
+{
+  "structure": "underground_rooms:alchemy_room",
+  "factor": 1.0
+},
+{
+  "structure": "underground_rooms:blacksmith_room1",
+  "factor": 1.0
+},
+{
+  "structure": "underground_rooms:desert_crypt",
+  "factor": 1.0
+},
+{
+  "structure": "underground_rooms:dungeon",
+  "factor": 1.0
+},
+{
+  "structure": "underground_rooms:enchanting_room",
+  "factor": 1.0
+},
+{
+  "structure": "underground_rooms:end_room",
+  "factor": 1.0
+},
+{
+  "structure": "underground_rooms:hidden_temple",
+  "factor": 1.0
+},
+{
+  "structure": "underground_rooms:library1",
+  "factor": 1.0
+},
+{
+  "structure": "underground_rooms:mainroom1",
+  "factor": 1.0
+},
+{
+  "structure": "underground_rooms:mining_storage_room",
+  "factor": 1.0
+},
+{
+  "structure": "underground_rooms:throne_room",
+  "factor": 1.0
+},
+{
+  "structure": "underground_rooms:torture_chamber",
+  "factor": 1.0
+},
+{
+  "structure": "underground_rooms:treasure_room",
+  "factor": 1.2
+},
+{
+  "structure": "underground_rooms:wine_cellar",
+  "factor": 1.0
+},
+{
+  "structure": "wabi_sabi_structures:frost_reactor_plant",
+  "factor": 0.0
+},
+{
+  "structure": "wabi_sabi_structures:mushroom_house",
+  "factor": 1.1
+},
+{
+  "structure": "wabi_sabi_structures:totem_pole",
+  "factor": 0.0
+}
+    // add the structures you want to modify in the format:
+    // (don't forget to remove "//", and use dots for decimal numbers)
+    //
+    // {
+    //     "structure": "namespace:structure_name",
+    //     "factor": number
+    // },
+    //
+    // where "structure" is a structure_set or the name of a structure
+    // /!\ if you put the name of a structure, all structures in its set will be modified
+    // (example: "minecraft:village_plains" will modify all structures in the "villages" set)
+    // see https://minecraft.wiki/w/Tutorials/Custom_structures#Structure_Set for more info
+    //
+    // tip: you can dump all structure sets in a file by running the custom command /dumpstructuresets
+    // tip: the same spread factors rules apply here (set to 0 to disable said structure)
+  ]
+}

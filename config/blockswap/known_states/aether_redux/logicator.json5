@@ -1,0 +1,1411 @@
+/*
+This file uses the ".json5" file extension which allows for comments like this in a json file!
+Your text editor may show this file with invalid/no syntax, if so, we recommend you download:
+
+VSCode: https://code.visualstudio.com/
+JSON5 plugin(for VSCode): https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-json5
+
+to make editing this file much easier.
+*/
+[
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "true",
+			"mode": "and",
+			"left_input": "true",
+			"facing": "north"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "true",
+			"mode": "and",
+			"left_input": "true",
+			"facing": "north"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "false",
+			"mode": "and",
+			"left_input": "true",
+			"facing": "north"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "false",
+			"mode": "and",
+			"left_input": "true",
+			"facing": "north"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "true",
+			"mode": "or",
+			"left_input": "true",
+			"facing": "north"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "true",
+			"mode": "or",
+			"left_input": "true",
+			"facing": "north"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "false",
+			"mode": "or",
+			"left_input": "true",
+			"facing": "north"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "false",
+			"mode": "or",
+			"left_input": "true",
+			"facing": "north"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "true",
+			"mode": "xnor",
+			"left_input": "true",
+			"facing": "north"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "true",
+			"mode": "xnor",
+			"left_input": "true",
+			"facing": "north"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "false",
+			"mode": "xnor",
+			"left_input": "true",
+			"facing": "north"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "false",
+			"mode": "xnor",
+			"left_input": "true",
+			"facing": "north"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "true",
+			"mode": "xor",
+			"left_input": "true",
+			"facing": "north"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "true",
+			"mode": "xor",
+			"left_input": "true",
+			"facing": "north"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "false",
+			"mode": "xor",
+			"left_input": "true",
+			"facing": "north"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "false",
+			"mode": "xor",
+			"left_input": "true",
+			"facing": "north"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "true",
+			"mode": "and",
+			"left_input": "false",
+			"facing": "north"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "true",
+			"mode": "and",
+			"left_input": "false",
+			"facing": "north"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "false",
+			"mode": "and",
+			"left_input": "false",
+			"facing": "north"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "true",
+			"mode": "or",
+			"left_input": "false",
+			"facing": "north"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "true",
+			"mode": "or",
+			"left_input": "false",
+			"facing": "north"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "false",
+			"mode": "or",
+			"left_input": "false",
+			"facing": "north"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "false",
+			"mode": "or",
+			"left_input": "false",
+			"facing": "north"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "true",
+			"mode": "xnor",
+			"left_input": "false",
+			"facing": "north"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "true",
+			"mode": "xnor",
+			"left_input": "false",
+			"facing": "north"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "false",
+			"mode": "xnor",
+			"left_input": "false",
+			"facing": "north"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "false",
+			"mode": "xnor",
+			"left_input": "false",
+			"facing": "north"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "true",
+			"mode": "xor",
+			"left_input": "false",
+			"facing": "north"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "true",
+			"mode": "xor",
+			"left_input": "false",
+			"facing": "north"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "false",
+			"mode": "xor",
+			"left_input": "false",
+			"facing": "north"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "false",
+			"mode": "xor",
+			"left_input": "false",
+			"facing": "north"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "true",
+			"mode": "and",
+			"left_input": "true",
+			"facing": "south"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "true",
+			"mode": "and",
+			"left_input": "true",
+			"facing": "south"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "false",
+			"mode": "and",
+			"left_input": "true",
+			"facing": "south"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "false",
+			"mode": "and",
+			"left_input": "true",
+			"facing": "south"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "true",
+			"mode": "or",
+			"left_input": "true",
+			"facing": "south"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "true",
+			"mode": "or",
+			"left_input": "true",
+			"facing": "south"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "false",
+			"mode": "or",
+			"left_input": "true",
+			"facing": "south"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "false",
+			"mode": "or",
+			"left_input": "true",
+			"facing": "south"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "true",
+			"mode": "xnor",
+			"left_input": "true",
+			"facing": "south"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "true",
+			"mode": "xnor",
+			"left_input": "true",
+			"facing": "south"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "false",
+			"mode": "xnor",
+			"left_input": "true",
+			"facing": "south"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "false",
+			"mode": "xnor",
+			"left_input": "true",
+			"facing": "south"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "true",
+			"mode": "xor",
+			"left_input": "true",
+			"facing": "south"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "true",
+			"mode": "xor",
+			"left_input": "true",
+			"facing": "south"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "false",
+			"mode": "xor",
+			"left_input": "true",
+			"facing": "south"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "false",
+			"mode": "xor",
+			"left_input": "true",
+			"facing": "south"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "true",
+			"mode": "and",
+			"left_input": "false",
+			"facing": "south"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "true",
+			"mode": "and",
+			"left_input": "false",
+			"facing": "south"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "false",
+			"mode": "and",
+			"left_input": "false",
+			"facing": "south"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "false",
+			"mode": "and",
+			"left_input": "false",
+			"facing": "south"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "true",
+			"mode": "or",
+			"left_input": "false",
+			"facing": "south"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "true",
+			"mode": "or",
+			"left_input": "false",
+			"facing": "south"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "false",
+			"mode": "or",
+			"left_input": "false",
+			"facing": "south"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "false",
+			"mode": "or",
+			"left_input": "false",
+			"facing": "south"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "true",
+			"mode": "xnor",
+			"left_input": "false",
+			"facing": "south"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "true",
+			"mode": "xnor",
+			"left_input": "false",
+			"facing": "south"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "false",
+			"mode": "xnor",
+			"left_input": "false",
+			"facing": "south"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "false",
+			"mode": "xnor",
+			"left_input": "false",
+			"facing": "south"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "true",
+			"mode": "xor",
+			"left_input": "false",
+			"facing": "south"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "true",
+			"mode": "xor",
+			"left_input": "false",
+			"facing": "south"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "false",
+			"mode": "xor",
+			"left_input": "false",
+			"facing": "south"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "false",
+			"mode": "xor",
+			"left_input": "false",
+			"facing": "south"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "true",
+			"mode": "and",
+			"left_input": "true",
+			"facing": "west"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "true",
+			"mode": "and",
+			"left_input": "true",
+			"facing": "west"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "false",
+			"mode": "and",
+			"left_input": "true",
+			"facing": "west"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "false",
+			"mode": "and",
+			"left_input": "true",
+			"facing": "west"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "true",
+			"mode": "or",
+			"left_input": "true",
+			"facing": "west"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "true",
+			"mode": "or",
+			"left_input": "true",
+			"facing": "west"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "false",
+			"mode": "or",
+			"left_input": "true",
+			"facing": "west"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "false",
+			"mode": "or",
+			"left_input": "true",
+			"facing": "west"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "true",
+			"mode": "xnor",
+			"left_input": "true",
+			"facing": "west"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "true",
+			"mode": "xnor",
+			"left_input": "true",
+			"facing": "west"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "false",
+			"mode": "xnor",
+			"left_input": "true",
+			"facing": "west"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "false",
+			"mode": "xnor",
+			"left_input": "true",
+			"facing": "west"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "true",
+			"mode": "xor",
+			"left_input": "true",
+			"facing": "west"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "true",
+			"mode": "xor",
+			"left_input": "true",
+			"facing": "west"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "false",
+			"mode": "xor",
+			"left_input": "true",
+			"facing": "west"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "false",
+			"mode": "xor",
+			"left_input": "true",
+			"facing": "west"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "true",
+			"mode": "and",
+			"left_input": "false",
+			"facing": "west"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "true",
+			"mode": "and",
+			"left_input": "false",
+			"facing": "west"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "false",
+			"mode": "and",
+			"left_input": "false",
+			"facing": "west"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "false",
+			"mode": "and",
+			"left_input": "false",
+			"facing": "west"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "true",
+			"mode": "or",
+			"left_input": "false",
+			"facing": "west"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "true",
+			"mode": "or",
+			"left_input": "false",
+			"facing": "west"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "false",
+			"mode": "or",
+			"left_input": "false",
+			"facing": "west"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "false",
+			"mode": "or",
+			"left_input": "false",
+			"facing": "west"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "true",
+			"mode": "xnor",
+			"left_input": "false",
+			"facing": "west"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "true",
+			"mode": "xnor",
+			"left_input": "false",
+			"facing": "west"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "false",
+			"mode": "xnor",
+			"left_input": "false",
+			"facing": "west"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "false",
+			"mode": "xnor",
+			"left_input": "false",
+			"facing": "west"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "true",
+			"mode": "xor",
+			"left_input": "false",
+			"facing": "west"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "true",
+			"mode": "xor",
+			"left_input": "false",
+			"facing": "west"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "false",
+			"mode": "xor",
+			"left_input": "false",
+			"facing": "west"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "false",
+			"mode": "xor",
+			"left_input": "false",
+			"facing": "west"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "true",
+			"mode": "and",
+			"left_input": "true",
+			"facing": "east"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "true",
+			"mode": "and",
+			"left_input": "true",
+			"facing": "east"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "false",
+			"mode": "and",
+			"left_input": "true",
+			"facing": "east"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "false",
+			"mode": "and",
+			"left_input": "true",
+			"facing": "east"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "true",
+			"mode": "or",
+			"left_input": "true",
+			"facing": "east"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "true",
+			"mode": "or",
+			"left_input": "true",
+			"facing": "east"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "false",
+			"mode": "or",
+			"left_input": "true",
+			"facing": "east"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "false",
+			"mode": "or",
+			"left_input": "true",
+			"facing": "east"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "true",
+			"mode": "xnor",
+			"left_input": "true",
+			"facing": "east"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "true",
+			"mode": "xnor",
+			"left_input": "true",
+			"facing": "east"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "false",
+			"mode": "xnor",
+			"left_input": "true",
+			"facing": "east"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "false",
+			"mode": "xnor",
+			"left_input": "true",
+			"facing": "east"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "true",
+			"mode": "xor",
+			"left_input": "true",
+			"facing": "east"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "true",
+			"mode": "xor",
+			"left_input": "true",
+			"facing": "east"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "false",
+			"mode": "xor",
+			"left_input": "true",
+			"facing": "east"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "false",
+			"mode": "xor",
+			"left_input": "true",
+			"facing": "east"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "true",
+			"mode": "and",
+			"left_input": "false",
+			"facing": "east"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "true",
+			"mode": "and",
+			"left_input": "false",
+			"facing": "east"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "false",
+			"mode": "and",
+			"left_input": "false",
+			"facing": "east"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "false",
+			"mode": "and",
+			"left_input": "false",
+			"facing": "east"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "true",
+			"mode": "or",
+			"left_input": "false",
+			"facing": "east"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "true",
+			"mode": "or",
+			"left_input": "false",
+			"facing": "east"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "false",
+			"mode": "or",
+			"left_input": "false",
+			"facing": "east"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "false",
+			"mode": "or",
+			"left_input": "false",
+			"facing": "east"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "true",
+			"mode": "xnor",
+			"left_input": "false",
+			"facing": "east"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "true",
+			"mode": "xnor",
+			"left_input": "false",
+			"facing": "east"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "false",
+			"mode": "xnor",
+			"left_input": "false",
+			"facing": "east"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "false",
+			"mode": "xnor",
+			"left_input": "false",
+			"facing": "east"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "true",
+			"mode": "xor",
+			"left_input": "false",
+			"facing": "east"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "true",
+			"mode": "xor",
+			"left_input": "false",
+			"facing": "east"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "true",
+			"powered": "false",
+			"mode": "xor",
+			"left_input": "false",
+			"facing": "east"
+		},
+		"Name": "aether_redux:logicator"
+	},
+	{
+		// Properties define the state of this block/fluid.
+		"Properties": {
+			"right_input": "false",
+			"powered": "false",
+			"mode": "xor",
+			"left_input": "false",
+			"facing": "east"
+		},
+		"Name": "aether_redux:logicator"
+	}
+]

@@ -41,6 +41,7 @@ instance.cfg
 rhino.local.properties
 *.dat
 *.dat_old
+options.txt
 
 # Temp zips and local exports
 *.zip

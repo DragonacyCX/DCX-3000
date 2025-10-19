@@ -207,19 +207,19 @@
 
 ["Weapon Bonuses"]
 	#Range: -10.0 ~ 10.0
-	masterWeaponDamage = 3.0
+	masterWeaponDamage = 2.0
 	#Range: -10.0 ~ 10.0
-	perfectWeaponDamage = 2.0
+	perfectWeaponDamage = 1.5
 	#Range: -10.0 ~ 10.0
-	expertWeaponDamage = 1.5
+	expertWeaponDamage = 1.0
 	#Range: -10.0 ~ 10.0
 	wellWeaponDamage = 0.0
 	#Range: -10.0 ~ 10.0
 	poorWeaponDamage = -1.0
 	#Range: -2.0 ~ 2.0
-	masterWeaponSpeed = 1.0
+	masterWeaponSpeed = 0.5
 	#Range: -2.0 ~ 2.0
-	perfectWeaponSpeed = 0.5
+	perfectWeaponSpeed = 0.3
 	#Range: -2.0 ~ 2.0
 	expertWeaponSpeed = 0.15
 	#Range: -2.0 ~ 2.0

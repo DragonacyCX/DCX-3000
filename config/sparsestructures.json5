@@ -235,7 +235,7 @@
 },
 {
   "structure": "blue_skies:village",
-  "factor": 1.0
+  "factor": 0.9
 },
 {
   "structure": "born_in_chaos_v1:firewell",

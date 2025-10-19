@@ -43,10 +43,10 @@
 	perfectQualityScore = 1.0
 	#Lowest score required to get expert quality
 	#Range: 0.0 ~ 1.0
-	expertQualityScore = 0.8
+	expertQualityScore = 0.9
 	#Lowest score required to get well quality
 	#Range: 0.0 ~ 1.0
-	wellQualityScore = 0.6
+	wellQualityScore = 0.7
 	#Toggle for if ingredients' quality define the result's
 	ingredientsDefineQuality = true
 

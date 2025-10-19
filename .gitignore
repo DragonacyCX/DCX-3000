@@ -49,3 +49,6 @@ options.txt
 
 # Optional: ignore any personal keys or config
 secret-*.json
+options.txt
+*.txt
+options.txt

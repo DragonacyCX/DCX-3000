@@ -97,6 +97,6 @@ to make editing this file much easier.
 		"quark:potato_crate": "farmersdelight:potato_crate",
 		"quark:carrot_crate": "farmersdelight:carrot_crate",
 		"quark:beetroot_crate": "farmersdelight:beetroot_crate",
-		"fruitsdelight:apple_crate": "quark:apple_crate
+		"fruitsdelight:apple_crate": "quark:apple_crate"
 	 }
 }

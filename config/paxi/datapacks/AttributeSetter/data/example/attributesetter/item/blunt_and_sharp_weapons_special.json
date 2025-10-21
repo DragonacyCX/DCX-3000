@@ -1,0 +1,174 @@
+{
+  "#dcx:blunt_weapons_wooden": [
+    {
+      "attribute": "attributeslib:armor_pierce",
+      "value": 1.0,
+      "operation": "ADDITION"
+    }
+  ],
+  "#dcx:blunt_weapons_stone": [
+    {
+      "attribute": "attributeslib:armor_pierce",
+      "value": 1.0,
+      "operation": "ADDITION"
+    }
+  ],
+  "#dcx:blunt_weapons_copper": [
+    {
+      "attribute": "attributeslib:armor_pierce",
+      "value": 2.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "attributeslib:armor_shred",
+      "value": 0.05,
+      "operation": "ADDITION"
+    }
+  ],
+  "#dcx:blunt_weapons_iron": [
+    {
+      "attribute": "attributeslib:armor_pierce",
+      "value": 3.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "attributeslib:armor_shred",
+      "value": 0.1,
+      "operation": "ADDITION"
+    }
+  ],
+  "#dcx:blunt_weapons_steel": [
+    {
+      "attribute": "attributeslib:armor_pierce",
+      "value": 3.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "attributeslib:armor_shred",
+      "value": 0.15,
+      "operation": "ADDITION"
+    }
+  ],
+  "#dcx:blunt_weapons_diamond": [
+    {
+      "attribute": "attributeslib:armor_pierce",
+      "value": 4.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "attributeslib:armor_shred",
+      "value": 0.15,
+      "operation": "ADDITION"
+    }
+  ],
+  "#dcx:blunt_weapons_netherite": [
+    {
+      "attribute": "attributeslib:armor_pierce",
+      "value": 5.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "attributeslib:armor_shred",
+      "value": 0.2,
+      "operation": "ADDITION"
+    }
+  ],
+  "#dcx:blunt_weapons_golden": [
+    {
+      "attribute": "attributeslib:armor_pierce",
+      "value": 6.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "attributeslib:armor_shred",
+      "value": 0.25,
+      "operation": "ADDITION"
+    }
+  ],
+  "#dcx:sharp_weapons_wooden": [
+    {
+      "attribute": "attributeslib:crit_chance",
+      "value": 0.025,
+      "operation": "ADDITION"
+    }
+  ],
+  "#dcx:sharp_weapons_stone": [
+    {
+      "attribute": "attributeslib:crit_chance",
+      "value": 0.025,
+      "operation": "ADDITION"
+    }
+  ],
+  "#dcx:sharp_weapons_copper": [
+    {
+      "attribute": "attributeslib:crit_chance",
+      "value": 0.05,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "attributeslib:crit_damage",
+      "value": 0.05,
+      "operation": "ADDITION"
+    }
+  ],
+  "#dcx:sharp_weapons_iron": [
+    {
+      "attribute": "attributeslib:crit_chance",
+      "value": 0.075,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "attributeslib:crit_damage",
+      "value": 0.1,
+      "operation": "ADDITION"
+    }
+  ],
+  "#dcx:sharp_weapons_steel": [
+    {
+      "attribute": "attributeslib:crit_chance",
+      "value": 0.075,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "attributeslib:crit_damage",
+      "value": 0.15,
+      "operation": "ADDITION"
+    }
+  ],
+  "#dcx:sharp_weapons_diamond": [
+    {
+      "attribute": "attributeslib:crit_chance",
+      "value": 0.1,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "attributeslib:crit_damage",
+      "value": 0.15,
+      "operation": "ADDITION"
+    }
+  ],
+  "#dcx:sharp_weapons_netherite": [
+    {
+      "attribute": "attributeslib:crit_chance",
+      "value": 0.15,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "attributeslib:crit_damage",
+      "value": 0.2,
+      "operation": "ADDITION"
+    }
+  ],
+  "#dcx:sharp_weapons_golden": [
+    {
+      "attribute": "attributeslib:crit_chance",
+      "value": 0.2,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "attributeslib:crit_damage",
+      "value": 0.25,
+      "operation": "ADDITION"
+    }
+  ]
+}

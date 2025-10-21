@@ -1,0 +1,32 @@
+{
+    "target": "minecraft:zombie",
+    "properties": 
+    [
+        {
+            "property": "presets",
+            "presets":
+            [
+                {
+                    "preset": "dcx:centurion_zombie",
+                    "weight": 1,
+                    "conditions": [
+                        {
+                            "condition": "deepness",
+                            "y": {
+                                  "min": 0,
+                                  "max": 100
+                            },
+                            "sea_level_relative": true
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "chance",
+                    "chance": 0.05
+                }
+            ]
+        }
+    ]
+}

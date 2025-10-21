@@ -1,0 +1,12 @@
+{
+    "replace": false,
+    "values": [
+        "basicweapons:netherite_quarterstaff",
+        "basicweapons:netherite_club",
+        "basicweapons:netherite_hammer",
+        "simplyswords:netherite_greathammer",
+        "simplymore:netherite_pernach",
+        "simplymore:netherite_quarterstaff"
+    ]
+  }
+  

@@ -1,0 +1,30 @@
+{
+  "structures": [
+    {
+      "structure": "revampedvillages:plains_village",
+      "weight": 1
+    },
+    {
+      "structure": "revampedvillages:desert_village",
+      "weight": 1
+    },
+    {
+      "structure": "revampedvillages:taiga_village",
+      "weight": 1
+    },
+    {
+      "structure": "revampedvillages:savanna_village",
+      "weight": 1
+    },
+    {
+      "structure": "revampedvillages:snowy_village",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 213742069,
+    "spacing": 50,
+    "separation": 35,
+    "type": "minecraft:random_spread"
+  }
+}

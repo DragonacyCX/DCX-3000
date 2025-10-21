@@ -1,0 +1,10 @@
+{
+  "biome": "biomeswevegone:lush_stacks",
+  "attribute": "irons_spellbooks:nature_spell_power",
+  "uuid": "e99c8c9d-eeea-418f-ac58-da908f45bd47",
+  "value": 0.1,
+  "operation": "MULTIPLY_BASE",
+  "required_mod": [
+    "irons_spellbooks"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+    "replace": true,
+    "values": [
+      "basicweapons:stone_hammer",
+      "kubejs:copper_hammer",
+      "galospheric_delight:silver_hammer",
+      "basicweapons:iron_hammer",
+      "kubejs:steel_hammer",
+      "born_in_chaos_v1:skullbreaker_hammer",
+      "basicweapons:golden_hammer",
+      "basicweapons:diamond_hammer",
+      "basicweapons:netherite_hammer",
+      "extra_compat:cloggrum_hammer",
+      "extra_compat:froststeel_hammer",
+      "extra_compat:utherium_hammer",
+      "extra_compat:forgotten_hammer"
+
+    ]
+  }
+  

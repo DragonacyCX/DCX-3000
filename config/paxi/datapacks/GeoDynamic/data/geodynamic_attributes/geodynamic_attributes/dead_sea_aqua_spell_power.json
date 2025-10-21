@@ -1,0 +1,10 @@
+{
+  "biome": "biomeswevegone:dead_sea",
+  "attribute": "traveloptics:aqua_spell_power",
+  "uuid": "78a5afc5-cd6d-40e4-a3ea-bb21ac531d49",
+  "value": 0.1,
+  "operation": "MULTIPLY_BASE",
+  "required_mod": [
+    "irons_spellbooks"
+  ]
+}

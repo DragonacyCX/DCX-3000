@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+        "basicweapons:iron_quarterstaff",
+        "basicweapons:iron_club",
+        "basicweapons:iron_hammer",
+        "simplyswords:iron_greathammer",
+        "simplymore:iron_pernach",
+        "simplymore:iron_quarterstaff",
+        "farmersdelight:skillet"
+    ]
+  }
+  

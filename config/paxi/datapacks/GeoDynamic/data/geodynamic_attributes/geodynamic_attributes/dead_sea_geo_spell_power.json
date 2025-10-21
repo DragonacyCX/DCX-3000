@@ -1,0 +1,10 @@
+{
+  "biome": "biomeswevegone:dead_sea",
+  "attribute": "gtbcs_geomancy_plus:geo_spell_power",
+  "uuid": "716a40c8-f4a5-4a43-b46c-8ce1bae5c11f",
+  "value": 0.1,
+  "operation": "MULTIPLY_BASE",
+  "required_mod": [
+    "irons_spellbooks"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+    "replace": false,
+    "values": [
+      "luckys_armory:heavy_golden_armor_helmet",
+      "luckys_armory:heavy_golden_armor_chestplate",
+      "luckys_armory:heavy_golden_armor_leggings",
+      "luckys_armory:heavy_golden_armor_boots",
+
+      "armoroftheages:centurion_armor_head",
+      "armoroftheages:centurion_armor_chest",
+      "armoroftheages:centurion_armor_legs",
+      "armoroftheages:centurion_armor_feet",
+
+      "armoroftheages:holy_armor_head",
+      "armoroftheages:holy_armor_chest",
+      "armoroftheages:holy_armor_legs",
+      "armoroftheages:holy_armor_feet",
+
+      "armoroftheages:raijin_armor_head",
+      "armoroftheages:raijin_armor_chest",
+      "armoroftheages:raijin_armor_legs",
+      "armoroftheages:raijin_armor_feet",
+
+      "armoroftheages:pharaoh_armor_head",
+      "armoroftheages:pharaoh_armor_chest",
+      "armoroftheages:pharaoh_armor_legs",
+      "armoroftheages:pharaoh_armor_feet",
+
+      "armoroftheages:anubis_armor_head",
+      "armoroftheages:anubis_armor_chest",
+      "armoroftheages:anubis_armor_legs",
+      "armoroftheages:anubis_armor_feet",
+
+      "armoroftheages:quetzalcoatl_armor_head"
+    ]
+  }
+  

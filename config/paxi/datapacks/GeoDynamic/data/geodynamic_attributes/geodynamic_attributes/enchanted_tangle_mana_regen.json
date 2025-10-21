@@ -1,0 +1,11 @@
+{
+  "biome": "biomeswevegone:enchanted_tangle",
+  "attribute": "irons_spellbooks:mana_regen",
+  "uuid": "f0f9e993-3306-4506-afe8-c250c4f5d069",
+  "value": 0.1,
+  "operation": "MULTIPLY_BASE",
+  "required_mod": [
+    "biomeswevegone",
+    "irons_spellbooks"
+  ]
+}

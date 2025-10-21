@@ -1,0 +1,10 @@
+{
+  "biome": "biomeswevegone:forgotten_forest",
+  "attribute": "irons_spellbooks:spell_power",
+  "uuid": "5b5ea7ae-91b6-4998-a699-dc0e75762db7",
+  "value": 0.1,
+  "operation": "MULTIPLY_BASE",
+  "required_mod": [
+    "irons_spellbooks"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "biome": "biomeswevegone:enchanted_tangle",
+  "attribute": "irons_spellbooks:spell_power",
+  "uuid": "2717dac1-3857-4171-9071-60c23cd0d4f2",
+  "value": 0.1,
+  "operation": "MULTIPLY_BASE",
+  "required_mod": [
+    "irons_spellbooks"
+  ]
+}

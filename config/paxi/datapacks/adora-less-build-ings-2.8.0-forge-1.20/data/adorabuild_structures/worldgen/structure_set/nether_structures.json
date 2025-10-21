@@ -1,0 +1,70 @@
+{
+  "structures": [
+    {
+      "structure": "adorabuild_structures:basalt_chambers_large_1",
+      "weight": 1
+    },
+    {
+      "structure": "adorabuild_structures:blackstone_bastion_medium_1",
+      "weight": 1
+    },
+    {
+      "structure": "adorabuild_structures:blackstone_bastion_medium_2",
+      "weight": 1
+    },
+    {
+      "structure": "adorabuild_structures:blackstone_bastion_small_1",
+      "weight": 1
+    },
+    {
+      "structure": "adorabuild_structures:blackstone_temple_small_1",
+      "weight": 1
+    },
+    {
+      "structure": "adorabuild_structures:crimson_house_medium_1",
+      "weight": 1
+    },
+    {
+      "structure": "adorabuild_structures:crimson_house_medium_2",
+      "weight": 1
+    },
+    {
+      "structure": "adorabuild_structures:nether_fortress_large_1",
+      "weight": 1
+    },
+    {
+      "structure": "adorabuild_structures:nether_fortress_large_2",
+      "weight": 1
+    },
+    {
+      "structure": "adorabuild_structures:nether_fortress_medium_1",
+      "weight": 1
+    },
+    {
+      "structure": "adorabuild_structures:nether_fossil_1",
+      "weight": 1
+    },
+    {
+      "structure": "adorabuild_structures:nether_portal_small_1",
+      "weight": 1
+    },
+    {
+      "structure": "adorabuild_structures:nether_temple_medium_1",
+      "weight": 1
+    },
+    {
+      "structure": "adorabuild_structures:warped_house_small_1",
+      "weight": 1
+    },
+    {
+      "structure": "adorabuild_structures:warped_house_small_2",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 1671023,
+    "spacing": 18,
+    "separation": 2,
+    "type": "minecraft:random_spread"
+  }
+}

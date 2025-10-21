@@ -1,0 +1,50 @@
+{
+  "structures": [
+    {
+      "structure": "adorabuild_structures:acacia_well_1",
+      "weight": 1
+    },
+    {
+      "structure": "adorabuild_structures:birch_tree_1",
+      "weight": 1
+    },
+    {
+      "structure": "adorabuild_structures:cherry_tree_1",
+      "weight": 1
+    },
+    {
+      "structure": "adorabuild_structures:mushroom_large_1",
+      "weight": 4
+    },
+    {
+      "structure": "adorabuild_structures:oak_tree_1",
+      "weight": 1
+    },
+    {
+      "structure": "adorabuild_structures:red_sand_temple_small_1",
+      "weight": 1
+    },
+    {
+      "structure": "adorabuild_structures:sand_castle_small_1",
+      "weight": 1
+    },
+    {
+      "structure": "adorabuild_structures:sand_pyramid_1",
+      "weight": 1
+    },
+    {
+      "structure": "adorabuild_structures:sand_underground_castle_1",
+      "weight": 1
+    },
+    {
+      "structure": "adorabuild_structures:sand_castle_tiny_1",
+      "weight": 4
+    }
+  ],
+  "placement": {
+    "salt": 1401586,
+    "spacing": 36,
+    "separation": 6,
+    "type": "minecraft:random_spread"
+  }
+}

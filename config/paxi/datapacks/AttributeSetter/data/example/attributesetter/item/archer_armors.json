@@ -1,0 +1,54 @@
+{
+"luckys_armory:bone_armor_helmet": 
+  [
+    {
+      "attribute": "attributeslib:arrow_damage",
+      "value": 0.05,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "attributeslib:draw_speed",
+      "value": 0.05,
+      "operation": "ADDITION"
+    }
+  ],
+"luckys_armory:bone_armor_chestplate": 
+  [
+    {
+      "attribute": "attributeslib:arrow_damage",
+      "value": 0.05,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "attributeslib:draw_speed",
+      "value": 0.05,
+      "operation": "ADDITION"
+    }
+  ],
+  "luckys_armory:bone_armor_leggings": 
+  [
+    {
+      "attribute": "attributeslib:arrow_damage",
+      "value": 0.05,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "attributeslib:draw_speed",
+      "value": 0.05,
+      "operation": "ADDITION"
+    }
+  ],
+  "luckys_armory:bone_armor_boots": 
+  [
+    {
+      "attribute": "attributeslib:arrow_damage",
+      "value": 0.05,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "attributeslib:draw_speed",
+      "value": 0.05,
+      "operation": "ADDITION"
+    }
+  ]
+}

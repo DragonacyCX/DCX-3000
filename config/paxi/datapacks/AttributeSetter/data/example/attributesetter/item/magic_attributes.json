@@ -1,0 +1,67 @@
+{
+"irons_spellbooks:copper_spell_book": 
+  [
+    {
+      "attribute": "irons_spellbooks:max_mana",
+      "value": 25.0,
+      "operation": "ADDITION",
+      "slot": "curio:spellbook"
+    }
+  ],
+"irons_spellbooks:iron_spell_book": [
+    {
+      "attribute": "irons_spellbooks:max_mana",
+      "value": 50.0,
+      "operation": "ADDITION",
+      "slot": "curio:spellbook"
+    }
+  ],
+"armoroftheages:raijin_armor_head": [
+    {
+      "attribute": "gtbcs_geomancy_plus:geo_spell_power",
+      "value": 0.1,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "gtbcs_geomancy_plus:geo_magic_resist",
+      "value": 0.1,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+"armoroftheages:raijin_armor_chest": [
+    {
+      "attribute": "gtbcs_geomancy_plus:geo_spell_power",
+      "value": 0.1,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "gtbcs_geomancy_plus:geo_magic_resist",
+      "value": 0.1,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+"armoroftheages:raijin_armor_legs": [
+    {
+      "attribute": "gtbcs_geomancy_plus:geo_spell_power",
+      "value": 0.1,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "gtbcs_geomancy_plus:geo_magic_resist",
+      "value": 0.1,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+"armoroftheages:raijin_armor_feet": [
+    {
+      "attribute": "gtbcs_geomancy_plus:geo_spell_power",
+      "value": 0.1,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "gtbcs_geomancy_plus:geo_magic_resist",
+      "value": 0.1,
+      "operation": "MULTIPLY_BASE"
+    }
+  ]
+}

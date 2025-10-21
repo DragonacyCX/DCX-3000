@@ -1,0 +1,11 @@
+{
+  "biome": "biomeswevegone:forgotten_forest",
+  "attribute": "irons_spellbooks:mana_regen",
+  "uuid": "c10c651f-72a8-44d3-8750-9a4d8d0f62e8",
+  "value": 0.1,
+  "operation": "MULTIPLY_BASE",
+  "required_mod": [
+    "biomeswevegone",
+    "irons_spellbooks"
+  ]
+}

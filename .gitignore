@@ -20,13 +20,14 @@
 /modernfix/
 /mods/
 /patchouli_books/
+/profileImage/
 /resourcepacks/
 /schematics/
 /screenshots/
+/shaderpacks/
 /sparsestructures/
 /xaero/
 /XaeroWaypoints_BACKUP240807/
-/shaderpacks/
 
 # OS and editor files
 .DS_Store
@@ -34,22 +35,24 @@ Thumbs.db
 *.log
 
 # Minecraft instance-specific and launcher files
+minecraftinstance.json
+ops.json
+patchouli_data.json
+user-prefs.json
+usercache.json
+usernamecache.json
+whitelist.json
 instance.cfg
 *.lock
 .curseclient
 .qmenu_opened.marker
-*.json
 rhino.local.properties
 *.dat
 *.dat_old
 options.txt
 
 # Temp zips and local exports
-*.zip
 *.7z
 
 # Optional: ignore any personal keys or config
 secret-*.json
-options.txt
-*.txt
-options.txt

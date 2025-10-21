@@ -1,0 +1,303 @@
+{
+    "properties": [
+        {
+            "property": "experience_multiplier",
+            "multiplier": {
+            "min": 3,
+            "max": 3.5
+            }
+        },
+        {
+            "property": "equipment",
+            "slot": "head",
+            "items": 
+            [
+                {
+                    "item": "armoroftheages:centurion_armor_head",
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_drop_chance",
+                            "drop_chance": 0.085
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "chance",
+                    "chance": 0.8
+                }
+            ]
+        },
+        {
+            "property": "equipment",
+            "slot": "chest",
+            "items": 
+            [
+                {
+                    "item": "armoroftheages:centurion_armor_chest",
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_drop_chance",
+                            "drop_chance": 0.085
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "chance",
+                    "chance": 0.7
+                }
+            ]
+        },
+        {
+            "property": "equipment",
+            "slot": "legs",
+            "items": 
+            [
+                {
+                    "item": "armoroftheages:centurion_armor_legs",
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_drop_chance",
+                            "drop_chance": 0.085
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "chance",
+                    "chance": 0.7
+                }
+            ]
+        },
+        {
+            "property": "equipment",
+            "slot": "feet",
+            "items": 
+            [
+                {
+                    "item": "armoroftheages:centurion_armor_feet",
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_drop_chance",
+                            "drop_chance": 0.085
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "chance",
+                    "chance": 0.8
+                }
+            ]
+        },
+        {
+            "property": "equipment",
+            "slot": "mainhand",
+            "items": 
+            [
+                {
+                    "item": "simplyswords:iron_spear",
+                    "weight": 4,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_drop_chance",
+                            "drop_chance": 0.085
+                        }
+                    ]
+                },
+                {
+                    "item": "simplyswords:gold_spear",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_drop_chance",
+                            "drop_chance": 0.085
+                        }
+                    ]
+                },
+                {
+                    "item": "spartanweaponry:studded_cestus",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_drop_chance",
+                            "drop_chance": 0.085
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "property": "equipment",
+            "slot": "offhand",
+            "items": 
+            [
+                {
+                    "item": "spartanshields:golden_basic_shield",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_drop_chance",
+                            "drop_chance": 0.085
+                        }
+                    ]
+                },
+                {
+                    "item": "spartanshields:golden_tower_shield",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_drop_chance",
+                            "drop_chance": 0.085
+                        }
+                    ]
+                },
+                {
+                    "item": "spartanweaponry:studded_cestus",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_drop_chance",
+                            "drop_chance": 0.085
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "chance",
+                    "chance": 0.4
+                }
+            ]
+        },
+        {
+            "property": "custom_name",
+            "prefixes": [ "Centurion" ]
+        }
+    ]
+}

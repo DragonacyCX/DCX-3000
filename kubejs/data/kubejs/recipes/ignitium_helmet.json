@@ -1,0 +1,13 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+      "item": "luckys_armory:heavy_netherite_armor_helmet"
+    },
+    "addition": {
+      "item": "cataclysm:ignitium_upgrade_smithing_template"
+    },
+    "result": {
+      "item": "cataclysm:ignitium_helmet"
+    }
+  }
+  

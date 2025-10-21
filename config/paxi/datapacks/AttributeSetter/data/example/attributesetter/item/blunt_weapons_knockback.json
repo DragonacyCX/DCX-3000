@@ -1,0 +1,9 @@
+{
+  "#dcx:blunt_weapons": [
+    {
+      "attribute": "minecraft:generic.attack_knockback",
+      "value": 1.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:golden_sword",
+        "minecraft:golden_axe",
+        "basicweapons:golden_spear",
+        "basicweapons:golden_dagger",
+        "basicweapons:golden_spear",
+        "farmersdelight:golden_knife",
+        "simplyswords:gold_longsword",
+        "simplyswords:gold_twinblade",
+        "simplyswords:gold_rapier",
+        "simplyswords:gold_katana",
+        "simplyswords:gold_sai",
+        "simplyswords:gold_spear",
+        "simplyswords:gold_glaive",
+        "simplyswords:gold_warglaive",
+        "simplyswords:gold_cutlass",
+        "simplyswords:gold_claymore",
+        "simplyswords:gold_greathammer",
+        "simplyswords:gold_greataxe",
+        "simplyswords:gold_chakram",
+        "simplyswords:gold_scythe",
+        "simplyswords:gold_halberd",
+        "simplymore:gold_great_katana",
+        "simplymore:gold_grandsword",
+        "simplymore:gold_khopesh",
+        "simplymore:gold_lance",
+        "simplymore:gold_great_spear",
+        "simplymore:gold_deer_horns"
+    ]
+  }
+  

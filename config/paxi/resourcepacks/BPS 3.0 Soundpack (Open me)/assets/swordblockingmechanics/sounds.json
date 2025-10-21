@@ -1,0 +1,35 @@
+{
+  "item.sword.block": {
+    "sounds": [
+      {
+        "name": "swordblockingmechanics:item/sword/block1",
+        "volume": 0.8
+      },
+      {
+        "name": "swordblockingmechanics:item/sword/block2",
+        "volume": 0.8
+       },
+       {
+        "name": "swordblockingmechanics:item/sword/block3",
+        "volume": 0.8
+        },
+        {
+        "name": "swordblockingmechanics:item/sword/block4",
+        "volume": 0.8
+        },
+        {
+        "name": "swordblockingmechanics:item/sword/block5",
+        "volume": 0.8
+         },
+         {
+         "name": "swordblockingmechanics:item/sword/block6",
+         "volume": 0.8
+
+
+
+        
+      }
+    ],
+    "subtitle": "subtitles.item.sword.block"
+  }
+}

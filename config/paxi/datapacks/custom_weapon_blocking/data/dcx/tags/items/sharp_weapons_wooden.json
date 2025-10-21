@@ -1,0 +1,26 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:wooden_sword",
+        "minecraft:wooden_axe",
+        "basicweapons:wooden_spear",
+        "basicweapons:wooden_dagger",
+        "basicweapons:wooden_spear",
+        "blue_skies:cherry_wood/longsword",
+        "blue_skies:cherry_wood/twinblade",
+        "blue_skies:cherry_wood/rapier",
+        "blue_skies:cherry_wood/katana",
+        "blue_skies:cherry_wood/sai",
+        "blue_skies:cherry_wood/spear",
+        "blue_skies:cherry_wood/glaive",
+        "blue_skies:cherry_wood/warglaive",
+        "blue_skies:cherry_wood/cutlass",
+        "blue_skies:cherry_wood/claymore",
+        "blue_skies:cherry_wood/greathammer",
+        "blue_skies:cherry_wood/greataxe",
+        "blue_skies:cherry_wood/chakram",
+        "blue_skies:cherry_wood/scythe",
+        "blue_skies:cherry_wood/halberd"
+    ]
+  }
+  

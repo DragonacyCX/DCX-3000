@@ -1,0 +1,21 @@
+{
+  "minecraft:skeleton": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 20,
+      "operation": "BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:blood_magic_resist",
+      "value": 1.75,
+      "operation": "BASE"
+    }
+  ],
+  "minecraft:wither_skeleton": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "value": 30,
+      "operation": "BASE"
+    }
+  ]
+}

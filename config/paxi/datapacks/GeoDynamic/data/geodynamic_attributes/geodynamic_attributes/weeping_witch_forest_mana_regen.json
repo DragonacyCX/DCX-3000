@@ -1,0 +1,10 @@
+{
+  "biome": "biomeswevegone:weeping_witch_forest",
+  "attribute": "irons_spellbooks:mana_regen",
+  "uuid": "2bc04b68-9c20-4f35-8c26-537b55d7b19e",
+  "value": 0.1,
+  "operation": "MULTIPLY_BASE",
+  "required_mod": [
+    "irons_spellbooks"
+  ]
+}

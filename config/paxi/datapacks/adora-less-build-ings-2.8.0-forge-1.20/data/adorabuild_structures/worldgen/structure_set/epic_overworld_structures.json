@@ -1,0 +1,26 @@
+{
+  "structures": [
+    {
+      "structure": "adorabuild_structures:library_large_1",
+      "weight": 1
+    },
+    {
+      "structure": "adorabuild_structures:library_small_1",
+      "weight": 2
+    },
+    {
+      "structure": "adorabuild_structures:prison_large_1",
+      "weight": 3
+    },
+    {
+      "structure": "adorabuild_structures:prison_small_1",
+      "weight": 4
+    }
+  ],
+  "placement": {
+    "salt": 1643532,
+    "spacing": 96,
+    "separation": 16,
+    "type": "minecraft:random_spread"
+  }
+}

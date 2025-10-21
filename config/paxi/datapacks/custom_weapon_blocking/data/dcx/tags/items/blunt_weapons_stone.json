@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+        "basicweapons:stone_quarterstaff",
+        "basicweapons:stone_club",
+        "basicweapons:stone_hammer"
+    ]
+  }
+  

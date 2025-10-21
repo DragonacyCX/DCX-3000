@@ -1,0 +1,15 @@
+{
+    "target": "born_in_chaos_v1:nightmare_stalker",
+    "properties": 
+    [
+        {
+            "property": "potion_effect",
+            "effect": "alexsmobs:knockback_resistance",
+            "amplifier": {
+            "min": 0,
+            "max": 0
+            },
+            "hide_particles": true
+        }
+    ]
+}

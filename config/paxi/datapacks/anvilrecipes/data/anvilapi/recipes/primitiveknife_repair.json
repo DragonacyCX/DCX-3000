@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:anvil_repair",
+  "baseItem": "sullysmod:primitive_knife",
+  "repairItem": {
+    "item": "minecraft:obsidian"
+  }
+}

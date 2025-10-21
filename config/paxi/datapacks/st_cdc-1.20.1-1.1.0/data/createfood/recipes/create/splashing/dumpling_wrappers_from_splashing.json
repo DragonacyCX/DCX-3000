@@ -1,0 +1,14 @@
+{
+    "type": "create:splashing",
+    "ingredients": [
+        {
+            "item": "farmersdelight:wheat_dough"
+        }
+    ],
+    "results": [
+        {
+            "count": 2,
+            "item": "createfood:dumpling_wrappers"
+        }
+    ]
+}

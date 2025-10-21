@@ -1,0 +1,17 @@
+{
+    "replace": false,
+    "values": [
+      "azurelib:incendiaryenchantment",
+      "allurement:spread_of_ailments",
+      "additional_enchantments:homing",
+      "additional_enchantments:tipped",
+      "additional_enchantments:perception",
+      "additional_enchantments:ore_sight",
+      "additional_enchantments:voiding",
+      "additional_enchantments:faster_attacks",
+      "apotheosis:bane_of_illagers",
+      "dungeonsdelight:life_grasp",
+      "dungeonsdelight:ricochet",
+      "dungeonsdelight:serrated_strike"
+    ]
+  }

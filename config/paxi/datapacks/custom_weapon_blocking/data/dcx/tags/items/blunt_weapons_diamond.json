@@ -1,0 +1,12 @@
+{
+    "replace": false,
+    "values": [
+        "basicweapons:diamond_quarterstaff",
+        "basicweapons:diamond_club",
+        "basicweapons:diamond_hammer",
+        "simplyswords:diamond_greathammer",
+        "simplymore:diamond_pernach",
+        "simplymore:diamond_quarterstaff"
+    ]
+  }
+  

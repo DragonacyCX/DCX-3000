@@ -1,0 +1,9 @@
+{
+  "graveyard:bone_dagger": [
+    {
+      "attribute": "attributeslib:cold_damage",
+      "value": 4.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "biome": "biomeswevegone:skyrise_vale",
+  "attribute": "irons_spellbooks:spell_power",
+  "uuid": "7d8fb313-a507-475f-86c1-b804d2bd319f",
+  "value": 0.1,
+  "operation": "MULTIPLY_BASE",
+  "required_mod": [
+    "irons_spellbooks"
+  ]
+}

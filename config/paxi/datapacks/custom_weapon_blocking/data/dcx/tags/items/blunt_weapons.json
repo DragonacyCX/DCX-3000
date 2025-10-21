@@ -1,0 +1,33 @@
+{
+    "replace": false,
+    "values": [
+        "#simplymore:weapon_types/pernachs",
+        "#simplymore:weapon_types/greathammers",
+        "#simplymore:weapon_types/quarterstaffs",
+        "basicweapons:wooden_quarterstaff",
+        "basicweapons:stone_quarterstaff",
+        "basicweapons:iron_quarterstaff",
+        "basicweapons:diamond_quarterstaff",
+        "basicweapons:golden_quarterstaff",
+        "basicweapons:netherite_quarterstaff",
+        "basicweapons:wooden_club",
+        "basicweapons:stone_club",
+        "basicweapons:iron_club",
+        "basicweapons:diamond_club",
+        "basicweapons:golden_club",
+        "basicweapons:netherite_club",
+        "basicweapons:wooden_hammer",
+        "basicweapons:stone_hammer",
+        "basicweapons:iron_hammer",
+        "basicweapons:diamond_hammer",
+        "basicweapons:golden_hammer",
+        "basicweapons:netherite_hammer",
+        "kubejs:copper_club",
+        "kubejs:copper_hammer",
+        "kubejs:copper_quarterstaff",
+        "kubejs:steel_club",
+        "kubejs:steel_hammer",
+        "kubejs:steel_quarterstaff"
+    ]
+  }
+  

@@ -1,0 +1,33 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:netherite_sword",
+        "minecraft:netherite_axe",
+        "basicweapons:netherite_spear",
+        "basicweapons:netherite_dagger",
+        "basicweapons:netherite_spear",
+        "farmersdelight:netherite_knife",
+        "simplyswords:netherite_longsword",
+        "simplyswords:netherite_twinblade",
+        "simplyswords:netherite_rapier",
+        "simplyswords:netherite_katana",
+        "simplyswords:netherite_sai",
+        "simplyswords:netherite_spear",
+        "simplyswords:netherite_glaive",
+        "simplyswords:netherite_warglaive",
+        "simplyswords:netherite_cutlass",
+        "simplyswords:netherite_claymore",
+        "simplyswords:netherite_greathammer",
+        "simplyswords:netherite_greataxe",
+        "simplyswords:netherite_chakram",
+        "simplyswords:netherite_scythe",
+        "simplyswords:netherite_halberd",
+        "simplymore:netherite_great_katana",
+        "simplymore:netherite_grandsword",
+        "simplymore:netherite_khopesh",
+        "simplymore:netherite_lance",
+        "simplymore:netherite_great_spear",
+        "simplymore:netherite_deer_horns"
+    ]
+  }
+  

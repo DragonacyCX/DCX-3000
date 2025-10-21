@@ -1,0 +1,34 @@
+{
+  "structures": [
+    {
+      "structure": "adorabuild_structures:oak_ship_1",
+      "weight": 1
+    },
+    {
+      "structure": "adorabuild_structures:dark_oak_ship_1",
+      "weight": 1
+    },
+    {
+      "structure": "adorabuild_structures:spruce_ship_1",
+      "weight": 1
+    },
+    {
+      "structure": "adorabuild_structures:jungle_boat_1",
+      "weight": 1
+    },
+    {
+      "structure": "adorabuild_structures:cherry_raft_1",
+      "weight": 1
+    },
+    {
+      "structure": "adorabuild_structures:bamboo_raft_1",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 1681815,
+    "spacing": 72,
+    "separation": 12,
+    "type": "minecraft:random_spread"
+  }
+}

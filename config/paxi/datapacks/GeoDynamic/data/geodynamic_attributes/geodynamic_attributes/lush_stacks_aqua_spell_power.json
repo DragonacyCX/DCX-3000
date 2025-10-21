@@ -1,0 +1,10 @@
+{
+  "biome": "biomeswevegone:lush_stacks",
+  "attribute": "traveloptics:aqua_spell_power",
+  "uuid": "eadc6a58-5af0-4d6b-b779-b61bf7a17f71",
+  "value": 0.1,
+  "operation": "MULTIPLY_BASE",
+  "required_mod": [
+    "irons_spellbooks"
+  ]
+}

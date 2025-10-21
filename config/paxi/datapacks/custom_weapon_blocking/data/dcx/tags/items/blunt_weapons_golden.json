@@ -1,0 +1,12 @@
+{
+    "replace": false,
+    "values": [
+        "basicweapons:golden_quarterstaff",
+        "basicweapons:golden_club",
+        "basicweapons:golden_hammer",
+        "simplyswords:gold_greathammer",
+        "simplymore:gold_pernach",
+        "simplymore:gold_quarterstaff"
+    ]
+  }
+  

@@ -1,0 +1,61 @@
+{
+  "structures": [
+    // Epic
+    {
+      "structure": "adorabuild_structures:end_gateway_large_1",
+      "weight": 1
+    },
+    // Rare
+    {
+      "structure": "adorabuild_structures:ancient_palace_1",
+      "weight": 2
+    },
+    {
+      "structure": "adorabuild_structures:ancient_palace_2",
+      "weight": 2
+    },
+    {
+      "structure": "adorabuild_structures:end_bubble_large_1",
+      "weight": 2
+    },
+    {
+      "structure": "adorabuild_structures:end_temple_large_1",
+      "weight": 2
+    },
+    // Regular
+    {
+      "structure": "adorabuild_structures:end_bubble_medium_1",
+      "weight": 3
+    },
+    {
+      "structure": "adorabuild_structures:end_bubble_medium_2",
+      "weight": 3
+    },
+    {
+      "structure": "adorabuild_structures:end_gateway_small_1",
+      "weight": 3
+    },
+    {
+      "structure": "adorabuild_structures:end_house_small_1",
+      "weight": 3
+    },
+    {
+      "structure": "adorabuild_structures:end_house_small_2",
+      "weight": 3
+    },
+    {
+      "structure": "adorabuild_structures:end_ship_small_1",
+      "weight": 3
+    },
+    {
+      "structure": "adorabuild_structures:end_temple_small_1",
+      "weight": 3
+    }
+  ],
+  "placement": {
+    "salt": 1835937,
+    "spacing": 40,
+    "separation": 6,
+    "type": "minecraft:random_spread"
+  }
+}

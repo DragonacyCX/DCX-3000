@@ -1,0 +1,33 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:diamond_sword",
+        "minecraft:diamond_axe",
+        "basicweapons:diamond_spear",
+        "basicweapons:diamond_dagger",
+        "basicweapons:diamond_spear",
+        "farmersdelight:diamond_knife",
+        "simplyswords:diamond_longsword",
+        "simplyswords:diamond_twinblade",
+        "simplyswords:diamond_rapier",
+        "simplyswords:diamond_katana",
+        "simplyswords:diamond_sai",
+        "simplyswords:diamond_spear",
+        "simplyswords:diamond_glaive",
+        "simplyswords:diamond_warglaive",
+        "simplyswords:diamond_cutlass",
+        "simplyswords:diamond_claymore",
+        "simplyswords:diamond_greathammer",
+        "simplyswords:diamond_greataxe",
+        "simplyswords:diamond_chakram",
+        "simplyswords:diamond_scythe",
+        "simplyswords:diamond_halberd",
+        "simplymore:diamond_great_katana",
+        "simplymore:diamond_grandsword",
+        "simplymore:diamond_khopesh",
+        "simplymore:diamond_lance",
+        "simplymore:diamond_great_spear",
+        "simplymore:diamond_deer_horns"
+    ]
+  }
+  

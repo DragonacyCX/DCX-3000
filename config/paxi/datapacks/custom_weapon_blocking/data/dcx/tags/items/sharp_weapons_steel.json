@@ -1,0 +1,13 @@
+{
+    "replace": false,
+    "values": [
+        "overgeared:steel_sword",
+        "overgeared:steel_axe",
+        "kubejs:steel_dagger",
+        "kubejs:steel_club",
+        "kubejs:steel_hammer",
+        "kubejs:steel_quarterstaff",
+        "kubejs:steel_spear"
+    ]
+  }
+  

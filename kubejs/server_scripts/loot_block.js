@@ -18,6 +18,9 @@ event.addLootTableModifier("minecraft:chests/stronghold_corridor").removeLoot("o
 event.addLootTableModifier("minecraft:chests/stronghold_crossing").removeLoot("overgeared:diamond_upgrade_smithing_template");
 event.addLootTableModifier("minecraft:chests/abandoned_mineshaft").removeLoot("overgeared:diamond_upgrade_smithing_template");
 
+//No Diamonds from Lucky Rock
+event.addLootTableModifier("majruszsaccessories:gameplay/lucky_rock_default").removeLoot("minecraft:diamond");
+
 //No basicweapons
 event.addLootTypeModifier(LootType.CHEST)
     .removeLoot("simplymore:stasis")

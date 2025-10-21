@@ -227,14 +227,14 @@
 		armor_render_offset = -1.0
 		#How quivers should render onto players
 		#Allowed Values: HIDDEN, BACK, HIP, THIGH
-		render_mode = "THIGH"
+		render_mode = "HIDDEN"
 		#How skeleton with quivers should render it
 		#Allowed Values: HIDDEN, BACK, HIP, THIGH
 		skeleton_render_mode = "THIGH"
 		#Adds an overlay to quivers in gui displaying currently selected arrow
 		overlay = true
 		#Allows using your mouse to select an arrow in the quiver GUI
-		mouse_movement_in_gui = true
+		mouse_movement_in_gui = false
 		#Quiver GUI X offset from default position
 		#Range: -1000 ~ 1000
 		gui_x_offset = 0

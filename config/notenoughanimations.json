@@ -40,10 +40,10 @@
   "ladderAnimationAmplifier": 0.35,
   "ladderAnimationArmHeight": 1.7,
   "ladderAnimationArmSpeed": 2.0,
-  "enableRotateToLadder": true,
+  "enableRotateToLadder": false,
   "enableEatDrinkAnimation": true,
   "enableRowBoatAnimation": true,
-  "enableHorseAnimation": true,
+  "enableHorseAnimation": false,
   "enableHorseLegAnimation": false,
   "dontHoldItemsInBed": true,
   "freezeArmsInBed": true,
@@ -70,9 +70,11 @@
   "fallingAnimation": false,
   "freezingAnimation": true,
   "huggingAnimation": false,
-  "narutoRunning": false,
+  "narutoRunning": true,
   "disableLegSmoothing": false,
   "bowAnimation": "CUSTOM_V1",
   "customBowRotationLock": true,
-  "burningAnimation": true
+  "clampCrossbowAnimations": false,
+  "burningAnimation": true,
+  "hideItemsForTheseBows": []
 }

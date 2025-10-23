@@ -27,7 +27,14 @@
         "kubejs:copper_quarterstaff",
         "kubejs:steel_club",
         "kubejs:steel_hammer",
-        "kubejs:steel_quarterstaff"
+        "kubejs:steel_quarterstaff",
+        "simplest_hammers:wooden_hammer",
+        "simplest_hammers:stone_hammer",
+        "galospheric_delight:silver_hammer",
+        "simplest_hammers:iron_hammer",
+        "simplest_hammers:golden_hammer",
+        "simplest_hammers:diamond_hammer",
+        "simplest_hammers:netherite_hammer"
     ]
   }
   

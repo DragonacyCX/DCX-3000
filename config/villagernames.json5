@@ -12,7 +12,7 @@
 	// Whether the profession should be added to the villager's trade screen next to their name.
 	"showProfessionOnTradeScreen": true,
 	// If enabled, switches the name and profession on the villager trading screen. Result: <profession> - <name>.
-	"switchNameAndProfessionTradeScreen": true,
+	"switchNameAndProfessionTradeScreen": false,
 	// Whether the merchant level (novice, apprentice etc.) should be hidden on the trade screen.
 	"hideMerchantLevelTradeScreen": false,
 	// If enabled, the mod capitalizes each word in the custom name list.

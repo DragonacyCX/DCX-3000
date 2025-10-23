@@ -19,7 +19,13 @@ ServerEvents.loaded(event => {
   event.server.gameRules.set("artifacts.runningShoes.speedBonus", 20)
   event.server.gameRules.set("artifacts.bunnyHoppers.jumpBoostLevel", 0)
   event.server.gameRules.set("artifacts.bunnyHoppers.doCancelFallDamage", false)
+  event.server.gameRules.set("artifacts.eternalSteak.enabled", false)
+  event.server.gameRules.set("artifacts.everlastingBeef.enabled", false)
+  event.server.gameRules.set("artifacts.powerGlove.attackDamageBonus", 2)
   event.server.gameRules.set("mobExplosionDropDecay", false)
+  event.server.gameRules.set("mobExplosionDropDecay", false)
+  event.server.gameRules.set("hungerLimitsSaturation", false)
+  event.server.gameRules.set("maxSaturation", 50)
 
   event.server.persistentData.gameRules = true
 });

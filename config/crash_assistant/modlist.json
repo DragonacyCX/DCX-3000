@@ -429,10 +429,10 @@
     "modId": "brewincompatdelight",
     "version": "1.0.3"
   },
-  "collective-1.20.1-8.11.jar": {
-    "jarName": "collective-1.20.1-8.11.jar",
+  "collective-1.20.1-8.12.jar": {
+    "jarName": "collective-1.20.1-8.12.jar",
     "modId": "collective",
-    "version": "8.11"
+    "version": "8.12"
   },
   "combat_dash-1.7-forge-1.20.1.jar": {
     "jarName": "combat_dash-1.7-forge-1.20.1.jar",
@@ -504,10 +504,10 @@
     "modId": "cosmeticarmorreworked",
     "version": "1.20.1-v1a"
   },
-  "CrashAssistant-forge-1.19-1.20.1-1.10.13.jar": {
-    "jarName": "CrashAssistant-forge-1.19-1.20.1-1.10.13.jar",
+  "CrashAssistant-forge-1.19-1.20.1-1.10.15.jar": {
+    "jarName": "CrashAssistant-forge-1.19-1.20.1-1.10.15.jar",
     "modId": "crash_assistant",
-    "version": "1.10.13"
+    "version": "1.10.15"
   },
   "create-1.20.1-6.0.6.jar": {
     "jarName": "create-1.20.1-6.0.6.jar",
@@ -739,8 +739,8 @@
     "modId": "environmental",
     "version": "4.1.2"
   },
-  "Essential_1-3-9-2_forge_1-20-1.jar": {
-    "jarName": "Essential_1-3-9-2_forge_1-20-1.jar",
+  "Essential_1-3-9-3_forge_1-20-1.jar": {
+    "jarName": "Essential_1-3-9-3_forge_1-20-1.jar",
     "modId": "essential-container"
   },
   "everycomp-1.20-2.9.1-forge.jar": {
@@ -1196,6 +1196,11 @@
     "modId": "medieval_buildings",
     "version": "1.1.2"
   },
+  "memorysettings-1.20.1-5.9.jar": {
+    "jarName": "memorysettings-1.20.1-5.9.jar",
+    "modId": "memorysettings",
+    "version": "1.20.1-5.9"
+  },
   "MendedMending-1.0.jar": {
     "jarName": "MendedMending-1.0.jar",
     "modId": "mended",
@@ -1575,6 +1580,11 @@
     "jarName": "Safe-Moons-Replace.jar",
     "modId": "safermoons",
     "version": "1.20"
+  },
+  "saturation_plus-1.1.0-forge-1.20.jar": {
+    "jarName": "saturation_plus-1.1.0-forge-1.20.jar",
+    "modId": "saturation_plus",
+    "version": "1.1.0-forge-1.20"
   },
   "saturn-mc1.20.1-0.1.3.jar": {
     "jarName": "saturn-mc1.20.1-0.1.3.jar",

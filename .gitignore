@@ -56,3 +56,5 @@ options.txt
 
 # Optional: ignore any personal keys or config
 secret-*.json
+config/mobbattle-client.toml
+config/mobbattle.toml

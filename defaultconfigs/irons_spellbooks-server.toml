@@ -923,10 +923,10 @@
 		MaxLevel = 5
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "UNCOMMON"
-		ManaCostMultiplier = 1.0
+		ManaCostMultiplier = 12.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 3.0
-		AllowCrafting = true
+		CooldownInSeconds = 120.0
+		AllowCrafting = false
 
 	[Spells."irons_spellbooks:echoing_strikes"]
 		Enabled = true
@@ -1232,10 +1232,10 @@
 		MaxLevel = 8
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "RARE"
-		ManaCostMultiplier = 1.0
+		ManaCostMultiplier = 15.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 10.0
-		AllowCrafting = true
+		CooldownInSeconds = 150.0
+		AllowCrafting = false
 
 	[Spells."traveloptics:sticky_steed_summon"]
 		Enabled = true

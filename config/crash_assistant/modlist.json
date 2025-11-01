@@ -164,10 +164,10 @@
     "modId": "aquaculturedelight",
     "version": "1.1.1"
   },
-  "aquamirae-forge-1.20.1-6.1.0.jar": {
-    "jarName": "aquamirae-forge-1.20.1-6.1.0.jar",
+  "aquamirae-forge-1.20.1-6.1.2.jar": {
+    "jarName": "aquamirae-forge-1.20.1-6.1.2.jar",
     "modId": "aquamirae",
-    "version": "6.1.0"
+    "version": "6.1.2"
   },
   "aquamirae_delight-1.5.2-forge-1.20.1.jar": {
     "jarName": "aquamirae_delight-1.5.2-forge-1.20.1.jar",
@@ -509,10 +509,10 @@
     "modId": "cosmeticarmorreworked",
     "version": "1.20.1-v1a"
   },
-  "CrashAssistant-forge-1.19-1.20.1-1.10.17.jar": {
-    "jarName": "CrashAssistant-forge-1.19-1.20.1-1.10.17.jar",
+  "CrashAssistant-forge-1.19-1.20.1-1.10.18.jar": {
+    "jarName": "CrashAssistant-forge-1.19-1.20.1-1.10.18.jar",
     "modId": "crash_assistant",
-    "version": "1.10.17"
+    "version": "1.10.18"
   },
   "create-1.20.1-6.0.6.jar": {
     "jarName": "create-1.20.1-6.0.6.jar",
@@ -729,10 +729,10 @@
     "modId": "entity_texture_features",
     "version": "6.2.9"
   },
-  "entityculling-forge-1.9.2-mc1.20.1.jar": {
-    "jarName": "entityculling-forge-1.9.2-mc1.20.1.jar",
+  "entityculling-forge-1.9.3-mc1.20.1.jar": {
+    "jarName": "entityculling-forge-1.9.3-mc1.20.1.jar",
     "modId": "entityculling",
-    "version": "1.9.2"
+    "version": "1.9.3"
   },
   "entityjs-0.6.4-1.20.1.jar": {
     "jarName": "entityjs-0.6.4-1.20.1.jar",
@@ -744,8 +744,8 @@
     "modId": "environmental",
     "version": "4.1.2"
   },
-  "Essential_1-3-9-3_forge_1-20-1.jar": {
-    "jarName": "Essential_1-3-9-3_forge_1-20-1.jar",
+  "Essential_1-3-10_forge_1-20-1.jar": {
+    "jarName": "Essential_1-3-10_forge_1-20-1.jar",
     "modId": "essential-container"
   },
   "everycomp-1.20-2.9.1-forge.jar": {
@@ -1063,10 +1063,10 @@
     "modId": "jadeaddons",
     "version": "5.5.0+forge"
   },
-  "jei-1.20.1-forge-15.20.0.116.jar": {
-    "jarName": "jei-1.20.1-forge-15.20.0.116.jar",
+  "jei-1.20.1-forge-15.20.0.117.jar": {
+    "jarName": "jei-1.20.1-forge-15.20.0.117.jar",
     "modId": "jei",
-    "version": "15.20.0.116"
+    "version": "15.20.0.117"
   },
   "JinxedLib-forge-1.20.1-1.0.3.jar": {
     "jarName": "JinxedLib-forge-1.20.1-1.0.3.jar",
@@ -1226,20 +1226,15 @@
     "modId": "minersmoon",
     "version": "1.20.1"
   },
-  "mobbattle-1.20.1-2.5.3-forge.jar": {
-    "jarName": "mobbattle-1.20.1-2.5.3-forge.jar",
-    "modId": "mobbattle",
-    "version": "1.20.1-2.5.3"
-  },
   "mobplayeranimator-forge-1.20.1-1.3.3-all.jar": {
     "jarName": "mobplayeranimator-forge-1.20.1-1.3.3-all.jar",
     "modId": "mobplayeranimator",
     "version": "1.3.3"
   },
-  "mobspropertiesrandomness-5.0.23.jar": {
-    "jarName": "mobspropertiesrandomness-5.0.23.jar",
+  "mobspropertiesrandomness-5.0.24.jar": {
+    "jarName": "mobspropertiesrandomness-5.0.24.jar",
     "modId": "mobspropertiesrandomness",
-    "version": "5.0.23"
+    "version": "5.0.24"
   },
   "mobtimizations-forge-1.20.1-1.0.0.jar": {
     "jarName": "mobtimizations-forge-1.20.1-1.0.0.jar",
@@ -1371,10 +1366,10 @@
     "modId": "notenoughanimations",
     "version": "1.10.6"
   },
-  "obscure_api-15.jar": {
-    "jarName": "obscure_api-15.jar",
+  "obscure_api-18.jar": {
+    "jarName": "obscure_api-18.jar",
     "modId": "obscure_api",
-    "version": "15"
+    "version": "18"
   },
   "obscure_tooltips-forge-1.20.1-3.1.1.jar": {
     "jarName": "obscure_tooltips-forge-1.20.1-3.1.1.jar",
@@ -1391,10 +1386,10 @@
     "modId": "oculus",
     "version": "1.8.0"
   },
-  "Oh-The-Biomes-Weve-Gone-Forge-1.6.6.jar": {
-    "jarName": "Oh-The-Biomes-Weve-Gone-Forge-1.6.6.jar",
+  "Oh-The-Biomes-Weve-Gone-Forge-1.7.0.jar": {
+    "jarName": "Oh-The-Biomes-Weve-Gone-Forge-1.7.0.jar",
     "modId": "biomeswevegone",
-    "version": "1.6.6"
+    "version": "1.7.0"
   },
   "Oh-The-Trees-Youll-Grow-forge-1.20.1-1.4.2.jar": {
     "jarName": "Oh-The-Trees-Youll-Grow-forge-1.20.1-1.4.2.jar",
@@ -1571,10 +1566,10 @@
     "modId": "rottencreatures",
     "version": "1.1.0"
   },
-  "royal-variations-[Forge]_1.20.1_2.0.1.jar": {
-    "jarName": "royal-variations-[Forge]_1.20.1_2.0.1.jar",
+  "royal-variations-[Forge]_1.20.1_2.0.2.jar": {
+    "jarName": "royal-variations-[Forge]_1.20.1_2.0.2.jar",
     "modId": "royalvariations",
-    "version": "2.0.1"
+    "version": "2.0.2"
   },
   "rubidium-extra-0.5.4.4+mc1.20.1-build.131.jar": {
     "jarName": "rubidium-extra-0.5.4.4+mc1.20.1-build.131.jar",
@@ -1701,10 +1696,10 @@
     "modId": "sophisticatedbackpacks",
     "version": "3.24.10.1404"
   },
-  "sophisticatedcore-1.20.1-1.2.105.1230.jar": {
-    "jarName": "sophisticatedcore-1.20.1-1.2.105.1230.jar",
+  "sophisticatedcore-1.20.1-1.2.106.1235.jar": {
+    "jarName": "sophisticatedcore-1.20.1-1.2.106.1235.jar",
     "modId": "sophisticatedcore",
-    "version": "1.2.105.1230"
+    "version": "1.2.106.1235"
   },
   "sophisticatedstorage-1.20.1-1.4.14.1356.jar": {
     "jarName": "sophisticatedstorage-1.20.1-1.4.14.1356.jar",

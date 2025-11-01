@@ -70,7 +70,7 @@
   "fallingAnimation": false,
   "freezingAnimation": true,
   "huggingAnimation": false,
-  "narutoRunning": true,
+  "narutoRunning": false,
   "disableLegSmoothing": false,
   "bowAnimation": "CUSTOM_V1",
   "customBowRotationLock": true,

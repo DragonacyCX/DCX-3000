@@ -159,6 +159,9 @@
 			witch_hazel = true
 			zelkova = true
 
+		[types.wood_type.dungeonnowloading]
+			azuro_oak = true
+
 	[types.leaves_type]
 
 		[types.leaves_type.ecologics]
@@ -343,6 +346,9 @@
 			yellow_birch = true
 			yellow_spruce = true
 			firecracker = true
+
+		[types.leaves_type.dungeonnowloading]
+			azuro = true
 
 #Disables specific entries
 [entries]

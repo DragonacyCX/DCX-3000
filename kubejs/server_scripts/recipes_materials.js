@@ -254,6 +254,19 @@ event.shaped(
     }
 ).id('dcx:platinum_sheet');
 
+//Ironwood
+event.shaped(
+    Item.of('twilightforest:raw_ironwood', 8), // Output
+    [
+        'BBB',
+        'BTB',
+        'BBB'
+    ], 
+    {
+        B: '#biomeswevegone:ironwood_logs',
+        T: 'twilightforest:transformation_powder'
+    })
+
 //Polerowanie Kamieni Szlachetnych (Rough Gems)
 event.remove({ id: 'st_gsoc:sandpaper_polishing/spinel' })
 event.remove({ id: 'spelunkery:sandpaper_polishing/cinnabar' })

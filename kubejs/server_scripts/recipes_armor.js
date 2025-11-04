@@ -3019,6 +3019,97 @@ event.custom({
   "show_notification": true
 })
 
+  // Aquamancer Set
+event.remove({ id: 'traveloptics:deepling_mage_armor_helmet' })
+event.remove({ id: 'traveloptics:deepling_mage_armor_robe' })
+event.remove({ id: 'traveloptics:deepling_mage_armor_leggings' })
+event.remove({ id: 'traveloptics:deepling_mage_armor_boots' })
+event.custom({
+  "type": "overgeared:forging",
+  "blueprint": ["ARMOR"],
+  "requires_blueprint": false,
+  "hammering": 3,
+  "has_quality": true,
+  "minimum_quality": "poor",
+  "needs_minigame": false,
+  "has_polishing": false,
+  "tier": "above_a",
+  "key": {
+    "C": { "item": "irons_spellbooks:magic_cloth" },
+    "R": { "item": "traveloptics:aqua_rune" }
+  },
+  "pattern": [
+    "CCC",
+    "CRC"
+  ],
+  "result": { "item": "traveloptics:deepling_mage_armor_helmet" },
+  "show_notification": true
+})
+event.custom({
+  "type": "overgeared:forging",
+  "blueprint": ["ARMOR"],
+  "requires_blueprint": false,
+  "hammering": 3,
+  "has_quality": true,
+  "minimum_quality": "poor",
+  "needs_minigame": false,
+  "has_polishing": false,
+  "tier": "above_a",
+  "key": {
+    "C": { "item": "irons_spellbooks:magic_cloth" },
+    "R": { "item": "traveloptics:aqua_rune" }
+  },
+  "pattern": [
+    "CRC",
+    "CCC",
+    "CCC"
+  ],
+  "result": { "item": "traveloptics:deepling_mage_armor_robe" },
+  "show_notification": true
+})
+event.custom({
+  "type": "overgeared:forging",
+  "blueprint": ["ARMOR"],
+  "requires_blueprint": false,
+  "hammering": 3,
+  "has_quality": true,
+  "minimum_quality": "poor",
+  "needs_minigame": false,
+  "has_polishing": false,
+  "tier": "above_a",
+  "key": {
+    "C": { "item": "irons_spellbooks:magic_cloth" },
+    "R": { "item": "traveloptics:aqua_rune" }
+  },
+  "pattern": [
+    "CCC",
+    "CRC",
+    "C C"
+  ],
+  "result": { "item": "traveloptics:deepling_mage_armor_leggings" },
+  "show_notification": true
+})
+event.custom({
+  "type": "overgeared:forging",
+  "blueprint": ["ARMOR"],
+  "requires_blueprint": false,
+  "hammering": 3,
+  "has_quality": true,
+  "minimum_quality": "poor",
+  "needs_minigame": false,
+  "has_polishing": false,
+  "tier": "above_a",
+  "key": {
+    "C": { "item": "irons_spellbooks:magic_cloth" },
+    "R": { "item": "traveloptics:aqua_rune" }
+  },
+  "pattern": [
+    "C C",
+    "CRC"
+  ],
+  "result": { "item": "traveloptics:deepling_mage_armor_boots" },
+  "show_notification": true
+})
 
 //============//
 
@@ -3038,167 +3129,283 @@ event.custom({
   event.remove({ id: 'luckys_armory:heavy_diamond_leggings_recipe' })
   event.remove({ id: 'luckys_armory:heavy_diamond_boots' })
 
-    //Żelazna
-    event.shaped(
-        Item.of('luckys_armory:heavy_iron_armor_helmet', 1), // Output
-        [
-            'CBC',
-            'BHB',
-            '   '
-        ], 
-        {
-            B: 'minecraft:iron_block',
-            C: 'luckys_armory:chainmail',
-            H: 'minecraft:iron_helmet'
-        }
-    ).id('dcx:heavy_iron_helmet');
-    event.shaped(
-        Item.of('luckys_armory:heavy_iron_armor_chestplate', 1), // Output
-        [
-            'B B',
-            'CHC',
-            'BCB'
-        ], 
-        {
-            B: 'minecraft:iron_block',
-            C: 'luckys_armory:chainmail',
-            H: 'minecraft:iron_chestplate'
-        }
-    ).id('dcx:heavy_iron_chestplate');
-    event.shaped(
-        Item.of('luckys_armory:heavy_iron_armor_leggings', 1), // Output
-        [
-            'BCB',
-            'CHC',
-            'B B'
-        ], 
-        {
-            B: 'minecraft:iron_block',
-            C: 'luckys_armory:chainmail',
-            H: 'minecraft:iron_leggings'
-        }
-    ).id('dcx:heavy_iron_leggings');
-    event.shaped(
-        Item.of('luckys_armory:heavy_iron_armor_boots', 1), // Output
-        [
-            'CHC',
-            'B B',
-            '   '
-        ], 
-        {
-            B: 'minecraft:iron_block',
-            C: 'luckys_armory:chainmail',
-            H: 'minecraft:iron_boots'
-        }
-    ).id('dcx:heavy_iron_boots');
+// Heavy Iron Armor
+event.custom({
+  "type": "overgeared:forging",
+  "blueprint": ["ARMOR"],
+  "requires_blueprint": false,
+  "hammering": 3,
+  "has_quality": true,
+  "minimum_quality": "poor",
+  "needs_minigame": false,
+  "has_polishing": false,
+  "key": {
+    "B": { "item": "minecraft:iron_block" },
+    "C": { "item": "minecraft:chain" },
+    "H": { "item": "minecraft:iron_helmet" }
+  },
+  "pattern": [
+    "CBC",
+    "BHB",
+    "   "
+  ],
+  "result": { "item": "luckys_armory:heavy_iron_armor_helmet" },
+  "show_notification": true
+})
+event.custom({
+  "type": "overgeared:forging",
+  "blueprint": ["ARMOR"],
+  "requires_blueprint": false,
+  "hammering": 5,
+  "has_quality": true,
+  "minimum_quality": "poor",
+  "needs_minigame": false,
+  "has_polishing": false,
+  "key": {
+    "B": { "item": "minecraft:iron_block" },
+    "C": { "item": "minecraft:chain" },
+    "H": { "item": "minecraft:iron_chestplate" }
+  },
+  "pattern": [
+    "B B",
+    "CHC",
+    "BCB"
+  ],
+  "result": { "item": "luckys_armory:heavy_iron_armor_chestplate" },
+  "show_notification": true
+})
+event.custom({
+  "type": "overgeared:forging",
+  "blueprint": ["ARMOR"],
+  "requires_blueprint": false,
+  "hammering": 4,
+  "has_quality": true,
+  "minimum_quality": "poor",
+  "needs_minigame": false,
+  "has_polishing": false,
+  "key": {
+    "B": { "item": "minecraft:iron_block" },
+    "C": { "item": "minecraft:chain" },
+    "H": { "item": "minecraft:iron_leggings" }
+  },
+  "pattern": [
+    "BCB",
+    "CHC",
+    "B B"
+  ],
+  "result": { "item": "luckys_armory:heavy_iron_armor_leggings" },
+  "show_notification": true
+})
+event.custom({
+  "type": "overgeared:forging",
+  "blueprint": ["ARMOR"],
+  "requires_blueprint": false,
+  "hammering": 3,
+  "has_quality": true,
+  "minimum_quality": "poor",
+  "needs_minigame": false,
+  "has_polishing": false,
+  "key": {
+    "B": { "item": "minecraft:iron_block" },
+    "C": { "item": "minecraft:chain" },
+    "H": { "item": "minecraft:iron_boots" }
+  },
+  "pattern": [
+    "CHC",
+    "B B",
+    "   "
+  ],
+  "result": { "item": "luckys_armory:heavy_iron_armor_boots" },
+  "show_notification": true
+})
 
-    //Złota
-    event.shaped(
-        Item.of('luckys_armory:heavy_golden_armor_helmet', 1), // Output
-        [
-            'CBC',
-            'BHB',
-            '   '
-        ], 
-        {
-            B: 'minecraft:gold_block',
-            C: 'luckys_armory:chainmail',
-            H: 'minecraft:golden_helmet'
-        }
-    ).id('dcx:heavy_golden_helmet');
-    event.shaped(
-        Item.of('luckys_armory:heavy_golden_armor_chestplate', 1), // Output
-        [
-            'B B',
-            'CHC',
-            'BCB'
-        ], 
-        {
-            B: 'minecraft:gold_block',
-            C: 'luckys_armory:chainmail',
-            H: 'minecraft:golden_chestplate'
-        }
-    ).id('dcx:heavy_golden_chestplate');
-    event.shaped(
-        Item.of('luckys_armory:heavy_golden_armor_leggings', 1), // Output
-        [
-            'BCB',
-            'CHC',
-            'B B'
-        ], 
-        {
-            B: 'minecraft:gold_block',
-            C: 'luckys_armory:chainmail',
-            H: 'minecraft:golden_leggings'
-        }
-    ).id('dcx:heavy_golden_leggings');
-    event.shaped(
-        Item.of('luckys_armory:heavy_golden_armor_boots', 1), // Output
-        [
-            'CHC',
-            'B B',
-            '   '
-        ], 
-        {
-            B: 'minecraft:gold_block',
-            C: 'luckys_armory:chainmail',
-            H: 'minecraft:golden_boots'
-        }
-    ).id('dcx:heavy_golden_boots');
+// Heavy Golden Armor (Stone Anvil tier)
+event.custom({
+  "type": "overgeared:forging",
+  "blueprint": ["ARMOR"],
+  "tier": "stone",
+  "requires_blueprint": false,
+  "hammering": 3,
+  "has_quality": true,
+  "minimum_quality": "poor",
+  "needs_minigame": false,
+  "has_polishing": false,
+  "key": {
+    "B": { "item": "minecraft:gold_block" },
+    "C": { "item": "minecraft:chain" },
+    "H": { "item": "minecraft:golden_helmet" }
+  },
+  "pattern": [
+    "CBC",
+    "BHB",
+    "   "
+  ],
+  "result": { "item": "luckys_armory:heavy_gold_armor_helmet" },
+  "show_notification": true
+})
+event.custom({
+  "type": "overgeared:forging",
+  "blueprint": ["ARMOR"],
+  "tier": "stone",
+  "requires_blueprint": false,
+  "hammering": 5,
+  "has_quality": true,
+  "minimum_quality": "poor",
+  "needs_minigame": false,
+  "has_polishing": false,
+  "key": {
+    "B": { "item": "minecraft:gold_block" },
+    "C": { "item": "minecraft:chain" },
+    "H": { "item": "minecraft:golden_chestplate" }
+  },
+  "pattern": [
+    "B B",
+    "CHC",
+    "BCB"
+  ],
+  "result": { "item": "luckys_armory:heavy_gold_armor_chestplate" },
+  "show_notification": true
+})
+event.custom({
+  "type": "overgeared:forging",
+  "blueprint": ["ARMOR"],
+  "tier": "stone",
+  "requires_blueprint": false,
+  "hammering": 4,
+  "has_quality": true,
+  "minimum_quality": "poor",
+  "needs_minigame": false,
+  "has_polishing": false,
+  "key": {
+    "B": { "item": "minecraft:gold_block" },
+    "C": { "item": "minecraft:chain" },
+    "H": { "item": "minecraft:golden_leggings" }
+  },
+  "pattern": [
+    "BCB",
+    "CHC",
+    "B B"
+  ],
+  "result": { "item": "luckys_armory:heavy_gold_armor_leggings" },
+  "show_notification": true
+})
+event.custom({
+  "type": "overgeared:forging",
+  "blueprint": ["ARMOR"],
+  "tier": "stone",
+  "requires_blueprint": false,
+  "hammering": 3,
+  "has_quality": true,
+  "minimum_quality": "poor",
+  "needs_minigame": false,
+  "has_polishing": false,
+  "key": {
+    "B": { "item": "minecraft:gold_block" },
+    "C": { "item": "minecraft:chain" },
+    "H": { "item": "minecraft:golden_boots" }
+  },
+  "pattern": [
+    "CHC",
+    "B B",
+    "   "
+  ],
+  "result": { "item": "luckys_armory:heavy_gold_armor_boots" },
+  "show_notification": true
+})
 
-    //Diamentowa
-    event.shaped(
-        Item.of('luckys_armory:heavy_diamond_armor_helmet', 1), // Output
-        [
-            'CBC',
-            'BHB',
-            '   '
-        ], 
-        {
-            B: 'minecraft:diamond_block',
-            C: 'luckys_armory:chainmail',
-            H: 'minecraft:diamond_helmet'
-        }
-    ).id('dcx:heavy_diamond_helmet');
-    event.shaped(
-        Item.of('luckys_armory:heavy_diamond_armor_chestplate', 1), // Output
-        [
-            'B B',
-            'CHC',
-            'BCB'
-        ], 
-        {
-            B: 'minecraft:diamond_block',
-            C: 'luckys_armory:chainmail',
-            H: 'minecraft:diamond_chestplate'
-        }
-    ).id('dcx:heavy_diamond_chestplate');
-    event.shaped(
-        Item.of('luckys_armory:heavy_diamond_armor_leggings', 1), // Output
-        [
-            'BCB',
-            'CHC',
-            'B B'
-        ], 
-        {
-            B: 'minecraft:diamond_block',
-            C: 'luckys_armory:chainmail',
-            H: 'minecraft:diamond_leggings'
-        }
-    ).id('dcx:heavy_diamond_leggings');
-    event.shaped(
-        Item.of('luckys_armory:heavy_diamond_armor_boots', 1), // Output
-        [
-            'CHC',
-            'B B',
-            '   '
-        ], 
-        {
-            B: 'minecraft:diamond_block',
-            C: 'luckys_armory:chainmail',
-            H: 'minecraft:diamond_boots'
-        }
-    ).id('dcx:heavy_diamond_boots');
+// Heavy Diamond Armor
+event.custom({
+  "type": "overgeared:forging",
+  "blueprint": ["ARMOR"],
+  "tier": "above_a",
+  "requires_blueprint": false,
+  "hammering": 3,
+  "has_quality": true,
+  "minimum_quality": "poor",
+  "needs_minigame": false,
+  "has_polishing": false,
+  "key": {
+    "B": { "item": "minecraft:diamond_block" },
+    "C": { "item": "minecraft:chain" },
+    "H": { "item": "minecraft:diamond_helmet" }
+  },
+  "pattern": [
+    "CBC",
+    "BHB",
+    "   "
+  ],
+  "result": { "item": "luckys_armory:heavy_diamond_armor_helmet" },
+  "show_notification": true
+})
+event.custom({
+  "type": "overgeared:forging",
+  "blueprint": ["ARMOR"],
+  "tier": "above_a",
+  "requires_blueprint": false,
+  "hammering": 5,
+  "has_quality": true,
+  "minimum_quality": "poor",
+  "needs_minigame": false,
+  "has_polishing": false,
+  "key": {
+    "B": { "item": "minecraft:diamond_block" },
+    "C": { "item": "minecraft:chain" },
+    "H": { "item": "minecraft:diamond_chestplate" }
+  },
+  "pattern": [
+    "B B",
+    "CHC",
+    "BCB"
+  ],
+  "result": { "item": "luckys_armory:heavy_diamond_armor_chestplate" },
+  "show_notification": true
+})
+event.custom({
+  "type": "overgeared:forging",
+  "blueprint": ["ARMOR"],
+  "tier": "above_a",
+  "requires_blueprint": false,
+  "hammering": 4,
+  "has_quality": true,
+  "minimum_quality": "poor",
+  "needs_minigame": false,
+  "has_polishing": false,
+  "key": {
+    "B": { "item": "minecraft:diamond_block" },
+    "C": { "item": "minecraft:chain" },
+    "H": { "item": "minecraft:diamond_leggings" }
+  },
+  "pattern": [
+    "BCB",
+    "CHC",
+    "B B"
+  ],
+  "result": { "item": "luckys_armory:heavy_diamond_armor_leggings" },
+  "show_notification": true
+})
+event.custom({
+  "type": "overgeared:forging",
+  "blueprint": ["ARMOR"],
+  "tier": "above_a",
+  "requires_blueprint": false,
+  "hammering": 3,
+  "has_quality": true,
+  "minimum_quality": "poor",
+  "needs_minigame": false,
+  "has_polishing": false,
+  "key": {
+    "B": { "item": "minecraft:diamond_block" },
+    "C": { "item": "minecraft:chain" },
+    "H": { "item": "minecraft:diamond_boots" }
+  },
+  "pattern": [
+    "CHC",
+    "B B",
+    "   "
+  ],
+  "result": { "item": "luckys_armory:heavy_diamond_armor_boots" },
+  "show_notification": true
+})
 
 //KLASOWE ŻETONY
     //Pusty

@@ -28,6 +28,7 @@
 /sparsestructures/
 /xaero/
 /XaeroWaypoints_BACKUP240807/
+/config/jei/world/local
 
 # OS and editor files
 .DS_Store
@@ -58,3 +59,13 @@ options.txt
 secret-*.json
 config/mobbattle-client.toml
 config/mobbattle.toml
+config/jei/world/local/Era_Szyszkonacy/lookupHistory.ini
+config/libraryferret_1.properties
+config/oculus.properties
+config/packetfixer.properties
+config/jei/world/server/KING_OF_EMERALDS_203f16d8/lookupHistory.ini
+config/asyncparticles/asyncparticles-mixin.properties
+config/awesomedungeonend_1.properties
+config/awesomedungeonnether_1.properties
+config/awesomedungeonocean_1.properties
+config/dnl/patrons.json

@@ -23,9 +23,5 @@ ServerEvents.loaded(event => {
   event.server.gameRules.set("artifacts.everlastingBeef.enabled", false)
   event.server.gameRules.set("artifacts.powerGlove.attackDamageBonus", 2)
   event.server.gameRules.set("mobExplosionDropDecay", false)
-  event.server.gameRules.set("mobExplosionDropDecay", false)
-  event.server.gameRules.set("hungerLimitsSaturation", false)
-  event.server.gameRules.set("maxSaturation", 50)
-
   event.server.persistentData.gameRules = true
 });

@@ -40,7 +40,7 @@
   "ladderAnimationAmplifier": 0.35,
   "ladderAnimationArmHeight": 1.7,
   "ladderAnimationArmSpeed": 2.0,
-  "enableRotateToLadder": false,
+  "enableRotateToLadder": true,
   "enableEatDrinkAnimation": true,
   "enableRowBoatAnimation": true,
   "enableHorseAnimation": false,

@@ -8,15 +8,15 @@ LootJS.modifiers((event) => {
 event.addBlockLootModifier("overgeared:stone_anvil").replaceLoot("minecraft:cobblestone", "overgeared:stone_anvil");
 
 //Overgeared Diamond Template GTFO
-event.addLootTableModifier("minecraft:chests/jungle_temple").removeLoot("overgeared:diamond_upgrade_smithing_template");
-event.addLootTableModifier("minecraft:chests/desert_piramid").removeLoot("overgeared:diamond_upgrade_smithing_template");
-event.addLootTableModifier("minecraft:chests/simple_dungeon").removeLoot("overgeared:diamond_upgrade_smithing_template");
-event.addLootTableModifier("minecraft:chests/woodland_mansion").removeLoot("overgeared:diamond_upgrade_smithing_template");
-event.addLootTableModifier("minecraft:chests/shipwreck_treasure").removeLoot("overgeared:diamond_upgrade_smithing_template");
-event.addLootTableModifier("minecraft:chests/stronghold_library").removeLoot("overgeared:diamond_upgrade_smithing_template");
-event.addLootTableModifier("minecraft:chests/stronghold_corridor").removeLoot("overgeared:diamond_upgrade_smithing_template");
-event.addLootTableModifier("minecraft:chests/stronghold_crossing").removeLoot("overgeared:diamond_upgrade_smithing_template");
-event.addLootTableModifier("minecraft:chests/abandoned_mineshaft").removeLoot("overgeared:diamond_upgrade_smithing_template");
+//event.addLootTableModifier("minecraft:chests/jungle_temple").removeLoot("overgeared:diamond_upgrade_smithing_template");
+//event.addLootTableModifier("minecraft:chests/desert_piramid").removeLoot("overgeared:diamond_upgrade_smithing_template");
+//event.addLootTableModifier("minecraft:chests/simple_dungeon").removeLoot("overgeared:diamond_upgrade_smithing_template");
+//event.addLootTableModifier("minecraft:chests/woodland_mansion").removeLoot("overgeared:diamond_upgrade_smithing_template");
+//event.addLootTableModifier("minecraft:chests/shipwreck_treasure").removeLoot("overgeared:diamond_upgrade_smithing_template");
+//event.addLootTableModifier("minecraft:chests/stronghold_library").removeLoot("overgeared:diamond_upgrade_smithing_template");
+//event.addLootTableModifier("minecraft:chests/stronghold_corridor").removeLoot("overgeared:diamond_upgrade_smithing_template");
+//event.addLootTableModifier("minecraft:chests/stronghold_crossing").removeLoot("overgeared:diamond_upgrade_smithing_template");
+//event.addLootTableModifier("minecraft:chests/abandoned_mineshaft").removeLoot("overgeared:diamond_upgrade_smithing_template");
 
 //No Diamonds from Lucky Rock
 event.addLootTableModifier("majruszsaccessories:gameplay/lucky_rock_default").removeLoot("minecraft:diamond");

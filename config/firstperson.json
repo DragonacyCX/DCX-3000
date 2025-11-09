@@ -16,9 +16,11 @@
     "twilightforest:filled_magic_map",
     "twilightforest:filled_maze_map",
     "antiqueatlas:antique_atlas",
-    "create:extendo_grip"
+    "create:extendo_grip",
+    "mowziesmobs:wrought_axe"
   ],
   "autoToggleModItems": [
-    "exposure:camera"
+    "exposure:camera",
+    "mowziesmobs:wrought_axe"
   ]
 }

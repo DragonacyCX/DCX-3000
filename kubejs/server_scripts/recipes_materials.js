@@ -48,6 +48,8 @@ event.custom({
     },
     "show_notification": true
   });
+event.smelting('minecraft:copper_ingot', 'create:copper_sheet', 0.0, 200)
+event.blasting('minecraft:copper_ingot', 'create:copper_sheet', 0.0, 100)
 
 event.shaped(
     Item.of('minecraft:copper_ingot', 1), // Output
@@ -93,6 +95,64 @@ event.custom({
     },
     "show_notification": true
   });
+  event.smelting('oreganized:silver_ingot', 'vintage:silver_sheet', 0.0, 200)
+  event.blasting('oreganized:silver_ingot', 'vintage:silver_sheet', 0.0, 100)
+
+  //Cynk
+event.custom({
+    "type": "overgeared:forging",
+    "category": "misc",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": false,
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "create:zinc_ingot"
+      }
+    },
+    "pattern": [
+      "C  ",
+      "   ",
+      "   "
+    ],
+    "result": {
+      "item": "vintage:zinc_sheet"
+    },
+    "show_notification": true
+  });
+  event.smelting('create:zinc_ingot', 'vintage:zinc_sheet', 0.0, 200)
+  event.blasting('create:zinc_ingot', 'vintage:zinc_sheet', 0.0, 100)
+
+  //Stop Andezytu
+event.custom({
+    "type": "overgeared:forging",
+    "category": "misc",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": false,
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "create:andesite_alloy"
+      }
+    },
+    "pattern": [
+      "C  ",
+      "   ",
+      "   "
+    ],
+    "result": {
+      "item": "vintage:andesite_sheet"
+    },
+    "show_notification": true
+  });
+  event.smelting('create:andesite_alloy', 'vintage:andesite_sheet', 0.0, 200)
+  event.blasting('create:andesite_alloy', 'vintage:andesite_sheet', 0.0, 100)
 
   //Żelazo
 event.replaceOutput(
@@ -125,6 +185,8 @@ event.custom({
     },
     "show_notification": true
   });
+  event.smelting('minecraft:iron_ingot', 'create:iron_sheet', 0.0, 200)
+  event.blasting('minecraft:iron_ingot', 'create:iron_sheet', 0.0, 100)
 
   //Mroczne Żelazo (Dark Iron)
 event.remove({ id: 'graveyard:dark_iron_ingot' })
@@ -164,10 +226,36 @@ event.custom({
     },
     "show_notification": true
   });
+  event.smelting('oreganized:lead_ingot', 'vintage:lead_sheet', 0.0, 200)
+  event.blasting('oreganized:lead_ingot', 'vintage:lead_sheet', 0.0, 100)
 
   //Stal
 event.remove({ id: 'overgeared:crude_steel' })
+event.remove({ id: 'overgeared:heated_steel_ingot' })
 event.recipes.create.mixing('overgeared:crude_steel', ['4x minecraft:iron_ingot', 'minecraft:coal']).heated()
+event.custom({
+    "type": "overgeared:forging",
+    "category": "misc",
+    "requires_blueprint": false,
+    "hammering": 4,
+    "has_quality": false,
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "overgeared:heated_crude_steel"
+      }
+    },
+    "pattern": [
+      "C  ",
+      "   ",
+      "   "
+    ],
+    "result": {
+      "item": "overgeared:steel_ingot"
+    },
+    "show_notification": true
+  });
 event.remove({ id: 'overgeared:steel_plate' })
 event.custom({
     "type": "overgeared:forging",
@@ -192,9 +280,38 @@ event.custom({
     },
     "show_notification": true
   });
+  event.smelting('overgeared:steel_ingot', 'overgeared:steel_plate', 0.0, 200)
+  event.blasting('overgeared:steel_ingot', 'overgeared:steel_plate', 0.0, 100)
 
   //Czarna Stal (Black Steel)
 event.recipes.create.mixing('cataclysm:black_steel_ingot', ['4x graveyard:dark_iron_ingot', 'minecraft:coal']).heated()
+
+  //Mosiądz
+event.custom({
+    "type": "overgeared:forging",
+    "category": "misc",
+    "requires_blueprint": false,
+    "hammering": 4,
+    "has_quality": false,
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "create:brass_ingot"
+      }
+    },
+    "pattern": [
+      "C  ",
+      "   ",
+      "   "
+    ],
+    "result": {
+      "item": "create:brass_sheet"
+    },
+    "show_notification": true
+  });
+event.smelting('create:brass_ingot', 'create:brass_sheet', 0.0, 200)
+event.blasting('create:brass_ingot', 'create:brass_sheet', 0.0, 100)
 
   //Złoto
 event.remove({ id: 'overgeared:steel_plate' })
@@ -222,6 +339,8 @@ event.custom({
     },
     "show_notification": true
   });
+  event.smelting('minecraft:gold_ingot', 'create:golden_sheet', 0.0, 200)
+  event.blasting('minecraft:gold_ingot', 'create:golden_sheet', 0.0, 100)
 
   //Netherite i Necromium
 event.remove({ id: 'minecraft:netherite_ingot' })
@@ -229,8 +348,10 @@ event.remove({ id: 'caverns_and_chasms:necromium_ingot' })
 event.remove({ id: 'st_gsoc:crafting/necromium_ingot' })
 event.recipes.create.mixing('minecraft:netherite_ingot', ['4x minecraft:netherite_scrap', '4x minecraft:gold_ingot']).superheated()
 event.recipes.create.mixing('caverns_and_chasms:necromium_ingot', ['4x minecraft:netherite_scrap', '4x oreganized:silver_ingot']).superheated()
+event.smelting('minecraft:netherite_ingot', 'vintage:netherite_sheet', 0.0, 200)
+event.blasting('minecraft:netherite_ingot', 'vintage:netherite_sheet', 0.0, 100)
 
-//Arcane Ingot
+  //Arcane Ingot
 event.replaceInput(
   { output: 'irons_spellbooks:arcane_ingot' },
   '#irons_spellbooks:arcane_ingot_base',
@@ -266,6 +387,86 @@ event.shaped(
         B: '#biomeswevegone:ironwood_logs',
         T: 'twilightforest:transformation_powder'
     })
+event.custom({
+    "type": "overgeared:forging",
+    "category": "misc",
+    "requires_blueprint": false,
+    "hammering": 4,
+    "has_quality": false,
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "twilightforest:ironwood_ingot"
+      }
+    },
+    "pattern": [
+      "C  ",
+      "   ",
+      "   "
+    ],
+    "result": {
+      "item": "vintage:ironwood_sheet"
+    },
+    "show_notification": true
+  });
+  event.smelting('twilightforest:ironwood_ingot', 'vintage:ironwood_sheet', 0.0, 200)
+  event.blasting('twilightforest:ironwood_ingot', 'vintage:ironwood_sheet', 0.0, 100)
+
+  //Knightmetal
+event.custom({
+    "type": "overgeared:forging",
+    "category": "misc",
+    "requires_blueprint": false,
+    "hammering": 4,
+    "has_quality": false,
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "twilightforest:knightmetal_ingot"
+      }
+    },
+    "pattern": [
+      "C  ",
+      "   ",
+      "   "
+    ],
+    "result": {
+      "item": "vintage:knightmetal_sheet"
+    },
+    "show_notification": true
+  });
+event.smelting('twilightforest:knightmetal_ingot', 'vintage:knightmetal_sheet', 0.0, 200)
+event.blasting('twilightforest:knightmetal_ingot', 'vintage:knightmetal_sheet', 0.0, 100)
+
+  //Firemetal
+event.custom({
+    "type": "overgeared:forging",
+    "category": "misc",
+    "requires_blueprint": false,
+    "tier": "above_a",
+    "hammering": 5,
+    "has_quality": false,
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "twilightforest:fiery_ingot"
+      }
+    },
+    "pattern": [
+      "C  ",
+      "   ",
+      "   "
+    ],
+    "result": {
+      "item": "vintage:fiery_sheet"
+    },
+    "show_notification": true
+  });
+event.smelting('twilightforest:fiery_ingot', 'vintage:fiery_sheet', 0.0, 200)
+event.blasting('twilightforest:fiery_ingot', 'vintage:fiery_sheet', 0.0, 100)
 
 //Polerowanie Kamieni Szlachetnych (Rough Gems)
 event.remove({ id: 'st_gsoc:sandpaper_polishing/spinel' })

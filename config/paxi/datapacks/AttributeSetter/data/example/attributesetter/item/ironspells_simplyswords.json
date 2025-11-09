@@ -1,0 +1,194 @@
+{
+  "#dcx:spell_power_aqua_twenty": [
+    {
+      "attribute": "traveloptics:aqua_spell_power",
+      "value": 0.2,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "#dcx:spell_power_aqua_ten": [
+    {
+      "attribute": "traveloptics:aqua_spell_power",
+      "value": 0.1,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "#dcx:spell_power_blood_twenty": [
+    {
+      "attribute": "irons_spellbooks:blood_spell_power",
+      "value": 0.2,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "#dcx:spell_power_blood_ten": [
+    {
+      "attribute": "irons_spellbooks:blood_spell_power",
+      "value": 0.1,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "#dcx:spell_power_eldritch_twenty": [
+    {
+      "attribute": "irons_spellbooks:eldritch_spell_power",
+      "value": 0.2,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "#dcx:spell_power_eldritch_ten": [
+    {
+      "attribute": "irons_spellbooks:eldritch_spell_power",
+      "value": 0.1,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "#dcx:spell_power_ender_twenty": [
+    {
+      "attribute": "irons_spellbooks:ender_spell_power",
+      "value": 0.2,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "#dcx:spell_power_ender_ten": [
+    {
+      "attribute": "irons_spellbooks:ender_spell_power",
+      "value": 0.1,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "#dcx:spell_power_evocation_twenty": [
+    {
+      "attribute": "irons_spellbooks:evocation_spell_power",
+      "value": 0.2,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "#dcx:spell_power_evocation_ten": [
+    {
+      "attribute": "irons_spellbooks:evocation_spell_power",
+      "value": 0.1,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "#dcx:spell_power_fire_twenty": [
+    {
+      "attribute": "irons_spellbooks:fire_spell_power",
+      "value": 0.2,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "#dcx:spell_power_fire_ten": [
+    {
+      "attribute": "irons_spellbooks:fire_spell_power",
+      "value": 0.1,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "#dcx:spell_power_geo_twenty": [
+    {
+      "attribute": "gtbcs_geomancy_plus:geo_spell_power",
+      "value": 0.2,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "#dcx:spell_power_geo_ten": [
+    {
+      "attribute": "gtbcs_geomancy_plus:geo_spell_power",
+      "value": 0.1,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "#dcx:spell_power_holy_twenty": [
+    {
+      "attribute": "irons_spellbooks:holy_spell_power",
+      "value": 0.2,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "#dcx:spell_power_holy_ten": [
+    {
+      "attribute": "irons_spellbooks:holy_spell_power",
+      "value": 0.1,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "#dcx:spell_power_ice_twenty": [
+    {
+      "attribute": "irons_spellbooks:ice_spell_power",
+      "value": 0.2,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "#dcx:spell_power_ice_ten": [
+    {
+      "attribute": "irons_spellbooks:ice_spell_power",
+      "value": 0.1,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "#dcx:spell_power_lightning_twenty": [
+    {
+      "attribute": "irons_spellbooks:lightning_spell_power",
+      "value": 0.2,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "#dcx:spell_power_lightning_ten": [
+    {
+      "attribute": "irons_spellbooks:lightning_spell_power",
+      "value": 0.1,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "#dcx:spell_power_nature_twenty": [
+    {
+      "attribute": "irons_spellbooks:nature_spell_power",
+      "value": 0.2,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "#dcx:spell_power_nature_ten": [
+    {
+      "attribute": "irons_spellbooks:nature_spell_power",
+      "value": 0.1,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "simplyswords:awakened_lichblade": [
+    {
+      "attribute": "irons_spellbooks:blood_spell_power",
+      "value": 0.15,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:eldritch_spell_power",
+      "value": 0.15,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "simplymore:deaths_eyrie": [
+    {
+      "attribute": "irons_spellbooks:blood_spell_power",
+      "value": 0.05,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "irons_spellbooks:eldritch_spell_power",
+      "value": 0.15,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "simplymore:holylight": [
+    {
+      "attribute": "irons_spellbooks:holy_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "simplymore:darksent": [
+    {
+      "attribute": "irons_spellbooks:eldritch_spell_power",
+      "value": 0.25,
+      "operation": "MULTIPLY_BASE"
+    }
+  ]
+}

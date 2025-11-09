@@ -209,10 +209,10 @@
     "modId": "attributefix",
     "version": "21.0.4"
   },
-  "attributesetter-1.11-forge.jar": {
-    "jarName": "attributesetter-1.11-forge.jar",
+  "attributesetter-1.11.1-forge.jar": {
+    "jarName": "attributesetter-1.11.1-forge.jar",
     "modId": "attributesetter",
-    "version": "1.11-forge"
+    "version": "1.11.1-forge"
   },
   "autohud-8.7+1.20.1-forge.jar": {
     "jarName": "autohud-8.7+1.20.1-forge.jar",
@@ -509,10 +509,10 @@
     "modId": "cosmeticarmorreworked",
     "version": "1.20.1-v1a"
   },
-  "CrashAssistant-forge-1.19-1.20.1-1.10.18.jar": {
-    "jarName": "CrashAssistant-forge-1.19-1.20.1-1.10.18.jar",
+  "CrashAssistant-forge-1.19-1.20.1-1.10.19.jar": {
+    "jarName": "CrashAssistant-forge-1.19-1.20.1-1.10.19.jar",
     "modId": "crash_assistant",
-    "version": "1.10.18"
+    "version": "1.10.19"
   },
   "create-1.20.1-6.0.6.jar": {
     "jarName": "create-1.20.1-6.0.6.jar",
@@ -744,8 +744,8 @@
     "modId": "environmental",
     "version": "4.1.2"
   },
-  "Essential_1-3-10_forge_1-20-1.jar": {
-    "jarName": "Essential_1-3-10_forge_1-20-1.jar",
+  "Essential_1-3-10-1_forge_1-20-1.jar": {
+    "jarName": "Essential_1-3-10-1_forge_1-20-1.jar",
     "modId": "essential-container"
   },
   "everycomp-1.20-2.9.1-forge.jar": {
@@ -848,10 +848,10 @@
     "modId": "formationsnether",
     "version": "1.0.5"
   },
-  "fragmentum-forge-1.20.1-0.2.7.jar": {
-    "jarName": "fragmentum-forge-1.20.1-0.2.7.jar",
+  "fragmentum-forge-1.20.1-0.5.2.jar": {
+    "jarName": "fragmentum-forge-1.20.1-0.5.2.jar",
     "modId": "fragmentum",
-    "version": "0.2.7"
+    "version": "0.5.2"
   },
   "framework-forge-1.20.1-0.7.15.jar": {
     "jarName": "framework-forge-1.20.1-0.7.15.jar",
@@ -1241,10 +1241,10 @@
     "modId": "mobtimizations",
     "version": "1.20.1-1.0.0"
   },
-  "modernfix-forge-5.24.4+mc1.20.1.jar": {
-    "jarName": "modernfix-forge-5.24.4+mc1.20.1.jar",
+  "modernfix-forge-5.25.1+mc1.20.1.jar": {
+    "jarName": "modernfix-forge-5.25.1+mc1.20.1.jar",
     "modId": "modernfix",
-    "version": "5.24.4+mc1.20.1"
+    "version": "5.25.1+mc1.20.1"
   },
   "monobank-1.20.1-1.1.5.jar": {
     "jarName": "monobank-1.20.1-1.1.5.jar",
@@ -1371,10 +1371,10 @@
     "modId": "obscure_api",
     "version": "18"
   },
-  "obscure_tooltips-forge-1.20.1-3.1.1.jar": {
-    "jarName": "obscure_tooltips-forge-1.20.1-3.1.1.jar",
+  "obscure_tooltips-forge-1.20.1-3.1.2.jar": {
+    "jarName": "obscure_tooltips-forge-1.20.1-3.1.2.jar",
     "modId": "obscure_tooltips",
-    "version": "3.1.1"
+    "version": "3.1.2"
   },
   "OctoLib-FORGE-0.5.0.1+1.20.1.jar": {
     "jarName": "OctoLib-FORGE-0.5.0.1+1.20.1.jar",
@@ -1611,10 +1611,10 @@
     "modId": "servercore",
     "version": "1.5.2+1.20.1"
   },
-  "ShoulderSurfing-Forge-1.20.1-4.14.3.jar": {
-    "jarName": "ShoulderSurfing-Forge-1.20.1-4.14.3.jar",
+  "ShoulderSurfing-Forge-1.20.1-4.15.0.jar": {
+    "jarName": "ShoulderSurfing-Forge-1.20.1-4.15.0.jar",
     "modId": "shouldersurfing",
-    "version": "1.20.1-4.14.3"
+    "version": "1.20.1-4.15.0"
   },
   "simplest_hammers-1.20.1-1.1.4.jar": {
     "jarName": "simplest_hammers-1.20.1-1.1.4.jar",
@@ -1750,11 +1750,6 @@
     "jarName": "Stackable Potions-forge-1.20.1-1.0.0.jar",
     "modId": "stackablepotions",
     "version": "1.0.0"
-  },
-  "starterkit-1.20.1-7.4.jar": {
-    "jarName": "starterkit-1.20.1-7.4.jar",
-    "modId": "starterkit",
-    "version": "7.4"
   },
   "statuseffectbars-1.20.1-Forge-1.0.3.jar": {
     "jarName": "statuseffectbars-1.20.1-Forge-1.0.3.jar",
@@ -1906,10 +1901,10 @@
     "modId": "undergardendelight",
     "version": "1.1.2"
   },
-  "underground_rooms-2.0.7.jar": {
-    "jarName": "underground_rooms-2.0.7.jar",
+  "underground_rooms-2.0.8.jar": {
+    "jarName": "underground_rooms-2.0.8.jar",
     "modId": "underground_rooms",
-    "version": "2.0.7"
+    "version": "2.0.8"
   },
   "upgrade_aquatic-1.20.1-6.0.3.jar": {
     "jarName": "upgrade_aquatic-1.20.1-6.0.3.jar",

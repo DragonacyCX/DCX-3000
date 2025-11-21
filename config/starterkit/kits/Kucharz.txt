@@ -10,7 +10,7 @@
 4 : '{Count:10b,id:"neapolitan:strawberry_scones"}',
 5 : '{Count:10b,id:"farmersdelight:rotten_tomato"}',
 6 : '{Count:1b,id:"solcarrot:food_book"}',
-7 : '',
+7 : '{Count:1b,ForgeCaps:{Parent:{Items:[],Open:0b,SelectedSlot:0b,Size:6}},id:"supplementaries:lunch_basket"}',
 8 : '',
 9 : '',
 10 : '',

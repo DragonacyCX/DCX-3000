@@ -1,12 +1,12 @@
 {
   "configVersion": 2,
   "enabledByDefault": true,
-  "xOffset": -3,
-  "sneakXOffset": -2,
-  "sitXOffset": -2,
+  "xOffset": 2,
+  "sneakXOffset": 2,
+  "sitXOffset": 2,
   "renderStuckFeatures": true,
   "vanillaHandsMode": "OFF",
-  "dynamicMode": false,
+  "dynamicMode": true,
   "vanillaHandsSkipSwimming": true,
   "autoVanillaHands": [
     "create:potato_cannon",
@@ -16,11 +16,10 @@
     "twilightforest:filled_magic_map",
     "twilightforest:filled_maze_map",
     "antiqueatlas:antique_atlas",
-    "create:extendo_grip",
-    "mowziesmobs:wrought_axe"
+    "create:extendo_grip"
   ],
   "autoToggleModItems": [
-    "exposure:camera",
-    "mowziesmobs:wrought_axe"
-  ]
+    "exposure:camera"
+  ],
+  "hiddenLayers": []
 }

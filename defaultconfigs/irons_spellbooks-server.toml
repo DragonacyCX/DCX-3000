@@ -901,9 +901,9 @@
 		MaxLevel = 3
 		#Allowed Values: COMMON, UNCOMMON, RARE, EPIC, LEGENDARY
 		MinRarity = "UNCOMMON"
-		ManaCostMultiplier = 1.0
+		ManaCostMultiplier = 3.0
 		SpellPowerMultiplier = 1.0
-		CooldownInSeconds = 1.5
+		CooldownInSeconds = 3.0
 		AllowCrafting = true
 
 	[Spells."irons_spellbooks:magic_arrow"]

@@ -244,10 +244,10 @@
     "modId": "badmobs",
     "version": "19.0.4"
   },
-  "BadOptimizations-2.3.1-1.20.1.jar": {
-    "jarName": "BadOptimizations-2.3.1-1.20.1.jar",
+  "BadOptimizations-2.4.0-1.20.1.jar": {
+    "jarName": "BadOptimizations-2.4.0-1.20.1.jar",
     "modId": "badoptimizations",
-    "version": "2.3.1"
+    "version": "2.4.0"
   },
   "baguettelib-1.20.1-Forge-1.1.1.jar": {
     "jarName": "baguettelib-1.20.1-Forge-1.1.1.jar",
@@ -509,10 +509,10 @@
     "modId": "cosmeticarmorreworked",
     "version": "1.20.1-v1a"
   },
-  "CrashAssistant-forge-1.19-1.20.1-1.10.22.jar": {
-    "jarName": "CrashAssistant-forge-1.19-1.20.1-1.10.22.jar",
+  "CrashAssistant-forge-1.19-1.20.1-1.10.23.jar": {
+    "jarName": "CrashAssistant-forge-1.19-1.20.1-1.10.23.jar",
     "modId": "crash_assistant",
-    "version": "1.10.22"
+    "version": "1.10.23"
   },
   "create-1.20.1-6.0.6.jar": {
     "jarName": "create-1.20.1-6.0.6.jar",
@@ -808,11 +808,6 @@
     "modId": "ferritecore",
     "version": "6.0.1"
   },
-  "firstperson-forge-2.6.0-mc1.20.1.jar": {
-    "jarName": "firstperson-forge-2.6.0-mc1.20.1.jar",
-    "modId": "firstperson",
-    "version": "2.6.0"
-  },
   "fishingreal-forge-1.20.1-1.9.1-backport.jar": {
     "jarName": "fishingreal-forge-1.20.1-1.9.1-backport.jar",
     "modId": "fishingreal",
@@ -933,10 +928,10 @@
     "modId": "gtbcs_spell_lib",
     "version": "1.3.0-1.20.1"
   },
-  "guardvillagers-1.20.1-1.6.11.jar": {
-    "jarName": "guardvillagers-1.20.1-1.6.11.jar",
+  "guardvillagers-1.20.1-1.6.13.jar": {
+    "jarName": "guardvillagers-1.20.1-1.6.13.jar",
     "modId": "guardvillagers",
-    "version": "1.20.1-1.6.11"
+    "version": "1.20.1-1.6.13"
   },
   "gunswithoutroses-1.20.1-2.5.0.jar": {
     "jarName": "gunswithoutroses-1.20.1-2.5.0.jar",
@@ -952,6 +947,11 @@
     "jarName": "gwrexpansions-1.1.1.jar",
     "modId": "gwrexpansions",
     "version": "1.1.1"
+  },
+  "hazennstuff-watered-down-edition-1.0.3.jar": {
+    "jarName": "hazennstuff-watered-down-edition-1.0.3.jar",
+    "modId": "hazennstuff",
+    "version": "1.0.3"
   },
   "healingcampfire-1.20.1-6.2.jar": {
     "jarName": "healingcampfire-1.20.1-6.2.jar",
@@ -1058,10 +1058,10 @@
     "modId": "jadeaddons",
     "version": "5.5.0+forge"
   },
-  "jei-1.20.1-forge-15.20.0.122.jar": {
-    "jarName": "jei-1.20.1-forge-15.20.0.122.jar",
+  "jei-1.20.1-forge-15.20.0.127.jar": {
+    "jarName": "jei-1.20.1-forge-15.20.0.127.jar",
     "modId": "jei",
-    "version": "15.20.0.122"
+    "version": "15.20.0.127"
   },
   "JinxedLib-forge-1.20.1-1.0.3.jar": {
     "jarName": "JinxedLib-forge-1.20.1-1.0.3.jar",
@@ -1191,10 +1191,10 @@
     "modId": "mcwbridges",
     "version": "3.1.0"
   },
-  "medieval_buildings-1.20.1-1.1.2-forge.jar": {
-    "jarName": "medieval_buildings-1.20.1-1.1.2-forge.jar",
+  "medieval_buildings-1.20.1-1.1.3-forge.jar": {
+    "jarName": "medieval_buildings-1.20.1-1.1.3-forge.jar",
     "modId": "medieval_buildings",
-    "version": "1.1.2"
+    "version": "1.1.3"
   },
   "MendedMending-1.0.jar": {
     "jarName": "MendedMending-1.0.jar",
@@ -1606,10 +1606,10 @@
     "modId": "servercore",
     "version": "1.5.2+1.20.1"
   },
-  "ShoulderSurfing-Forge-1.20.1-4.15.0.jar": {
-    "jarName": "ShoulderSurfing-Forge-1.20.1-4.15.0.jar",
+  "ShoulderSurfing-Forge-1.20.1-4.16.0.jar": {
+    "jarName": "ShoulderSurfing-Forge-1.20.1-4.16.0.jar",
     "modId": "shouldersurfing",
-    "version": "1.20.1-4.15.0"
+    "version": "1.20.1-4.16.0"
   },
   "simplest_hammers-1.20.1-1.1.4.jar": {
     "jarName": "simplest_hammers-1.20.1-1.1.4.jar",
@@ -1745,11 +1745,6 @@
     "jarName": "Stackable Potions-forge-1.20.1-1.0.0.jar",
     "modId": "stackablepotions",
     "version": "1.0.0"
-  },
-  "starterkit-1.20.1-7.4.jar": {
-    "jarName": "starterkit-1.20.1-7.4.jar",
-    "modId": "starterkit",
-    "version": "7.4"
   },
   "statuseffectbars-1.20.1-Forge-1.0.3.jar": {
     "jarName": "statuseffectbars-1.20.1-Forge-1.0.3.jar",
@@ -1901,10 +1896,10 @@
     "modId": "undergardendelight",
     "version": "1.1.2"
   },
-  "underground_rooms-2.1.jar": {
-    "jarName": "underground_rooms-2.1.jar",
+  "underground_rooms-2.1.1.jar": {
+    "jarName": "underground_rooms-2.1.1.jar",
     "modId": "underground_rooms",
-    "version": "2.1"
+    "version": "2.1.1"
   },
   "upgrade_aquatic-1.20.1-6.0.3.jar": {
     "jarName": "upgrade_aquatic-1.20.1-6.0.3.jar",
@@ -1961,10 +1956,10 @@
     "modId": "weaponmaster_ydm",
     "version": "4.2.3"
   },
-  "XaeroPlus-2.29.0+forge-1.20.1-WM1.39.12-MM25.2.10.jar": {
-    "jarName": "XaeroPlus-2.29.0+forge-1.20.1-WM1.39.12-MM25.2.10.jar",
+  "XaeroPlus-2.29.1+forge-1.20.1-WM1.39.12-MM25.2.10.jar": {
+    "jarName": "XaeroPlus-2.29.1+forge-1.20.1-WM1.39.12-MM25.2.10.jar",
     "modId": "xaeroplus",
-    "version": "2.29.0"
+    "version": "2.29.1"
   },
   "Xaeros_Minimap_25.2.10_Forge_1.20.jar": {
     "jarName": "Xaeros_Minimap_25.2.10_Forge_1.20.jar",

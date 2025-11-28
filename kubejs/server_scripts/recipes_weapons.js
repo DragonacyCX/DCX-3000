@@ -1,6 +1,25 @@
 ServerEvents.recipes(event => {
-//Dystansowe Bronie
+//DYSTANSOWE BRONIE
 event.remove({ output: 'minecraft:bow'})
+event.remove({ id: 'spartanweaponry:copper_longbow'})
+event.remove({ id: 'spartanweaponry:iron_longbow'})
+event.remove({ id: 'spartanweaponry:golden_longbow'})
+event.remove({ id: 'spartanweaponry:diamond_longbow'})
+event.remove({ id: 'spartanweaponry:steel_longbow'})
+event.remove({ id: 'spartanweaponry:silver_longbow'})
+event.remove({ id: 'spartanweaponry:electrum_longbow'})
+event.remove({ id: 'spartanweaponry:platinum_longbow'})
+
+event.remove({ id: 'spartanweaponry:copper_heavy_crossbow'})
+event.remove({ id: 'spartanweaponry:iron_heavy_crossbow'})
+event.remove({ id: 'spartanweaponry:golden_heavy_crossbow'})
+event.remove({ id: 'spartanweaponry:diamond_heavy_crossbow'})
+event.remove({ id: 'spartanweaponry:steel_heavy_crossbow'})
+event.remove({ id: 'spartanweaponry:silver_heavy_crossbow'})
+event.remove({ id: 'spartanweaponry:electrum_heavy_crossbow'})
+event.remove({ id: 'spartanweaponry:platinum_heavy_crossbow'})
+
+  //Drewniane Rzeczy
 event.shaped(
         Item.of('minecraft:bow', 1), // Output
         [
@@ -11,8 +30,612 @@ event.shaped(
         {
             S: 'minecraft:stick',
             H: 'spartanweaponry:simple_handle',
-            N: 'minecraft:string'
+            N: '#bookshelf:strings'
         })
+event.replaceInput(
+  { output: 'spartanweaponry:wooden_longbow' },
+  'spartanweaponry:handle',
+  'spartanweaponry:simple_handle')
+event.replaceInput(
+  { output: 'spartanweaponry:wooden_heavy_crossbow' },
+  'spartanweaponry:handle',
+  'spartanweaponry:simple_handle')
+
+  //Miedziane rzeczy
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "RANGED",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "overgeared:heated_copper_ingot"
+      },
+      "H": {
+        "item": "spartanweaponry:handle"
+      },
+      "P": {
+        "tag": "forge:rods/wooden"
+      },
+      "S": {
+        "tag": "bookshelf:strings"
+      }
+    },
+    "pattern": [
+      "HPC",
+      "P S",
+      "CSS"
+    ],
+    "result": {
+      "item": "spartanweaponry:copper_longbow"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "RANGED",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "overgeared:heated_copper_ingot"
+      },
+      "H": {
+        "item": "spartanweaponry:handle"
+      },
+      "B": {
+        "item": "minecraft:bow"
+      },
+      "P": {
+        "tag": "minecraft:planks"
+      },
+      "T": {
+        "item": "minecraft:tripwire_hook"
+      }
+    },
+    "pattern": [
+      "CBC",
+      "PTP",
+      " H "
+    ],
+    "result": {
+      "item": "spartanweaponry:copper_heavy_crossbow"
+    },
+    "show_notification": true
+  });
+
+  //Srebrne Rzeczy
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "RANGED",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "oreganized:silver_ingot"
+      },
+      "H": {
+        "item": "spartanweaponry:handle"
+      },
+      "P": {
+        "tag": "forge:rods/wooden"
+      },
+      "S": {
+        "tag": "bookshelf:strings"
+      }
+    },
+    "pattern": [
+      "HPC",
+      "P S",
+      "CSS"
+    ],
+    "result": {
+      "item": "spartanweaponry:silver_longbow"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "RANGED",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "oreganized:silver_ingot"
+      },
+      "H": {
+        "item": "spartanweaponry:handle"
+      },
+      "B": {
+        "item": "minecraft:bow"
+      },
+      "P": {
+        "tag": "minecraft:planks"
+      },
+      "T": {
+        "item": "minecraft:tripwire_hook"
+      }
+    },
+    "pattern": [
+      "CBC",
+      "PTP",
+      " H "
+    ],
+    "result": {
+      "item": "spartanweaponry:silver_heavy_crossbow"
+    },
+    "show_notification": true
+  });
+
+  //Złote Rzeczy
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "RANGED",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:gold_ingot"
+      },
+      "H": {
+        "item": "spartanweaponry:handle"
+      },
+      "P": {
+        "tag": "forge:rods/wooden"
+      },
+      "S": {
+        "tag": "bookshelf:strings"
+      }
+    },
+    "pattern": [
+      "HPC",
+      "P S",
+      "CSS"
+    ],
+    "result": {
+      "item": "spartanweaponry:golden_longbow"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "RANGED",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:gold_ingot"
+      },
+      "H": {
+        "item": "spartanweaponry:handle"
+      },
+      "B": {
+        "item": "minecraft:bow"
+      },
+      "P": {
+        "tag": "minecraft:planks"
+      },
+      "T": {
+        "item": "minecraft:tripwire_hook"
+      }
+    },
+    "pattern": [
+      "CBC",
+      "PTP",
+      " H "
+    ],
+    "result": {
+      "item": "spartanweaponry:golden_heavy_crossbow"
+    },
+    "show_notification": true
+  });
+
+  //Żelazne rzeczy
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "RANGED",
+    "requires_blueprint": false,
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "overgeared:heated_iron_ingot"
+      },
+      "H": {
+        "item": "spartanweaponry:handle"
+      },
+      "P": {
+        "tag": "forge:rods/wooden"
+      },
+      "S": {
+        "tag": "bookshelf:strings"
+      }
+    },
+    "pattern": [
+      "HPC",
+      "P S",
+      "CSS"
+    ],
+    "result": {
+      "item": "spartanweaponry:iron_longbow"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "RANGED",
+    "requires_blueprint": false,
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "overgeared:heated_iron_ingot"
+      },
+      "H": {
+        "item": "spartanweaponry:handle"
+      },
+      "B": {
+        "item": "minecraft:bow"
+      },
+      "P": {
+        "tag": "minecraft:planks"
+      },
+      "T": {
+        "item": "minecraft:tripwire_hook"
+      }
+    },
+    "pattern": [
+      "CBC",
+      "PTP",
+      " H "
+    ],
+    "result": {
+      "item": "spartanweaponry:iron_heavy_crossbow"
+    },
+    "show_notification": true
+  });
+
+  //Stalowe rzeczy
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "RANGED",
+    "requires_blueprint": false,
+    "hammering": 4,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "overgeared:heated_steel_ingot"
+      },
+      "H": {
+        "item": "spartanweaponry:handle"
+      },
+      "P": {
+        "tag": "forge:rods/wooden"
+      },
+      "S": {
+        "tag": "bookshelf:strings"
+      }
+    },
+    "pattern": [
+      "HPC",
+      "P S",
+      "CSS"
+    ],
+    "result": {
+      "item": "spartanweaponry:steel_longbow"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "RANGED",
+    "requires_blueprint": false,
+    "hammering": 4,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "overgeared:heated_steel_ingot"
+      },
+      "H": {
+        "item": "spartanweaponry:handle"
+      },
+      "B": {
+        "item": "minecraft:bow"
+      },
+      "P": {
+        "tag": "minecraft:planks"
+      },
+      "T": {
+        "item": "minecraft:tripwire_hook"
+      }
+    },
+    "pattern": [
+      "CBC",
+      "PTP",
+      " H "
+    ],
+    "result": {
+      "item": "spartanweaponry:steel_heavy_crossbow"
+    },
+    "show_notification": true
+  });
+
+  //Diamentowe rzeczy
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "RANGED",
+    "requires_blueprint": false,
+    "tier": "above_a",
+    "hammering": 4,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:diamond"
+      },
+      "H": {
+        "item": "spartanweaponry:handle"
+      },
+      "P": {
+        "tag": "forge:rods/wooden"
+      },
+      "S": {
+        "tag": "bookshelf:strings"
+      }
+    },
+    "pattern": [
+      "HPC",
+      "P S",
+      "CSS"
+    ],
+    "result": {
+      "item": "spartanweaponry:diamond_longbow"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "RANGED",
+    "requires_blueprint": false,
+    "tier": "above_a",
+    "hammering": 4,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:diamond"
+      },
+      "H": {
+        "item": "spartanweaponry:handle"
+      },
+      "B": {
+        "item": "minecraft:bow"
+      },
+      "P": {
+        "tag": "minecraft:planks"
+      },
+      "T": {
+        "item": "minecraft:tripwire_hook"
+      }
+    },
+    "pattern": [
+      "CBC",
+      "PTP",
+      " H "
+    ],
+    "result": {
+      "item": "spartanweaponry:diamond_heavy_crossbow"
+    },
+    "show_notification": true
+  });
+
+  //Electrumowe rzeczy
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "RANGED",
+    "requires_blueprint": false,
+    "tier": "above_a",
+    "hammering": 4,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "oreganized:electrum_ingot"
+      },
+      "H": {
+        "item": "spartanweaponry:handle"
+      },
+      "P": {
+        "tag": "forge:rods/wooden"
+      },
+      "S": {
+        "tag": "#bookshelf:strings"
+      }
+    },
+    "pattern": [
+      "HPC",
+      "P S",
+      "CSS"
+    ],
+    "result": {
+      "item": "spartanweaponry:electrum_longbow"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "RANGED",
+    "requires_blueprint": false,
+    "tier": "above_a",
+    "hammering": 4,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "oreganized:electrum_ingot"
+      },
+      "H": {
+        "item": "spartanweaponry:handle"
+      },
+      "B": {
+        "item": "minecraft:bow"
+      },
+      "P": {
+        "tag": "minecraft:planks"
+      },
+      "T": {
+        "item": "minecraft:tripwire_hook"
+      }
+    },
+    "pattern": [
+      "CBC",
+      "PTP",
+      " H "
+    ],
+    "result": {
+      "item": "spartanweaponry:electrum_heavy_crossbow"
+    },
+    "show_notification": true
+  });
+
+  //Platynowe rzeczy
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "RANGED",
+    "requires_blueprint": false,
+    "tier": "above_a",
+    "hammering": 4,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "illagerinvasion:platinum_sheet"
+      },
+      "H": {
+        "item": "spartanweaponry:handle"
+      },
+      "P": {
+        "tag": "forge:rods/wooden"
+      },
+      "S": {
+        "tag": "bookshelf:strings"
+      }
+    },
+    "pattern": [
+      "HPC",
+      "P S",
+      "CSS"
+    ],
+    "result": {
+      "item": "spartanweaponry:platinum_longbow"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "RANGED",
+    "requires_blueprint": false,
+    "tier": "above_a",
+    "hammering": 4,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "illagerinvasion:platinum_sheet"
+      },
+      "H": {
+        "item": "spartanweaponry:handle"
+      },
+      "B": {
+        "item": "minecraft:bow"
+      },
+      "P": {
+        "tag": "minecraft:planks"
+      },
+      "T": {
+        "item": "minecraft:tripwire_hook"
+      }
+    },
+    "pattern": [
+      "CBC",
+      "PTP",
+      " H "
+    ],
+    "result": {
+      "item": "spartanweaponry:platinum_heavy_crossbow"
+    },
+    "show_notification": true
+  });
 
 //STANDARDOWE BRONIE
   //Drewniane rzeczy
@@ -295,6 +918,10 @@ event.remove({ output: 'simplyswords:iron_halberd' })
 event.remove({ output: 'simplyswords:iron_katana' })
 event.remove({ output: 'simplyswords:iron_scythe' })
 event.remove({ output: 'simplyswords:iron_twinblade' })
+
+event.remove({ output: 'simplyswords:iron_backhand_blade' })
+event.remove({ output: 'simplyswords:iron_dagger' })
+
     //Basic
 event.custom({
     "type": "overgeared:forging",
@@ -1110,7 +1737,69 @@ event.custom({
     "show_notification": true
   });
 
-//Złote Rzeczy
+//Stalowe Rzeczy
+ event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "HEAVYWEAPONS",
+    "requires_blueprint": false,
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "overgeared:heated_iron_ingot"
+      },
+      "P": {
+        "item": "spartanweaponry:pole"
+      }
+    },
+    "pattern": [
+      "  C",
+      " P ",
+      "C  "
+    ],
+    "result": {
+      "item": "simplyswords:iron_twinblade"
+    },
+    "show_notification": true
+  });
+
+  //Stalowe rzeczy
+event.remove({ input: 'overgeared:steel_sword_blade' })
+event.remove({ output: 'overgeared:steel_sword_blade' })
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "LIGHTWEAPONS",
+    "requires_blueprint": false,
+    "hammering": 4,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "overgeared:heated_steel_ingot"
+      },
+      "H": {
+        "item": "spartanweaponry:handle"
+      }
+    },
+    "pattern": [
+      " C ",
+      " C ",
+      " H "
+    ],
+    "result": {
+      "item": "overgeared:steel_sword"
+    },
+    "show_notification": true
+  });
+
+  //Złote Rzeczy
 event.remove({ output: 'basicweapons:golden_dagger' })
 event.remove({ output: 'basicweapons:golden_club' })
 event.remove({ output: 'basicweapons:golden_quarterstaff' })
@@ -1137,6 +1826,10 @@ event.remove({ output: 'simplyswords:gold_halberd' })
 event.remove({ output: 'simplyswords:gold_katana' })
 event.remove({ output: 'simplyswords:gold_scythe' })
 event.remove({ output: 'simplyswords:gold_twinblade' })
+
+event.remove({ output: 'simplyswords:gold_backhand_blade' })
+event.remove({ output: 'simplyswords:gold_dagger' })
+
   //Basic
 event.custom({
     "type": "overgeared:forging",
@@ -2006,6 +2699,10 @@ event.remove({ output: 'simplyswords:diamond_halberd' })
 event.remove({ output: 'simplyswords:diamond_katana' })
 event.remove({ output: 'simplyswords:diamond_scythe' })
 event.remove({ output: 'simplyswords:diamond_twinblade' })
+
+event.remove({ output: 'simplyswords:diamond_backhand_blade' })
+event.remove({ output: 'simplyswords:diamond_dagger' })
+
     //Basic
 event.custom({
     "type": "overgeared:forging",
@@ -2847,6 +3544,14 @@ event.custom({
     },
     "show_notification": true
   });
+
+//Netherytowe rzeczy
+event.remove({ output: 'simplyswords:netherite_backhand_blade' })
+event.remove({ output: 'simplyswords:netherite_dagger' })
+
+//Runiczne rzeczy
+event.remove({ output: 'simplyswords:runic_backhand_blade' })
+event.remove({ output: 'simplyswords:runic_dagger' })
 
 //Knaves' Needs
 event.remove({ id: 'blue_skies:cherry_wood/longsword'})

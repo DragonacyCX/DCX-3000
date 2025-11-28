@@ -40,13 +40,21 @@
         "kubejs:steel_club",
         "kubejs:steel_hammer",
         "kubejs:steel_quarterstaff",
-        "kubejs:steel_spear"
+        "kubejs:steel_spear",
+        "spartanweaponry:cestus",
+        "spartanweaponry:studded_cestus"
     ],
     "remove": [
         "#simplyswords:uniques",
         "#simplymore:uniques",
         "#simplyswords:runic_gear",
-        "#simplymore:runic_gear"
+        "#simplymore:runic_gear",
+        "born_in_chaos_v1:icy_sweetness",
+        "born_in_chaos_v1:carrot_sword",
+        "born_in_chaos_v1:sweet_sword",
+        "born_in_chaos_v1:sweet_axe",
+        "born_in_chaos_v1:frostbitten_blade",
+        "royalvariations:royal_staff"
   ]
   }
   

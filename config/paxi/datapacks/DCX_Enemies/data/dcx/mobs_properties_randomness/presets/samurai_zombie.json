@@ -13,7 +13,8 @@
             "items": 
             [
                 {
-                    "item": "armoroftheages:centurion_armor_head",
+                    "item": "armoroftheages:o_yoroi_armor_head",
+                    "weight": 2,
                     "functions": [
                         {
                             "function": "enchant",
@@ -23,7 +24,29 @@
                             "conditions": [
                                 {
                                     "condition": "chance",
-                                    "chance": 0.2
+                                    "chance": 0.1
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_drop_chance",
+                            "drop_chance": 0.085
+                        }
+                    ]
+                },
+                {
+                    "item": "armoroftheages:bamboo_hat",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
                                 }
                             ]
                         },
@@ -47,7 +70,7 @@
             "items": 
             [
                 {
-                    "item": "armoroftheages:centurion_armor_chest",
+                    "item": "armoroftheages:o_yoroi_armor_chest",
                     "functions": [
                         {
                             "function": "enchant",
@@ -57,7 +80,7 @@
                             "conditions": [
                                 {
                                     "condition": "chance",
-                                    "chance": 0.2
+                                    "chance": 0.1
                                 }
                             ]
                         },
@@ -81,7 +104,7 @@
             "items": 
             [
                 {
-                    "item": "armoroftheages:centurion_armor_legs",
+                    "item": "armoroftheages:o_yoroi_armor_legs",
                     "functions": [
                         {
                             "function": "enchant",
@@ -91,7 +114,7 @@
                             "conditions": [
                                 {
                                     "condition": "chance",
-                                    "chance": 0.2
+                                    "chance": 0.1
                                 }
                             ]
                         },
@@ -115,7 +138,7 @@
             "items": 
             [
                 {
-                    "item": "armoroftheages:centurion_armor_feet",
+                    "item": "armoroftheages:o_yoroi_armor_feet",
                     "functions": [
                         {
                             "function": "enchant",
@@ -125,7 +148,7 @@
                             "conditions": [
                                 {
                                     "condition": "chance",
-                                    "chance": 0.2
+                                    "chance": 0.1
                                 }
                             ]
                         },
@@ -149,7 +172,29 @@
             "items": 
             [
                 {
-                    "item": "simplyswords:iron_spear",
+                    "item": "simplyswords:iron_katana",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_drop_chance",
+                            "drop_chance": 0.085
+                        }
+                    ]
+                },
+                {
+                    "item": "simplyswords:gold_katana",
                     "weight": 4,
                     "functions": [
                         {
@@ -160,7 +205,7 @@
                             "conditions": [
                                 {
                                     "condition": "chance",
-                                    "chance": 0.2
+                                    "chance": 0.1
                                 }
                             ]
                         },
@@ -171,7 +216,7 @@
                     ]
                 },
                 {
-                    "item": "simplyswords:gold_spear",
+                    "item": "simplymore:gold_great_katana",
                     "weight": 3,
                     "functions": [
                         {
@@ -182,7 +227,7 @@
                             "conditions": [
                                 {
                                     "condition": "chance",
-                                    "chance": 0.2
+                                    "chance": 0.1
                                 }
                             ]
                         },
@@ -193,36 +238,7 @@
                     ]
                 },
                 {
-                    "item": "spartanweaponry:studded_cestus",
-                    "weight": 3,
-                    "functions": [
-                        {
-                            "function": "enchant",
-                            "type": "random",
-                            "allow_treasure": "false",
-                            "lvl": 3,
-                            "conditions": [
-                                {
-                                    "condition": "chance",
-                                    "chance": 0.2
-                                }
-                            ]
-                        },
-                        {
-                            "function": "set_drop_chance",
-                            "drop_chance": 0.085
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "property": "equipment",
-            "slot": "offhand",
-            "items": 
-            [
-                {
-                    "item": "spartanshields:golden_basic_shield",
+                    "item": "simplymore:gold_great_katana",
                     "weight": 2,
                     "functions": [
                         {
@@ -233,7 +249,7 @@
                             "conditions": [
                                 {
                                     "condition": "chance",
-                                    "chance": 0.2
+                                    "chance": 0.1
                                 }
                             ]
                         },
@@ -242,62 +258,12 @@
                             "drop_chance": 0.085
                         }
                     ]
-                },
-                {
-                    "item": "spartanshields:golden_tower_shield",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "enchant",
-                            "type": "random",
-                            "allow_treasure": "false",
-                            "lvl": 3,
-                            "conditions": [
-                                {
-                                    "condition": "chance",
-                                    "chance": 0.2
-                                }
-                            ]
-                        },
-                        {
-                            "function": "set_drop_chance",
-                            "drop_chance": 0.085
-                        }
-                    ]
-                },
-                {
-                    "item": "spartanweaponry:studded_cestus",
-                    "weight": 1,
-                    "functions": [
-                        {
-                            "function": "enchant",
-                            "type": "random",
-                            "allow_treasure": "false",
-                            "lvl": 3,
-                            "conditions": [
-                                {
-                                    "condition": "chance",
-                                    "chance": 0.2
-                                }
-                            ]
-                        },
-                        {
-                            "function": "set_drop_chance",
-                            "drop_chance": 0.085
-                        }
-                    ]
-                }
-            ],
-            "conditions": [
-                {
-                    "condition": "chance",
-                    "chance": 0.5
                 }
             ]
         },
         {
             "property": "custom_name",
-            "prefixes": [ "Centurion " ]
+            "prefixes": [ "Samurai " ]
         }
     ]
 }

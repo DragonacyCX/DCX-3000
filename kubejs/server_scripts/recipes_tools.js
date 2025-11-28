@@ -13,86 +13,37 @@ event.shaped(
             B: '#caverns_and_chasms:cupric_fire_base_blocks',
             C: 'minecraft:copper_ingot'
         })
-event.custom({
-    "type": "overgeared:forging",
-    "category": "misc",
-    "requires_blueprint": false,
-    "tier": "stone",
-    "hammering": 15,
-    "has_quality": false,
-    "needs_minigame": false,
-    "has_polishing": false,
-    "key": {
-      "B": {
-        "item": "minecraft:iron_block"
-      },
-      "L": {
-        "item": "minecraft:chain"
-      },
-      "Z": {
-        "item": "overgeared:stone_anvil"
-      },
-      "C": {
-        "item": "overgeared:heated_iron_ingot"
-      }
-    },
-    "pattern": [
-      "BBB",
-      "LZL",
-      "CCC"
-    ],
-    "result": {
-      "item": "overgeared:smithing_anvil"
-    },
-    "show_notification": true
-  });
-event.custom({
-    "type": "overgeared:forging",
-    "category": "misc",
-    "requires_blueprint": false,
-    "hammering": 30,
-    "has_quality": false,
-    "needs_minigame": false,
-    "has_polishing": false,
-    "key": {
-      "Z": {
-        "item": "overgeared:smithing_anvil"
-      },
-      "A": {
-        "item": "minecraft:diamond_block"
-      },
-      "B": {
-        "item": "minecraft:emerald_block"
-      },
-      "C": {
-        "item": "spelunkery:cinnabar_block"
-      },
-      "D": {
-        "item": "caverns_and_chasms:spinel_block"
-      },
-      "E": {
-        "item": "minecraft:lapis_block"
-      },
-      "F": {
-        "item": "caverns_and_chasms:amethyst_block"
-      },
-      "G": {
-        "item": "seadwellers:aquamarine_block"
-      },
-      "H": {
-        "item": "sullysmod:jade_block"
-      }
-    },
-    "pattern": [
-      "ABC",
-      "DZH",
-      "EFG"
-    ],
-    "result": {
-      "item": "overgeared:tier_a_smithing_anvil"
-    },
-    "show_notification": true
-  });
+event.shaped(
+        Item.of('overgeared:smithing_anvil', 1), // Output
+        [
+            'BBB',
+            'LZL',
+            'CCC'
+        ], 
+        {
+            B: 'minecraft:iron_block',
+            L: 'minecraft:chain',
+            Z: 'overgeared:stone_anvil',
+            C: 'overgeared:heated_iron_ingot'
+        })
+event.shaped(
+        Item.of('overgeared:tier_a_smithing_anvil', 1), // Output
+        [
+            'BBB',
+            'LZL',
+            'CCC'
+        ], 
+        {
+            Z: 'overgeared:smithing_anvil',
+            A: 'minecraft:diamond_block',
+            B: 'minecraft:emerald_block',
+            C: 'spelunkery:cinnabar_block',
+            D: 'caverns_and_chasms:spinel_block',
+            E: 'minecraft:lapis_block',
+            F: 'caverns_and_chasms:amethyst_block',
+            G: 'seadwellers:aquamarine_block',
+            H: 'sullysmod:jade_block'
+        })
 
 //Handle
 event.shapeless(
@@ -891,8 +842,6 @@ event.custom({
   });
 
 //Stalowe Rzeczy
-event.remove({ input: 'overgeared:steel_sword_blade' })
-event.remove({ output: 'overgeared:steel_sword_blade' })
 event.remove({ input: 'overgeared:steel_pickaxe_head' })
 event.remove({ output: 'overgeared:steel_pickaxe_head' })
 event.remove({ input: 'overgeared:steel_axe_head' })

@@ -22,10 +22,10 @@ no_projectile_immunity = true
 	#CONSTANT: Always the same knockback is dealth to attackers.
 	#VARIABLE: The knockback strength is greater the more precisely the shield block is timed in regards to the attack.
 	#Allowed Values: NONE, CONSTANT, VARIABLE
-	shield_knockback = "NONE"
+	shield_knockback = "VARIABLE"
 	#Amount of ticks after starting to block in which an attacker will be knocked back further than usual when "shield_knockback" is set to VARIABLE.
 	#Range: > 0
-	variable_shield_knockback_delay = 20
+	variable_shield_knockback_delay = 8
 	#Skip 5 tick warm-up delay when activating a shield, so they become effective instantly.
 	remove_shield_delay = true
 	#Arc of available protection depending on what angle the attack is coming from and where the player is looking (means the lower this angle the closer you need to be facing your attacker).

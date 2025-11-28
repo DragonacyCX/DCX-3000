@@ -30,7 +30,7 @@
 24 : '',
 25 : '',
 26 : '',
-27 : '{Count:32b,id:"apotheosis:broadhead_arrow"}',
+27 : '{Count:32b,id:"overgeared:iron_arrow"}',
 28 : '{Count:1b,id:"spartanweaponry:weapon_oil",tag:{Oil:{Effect:"spartanweaponry:potion",Potion:"apotheosis:sundering"}}}',
 29 : '',
 30 : '',

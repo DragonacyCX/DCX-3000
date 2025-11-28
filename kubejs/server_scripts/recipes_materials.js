@@ -287,29 +287,6 @@ event.custom({
 event.recipes.create.mixing('cataclysm:black_steel_ingot', ['4x graveyard:dark_iron_ingot', 'minecraft:coal']).heated()
 
   //Mosiądz
-event.custom({
-    "type": "overgeared:forging",
-    "category": "misc",
-    "requires_blueprint": false,
-    "hammering": 4,
-    "has_quality": false,
-    "needs_minigame": false,
-    "has_polishing": false,
-    "key": {
-      "C": {
-        "item": "create:brass_ingot"
-      }
-    },
-    "pattern": [
-      "C  ",
-      "   ",
-      "   "
-    ],
-    "result": {
-      "item": "create:brass_sheet"
-    },
-    "show_notification": true
-  });
 event.smelting('create:brass_ingot', 'create:brass_sheet', 0.0, 200)
 event.blasting('create:brass_ingot', 'create:brass_sheet', 0.0, 100)
 

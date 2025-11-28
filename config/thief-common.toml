@@ -16,7 +16,7 @@
 	# Crime severity for sleeping in a bed that belongs to a villager.
 	# Default: MEDIUM
 	#Allowed Values: NONE, LIGHT, MEDIUM, HEAVY
-	sleeping_in_villagers_bed = "MEDIUM"
+	sleeping_in_villagers_bed = "LIGHT"
 	# Check for crimes only in #thief:protected structures. If disabled, whole world is 'protected'.
 	# Default: true.
 	crime_only_in_protected_structures = true
@@ -24,10 +24,10 @@
 [witness]
 	# Max distance (in blocks) at which an entity can notice a crime.
 	#Range: 1 ~ 64
-	max_notice_distance = 15
+	max_notice_distance = 30
 	# Distance (in blocks) at which an entity always notices a crime, even through blocks. This value is halved when entity is sleeping.
 	#Range: 0 ~ 64
-	always_notice_distance = 2
+	always_notice_distance = 5
 
 [punishment]
 	# Minimum reputation level needed for a villager to trade with the player. Anything lower will prevent the trade.
@@ -51,7 +51,7 @@
 		medium_major_change = 5
 		# [MEDIUM] Value added to 'Minor Negative' reputation gossip.
 		#Range: 0 ~ 200
-		medium_minor_change = 15
+		medium_minor_change = 25
 		# [HEAVY] Value added to 'Major Negative' reputation gossip.
 		#Range: 0 ~ 100
 		heavy_major_change = 20
@@ -66,11 +66,11 @@
 	# 'Minor Positive' reputation increase per gift.
 	# Default: 2
 	#Range: 0 ~ 200
-	minor_positive_increase = 2
+	minor_positive_increase = 3
 	# 'Minor Negative' reputation reduction per gift.
 	# Default: 5
 	#Range: 0 ~ 200
-	minor_negative_reduction = 5
+	minor_negative_reduction = 6
 	# Giving gifts requires 'sneak' to be held.
 	# Default: true
 	requires_sneak = true
@@ -82,11 +82,11 @@
 	# 'Major Positive' reputation increase with nearby villagers when raid is defeated.
 	# Default: 2
 	#Range: 0 ~ 100
-	major_positive_increase = 2
+	major_positive_increase = 3
 	# 'Minor Positive' reputation increase with nearby villagers when raid is defeated.
 	# Default: 25
 	#Range: 0 ~ 200
-	minor_positive_increase = 15
+	minor_positive_increase = 30
 
 [misc]
 	# Fix villager trade reputation (gossip) not applying properly when using shift+click to trade (shift+clicking is considered one trade operation, instead of many).

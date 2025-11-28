@@ -22,17 +22,17 @@ no_projectile_immunity = true
 	#CONSTANT: Always the same knockback is dealth to attackers.
 	#VARIABLE: The knockback strength is greater the more precisely the shield block is timed in regards to the attack.
 	#Allowed Values: NONE, CONSTANT, VARIABLE
-	shield_knockback = "NONE"
+	shield_knockback = "VARIABLE"
 	#Amount of ticks after starting to block in which an attacker will be knocked back further than usual when "shield_knockback" is set to VARIABLE.
 	#Range: > 0
-	variable_shield_knockback_delay = 5
+	variable_shield_knockback_delay = 8
 	#Skip 5 tick warm-up delay when activating a shield, so they become effective instantly.
 	remove_shield_delay = true
 	#Arc of available protection depending on what angle the attack is coming from and where the player is looking (means the lower this angle the closer you need to be facing your attacker).
 	#Vanilla protection arc is 180 degrees, which has been reduced to around 100 in combat tests.
 	#This does not change the protection arc for projectiles which remains at 180 degress.
 	#Range: 0.0 ~ 360.0
-	shield_protection_arc = 200.0
+	shield_protection_arc = 150.0
 
 [items]
 	#It only takes 20 ticks to drink liquid foods (such as potions, milk, and bottled liquids) instead of 32 or 40.

@@ -1,5 +1,5 @@
 {
-    "target": "minecraft:zombie",
+    "target": "minecraft:skeleton",
     "properties": 
     [
         {
@@ -7,21 +7,7 @@
             "presets":
             [
                 {
-                    "preset": "dcx:centurion_zombie",
-                    "weight": 1,
-                    "conditions": [
-                        {
-                            "condition": "deepness",
-                            "y": {
-                                  "min": 0,
-                                  "max": 100
-                            },
-                            "sea_level_relative": true
-                        }
-                    ]
-                },
-                {
-                    "preset": "dcx:samurai_zombie",
+                    "preset": "dcx:ninja_skeleton",
                     "weight": 1,
                     "conditions": [
                         {
@@ -34,7 +20,7 @@
             "conditions": [
                 {
                     "condition": "chance",
-                    "chance": 0.15
+                    "chance": 0.3
                 }
             ]
         }

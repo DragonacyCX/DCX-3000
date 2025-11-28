@@ -13,7 +13,7 @@
             "items": 
             [
                 {
-                    "item": "armoroftheages:centurion_armor_head",
+                    "item": "armoroftheages:japanese_light_armor_head",
                     "functions": [
                         {
                             "function": "enchant",
@@ -47,7 +47,7 @@
             "items": 
             [
                 {
-                    "item": "armoroftheages:centurion_armor_chest",
+                    "item": "armoroftheages:japanese_light_armor_chest",
                     "functions": [
                         {
                             "function": "enchant",
@@ -81,7 +81,7 @@
             "items": 
             [
                 {
-                    "item": "armoroftheages:centurion_armor_legs",
+                    "item": "armoroftheages:japanese_light_armor_legs",
                     "functions": [
                         {
                             "function": "enchant",
@@ -115,7 +115,7 @@
             "items": 
             [
                 {
-                    "item": "armoroftheages:centurion_armor_feet",
+                    "item": "armoroftheages:japanese_light_armor_feet",
                     "functions": [
                         {
                             "function": "enchant",
@@ -149,7 +149,7 @@
             "items": 
             [
                 {
-                    "item": "simplyswords:iron_spear",
+                    "item": "simplyswords:iron_sai",
                     "weight": 4,
                     "functions": [
                         {
@@ -171,7 +171,7 @@
                     ]
                 },
                 {
-                    "item": "simplyswords:gold_spear",
+                    "item": "basicweapons:iron_dagger",
                     "weight": 3,
                     "functions": [
                         {
@@ -193,8 +193,74 @@
                     ]
                 },
                 {
-                    "item": "spartanweaponry:studded_cestus",
+                    "item": "farmersdeligth:iron_knife",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.2
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_drop_chance",
+                            "drop_chance": 0.085
+                        }
+                    ]
+                },
+                {
+                    "item": "simplyswords:gold_sai",
                     "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.2
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_drop_chance",
+                            "drop_chance": 0.085
+                        }
+                    ]
+                },
+                {
+                    "item": "basicweapons:golden_dagger",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.2
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_drop_chance",
+                            "drop_chance": 0.085
+                        }
+                    ]
+                },
+                {
+                    "item": "farmersdeligth:golden_knife",
+                    "weight": 1,
                     "functions": [
                         {
                             "function": "enchant",
@@ -222,7 +288,51 @@
             "items": 
             [
                 {
-                    "item": "spartanshields:golden_basic_shield",
+                    "item": "simplyswords:iron_sai",
+                    "weight": 4,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.2
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_drop_chance",
+                            "drop_chance": 0.085
+                        }
+                    ]
+                },
+                {
+                    "item": "basicweapons:iron_dagger",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.2
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_drop_chance",
+                            "drop_chance": 0.085
+                        }
+                    ]
+                },
+                {
+                    "item": "farmersdeligth:iron_knife",
                     "weight": 2,
                     "functions": [
                         {
@@ -244,8 +354,8 @@
                     ]
                 },
                 {
-                    "item": "spartanshields:golden_tower_shield",
-                    "weight": 1,
+                    "item": "simplyswords:gold_sai",
+                    "weight": 3,
                     "functions": [
                         {
                             "function": "enchant",
@@ -266,7 +376,29 @@
                     ]
                 },
                 {
-                    "item": "spartanweaponry:studded_cestus",
+                    "item": "basicweapons:golden_dagger",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.2
+                                }
+                            ]
+                        },
+                        {
+                            "function": "set_drop_chance",
+                            "drop_chance": 0.085
+                        }
+                    ]
+                },
+                {
+                    "item": "farmersdeligth:golden_knife",
                     "weight": 1,
                     "functions": [
                         {
@@ -287,17 +419,32 @@
                         }
                     ]
                 }
-            ],
+            ]
+        },
+        {
+            "property": "silent"
+        },
+        {
+            "property": "potion_effect",
+            "effect": "minecraft:invisibility",
+            "amplifier": {
+            "min": 0,
+            "max": 1
+            },
+            "hide_particles": true,
             "conditions": [
                 {
-                    "condition": "chance",
-                    "chance": 0.5
+                    "condition": "light_level",
+                    "light_level": {
+                    "min": 0,
+                    "max": 5
+                    }
                 }
             ]
         },
         {
             "property": "custom_name",
-            "prefixes": [ "Centurion " ]
+            "prefixes": [ "Ninja " ]
         }
     ]
 }

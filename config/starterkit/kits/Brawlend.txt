@@ -39,4 +39,4 @@
 33 : '',
 34 : '',
 35 : '',
-'effects' : 'endersdelight:phasing;lvl:1;duration:6000',
+'effects' : 'irons_spellbooks:evasion;lvl:3;duration:6000',

@@ -332,7 +332,7 @@
       }
     },
     "heartbeat": {
-      "enabled": false,
+      "enabled": true,
       "opacity": 1.0,
       "useHealthPercentage": false,
       "maxHealth": 6,
@@ -341,7 +341,7 @@
       "heartbeatOverlayDuration": 20,
       "heartbeatBlurIntensity": 50.0,
       "heartbeatBlurDuration": 5,
-      "minHeartbeatLength": 15,
+      "minHeartbeatLength": 14,
       "heartbeatTimeFactor": 100.0,
       "heartbeatVolume": 1.0,
       "lowhealth": {
@@ -350,7 +350,7 @@
         "animationSpeed": 0
       },
       "blur": {
-        "disabled": false,
+        "disabled": true,
         "opacity": 1.0
       }
     },

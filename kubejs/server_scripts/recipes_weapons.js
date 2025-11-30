@@ -42,6 +42,7 @@ event.replaceInput(
   'spartanweaponry:simple_handle')
 
   //Miedziane rzeczy
+event.remove({ id: 'minecraft:copper_sword' })
 event.custom({
     "type": "overgeared:forging",
     "category": "equipment",

@@ -232,6 +232,14 @@ event.remove({ input: 'overgeared:copper_shovel_head' })
 event.remove({ output: 'overgeared:copper_shovel_head' })
 event.remove({ input: 'overgeared:copper_hoe_head' })
 event.remove({ output: 'overgeared:copper_hoe_head' })
+event.remove({ id: 'minecraft:copper_helmet' })
+event.remove({ id: 'minecraft:copper_chestplate' })
+event.remove({ id: 'minecraft:copper_leggings' })
+event.remove({ id: 'minecraft:copper_boots' })
+event.remove({ id: 'minecraft:copper_pickaxe' })
+event.remove({ id: 'minecraft:copper_axe' })
+event.remove({ id: 'minecraft:copper_shovel' })
+event.remove({ id: 'minecraft:copper_hoe' })
 event.remove({ id: 'minecraft:brush' })
 event.custom({
     "type": "overgeared:forging",
@@ -610,6 +618,7 @@ event.remove({ id: 'farmersdelight:iron_knife'})
 event.remove({ id: 'dungeonsdelight:iron_cleaver'})
 event.remove({ id: 'betterarcheology:iron_brush'})
 event.remove({ output: 'simplest_hammers:iron_hammer' })
+event.remove({ id: 'aquaculture:iron_fishing_rod'})
 event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
@@ -840,6 +849,37 @@ event.custom({
     },
     "show_notification": true
   });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "TOOLS",
+    "requires_blueprint": false,
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:iron_ingot"
+      },
+      "B": {
+        "tag": "bookshelf:strings"
+      },
+      "H": {
+        "item": "spartanweaponry:handle"
+      }
+    },
+    "pattern": [
+      "  C",
+      " CB",
+      "H B"
+    ],
+    "result": {
+      "item": "aquaculture:iron_fishing_rod"
+    },
+    "show_notification": true
+  });
 
 //Stalowe Rzeczy
 event.remove({ input: 'overgeared:steel_pickaxe_head' })
@@ -1006,6 +1046,7 @@ event.remove({ output: 'overgeared:golden_hoe_head' })
 event.remove({ id: 'farmersdelight:golden_knife'})
 event.remove({ id: 'dungeonsdelight:golden_cleaver'})
 event.remove({ output: 'simplest_hammers:golden_hammer'})
+event.remove({ id: 'aquaculture:golden_fishing_rod'})
 event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
@@ -1212,6 +1253,38 @@ event.custom({
     },
     "show_notification": true
   });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "TOOLS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:gold_ingot"
+      },
+      "B": {
+        "tag": "bookshelf:strings"
+      },
+      "H": {
+        "item": "spartanweaponry:simple_handle"
+      }
+    },
+    "pattern": [
+      "  C",
+      " CB",
+      "H B"
+    ],
+    "result": {
+      "item": "aquaculture:gold_fishing_rod"
+    },
+    "show_notification": true
+  });
 
 //Diamentowe Rzeczy
 event.remove({ output: 'basicweapons:diamond_hammer'})
@@ -1219,6 +1292,7 @@ event.remove({ id: 'farmersdelight:diamond_knife'})
 event.remove({ id: 'dungeonsdelight:diamond_cleaver'})
 event.remove({ id: 'betterarcheology:iron_brush'})
 event.remove({ output: 'simplest_hammers:diamond_hammer'})
+event.remove({ id: 'aquaculture:diamond_fishing_rod'})
 event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
@@ -1457,9 +1531,74 @@ event.custom({
     },
     "show_notification": true
   });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "TOOLS",
+    "requires_blueprint": false,
+    "tier": "above_a",
+    "hammering": 4,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:diamond"
+      },
+      "B": {
+        "tag": "bookshelf:strings"
+      },
+      "H": {
+        "item": "spartanweaponry:handle"
+      }
+    },
+    "pattern": [
+      "  C",
+      " CB",
+      "H B"
+    ],
+    "result": {
+      "item": "aquaculture:diamond_fishing_rod"
+    },
+    "show_notification": true
+  });
 
 //Netherytowe rzeczy
 event.remove({ id: 'dungeonsdelight:netherite_cleaver'})
+event.remove({ id: 'netherdepthsupgrade:lava_fishing_rod'})
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "TOOLS",
+    "requires_blueprint": false,
+    "tier": "above_a",
+    "hammering": 4,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "N": {
+        "item": "minecraft:netherite_scrap"
+      },
+      "B": {
+        "item": "minecraft:chain"
+      },
+      "C": {
+        "item": "minecraft:blaze_rod"
+      }
+    },
+    "pattern": [
+      " NC",
+      "NCB",
+      "C B"
+    ],
+    "result": {
+      "item": "netherdepthsupgrade:lava_fishing_rod"
+    },
+    "show_notification": true
+  });
 
 //==========//
 

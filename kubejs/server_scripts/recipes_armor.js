@@ -1585,7 +1585,7 @@ event.custom({
   "tier": "stone",
   "key": {
     "x": { "item": "minecraft:feather" },
-    "i": { "tag": "forge:ingots/gold" },
+    "i": { "item": "minecraft:gold_block" },
     "o": { "item": "overgeared:copper_helmet" },
     "h": { "tag": "forge:dyes/red" }
   },
@@ -1613,7 +1613,7 @@ event.custom({
   "key": {
     "i": { "item": "overgeared:copper_chestplate" },
     "I": { "tag": "forge:dyes/red" },
-    "o": { "tag": "forge:ingots/gold" }
+    "o": { "item": "minecraft:gold_block" }
   },
   "pattern": [
     "o o",
@@ -1638,7 +1638,7 @@ event.custom({
   "tier": "stone",
   "key": {
     "i": { "item": "overgeared:copper_leggings" },
-    "I": { "tag": "forge:ingots/gold" },
+    "I": { "item": "minecraft:gold_block" },
     "o": { "tag": "forge:dyes/red" }
   },
   "pattern": [
@@ -1664,7 +1664,7 @@ event.custom({
   "tier": "stone",
   "key": {
     "I": { "tag": "forge:leather" },
-    "i": { "tag": "forge:ingots/gold" },
+    "i": { "item": "minecraft:gold_block" },
     "x": { "item": "overgeared:copper_boots" }
   },
   "pattern": [

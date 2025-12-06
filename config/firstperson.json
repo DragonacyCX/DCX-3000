@@ -6,7 +6,7 @@
   "sitXOffset": 2,
   "renderStuckFeatures": true,
   "vanillaHandsMode": "OFF",
-  "dynamicMode": true,
+  "dynamicMode": false,
   "vanillaHandsSkipSwimming": true,
   "autoVanillaHands": [
     "create:potato_cannon",
@@ -16,7 +16,8 @@
     "twilightforest:filled_magic_map",
     "twilightforest:filled_maze_map",
     "antiqueatlas:antique_atlas",
-    "create:extendo_grip"
+    "create:extendo_grip",
+    "mowziesmobs:wrought_axe"
   ],
   "autoToggleModItems": [
     "exposure:camera"

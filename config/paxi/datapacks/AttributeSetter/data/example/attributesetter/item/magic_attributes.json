@@ -16,6 +16,7 @@
       "slot": "curio:spellbook"
     }
   ],
+  
 "armoroftheages:raijin_armor_head": [
     {
       "attribute": "gtbcs_geomancy_plus:geo_spell_power",
@@ -60,6 +61,35 @@
     },
     {
       "attribute": "gtbcs_geomancy_plus:geo_magic_resist",
+      "value": 0.1,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+
+  "caverns_and_chasms:silver_helmet": [
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "value": 0.1,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "caverns_and_chasms:silver_chestplate": [
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "value": 0.1,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "caverns_and_chasms:silver_leggings": [
+    {
+      "attribute": "irons_spellbooks:spell_resist",
+      "value": 0.1,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
+  "caverns_and_chasms:silver_boots": [
+    {
+      "attribute": "irons_spellbooks:spell_resist",
       "value": 0.1,
       "operation": "MULTIPLY_BASE"
     }

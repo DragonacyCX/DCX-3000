@@ -193,7 +193,7 @@
                     ]
                 },
                 {
-                    "item": "farmersdeligth:iron_knife",
+                    "item": "farmersdelight:iron_knife",
                     "weight": 2,
                     "functions": [
                         {
@@ -259,7 +259,7 @@
                     ]
                 },
                 {
-                    "item": "farmersdeligth:golden_knife",
+                    "item": "farmersdelight:golden_knife",
                     "weight": 1,
                     "functions": [
                         {
@@ -332,7 +332,7 @@
                     ]
                 },
                 {
-                    "item": "farmersdeligth:iron_knife",
+                    "item": "farmersdelight:iron_knife",
                     "weight": 2,
                     "functions": [
                         {
@@ -398,7 +398,7 @@
                     ]
                 },
                 {
-                    "item": "farmersdeligth:golden_knife",
+                    "item": "farmersdelight:golden_knife",
                     "weight": 1,
                     "functions": [
                         {

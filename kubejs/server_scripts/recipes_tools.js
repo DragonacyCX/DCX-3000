@@ -232,10 +232,6 @@ event.remove({ input: 'overgeared:copper_shovel_head' })
 event.remove({ output: 'overgeared:copper_shovel_head' })
 event.remove({ input: 'overgeared:copper_hoe_head' })
 event.remove({ output: 'overgeared:copper_hoe_head' })
-event.remove({ id: 'minecraft:copper_helmet' })
-event.remove({ id: 'minecraft:copper_chestplate' })
-event.remove({ id: 'minecraft:copper_leggings' })
-event.remove({ id: 'minecraft:copper_boots' })
 event.remove({ id: 'minecraft:copper_pickaxe' })
 event.remove({ id: 'minecraft:copper_axe' })
 event.remove({ id: 'minecraft:copper_shovel' })
@@ -577,7 +573,6 @@ event.custom({
     "blueprint": "TOOLS",
     "requires_blueprint": false,
     "tier": "stone",
-    "tier": "stone",
     "hammering": 3,
     "has_quality": true,
     "minimum_quality": "poor",
@@ -861,7 +856,7 @@ event.custom({
     "has_polishing": false,
     "key": {
       "C": {
-        "item": "minecraft:iron_ingot"
+        "item": "overgeared:heated_iron_ingot"
       },
       "B": {
         "tag": "bookshelf:strings"

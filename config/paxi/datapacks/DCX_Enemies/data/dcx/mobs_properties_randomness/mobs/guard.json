@@ -1,0 +1,22 @@
+{
+    "target": "guardvillagers:guard",
+    "properties": 
+    [
+        {
+            "property": "presets",
+            "presets":
+            [
+                {
+                    "preset": "dcx:guard_armory",
+                    "weight": 1
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "chance",
+                    "chance": 0.5
+                }
+            ]
+        }
+    ]
+}

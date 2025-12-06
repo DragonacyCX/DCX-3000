@@ -5,6 +5,10 @@ event.remove({ id: 'overgeared:copper_helmet' })
 event.remove({ id: 'overgeared:copper_chestplate' })
 event.remove({ id: 'overgeared:copper_leggings' })
 event.remove({ id: 'overgeared:copper_boots' })
+event.remove({ id: 'minecraft:copper_helmet' })
+event.remove({ id: 'minecraft:copper_chestplate' })
+event.remove({ id: 'minecraft:copper_leggings' })
+event.remove({ id: 'minecraft:copper_boots' })
 event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
@@ -3633,6 +3637,115 @@ event.custom({
         }
     ).id('custom:raijinemblem');
 
+//GLOVES
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "ARMOR",
+    "requires_blueprint": false,
+    "hammering": 4,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": true,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:chain"
+      }
+    },
+    "pattern": [
+      "   ",
+      "C C",
+      "   "
+    ],
+    "result": {
+      "item": "aether:chainmail_gloves"
+    },
+    "show_notification": true
+  });
+
+event.remove({ id: 'aether:iron_gloves' })
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "ARMOR",
+    "requires_blueprint": false,
+    "hammering": 4,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": true,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "create:iron_sheet"
+      }
+    },
+    "pattern": [
+      "   ",
+      "C C",
+      "   "
+    ],
+    "result": {
+      "item": "aether:iron_gloves"
+    },
+    "show_notification": true
+  });
+
+event.remove({ id: 'aether:golden_gloves' })
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "ARMOR",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 4,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": true,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "create:golden_sheet"
+      }
+    },
+    "pattern": [
+      "   ",
+      "C C",
+      "   "
+    ],
+    "result": {
+      "item": "aether:golden_gloves"
+    },
+    "show_notification": true
+  });
+
+event.remove({ id: 'aether:diamond_gloves' })
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "ARMOR",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 4,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": true,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:diamond"
+      }
+    },
+    "pattern": [
+      "   ",
+      "C C",
+      "   "
+    ],
+    "result": {
+      "item": "aether:diamond_gloves"
+    },
+    "show_notification": true
+  });
 
     });
     

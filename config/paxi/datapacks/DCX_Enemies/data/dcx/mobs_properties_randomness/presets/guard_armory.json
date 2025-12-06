@@ -1,0 +1,1094 @@
+{
+    "properties": [
+        {
+            "property": "equipment",
+            "slot": "chest",
+            "items": 
+            [
+                {
+                    "item": "caverns_and_chasms:silver_chestplate",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "overgeared:copper_chestplate",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "minecraft:leather_chestplate",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "minecraft:chainmail_chestplate",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "minecraft:iron_chestplate",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "overgeared:steel_chestplate",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "luckys_armory:plated_armor_chestplate",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "luckys_armory:heavy_iron_armor_chestplate",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "luckys_armory:heavy_golden_armor_chestplate",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "luckys_armory:heavy_diamond_armor_chestplate",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "chance",
+                    "chance": 0.6
+                }
+            ]
+        },
+        {
+            "property": "equipment",
+            "slot": "legs",
+            "items": 
+            [
+                {
+                    "item": "caverns_and_chasms:silver_leggings",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "overgeared:copper_leggings",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "minecraft:leather_leggings",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "minecraft:chainmail_leggings",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "minecraft:iron_leggings",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "overgeared:steel_leggings",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "luckys_armory:plated_armor_leggings",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "luckys_armory:heavy_iron_armor_leggings",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "luckys_armory:heavy_golden_armor_leggings",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "luckys_armory:heavy_diamond_armor_leggings",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "chance",
+                    "chance": 0.6
+                }
+            ]
+        },
+        {
+            "property": "equipment",
+            "slot": "feet",
+            "items": 
+            [
+                {
+                    "item": "caverns_and_chasms:silver_boots",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "overgeared:copper_boots",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "minecraft:leather_boots",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "minecraft:chainmail_boots",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "minecraft:iron_boots",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "overgeared:steel_boots",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "luckys_armory:plated_armor_boots",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "luckys_armory:heavy_iron_armor_boots",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "luckys_armory:heavy_golden_armor_boots",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "luckys_armory:heavy_diamond_armor_boots",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "chance",
+                    "chance": 0.7
+                }
+            ]
+        },
+        {
+            "property": "equipment",
+            "slot": "mainhand",
+            "items": 
+            [
+                {
+                    "item": "minecraft:crossbow",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "minecraft:iron_axe",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "basicweapons:iron_dagger",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "basicweapons:iron_club",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "basicweapons:iron_hammer",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "basicweapons:iron_quarterstaff",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "simplyswords:iron_longsword",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "simplyswords:iron_rapier",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "simplyswords:iron_sai",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "simplyswords:iron_spear",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "simplyswords:iron_warglaive",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "simplyswords:iron_cutlass",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "simplyswords:iron_twinblade",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "simplyswords:iron_katana",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "simplyswords:iron_glaive",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "simplyswords:iron_claymore",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "simplyswords:iron_greathammer",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "simplyswords:iron_greataxe",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "simplyswords:iron_scythe",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "simplyswords:iron_halberd",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "simplymore:iron_lance",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "simplymore:iron_khopesh",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "simplymore:iron_pernach",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "simplymore:iron_quarterstaff",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "simplymore:iron_deer_horns",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "simplymore:iron_great_katana",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "simplymore:iron_grandsword",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "simplymore:iron_great_spear",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

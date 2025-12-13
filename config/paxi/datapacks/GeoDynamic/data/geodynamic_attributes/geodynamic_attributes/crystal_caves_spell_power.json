@@ -1,10 +1,11 @@
 {
-  "biome": "biomeswevegone:skyrise_vale",
+  "biome": "terralith:cave/crystal_caves",
   "attribute": "irons_spellbooks:spell_power",
-  "uuid": "7d8fb313-a507-475f-86c1-b804d2bd319f",
+  "uuid": "5fc5ed7d-f8b8-49cb-acb9-d4f8d89f5187",
   "value": 0.1,
   "operation": "MULTIPLY_BASE",
   "required_mod": [
+    "terralith",
     "irons_spellbooks"
   ]
 }

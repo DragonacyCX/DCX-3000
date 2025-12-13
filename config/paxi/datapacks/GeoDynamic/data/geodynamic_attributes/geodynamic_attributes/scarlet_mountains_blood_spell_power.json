@@ -1,11 +1,11 @@
 {
-  "biome": "biomeswevegone:crimson_tundra",
+  "biome": "terralith:scarlet_mountains",
   "attribute": "irons_spellbooks:blood_spell_power",
-  "uuid": "da30e151-7f58-46b4-94f6-870de7fa3627",
+  "uuid": "44b14a00-41cf-4b75-ae1c-64742ba14b5c",
   "value": 0.15,
   "operation": "MULTIPLY_BASE",
   "required_mod": [
-    "biomeswevegone",
+    "terralith",
     "irons_spellbooks"
   ]
 }

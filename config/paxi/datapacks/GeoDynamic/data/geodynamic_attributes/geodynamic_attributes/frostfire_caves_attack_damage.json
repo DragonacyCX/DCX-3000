@@ -1,0 +1,11 @@
+{
+  "biome": "terralith:cave/frostfire_caves",
+  "attribute": "minecraft:generic.attack_damage",
+  "uuid": "c40820ad-786f-4c37-9d24-1d824b93683d",
+  "value": 0.15,
+  "operation": "MULTIPLY_BASE",
+  "required_mod": [
+    "terralith",
+    "irons_spellbooks"
+  ]
+}

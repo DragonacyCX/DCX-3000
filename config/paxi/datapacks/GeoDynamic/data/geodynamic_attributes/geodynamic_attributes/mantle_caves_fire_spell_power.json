@@ -1,0 +1,11 @@
+{
+  "biome": "terralith:cave/mantle_caves",
+  "attribute": "irons_spellbooks:fire_spell_power",
+  "uuid": "670502bb-6014-4985-8f91-3e97fa02ed81",
+  "value": 0.15,
+  "operation": "MULTIPLY_BASE",
+  "required_mod": [
+    "terralith",
+    "irons_spellbooks"
+  ]
+}

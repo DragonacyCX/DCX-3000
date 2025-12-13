@@ -1,0 +1,11 @@
+{
+  "biome": "terralith:ancient_sands",
+  "attribute": "irons_spellbooks:holy_spell_power",
+  "uuid": "018e9965-2fc4-4c4c-b670-e2f3385e4855",
+  "value": 0.15,
+  "operation": "MULTIPLY_BASE",
+  "required_mod": [
+    "terralith",
+    "irons_spellbooks"
+  ]
+}

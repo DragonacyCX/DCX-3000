@@ -1,0 +1,11 @@
+{
+  "biome": "#terralith:mystical",
+  "attribute": "irons_spellbooks:spell_power",
+  "uuid": "a265c28a-d65e-4c50-b545-a7bbaa2881e8",
+  "value": 0.1,
+  "operation": "MULTIPLY_BASE",
+  "required_mod": [
+    "terralith",
+    "irons_spellbooks"
+  ]
+}

@@ -1,10 +1,11 @@
 {
-  "biome": "biomeswevegone:dead_sea",
+  "biome": "minecraft:dripstone_caves",
   "attribute": "gtbcs_geomancy_plus:geo_spell_power",
-  "uuid": "716a40c8-f4a5-4a43-b46c-8ce1bae5c11f",
-  "value": 0.15,
+  "uuid": "6e5afbaf-682f-4547-9eec-e8932915d5f2",
+  "value": 0.25,
   "operation": "MULTIPLY_BASE",
   "required_mod": [
+    "terralith",
     "irons_spellbooks"
   ]
 }

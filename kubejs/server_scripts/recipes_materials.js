@@ -598,7 +598,7 @@ event.shapeless(
 
 //Polimer
 event.replaceInput(
-  { output: 'alexscaves' },
+  { output: 'alexscaves:polymer_plate' },
   'minecraft:iron_ingot',
   'vintage:lead_sheet')
 

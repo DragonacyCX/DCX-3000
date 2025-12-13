@@ -1,0 +1,11 @@
+{
+  "biome": "#terralith:volcanic",
+  "attribute": "irons_spellbooks:fire_spell_power",
+  "uuid": "873c0b3f-0c2c-4b42-9c6b-fdb3f850be6e",
+  "value": 0.15,
+  "operation": "MULTIPLY_BASE",
+  "required_mod": [
+    "terralith",
+    "irons_spellbooks"
+  ]
+}

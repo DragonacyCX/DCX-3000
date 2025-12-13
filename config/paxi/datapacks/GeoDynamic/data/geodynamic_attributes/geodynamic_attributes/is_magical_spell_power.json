@@ -1,0 +1,10 @@
+{
+  "biome": "#forge:is_magical",
+  "attribute": "irons_spellbooks:spell_power",
+  "uuid": "20e50798-3b44-4909-9e06-de2d5d0ddf71",
+  "value": 0.1,
+  "operation": "MULTIPLY_BASE",
+  "required_mod": [
+    "irons_spellbooks"
+  ]
+}

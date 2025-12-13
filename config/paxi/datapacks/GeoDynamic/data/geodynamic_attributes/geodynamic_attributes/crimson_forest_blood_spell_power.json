@@ -1,11 +1,10 @@
 {
-  "biome": "biomeswevegone:crimson_tundra",
+  "biome": "minecraft:crimson_forest",
   "attribute": "irons_spellbooks:blood_spell_power",
-  "uuid": "da30e151-7f58-46b4-94f6-870de7fa3627",
+  "uuid": "c3ad976b-8b65-4c44-adbe-37d1f471c623",
   "value": 0.15,
   "operation": "MULTIPLY_BASE",
   "required_mod": [
-    "biomeswevegone",
     "irons_spellbooks"
   ]
 }

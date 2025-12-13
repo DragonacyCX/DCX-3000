@@ -1,0 +1,11 @@
+{
+  "biome": "#forge:is_lush",
+  "attribute": "irons_spellbooks:nature_spell_power",
+  "uuid": "85242cee-5a9e-4381-889e-8a2343ca763c",
+  "value": 0.15,
+  "operation": "MULTIPLY_BASE",
+  "required_mod": [
+    "terralith",
+    "irons_spellbooks"
+  ]
+}

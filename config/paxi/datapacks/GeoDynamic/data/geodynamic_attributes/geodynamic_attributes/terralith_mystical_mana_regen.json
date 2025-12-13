@@ -1,0 +1,11 @@
+{
+  "biome": "#terralith:mystical",
+  "attribute": "irons_spellbooks:mana_regen",
+  "uuid": "d8626e2a-1765-4097-912e-dfab2a2da844",
+  "value": 0.1,
+  "operation": "MULTIPLY_BASE",
+  "required_mod": [
+    "terralith",
+    "irons_spellbooks"
+  ]
+}

@@ -1,8 +1,8 @@
 {
-  "biome": "biomeswevegone:ironwood_gour",
+  "biome": "#forge:is_desert",
   "attribute": "irons_spellbooks:lightning_spell_power",
-  "uuid": "b12e0bfa-a5e6-4144-a423-663af3847987",
-  "value": 0.15,
+  "uuid": "211d8cf0-2216-4866-be85-deaf69c1ec5e",
+  "value": 0.1,
   "operation": "MULTIPLY_BASE",
   "required_mod": [
     "irons_spellbooks"

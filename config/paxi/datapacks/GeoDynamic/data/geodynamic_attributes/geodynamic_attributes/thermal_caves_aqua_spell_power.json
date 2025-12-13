@@ -1,0 +1,11 @@
+{
+  "biome": "terralith:cave/thermal_caves",
+  "attribute": "traveloptics:aqua_spell_power",
+  "uuid": "26cc8aec-dfef-447f-8010-3c5e2408f34b",
+  "value": 0.15,
+  "operation": "MULTIPLY_BASE",
+  "required_mod": [
+    "terralith",
+    "irons_spellbooks"
+  ]
+}

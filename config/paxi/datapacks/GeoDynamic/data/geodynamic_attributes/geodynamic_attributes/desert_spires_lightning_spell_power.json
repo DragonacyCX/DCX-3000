@@ -1,10 +1,11 @@
 {
-  "biome": "biomeswevegone:ironwood_gour",
+  "biome": "terralith:desert_spires",
   "attribute": "irons_spellbooks:lightning_spell_power",
-  "uuid": "b12e0bfa-a5e6-4144-a423-663af3847987",
-  "value": 0.15,
+  "uuid": "50dd7065-7e8c-4850-9ab1-269888fd37b3",
+  "value": 0.1,
   "operation": "MULTIPLY_BASE",
   "required_mod": [
+    "terralith",
     "irons_spellbooks"
   ]
 }

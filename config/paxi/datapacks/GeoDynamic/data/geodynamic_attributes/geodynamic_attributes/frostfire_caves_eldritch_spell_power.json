@@ -1,0 +1,11 @@
+{
+  "biome": "terralith:cave/frostfire_caves",
+  "attribute": "irons_spellbooks:eldritch_spell_power",
+  "uuid": "ac67756e-0241-4bdd-a5c4-9831cc7d79c0",
+  "value": 0.15,
+  "operation": "MULTIPLY_BASE",
+  "required_mod": [
+    "terralith",
+    "irons_spellbooks"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "biome": "terralith:cave/crystal_caves",
+  "attribute": "irons_spellbooks:mana_regen",
+  "uuid": "79f974f7-3d20-49fe-9464-4046ab134e98",
+  "value": 0.1,
+  "operation": "MULTIPLY_BASE",
+  "required_mod": [
+    "terralith",
+    "irons_spellbooks"
+  ]
+}

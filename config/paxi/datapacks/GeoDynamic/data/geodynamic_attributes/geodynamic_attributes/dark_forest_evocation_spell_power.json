@@ -1,0 +1,10 @@
+{
+  "biome": "minecraft:dark_forest",
+  "attribute": "irons_spellbooks:evocation_spell_power",
+  "uuid": "13839f3d-f4c6-4dfa-8c26-1bc38a698f85",
+  "value": 0.15,
+  "operation": "MULTIPLY_BASE",
+  "required_mod": [
+    "irons_spellbooks"
+  ]
+}

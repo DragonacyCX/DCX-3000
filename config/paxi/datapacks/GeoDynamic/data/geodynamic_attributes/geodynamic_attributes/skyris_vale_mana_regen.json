@@ -1,7 +1,7 @@
 {
-  "biome": "biomeswevegone:weeping_witch_forest",
+  "biome": "biomeswevegone:skyris_vale",
   "attribute": "irons_spellbooks:mana_regen",
-  "uuid": "2bc04b68-9c20-4f35-8c26-537b55d7b19e",
+  "uuid": "4939f47f-03d3-4d97-b086-ca1d1e4dac5b",
   "value": 0.1,
   "operation": "MULTIPLY_BASE",
   "required_mod": [

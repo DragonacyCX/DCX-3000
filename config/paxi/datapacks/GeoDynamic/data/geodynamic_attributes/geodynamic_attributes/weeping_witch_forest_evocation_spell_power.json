@@ -1,0 +1,10 @@
+{
+  "biome": "biomeswevegone:weeping_witch_forest",
+  "attribute": "irons_spellbooks:evocation_spell_power",
+  "uuid": "be98164a-0063-4f88-8141-f5826c7be06f",
+  "value": 0.15,
+  "operation": "MULTIPLY_BASE",
+  "required_mod": [
+    "irons_spellbooks"
+  ]
+}

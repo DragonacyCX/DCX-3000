@@ -1,0 +1,15 @@
+{
+    "target": "born_in_chaos_v1:lifestealer_true_form",
+    "properties": 
+    [
+        {
+            "property": "potion_effect",
+            "effect": "majruszsdifficulty:bleeding",
+            "amplifier": {
+            "min": 0,
+            "max": 2
+            },
+            "hide_particles": true
+        }
+    ]
+}

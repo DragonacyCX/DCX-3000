@@ -892,6 +892,524 @@ event.custom({
     "show_notification": true
   });
 
+//Srebrne Rzeczy
+event.remove({ output: 'caverns_and_chasms:silver_sword' })
+event.remove({ output: 'integrated_simply_swords:silver/longsword' })
+event.remove({ output: 'integrated_simply_swords:silver/twinblade' })
+event.remove({ output: 'integrated_simply_swords:silver/rapier' })
+event.remove({ output: 'integrated_simply_swords:silver/katana' })
+event.remove({ output: 'integrated_simply_swords:silver/sai' })
+event.remove({ output: 'integrated_simply_swords:silver/spear' })
+event.remove({ output: 'integrated_simply_swords:silver/glaive' })
+event.remove({ output: 'integrated_simply_swords:silver/warglaive' })
+event.remove({ output: 'integrated_simply_swords:silver/cutlass' })
+event.remove({ output: 'integrated_simply_swords:silver/claymore' })
+event.remove({ output: 'integrated_simply_swords:silver/greataxe' })
+event.remove({ output: 'integrated_simply_swords:silver/chakram' })
+event.remove({ output: 'integrated_simply_swords:silver/scythe' })
+event.remove({ output: 'integrated_simply_swords:silver/halberd' })
+event.remove({ output: 'integrated_simply_swords:silver/greathammer' })
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "LIGHTWEAPONS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "oreganized:silver_ingot"
+      },
+      "H": {
+        "item": "spartanweaponry:simple_handle"
+      }
+    },
+    "pattern": [
+      " C ",
+      " C ",
+      " H "
+    ],
+    "result": {
+      "item": "caverns_and_chasms:silver_sword"
+    },
+    "show_notification": true
+  });
+  //Simply
+    //LIGHTWEAPONS
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "LIGHTWEAPONS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "oreganized:silver_ingot"
+      },
+      "H": {
+        "item": "spartanweaponry:simple_handle"
+      },
+      "N": {
+        "item": "oreganized:silver_nugget"
+      }
+    },
+    "pattern": [
+      "NCN",
+      "C C",
+      "NHN"
+    ],
+    "result": {
+      "item": "integrated_simply_swords:silver/chakram"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "LIGHTWEAPONS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "oreganized:silver_ingot"
+      },
+      "H": {
+        "item": "spartanweaponry:simple_handle"
+      },
+      "N": {
+        "item": "oreganized:silver_nugget"
+      }
+    },
+    "pattern": [
+      " N ",
+      "CC ",
+      "H  "
+    ],
+    "result": {
+      "item": "integrated_simply_swords:silver/cutlass"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "LIGHTWEAPONS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "oreganized:silver_ingot"
+      },
+      "H": {
+        "item": "spartanweaponry:simple_handle"
+      }
+    },
+    "pattern": [
+      "H  ",
+      " C ",
+      "  C"
+    ],
+    "result": {
+      "item": "integrated_simply_swords:silver/longsword"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "LIGHTWEAPONS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "oreganized:silver_ingot"
+      },
+      "H": {
+        "item": "spartanweaponry:simple_handle"
+      }
+    },
+    "pattern": [
+      " C ",
+      "H  ",
+      "   "
+    ],
+    "result": {
+      "item": "integrated_simply_swords:silver/sai"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "LIGHTWEAPONS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "oreganized:silver_ingot"
+      },
+      "H": {
+        "item": "spartanweaponry:simple_handle"
+      }
+    },
+    "pattern": [
+      "  C",
+      " C ",
+      "H  "
+    ],
+    "result": {
+      "item": "integrated_simply_swords:silver/rapier"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "LIGHTWEAPONS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "oreganized:silver_ingot"
+      },
+      "H": {
+        "item": "spartanweaponry:simple_handle"
+      },
+      "P": {
+        "item": "spartanweaponry:simple_pole"
+      }
+    },
+    "pattern": [
+      " C ",
+      " H ",
+      " P "
+    ],
+    "result": {
+      "item": "integrated_simply_swords:silver/spear"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "LIGHTWEAPONS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "oreganized:silver_ingot"
+      },
+      "H": {
+        "item": "spartanweaponry:simple_handle"
+      },
+      "N": {
+        "item": "oreganized:silver_nugget"
+      }
+    },
+    "pattern": [
+      "   ",
+      " N ",
+      "CHC"
+    ],
+    "result": {
+      "item": "integrated_simply_swords:silver/warglaive"
+    },
+    "show_notification": true
+  });
+    //HEAVYWEAPONS
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "HEAVYWEAPONS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "oreganized:silver_ingot"
+      },
+      "H": {
+        "item": "spartanweaponry:simple_handle"
+      },
+      "N": {
+        "item": "oreganized:silver_nugget"
+      }
+    },
+    "pattern": [
+      " NC",
+      "NCN",
+      "HN "
+    ],
+    "result": {
+      "item": "integrated_simply_swords:silver/claymore"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "HEAVYWEAPONS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "oreganized:silver_ingot"
+      },
+      "P": {
+        "item": "spartanweaponry:simple_pole"
+      }
+    },
+    "pattern": [
+      "  C",
+      " PC",
+      "P  "
+    ],
+    "result": {
+      "item": "integrated_simply_swords:silver/glaive"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "HEAVYWEAPONS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "oreganized:silver_ingot"
+      },
+      "P": {
+        "item": "spartanweaponry:simple_pole"
+      },
+      "H": {
+        "item": "spartanweaponry:simple_handle"
+      },
+      "N": {
+        "item": "oreganized:silver_nugget"
+      }
+    },
+    "pattern": [
+      "CCC",
+      "NHN",
+      " P "
+    ],
+    "result": {
+      "item": "integrated_simply_swords:silver/greataxe"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "HEAVYWEAPONS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "oreganized:silver_ingot"
+      },
+      "P": {
+        "item": "spartanweaponry:simple_pole"
+      },
+      "N": {
+        "item": "oreganized:silver_nugget"
+      }
+    },
+    "pattern": [
+      "CCC",
+      "NNN",
+      " P "
+    ],
+    "result": {
+      "item": "integrated_simply_swords:silver/greathammer"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "HEAVYWEAPONS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "oreganized:silver_ingot"
+      },
+      "P": {
+        "item": "spartanweaponry:simple_pole"
+      },
+      "N": {
+        "item": "oreganized:silver_nugget"
+      }
+    },
+    "pattern": [
+      " CN",
+      "CPC",
+      "P  "
+    ],
+    "result": {
+      "item": "integrated_simply_swords:silver/halberd"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "HEAVYWEAPONS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "oreganized:silver_ingot"
+      },
+      "H": {
+        "item": "spartanweaponry:simple_handle"
+      }
+    },
+    "pattern": [
+      "   ",
+      "HCC",
+      "   "
+    ],
+    "result": {
+      "item": "integrated_simply_swords:silver/katana"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "HEAVYWEAPONS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "oreganized:silver_ingot"
+      },
+      "P": {
+        "item": "spartanweaponry:simple_pole"
+      },
+      "H": {
+        "item": "spartanweaponry:simple_handle"
+      },
+      "N": {
+        "item": "oreganized:silver_nugget"
+      }
+    },
+    "pattern": [
+      "CCH",
+      "CP ",
+      "P  "
+    ],
+    "result": {
+      "item": "integrated_simply_swords:silver/scythe"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "HEAVYWEAPONS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "oreganized:silver_ingot"
+      },
+      "P": {
+        "item": "spartanweaponry:simple_pole"
+      }
+    },
+    "pattern": [
+      "  C",
+      " P ",
+      "C  "
+    ],
+    "result": {
+      "item": "integrated_simply_swords:silver/twinblade"
+    },
+    "show_notification": true
+  });
+
 //Żelazne Rzeczy
 event.remove({ output: 'basicweapons:iron_dagger' })
 event.remove({ output: 'basicweapons:iron_club' })

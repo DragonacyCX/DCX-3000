@@ -115,10 +115,10 @@ event.custom({
   });
 
 //SREBRNE RZECZY
-event.remove({ id: 'caverns_and_chasms:silver_helmet' })
-event.remove({ id: 'caverns_and_chasms:silver_chestplate' })
-event.remove({ id: 'caverns_and_chasms:silver_leggings' })
-event.remove({ id: 'caverns_and_chasms:silver_boots' })
+event.remove({ output: 'caverns_and_chasms:silver_helmet' })
+event.remove({ output: 'caverns_and_chasms:silver_chestplate' })
+event.remove({ output: 'caverns_and_chasms:silver_leggings' })
+event.remove({ output: 'caverns_and_chasms:silver_boots' })
 event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
@@ -2112,11 +2112,57 @@ event.custom({
 })
 
 //Iron's Spells
-  // Priest Set
-event.remove({ id: 'irons_spellbooks:priest_helmet' })
-event.remove({ id: 'irons_spellbooks:priest_chestplate' })
-event.remove({ id: 'irons_spellbooks:priest_leggings' })
-event.remove({ id: 'irons_spellbooks:priest_boots' })
+  //Wandering Magician
+event.remove({ output: 'irons_spellbooks:wandering_magician_helmet' })
+event.remove({ output: 'irons_spellbooks:wandering_magician_chestplate' })
+event.remove({ output: 'irons_spellbooks:wandering_magician_leggings' })
+event.remove({ output: 'irons_spellbooks:wandering_magician_boots' })
+event.shaped(
+        Item.of('irons_spellbooks:wandering_magician_helmet', 1), // Output
+        [
+            ' B ',
+            'BAB',
+            ' B '
+        ], 
+        {   A: 'minecraft:leather_helmet',
+            B: 'irons_spellbooks:arcane_essence',
+        })
+event.shaped(
+        Item.of('irons_spellbooks:wandering_magician_chestplate', 1), // Output
+        [
+            ' B ',
+            'BAB',
+            ' B '
+        ], 
+        {   A: 'minecraft:leather_chestplate',
+            B: 'irons_spellbooks:arcane_essence',
+        })
+event.shaped(
+        Item.of('irons_spellbooks:wandering_magician_leggings', 1), // Output
+        [
+            ' B ',
+            'BAB',
+            ' B '
+        ], 
+        {   A: 'minecraft:leather_leggings',
+            B: 'irons_spellbooks:arcane_essence',
+        })
+event.shaped(
+        Item.of('irons_spellbooks:wandering_magician_boots', 1), // Output
+        [
+            ' B ',
+            'BAB',
+            ' B '
+        ], 
+        {   A: 'minecraft:leather_boots',
+            B: 'irons_spellbooks:arcane_essence',
+        })
+
+  // Wizard Set
+event.remove({ output: 'irons_spellbooks:wizard_helmet' })
+event.remove({ output: 'irons_spellbooks:wizard_chestplate' })
+event.remove({ output: 'irons_spellbooks:wizard_leggings' })
+event.remove({ output: 'irons_spellbooks:wizard_boots' })
 event.custom({
   "type": "overgeared:forging",
   "blueprint": ["ARMOR"],
@@ -2128,58 +2174,13 @@ event.custom({
   "has_polishing": false,
   "tier": "above_a",
   "key": {
-    "C": { "item": "irons_spellbooks:magic_cloth" },
-    "R": { "item": "irons_spellbooks:holy_rune" }
+    "C": { "item": "irons_spellbooks:magic_cloth" }
   },
   "pattern": [
     "CCC",
-    "CRC"
-  ],
-  "result": { "item": "irons_spellbooks:priest_helmet" },
-  "show_notification": true
-})
-event.custom({
-  "type": "overgeared:forging",
-  "blueprint": ["ARMOR"],
-  "requires_blueprint": false,
-  "hammering": 3,
-  "has_quality": true,
-  "minimum_quality": "poor",
-  "needs_minigame": false,
-  "has_polishing": false,
-  "tier": "above_a",
-  "key": {
-    "C": { "item": "irons_spellbooks:magic_cloth" },
-    "R": { "item": "irons_spellbooks:holy_rune" }
-  },
-  "pattern": [
-    "CRC",
-    "CCC",
-    "CCC"
-  ],
-  "result": { "item": "irons_spellbooks:priest_chestplate" },
-  "show_notification": true
-})
-event.custom({
-  "type": "overgeared:forging",
-  "blueprint": ["ARMOR"],
-  "requires_blueprint": false,
-  "hammering": 3,
-  "has_quality": true,
-  "minimum_quality": "poor",
-  "needs_minigame": false,
-  "has_polishing": false,
-  "tier": "above_a",
-  "key": {
-    "C": { "item": "irons_spellbooks:magic_cloth" },
-    "R": { "item": "irons_spellbooks:holy_rune" }
-  },
-  "pattern": [
-    "CCC",
-    "CRC",
     "C C"
   ],
-  "result": { "item": "irons_spellbooks:priest_leggings" },
+  "result": { "item": "irons_spellbooks:wizard_helmet" },
   "show_notification": true
 })
 event.custom({
@@ -2193,62 +2194,35 @@ event.custom({
   "has_polishing": false,
   "tier": "above_a",
   "key": {
-    "C": { "item": "irons_spellbooks:magic_cloth" },
-    "R": { "item": "irons_spellbooks:holy_rune" }
+    "C": { "item": "irons_spellbooks:magic_cloth" }
+  },
+  "pattern": [
+    "  C",
+    " C ",
+    "CCC"
+  ],
+  "result": { "item": "irons_spellbooks:wizard_helmet" },
+  "show_notification": true
+})
+event.custom({
+  "type": "overgeared:forging",
+  "blueprint": ["ARMOR"],
+  "requires_blueprint": false,
+  "hammering": 3,
+  "has_quality": true,
+  "minimum_quality": "poor",
+  "needs_minigame": false,
+  "has_polishing": false,
+  "tier": "above_a",
+  "key": {
+    "C": { "item": "irons_spellbooks:magic_cloth" }
   },
   "pattern": [
     "C C",
-    "CRC"
-  ],
-  "result": { "item": "irons_spellbooks:priest_boots" },
-  "show_notification": true
-})
-  // Pyromancer Set
-event.remove({ id: 'irons_spellbooks:pyromancer_helmet' })
-event.remove({ id: 'irons_spellbooks:pyromancer_chestplate' })
-event.remove({ id: 'irons_spellbooks:pyromancer_leggings' })
-event.remove({ id: 'irons_spellbooks:pyromancer_boots' })
-event.custom({
-  "type": "overgeared:forging",
-  "blueprint": ["ARMOR"],
-  "requires_blueprint": false,
-  "hammering": 3,
-  "has_quality": true,
-  "minimum_quality": "poor",
-  "needs_minigame": false,
-  "has_polishing": false,
-  "tier": "above_a",
-  "key": {
-    "C": { "item": "irons_spellbooks:magic_cloth" },
-    "R": { "item": "irons_spellbooks:fire_rune" }
-  },
-  "pattern": [
-    "CCC",
-    "CRC"
-  ],
-  "result": { "item": "irons_spellbooks:pyromancer_helmet" },
-  "show_notification": true
-})
-event.custom({
-  "type": "overgeared:forging",
-  "blueprint": ["ARMOR"],
-  "requires_blueprint": false,
-  "hammering": 3,
-  "has_quality": true,
-  "minimum_quality": "poor",
-  "needs_minigame": false,
-  "has_polishing": false,
-  "tier": "above_a",
-  "key": {
-    "C": { "item": "irons_spellbooks:magic_cloth" },
-    "R": { "item": "irons_spellbooks:fire_rune" }
-  },
-  "pattern": [
-    "CRC",
     "CCC",
     "CCC"
   ],
-  "result": { "item": "irons_spellbooks:pyromancer_chestplate" },
+  "result": { "item": "irons_spellbooks:wizard_chestplate" },
   "show_notification": true
 })
 event.custom({
@@ -2262,15 +2236,14 @@ event.custom({
   "has_polishing": false,
   "tier": "above_a",
   "key": {
-    "C": { "item": "irons_spellbooks:magic_cloth" },
-    "R": { "item": "irons_spellbooks:fire_rune" }
+    "C": { "item": "irons_spellbooks:magic_cloth" }
   },
   "pattern": [
     "CCC",
-    "CRC",
+    "C C",
     "C C"
   ],
-  "result": { "item": "irons_spellbooks:pyromancer_leggings" },
+  "result": { "item": "irons_spellbooks:wizard_leggings" },
   "show_notification": true
 })
 event.custom({
@@ -2284,837 +2257,25 @@ event.custom({
   "has_polishing": false,
   "tier": "above_a",
   "key": {
-    "C": { "item": "irons_spellbooks:magic_cloth" },
-    "R": { "item": "irons_spellbooks:fire_rune" }
+    "C": { "item": "irons_spellbooks:magic_cloth" }
   },
   "pattern": [
     "C C",
-    "CRC"
-  ],
-  "result": { "item": "irons_spellbooks:pyromancer_boots" },
-  "show_notification": true
-})
-  // Cultist Set
-event.remove({ id: 'irons_spellbooks:cultist_helmet' })
-event.remove({ id: 'irons_spellbooks:cultist_chestplate' })
-event.remove({ id: 'irons_spellbooks:cultist_leggings' })
-event.remove({ id: 'irons_spellbooks:cultist_boots' })
-event.custom({
-  "type": "overgeared:forging",
-  "blueprint": ["ARMOR"],
-  "requires_blueprint": false,
-  "hammering": 3,
-  "has_quality": true,
-  "minimum_quality": "poor",
-  "needs_minigame": false,
-  "has_polishing": false,
-  "tier": "above_a",
-  "key": {
-    "C": { "item": "irons_spellbooks:magic_cloth" },
-    "R": { "item": "irons_spellbooks:blood_rune" }
-  },
-  "pattern": [
-    "CCC",
-    "CRC"
-  ],
-  "result": { "item": "irons_spellbooks:cultist_helmet" },
-  "show_notification": true
-})
-event.custom({
-  "type": "overgeared:forging",
-  "blueprint": ["ARMOR"],
-  "requires_blueprint": false,
-  "hammering": 3,
-  "has_quality": true,
-  "minimum_quality": "poor",
-  "needs_minigame": false,
-  "has_polishing": false,
-  "tier": "above_a",
-  "key": {
-    "C": { "item": "irons_spellbooks:magic_cloth" },
-    "R": { "item": "irons_spellbooks:blood_rune" }
-  },
-  "pattern": [
-    "CRC",
-    "CCC",
-    "CCC"
-  ],
-  "result": { "item": "irons_spellbooks:cultist_chestplate" },
-  "show_notification": true
-})
-event.custom({
-  "type": "overgeared:forging",
-  "blueprint": ["ARMOR"],
-  "requires_blueprint": false,
-  "hammering": 3,
-  "has_quality": true,
-  "minimum_quality": "poor",
-  "needs_minigame": false,
-  "has_polishing": false,
-  "tier": "above_a",
-  "key": {
-    "C": { "item": "irons_spellbooks:magic_cloth" },
-    "R": { "item": "irons_spellbooks:blood_rune" }
-  },
-  "pattern": [
-    "CCC",
-    "CRC",
     "C C"
   ],
-  "result": { "item": "irons_spellbooks:cultist_leggings" },
-  "show_notification": true
-})
-event.custom({
-  "type": "overgeared:forging",
-  "blueprint": ["ARMOR"],
-  "requires_blueprint": false,
-  "hammering": 3,
-  "has_quality": true,
-  "minimum_quality": "poor",
-  "needs_minigame": false,
-  "has_polishing": false,
-  "tier": "above_a",
-  "key": {
-    "C": { "item": "irons_spellbooks:magic_cloth" },
-    "R": { "item": "irons_spellbooks:blood_rune" }
-  },
-  "pattern": [
-    "C C",
-    "CRC"
-  ],
-  "result": { "item": "irons_spellbooks:cultist_boots" },
-  "show_notification": true
-})
-  // Cryomancer Set
-event.remove({ id: 'irons_spellbooks:cryomancer_helmet' })
-event.remove({ id: 'irons_spellbooks:cryomancer_chestplate' })
-event.remove({ id: 'irons_spellbooks:cryomancer_leggings' })
-event.remove({ id: 'irons_spellbooks:cryomancer_boots' })
-event.custom({
-  "type": "overgeared:forging",
-  "blueprint": ["ARMOR"],
-  "requires_blueprint": false,
-  "hammering": 3,
-  "has_quality": true,
-  "minimum_quality": "poor",
-  "needs_minigame": false,
-  "has_polishing": false,
-  "tier": "above_a",
-  "key": {
-    "C": { "item": "irons_spellbooks:magic_cloth" },
-    "R": { "item": "irons_spellbooks:ice_rune" }
-  },
-  "pattern": [
-    "CCC",
-    "CRC"
-  ],
-  "result": { "item": "irons_spellbooks:cryomancer_helmet" },
-  "show_notification": true
-})
-event.custom({
-  "type": "overgeared:forging",
-  "blueprint": ["ARMOR"],
-  "requires_blueprint": false,
-  "hammering": 3,
-  "has_quality": true,
-  "minimum_quality": "poor",
-  "needs_minigame": false,
-  "has_polishing": false,
-  "tier": "above_a",
-  "key": {
-    "C": { "item": "irons_spellbooks:magic_cloth" },
-    "R": { "item": "irons_spellbooks:ice_rune" }
-  },
-  "pattern": [
-    "CRC",
-    "CCC",
-    "CCC"
-  ],
-  "result": { "item": "irons_spellbooks:cryomancer_chestplate" },
-  "show_notification": true
-})
-event.custom({
-  "type": "overgeared:forging",
-  "blueprint": ["ARMOR"],
-  "requires_blueprint": false,
-  "hammering": 3,
-  "has_quality": true,
-  "minimum_quality": "poor",
-  "needs_minigame": false,
-  "has_polishing": false,
-  "tier": "above_a",
-  "key": {
-    "C": { "item": "irons_spellbooks:magic_cloth" },
-    "R": { "item": "irons_spellbooks:ice_rune" }
-  },
-  "pattern": [
-    "CCC",
-    "CRC",
-    "C C"
-  ],
-  "result": { "item": "irons_spellbooks:cryomancer_leggings" },
-  "show_notification": true
-})
-event.custom({
-  "type": "overgeared:forging",
-  "blueprint": ["ARMOR"],
-  "requires_blueprint": false,
-  "hammering": 3,
-  "has_quality": true,
-  "minimum_quality": "poor",
-  "needs_minigame": false,
-  "has_polishing": false,
-  "tier": "above_a",
-  "key": {
-    "C": { "item": "irons_spellbooks:magic_cloth" },
-    "R": { "item": "irons_spellbooks:ice_rune" }
-  },
-  "pattern": [
-    "C C",
-    "CRC"
-  ],
-  "result": { "item": "irons_spellbooks:cryomancer_boots" },
-  "show_notification": true
-})
-  // Plagued Set
-event.remove({ id: 'irons_spellbooks:plagued_helmet' })
-event.remove({ id: 'irons_spellbooks:plagued_chestplate' })
-event.remove({ id: 'irons_spellbooks:plagued_leggings' })
-event.remove({ id: 'irons_spellbooks:plagued_boots' })
-event.custom({
-  "type": "overgeared:forging",
-  "blueprint": ["ARMOR"],
-  "requires_blueprint": false,
-  "hammering": 3,
-  "has_quality": true,
-  "minimum_quality": "poor",
-  "needs_minigame": false,
-  "has_polishing": false,
-  "tier": "above_a",
-  "key": {
-    "C": { "item": "irons_spellbooks:magic_cloth" },
-    "R": { "item": "irons_spellbooks:nature_rune" }
-  },
-  "pattern": [
-    "CCC",
-    "CRC"
-  ],
-  "result": { "item": "irons_spellbooks:plagued_helmet" },
-  "show_notification": true
-})
-event.custom({
-  "type": "overgeared:forging",
-  "blueprint": ["ARMOR"],
-  "requires_blueprint": false,
-  "hammering": 3,
-  "has_quality": true,
-  "minimum_quality": "poor",
-  "needs_minigame": false,
-  "has_polishing": false,
-  "tier": "above_a",
-  "key": {
-    "C": { "item": "irons_spellbooks:magic_cloth" },
-    "R": { "item": "irons_spellbooks:nature_rune" }
-  },
-  "pattern": [
-    "CRC",
-    "CCC",
-    "CCC"
-  ],
-  "result": { "item": "irons_spellbooks:plagued_chestplate" },
-  "show_notification": true
-})
-event.custom({
-  "type": "overgeared:forging",
-  "blueprint": ["ARMOR"],
-  "requires_blueprint": false,
-  "hammering": 3,
-  "has_quality": true,
-  "minimum_quality": "poor",
-  "needs_minigame": false,
-  "has_polishing": false,
-  "tier": "above_a",
-  "key": {
-    "C": { "item": "irons_spellbooks:magic_cloth" },
-    "R": { "item": "irons_spellbooks:nature_rune" }
-  },
-  "pattern": [
-    "CCC",
-    "CRC",
-    "C C"
-  ],
-  "result": { "item": "irons_spellbooks:plagued_leggings" },
-  "show_notification": true
-})
-event.custom({
-  "type": "overgeared:forging",
-  "blueprint": ["ARMOR"],
-  "requires_blueprint": false,
-  "hammering": 3,
-  "has_quality": true,
-  "minimum_quality": "poor",
-  "needs_minigame": false,
-  "has_polishing": false,
-  "tier": "above_a",
-  "key": {
-    "C": { "item": "irons_spellbooks:magic_cloth" },
-    "R": { "item": "irons_spellbooks:nature_rune" }
-  },
-  "pattern": [
-    "C C",
-    "CRC"
-  ],
-  "result": { "item": "irons_spellbooks:plagued_boots" },
-  "show_notification": true
-})
-  // Shadowwalker Set
-event.remove({ id: 'irons_spellbooks:shadowwalker_helmet' })
-event.remove({ id: 'irons_spellbooks:shadowwalker_chestplate' })
-event.remove({ id: 'irons_spellbooks:shadowwalker_leggings' })
-event.remove({ id: 'irons_spellbooks:shadowwalker_boots' })
-event.custom({
-  "type": "overgeared:forging",
-  "blueprint": ["ARMOR"],
-  "requires_blueprint": false,
-  "hammering": 3,
-  "has_quality": true,
-  "minimum_quality": "poor",
-  "needs_minigame": false,
-  "has_polishing": false,
-  "tier": "above_a",
-  "key": {
-    "C": { "item": "irons_spellbooks:magic_cloth" },
-    "R": { "item": "irons_spellbooks:ender_rune" }
-  },
-  "pattern": [
-    "CCC",
-    "CRC"
-  ],
-  "result": { "item": "irons_spellbooks:shadowwalker_helmet" },
-  "show_notification": true
-})
-event.custom({
-  "type": "overgeared:forging",
-  "blueprint": ["ARMOR"],
-  "requires_blueprint": false,
-  "hammering": 3,
-  "has_quality": true,
-  "minimum_quality": "poor",
-  "needs_minigame": false,
-  "has_polishing": false,
-  "tier": "above_a",
-  "key": {
-    "C": { "item": "irons_spellbooks:magic_cloth" },
-    "R": { "item": "irons_spellbooks:ender_rune" }
-  },
-  "pattern": [
-    "CRC",
-    "CCC",
-    "CCC"
-  ],
-  "result": { "item": "irons_spellbooks:shadowwalker_chestplate" },
-  "show_notification": true
-})
-event.custom({
-  "type": "overgeared:forging",
-  "blueprint": ["ARMOR"],
-  "requires_blueprint": false,
-  "hammering": 3,
-  "has_quality": true,
-  "minimum_quality": "poor",
-  "needs_minigame": false,
-  "has_polishing": false,
-  "tier": "above_a",
-  "key": {
-    "C": { "item": "irons_spellbooks:magic_cloth" },
-    "R": { "item": "irons_spellbooks:ender_rune" }
-  },
-  "pattern": [
-    "CCC",
-    "CRC",
-    "C C"
-  ],
-  "result": { "item": "irons_spellbooks:shadowwalker_leggings" },
-  "show_notification": true
-})
-event.custom({
-  "type": "overgeared:forging",
-  "blueprint": ["ARMOR"],
-  "requires_blueprint": false,
-  "hammering": 3,
-  "has_quality": true,
-  "minimum_quality": "poor",
-  "needs_minigame": false,
-  "has_polishing": false,
-  "tier": "above_a",
-  "key": {
-    "C": { "item": "irons_spellbooks:magic_cloth" },
-    "R": { "item": "irons_spellbooks:ender_rune" }
-  },
-  "pattern": [
-    "C C",
-    "CRC"
-  ],
-  "result": { "item": "irons_spellbooks:shadowwalker_boots" },
-  "show_notification": true
-})
-  // Archevoker Set
-event.remove({ id: 'irons_spellbooks:archevoker_helmet' })
-event.remove({ id: 'irons_spellbooks:archevoker_chestplate' })
-event.remove({ id: 'irons_spellbooks:archevoker_leggings' })
-event.remove({ id: 'irons_spellbooks:archevoker_boots' })
-event.custom({
-  "type": "overgeared:forging",
-  "blueprint": ["ARMOR"],
-  "requires_blueprint": false,
-  "hammering": 3,
-  "has_quality": true,
-  "minimum_quality": "poor",
-  "needs_minigame": false,
-  "has_polishing": false,
-  "tier": "above_a",
-  "key": {
-    "C": { "item": "irons_spellbooks:magic_cloth" },
-    "R": { "item": "irons_spellbooks:evocation_rune" }
-  },
-  "pattern": [
-    "CCC",
-    "CRC"
-  ],
-  "result": { "item": "irons_spellbooks:archevoker_helmet" },
-  "show_notification": true
-})
-event.custom({
-  "type": "overgeared:forging",
-  "blueprint": ["ARMOR"],
-  "requires_blueprint": false,
-  "hammering": 3,
-  "has_quality": true,
-  "minimum_quality": "poor",
-  "needs_minigame": false,
-  "has_polishing": false,
-  "tier": "above_a",
-  "key": {
-    "C": { "item": "irons_spellbooks:magic_cloth" },
-    "R": { "item": "irons_spellbooks:evocation_rune" }
-  },
-  "pattern": [
-    "CRC",
-    "CCC",
-    "CCC"
-  ],
-  "result": { "item": "irons_spellbooks:archevoker_chestplate" },
-  "show_notification": true
-})
-event.custom({
-  "type": "overgeared:forging",
-  "blueprint": ["ARMOR"],
-  "requires_blueprint": false,
-  "hammering": 3,
-  "has_quality": true,
-  "minimum_quality": "poor",
-  "needs_minigame": false,
-  "has_polishing": false,
-  "tier": "above_a",
-  "key": {
-    "C": { "item": "irons_spellbooks:magic_cloth" },
-    "R": { "item": "irons_spellbooks:evocation_rune" }
-  },
-  "pattern": [
-    "CCC",
-    "CRC",
-    "C C"
-  ],
-  "result": { "item": "irons_spellbooks:archevoker_leggings" },
-  "show_notification": true
-})
-event.custom({
-  "type": "overgeared:forging",
-  "blueprint": ["ARMOR"],
-  "requires_blueprint": false,
-  "hammering": 3,
-  "has_quality": true,
-  "minimum_quality": "poor",
-  "needs_minigame": false,
-  "has_polishing": false,
-  "tier": "above_a",
-  "key": {
-    "C": { "item": "irons_spellbooks:magic_cloth" },
-    "R": { "item": "irons_spellbooks:evocation_rune" }
-  },
-  "pattern": [
-    "C C",
-    "CRC"
-  ],
-  "result": { "item": "irons_spellbooks:archevoker_boots" },
-  "show_notification": true
-})
-  // Electromancer Set
-event.remove({ id: 'irons_spellbooks:electromancer_helmet' })
-event.remove({ id: 'irons_spellbooks:electromancer_chestplate' })
-event.remove({ id: 'irons_spellbooks:electromancer_leggings' })
-event.remove({ id: 'irons_spellbooks:electromancer_boots' })
-event.custom({
-  "type": "overgeared:forging",
-  "blueprint": ["ARMOR"],
-  "requires_blueprint": false,
-  "hammering": 3,
-  "has_quality": true,
-  "minimum_quality": "poor",
-  "needs_minigame": false,
-  "has_polishing": false,
-  "tier": "above_a",
-  "key": {
-    "C": { "item": "irons_spellbooks:magic_cloth" },
-    "R": { "item": "irons_spellbooks:lightning_rune" }
-  },
-  "pattern": [
-    "CCC",
-    "CRC"
-  ],
-  "result": { "item": "irons_spellbooks:electromancer_helmet" },
-  "show_notification": true
-})
-event.custom({
-  "type": "overgeared:forging",
-  "blueprint": ["ARMOR"],
-  "requires_blueprint": false,
-  "hammering": 3,
-  "has_quality": true,
-  "minimum_quality": "poor",
-  "needs_minigame": false,
-  "has_polishing": false,
-  "tier": "above_a",
-  "key": {
-    "C": { "item": "irons_spellbooks:magic_cloth" },
-    "R": { "item": "irons_spellbooks:lightning_rune" }
-  },
-  "pattern": [
-    "CRC",
-    "CCC",
-    "CCC"
-  ],
-  "result": { "item": "irons_spellbooks:electromancer_chestplate" },
-  "show_notification": true
-})
-event.custom({
-  "type": "overgeared:forging",
-  "blueprint": ["ARMOR"],
-  "requires_blueprint": false,
-  "hammering": 3,
-  "has_quality": true,
-  "minimum_quality": "poor",
-  "needs_minigame": false,
-  "has_polishing": false,
-  "tier": "above_a",
-  "key": {
-    "C": { "item": "irons_spellbooks:magic_cloth" },
-    "R": { "item": "irons_spellbooks:lightning_rune" }
-  },
-  "pattern": [
-    "CCC",
-    "CRC",
-    "C C"
-  ],
-  "result": { "item": "irons_spellbooks:electromancer_leggings" },
-  "show_notification": true
-})
-event.custom({
-  "type": "overgeared:forging",
-  "blueprint": ["ARMOR"],
-  "requires_blueprint": false,
-  "hammering": 3,
-  "has_quality": true,
-  "minimum_quality": "poor",
-  "needs_minigame": false,
-  "has_polishing": false,
-  "tier": "above_a",
-  "key": {
-    "C": { "item": "irons_spellbooks:magic_cloth" },
-    "R": { "item": "irons_spellbooks:lightning_rune" }
-  },
-  "pattern": [
-    "C C",
-    "CRC"
-  ],
-  "result": { "item": "irons_spellbooks:electromancer_boots" },
-  "show_notification": true
-})
-  // Battlemage Set
-event.remove({ id: 'irons_spellbooks:netherite_mage_helmet' })
-event.remove({ id: 'irons_spellbooks:netherite_mage_chestplate' })
-event.remove({ id: 'irons_spellbooks:netherite_mage_leggings' })
-event.remove({ id: 'irons_spellbooks:netherite_mage_boots' })
-event.custom({
-  "type": "overgeared:forging",
-  "blueprint": ["ARMOR"],
-  "requires_blueprint": false,
-  "hammering": 3,
-  "has_quality": true,
-  "minimum_quality": "poor",
-  "needs_minigame": false,
-  "has_polishing": false,
-  "tier": "above_a",
-  "key": {
-    "C": { "item": "irons_spellbooks:magic_cloth" },
-    "R": { "item": "minecraft:netherite_ingot" }
-  },
-  "pattern": [
-    "CCC",
-    "CRC"
-  ],
-  "result": { "item": "irons_spellbooks:netherite_mage_helmet" },
-  "show_notification": true
-})
-event.custom({
-  "type": "overgeared:forging",
-  "blueprint": ["ARMOR"],
-  "requires_blueprint": false,
-  "hammering": 3,
-  "has_quality": true,
-  "minimum_quality": "poor",
-  "needs_minigame": false,
-  "has_polishing": false,
-  "tier": "above_a",
-  "key": {
-    "C": { "item": "irons_spellbooks:magic_cloth" },
-    "R": { "item": "minecraft:netherite_ingot" }
-  },
-  "pattern": [
-    "CRC",
-    "CCC",
-    "CCC"
-  ],
-  "result": { "item": "irons_spellbooks:netherite_mage_chestplate" },
-  "show_notification": true
-})
-event.custom({
-  "type": "overgeared:forging",
-  "blueprint": ["ARMOR"],
-  "requires_blueprint": false,
-  "hammering": 3,
-  "has_quality": true,
-  "minimum_quality": "poor",
-  "needs_minigame": false,
-  "has_polishing": false,
-  "tier": "above_a",
-  "key": {
-    "C": { "item": "irons_spellbooks:magic_cloth" },
-    "R": { "item": "minecraft:netherite_ingot" }
-  },
-  "pattern": [
-    "CCC",
-    "CRC",
-    "C C"
-  ],
-  "result": { "item": "irons_spellbooks:netherite_mage_leggings" },
-  "show_notification": true
-})
-event.custom({
-  "type": "overgeared:forging",
-  "blueprint": ["ARMOR"],
-  "requires_blueprint": false,
-  "hammering": 3,
-  "has_quality": true,
-  "minimum_quality": "poor",
-  "needs_minigame": false,
-  "has_polishing": false,
-  "tier": "above_a",
-  "key": {
-    "C": { "item": "irons_spellbooks:magic_cloth" },
-    "R": { "item": "minecraft:netherite_ingot" }
-  },
-  "pattern": [
-    "C C",
-    "CRC"
-  ],
-  "result": { "item": "irons_spellbooks:netherite_mage_boots" },
-  "show_notification": true
-})
-  // Priest Set
-event.remove({ id: 'irons_spellbooks:priest_helmet' })
-event.remove({ id: 'irons_spellbooks:priest_chestplate' })
-event.remove({ id: 'irons_spellbooks:priest_leggings' })
-event.remove({ id: 'irons_spellbooks:priest_boots' })
-event.custom({
-  "type": "overgeared:forging",
-  "blueprint": ["ARMOR"],
-  "requires_blueprint": false,
-  "hammering": 3,
-  "has_quality": true,
-  "minimum_quality": "poor",
-  "needs_minigame": false,
-  "has_polishing": false,
-  "tier": "above_a",
-  "key": {
-    "C": { "item": "irons_spellbooks:magic_cloth" },
-    "R": { "item": "irons_spellbooks:holy_rune" }
-  },
-  "pattern": [
-    "CCC",
-    "CRC"
-  ],
-  "result": { "item": "irons_spellbooks:priest_helmet" },
-  "show_notification": true
-})
-event.custom({
-  "type": "overgeared:forging",
-  "blueprint": ["ARMOR"],
-  "requires_blueprint": false,
-  "hammering": 3,
-  "has_quality": true,
-  "minimum_quality": "poor",
-  "needs_minigame": false,
-  "has_polishing": false,
-  "tier": "above_a",
-  "key": {
-    "C": { "item": "irons_spellbooks:magic_cloth" },
-    "R": { "item": "irons_spellbooks:holy_rune" }
-  },
-  "pattern": [
-    "CRC",
-    "CCC",
-    "CCC"
-  ],
-  "result": { "item": "irons_spellbooks:priest_chestplate" },
-  "show_notification": true
-})
-event.custom({
-  "type": "overgeared:forging",
-  "blueprint": ["ARMOR"],
-  "requires_blueprint": false,
-  "hammering": 3,
-  "has_quality": true,
-  "minimum_quality": "poor",
-  "needs_minigame": false,
-  "has_polishing": false,
-  "tier": "above_a",
-  "key": {
-    "C": { "item": "irons_spellbooks:magic_cloth" },
-    "R": { "item": "irons_spellbooks:holy_rune" }
-  },
-  "pattern": [
-    "CCC",
-    "CRC",
-    "C C"
-  ],
-  "result": { "item": "irons_spellbooks:priest_leggings" },
-  "show_notification": true
-})
-event.custom({
-  "type": "overgeared:forging",
-  "blueprint": ["ARMOR"],
-  "requires_blueprint": false,
-  "hammering": 3,
-  "has_quality": true,
-  "minimum_quality": "poor",
-  "needs_minigame": false,
-  "has_polishing": false,
-  "tier": "above_a",
-  "key": {
-    "C": { "item": "irons_spellbooks:magic_cloth" },
-    "R": { "item": "irons_spellbooks:holy_rune" }
-  },
-  "pattern": [
-    "C C",
-    "CRC"
-  ],
-  "result": { "item": "irons_spellbooks:priest_boots" },
+  "result": { "item": "irons_spellbooks:wizard_boots" },
   "show_notification": true
 })
 
-  // Aquamancer Set
-event.remove({ id: 'traveloptics:deepling_mage_armor_helmet' })
-event.remove({ id: 'traveloptics:deepling_mage_armor_robe' })
-event.remove({ id: 'traveloptics:deepling_mage_armor_leggings' })
-event.remove({ id: 'traveloptics:deepling_mage_armor_boots' })
-event.custom({
-  "type": "overgeared:forging",
-  "blueprint": ["ARMOR"],
-  "requires_blueprint": false,
-  "hammering": 3,
-  "has_quality": true,
-  "minimum_quality": "poor",
-  "needs_minigame": false,
-  "has_polishing": false,
-  "tier": "above_a",
-  "key": {
-    "C": { "item": "irons_spellbooks:magic_cloth" },
-    "R": { "item": "traveloptics:aqua_rune" }
-  },
-  "pattern": [
-    "CCC",
-    "CRC"
-  ],
-  "result": { "item": "traveloptics:deepling_mage_armor_helmet" },
-  "show_notification": true
-})
-event.custom({
-  "type": "overgeared:forging",
-  "blueprint": ["ARMOR"],
-  "requires_blueprint": false,
-  "hammering": 3,
-  "has_quality": true,
-  "minimum_quality": "poor",
-  "needs_minigame": false,
-  "has_polishing": false,
-  "tier": "above_a",
-  "key": {
-    "C": { "item": "irons_spellbooks:magic_cloth" },
-    "R": { "item": "traveloptics:aqua_rune" }
-  },
-  "pattern": [
-    "CRC",
-    "CCC",
-    "CCC"
-  ],
-  "result": { "item": "traveloptics:deepling_mage_armor_robe" },
-  "show_notification": true
-})
-event.custom({
-  "type": "overgeared:forging",
-  "blueprint": ["ARMOR"],
-  "requires_blueprint": false,
-  "hammering": 3,
-  "has_quality": true,
-  "minimum_quality": "poor",
-  "needs_minigame": false,
-  "has_polishing": false,
-  "tier": "above_a",
-  "key": {
-    "C": { "item": "irons_spellbooks:magic_cloth" },
-    "R": { "item": "traveloptics:aqua_rune" }
-  },
-  "pattern": [
-    "CCC",
-    "CRC",
-    "C C"
-  ],
-  "result": { "item": "traveloptics:deepling_mage_armor_leggings" },
-  "show_notification": true
-})
-event.custom({
-  "type": "overgeared:forging",
-  "blueprint": ["ARMOR"],
-  "requires_blueprint": false,
-  "hammering": 3,
-  "has_quality": true,
-  "minimum_quality": "poor",
-  "needs_minigame": false,
-  "has_polishing": false,
-  "tier": "above_a",
-  "key": {
-    "C": { "item": "irons_spellbooks:magic_cloth" },
-    "R": { "item": "traveloptics:aqua_rune" }
-  },
-  "pattern": [
-    "C C",
-    "CRC"
-  ],
-  "result": { "item": "traveloptics:deepling_mage_armor_boots" },
-  "show_notification": true
-})
-
+  //Deepling Mage
+event.remove({ output: 'traveloptics:deepling_mage_armor_helmet' })
+event.remove({ output: 'traveloptics:deepling_mage_armor_robe' })
+event.remove({ output: 'traveloptics:deepling_mage_armor_leggings' })
+event.remove({ output: 'traveloptics:deepling_mage_armor_boots' })
+event.smithing('traveloptics:deepling_mage_armor_helmet', 'traveloptics:aqua_rune', 'irons_spellbooks:wizard_helmet', 'irons_spellbooks:arcane_essence')
+event.smithing('traveloptics:deepling_mage_armor_robe', 'traveloptics:aqua_rune', 'irons_spellbooks:wizard_chestplate', 'irons_spellbooks:arcane_essence')
+event.smithing('traveloptics:deepling_mage_armor_leggings', 'traveloptics:aqua_rune', 'irons_spellbooks:wizard_leggings', 'irons_spellbooks:arcane_essence')
+event.smithing('traveloptics:deepling_mage_armor_boots', 'traveloptics:aqua_rune', 'irons_spellbooks:wizard_boots', 'irons_spellbooks:arcane_essence')
 //============//
 
 //CIĘŻKIE ZBROJE

@@ -35,7 +35,7 @@
 },
 {
   "structure": "biomeswevegone:ironwood_gour_plateau",
-  "factor": 1.0
+  "factor": 0.6
 },
 {
   "structure": "biomeswevegone:large_cold_lake",
@@ -67,11 +67,11 @@
 },
 {
   "structure": "takesapillage:bastille",
-  "factor": 1.3
+  "factor": 1.2
 },
 {
   "structure": "takesapillage:pillager_camp",
-  "factor": 1.3
+  "factor": 1.2
 },
 {
   "structure": "traveloptics:void_cathedral",
@@ -100,6 +100,10 @@
 {
   "structure": "aether_villages:aether_villages_structures",
   "factor": 1.5
+},
+{
+  "structure": "explore_ruins_aether:aether_structures",
+  "factor": 1.2
 },
 {
   "structure": "alexscaves:abyssal_ruins",
@@ -255,19 +259,19 @@
 },
 {
   "structure": "born_in_chaos_v1:dark_tower_forest",
-  "factor": 1.2
+  "factor": 1.1
 },
 {
   "structure": "born_in_chaos_v1:dark_tower_plain",
-  "factor": 1.2
+  "factor": 1.1
 },
 {
   "structure": "born_in_chaos_v1:dark_tower_taiga",
-  "factor": 1.2
+  "factor": 1.1
 },
 {
   "structure": "born_in_chaos_v1:farm",
-  "factor": 1.3
+  "factor": 1.2
 },
 {
   "structure": "born_in_chaos_v1:firewell",
@@ -422,8 +426,40 @@
   "factor": 1.0
 },
 {
+  "structure": "idas:idas_common",
+  "factor": 1.2
+},
+{
+  "structure": "idas:idas_nether",
+  "factor": 1.2
+},
+{
+  "structure": "idas:idas_ocean",
+  "factor": 1.2
+},
+{
   "structure": "idas:idas_rare",
   "factor": 1.2
+},
+{
+  "structure": "idas:idas_small",
+  "factor": 1.2
+},
+{
+  "structure": "idas:idas_small_nether",
+  "factor": 1.2
+},
+{
+  "structure": "idas:idas_underground",
+  "factor": 1.2
+},
+{
+  "structure": "idas:idas_underground_rare",
+  "factor": 1.2
+},
+{
+  "structure": "integrated_villages:air_villages",
+  "factor": 0.0
 },
 {
   "structure": "incendium:greater_structures",
@@ -434,16 +470,12 @@
   "factor": 1.3
 },
 {
-  "structure": "integrated_villages:air_villages",
-  "factor": 1.7
-},
-{
   "structure": "irons_spellbooks:ancient_battleground",
-  "factor": 1.4
+  "factor": 1.3
 },
 {
   "structure": "irons_spellbooks:catacombs",
-  "factor": 1.3
+  "factor": 1.1
 },
 {
   "structure": "irons_spellbooks:evoker_fort",
@@ -464,6 +496,26 @@
 {
   "structure": "irons_spellbooks:pyromancer_tower",
   "factor": 1.4
+},
+{
+  "structure": "irons_spellbooks:citadel",
+  "factor": 1.0
+},
+{
+  "structure": "irons_spellbooks:ice_spider_den",
+  "factor": 1.0
+},
+{
+  "structure": "joshie:village_ocean",
+  "factor": 1.3
+},
+{
+  "structure": "kobolds:kobold_den",
+  "factor": 1.2
+},
+{
+  "structure": "kobolds:kobold_den_pirate",
+  "factor": 1.2
 },
 {
   "structure": "lost_aether_content:platinum_dungeon",
@@ -776,6 +828,14 @@
 {
   "structure": "wabi_sabi_structures:totem_pole",
   "factor": 0.0
+},
+{
+  "structure": "warriorsofpastepoch:musketeer_fort",
+  "factor": 1.3
+},
+{
+  "structure": "warriorsofpastepoch:plague_village",
+  "factor": 1.3
 }
     // add the structures you want to modify in the format:
     // (don't forget to remove "//", and use dots for decimal numbers)

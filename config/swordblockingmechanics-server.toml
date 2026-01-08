@@ -23,7 +23,7 @@ knockback_reduction = 0.5
 protection_arc = 120.0
 #The strength a parried attacker will be knocked back by.
 #Range: 0.1 ~ 5.0
-parry_knockback_strength = 0.8
+parry_knockback_strength = 0.7
 #Damage sword when successfully parrying depending on the amount of damage blocked. Sword is only damaged when at least three damage points have been parried, just like a shield.
 damage_sword_on_parry = true
 #Incoming projectiles such as arrows or tridents will ricochet while blocking.

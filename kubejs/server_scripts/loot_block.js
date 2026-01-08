@@ -21,8 +21,16 @@ event.addBlockLootModifier("overgeared:stone_anvil").replaceLoot("minecraft:cobb
 //No Diamonds from Lucky Rock
 event.addLootTableModifier("majruszsaccessories:gameplay/lucky_rock_default").removeLoot("minecraft:diamond");
 
-//No basicweapons
+//No OP rings in chests
 event.addLootTypeModifier(LootType.CHEST)
+    .removeLoot("irons_spellbooks:mana_ring")
+    .removeLoot("irons_spellbooks:emerald_stoneplate_ring")
+    .removeLoot("irons_spellbooks:fireward_ring")
+    .removeLoot("irons_spellbooks:frostward_ring")
+    .removeLoot("irons_spellbooks:poisonward_ring")
+    .removeLoot("irons_spellbooks:concentration_amulet")
+
+//No extra SimplyMore
     .removeLoot("simplymore:stasis")
     .removeLoot("simplymore:iron_backhand_blade")
     .removeLoot("simplymore:gold_backhand_blade")
@@ -33,6 +41,8 @@ event.addLootTypeModifier(LootType.CHEST)
     .removeLoot("simplymore:diamond_dagger")
     .removeLoot("simplymore:netherite_dagger")
     .removeLoot("simplymore:runic_dagger")
+
+//No basicweapons
     .removeLoot("basicweapons:iron_spear")
     .removeLoot("basicweapons:golden_spear")
     .removeLoot("basicweapons:diamond_spear")

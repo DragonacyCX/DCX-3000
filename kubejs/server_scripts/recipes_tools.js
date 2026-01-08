@@ -421,7 +421,7 @@ event.remove({ output: 'caverns_and_chasms:silver_pickaxe'})
 event.remove({ output: 'caverns_and_chasms:silver_axe'})
 event.remove({ output: 'caverns_and_chasms:silver_shovel'})
 event.remove({ output: 'caverns_and_chasms:silver_hoe'})
-event.remove({ id: 'abnormals_delight:silver_knife'})
+event.remove({ output: 'abnormals_delight:silver_knife'})
 event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
@@ -2071,5 +2071,40 @@ event.shaped(
         T: 'luckys_armory:smithing_template_leather_upgrade',
     }
 ).id('dcx:bundle');
+
+    //Furled Map [Infested Ruin]
+event.remove({ output: 'irons_spellbooks:furled_map_ice_spider_den' })
+event.shaped(
+    Item.of('irons_spellbooks:furled_map_ice_spider_den', 1), // Output
+    [
+        'RSF',
+        'STS',
+        'FSR'
+    ], 
+    {
+        S: 'minecraft:cobweb',
+        R: 'irons_spellbooks:frozen_bone',
+        T: 'irons_spellbooks:magic_cloth',
+        F: 'born_in_chaos_v1:spider_mandible',
+    })
+
+//AKCESORIA
+  //Silver Ring
+event.shaped(
+        Item.of('irons_spellbooks:silver_ring', 1), // Output
+        [
+            ' B ',
+            'B B',
+            ' B '
+        ], 
+        {
+            B: 'oreganized:silver_ingot',
+        })
+
+  //Emerald Stoneplate Ring
+event.replaceInput(
+  { output: 'irons_spellbooks:emerald_stoneplate_ring' },
+  'minecraft:experience_bottle',
+  'dungeonnowloading:great_experience_bottle')
 
 })

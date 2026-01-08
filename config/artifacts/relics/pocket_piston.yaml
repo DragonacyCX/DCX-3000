@@ -64,4 +64,4 @@ lootData:
     entries:
         '[\w]+:chests\/[\w_\/]*village[\w_\/]*': 0.01
         minecraft:chests/village/village_fletcher: 0.015
-        '[\w]+:chests\/[\w_\/]*(mineshaft|city|stronghold)[\w_\/]*': 0.015
+        '[\w]+:chests\/[\w_\/]*(mineshaft|city|stronghold)[\w_\/]*': 0.01

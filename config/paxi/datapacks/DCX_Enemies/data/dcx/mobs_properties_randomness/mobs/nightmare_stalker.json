@@ -4,7 +4,7 @@
     [
         {
             "property": "potion_effect",
-            "effect": "alexsmobs:knockback_resistance",
+            "effect": "enemyexpansion:overtime",
             "amplifier": {
             "min": 0,
             "max": 0

@@ -1,0 +1,22 @@
+{
+    "replace": false,
+    "values": [
+      "aether:sun_spirit",
+      "aquamirae:tortured_soul",
+      "alexsmobs:underminer",
+      "alexsmobs:soul_vulture",
+      "alexsmobs:spectre",
+      "alexsmobs:guster",
+      "blue_skies:frost_spirit",
+      "blue_skies:armored_frost_spirit",
+      "caverns_and_chasms:glare",
+      "quark:wraith",
+      "graveyard:wraith",
+      "twilightforest:wraith",
+      "irons_spellbooks:citadel_keeper",
+      "irons_spellbooks:summoned_vex",
+      "gravestone:player_ghost",
+      "mowziesmobs:bluff"
+    ]
+  }
+  

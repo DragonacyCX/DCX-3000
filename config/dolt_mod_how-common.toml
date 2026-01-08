@@ -133,6 +133,10 @@
 		#If tremorzillas should no longer passively break all blocks in its hitbox. Blocks are still broken when the tremorzilla attacks, or with its beam attack.
 		"Marginally Less Griefy Tremorzillas" = true
 
+	["Alexander Caverns"."Gingerbread Men"]
+		#If gingerbread men should drop windswept gingerbread cookies instead of gingerbread crumps
+		"This Only Makes Sense In Dolt Modpack" = false
+
 ["Dungeon's Delight"]
 
 	["Dungeon's Delight"."Brewing and Chewing Wardenzola"]
@@ -160,4 +164,15 @@
 		#If bone rods should be placed by right clicking vanilla bones, instead of having a new bone rod item
 		#This will not change the loot table or recipe for bone rods. Modpack devs are expected to change those themselves
 		"Bone ahh bone" = false
+
+["From the Ground Up / ftgu"]
+
+	["From the Ground Up / ftgu".Creepers]
+		#Removes the Doomed effect, creates preparations to allow charged creepers to naturally spawn during thunderstorms. Spawns must still be manually added by the modpack dev.
+		"Based Charged Creepers" = false
+		#If spore rockets explosions should create a Spore Cloud from Savage and Ravage
+		"Spore Bomb Two" = true
+		#The chance, out of 100, that a spore rocket will summon a spore cloud
+		#Range: 0 ~ 100
+		"Spore rocket possibilities" = 100
 

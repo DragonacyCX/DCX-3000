@@ -2,7 +2,7 @@
 	"enableLootInVillages": false,
 	"goldLootWeight": 0.004,
 	"ironLootWeight": 0.004,
-	"diamondLootWeight": 0.0015,
+	"diamondLootWeight": 0.001,
 	"netheriteLootWeight": 0.0,
 	"runicLootWeight": 0.0,
 	"uniqueLootWeight": 0.0010000000474974513,

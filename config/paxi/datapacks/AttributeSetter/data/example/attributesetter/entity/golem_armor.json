@@ -1,0 +1,9 @@
+{
+  "minecraft:iron_golem": [
+    {
+      "attribute": "minecraft:generic.armor",
+      "value": 15,
+      "operation": "BASE"
+    }
+  ]
+}

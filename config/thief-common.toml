@@ -27,7 +27,7 @@
 	max_notice_distance = 30
 	# Distance (in blocks) at which an entity always notices a crime, even through blocks. This value is halved when entity is sleeping.
 	#Range: 0 ~ 64
-	always_notice_distance = 6
+	always_notice_distance = 4
 
 [punishment]
 	# Minimum reputation level needed for a villager to trade with the player. Anything lower will prevent the trade.

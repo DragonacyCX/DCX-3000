@@ -36,17 +36,12 @@ levelingData:
 lootData:
     # List of key-value pairs where the key is a textual identifier for the loot table (supporting regular expressions) and the value represents the probability of generating the relic within the specified bounds
     entries:
-        '[\w]+:chests\/[\w_\/]*(jungle|temple)[\w_\/]*': 0.015
-        '[\w]+:chests\/[\w_\/]*(frosz?|taiga|cold|winter|snow|icey?|glac)[\w_\/]*': 0.015
+        '[\w]+:chests\/[\w_\/]*temple[\w_\/]*': 0.015
         minecraft:chests/woodland_mansion: 0.015
-        '[\w]+:chests\/[\w_\/]*village[\w_\/]*': 0.0
-        '[\w]+:chests\/[\w_\/]*(warden|sculk|echo)[\w_\/]*': 0.015
-        '[\w]+:chests\/[\w_\/]*(desert|sand|pyramid)[\w_\/]*': 0.015
-        minecraft:chests/buried_treasure: 0.015
-        '[\w]+:chests\/[\w_\/]*(mineshaft|city|stronghold)[\w_\/]*': 0.015
+        '[\w]+:chests\/[\w_\/]*(warden|sculk|echo)[\w_\/]*': 0.01
+        minecraft:chests/buried_treasure: 0.01
+        '[\w]+:chests\/[\w_\/]*(mineshaft|city|stronghold)[\w_\/]*': 0.01
         minecraft:chests/ancient_city_ice_box: 0.015
         '[\w]+:chests\/[\w_\/]*(pillag|outpost)[\w_\/]*': 0.015
-        minecraft:chests/village/village_fletcher: 0.0
         minecraft:chests/ancient_city: 0.015
-        '[\w]+:chests\/[\w_\/]*(water|ocean|river|(?<!air)ship|aqua)[\w_\/]*': 0.015
         minecraft:chests/igloo_chest: 0.015

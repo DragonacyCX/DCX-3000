@@ -1,0 +1,14 @@
+{
+  "#dcx:integrated_simply_swords_electrum": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": -1.0,
+      "operation": "ADDITION"
+    },
+    {
+      "attribute": "oreganized:kinetic_damage",
+      "value": 2.0,
+      "operation": "ADDITION"
+    }
+  ]
+}

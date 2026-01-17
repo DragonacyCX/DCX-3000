@@ -2089,18 +2089,6 @@ event.shaped(
     })
 
 //AKCESORIA
-  //Silver Ring
-event.shaped(
-        Item.of('irons_spellbooks:silver_ring', 1), // Output
-        [
-            ' B ',
-            'B B',
-            ' B '
-        ], 
-        {
-            B: 'oreganized:silver_ingot',
-        })
-
   //Emerald Stoneplate Ring
 event.replaceInput(
   { output: 'irons_spellbooks:emerald_stoneplate_ring' },

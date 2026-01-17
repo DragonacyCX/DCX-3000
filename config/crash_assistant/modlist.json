@@ -158,12 +158,12 @@
     "curseForgeHash": 2421938229,
     "modrinthHash": "24943e5efe95c10367259a7bbd13874ca56ebf0a"
   },
-  "AmbientSounds_FORGE_v6.3.1_mc1.20.1.jar": {
-    "jarName": "AmbientSounds_FORGE_v6.3.1_mc1.20.1.jar",
+  "AmbientSounds_FORGE_v6.3.3_mc1.20.1.jar": {
+    "jarName": "AmbientSounds_FORGE_v6.3.3_mc1.20.1.jar",
     "modId": "ambientsounds",
-    "version": "6.3.1",
-    "curseForgeHash": 1168047345,
-    "modrinthHash": "b6c676fbe4e586de6c266190943c069a0a49104d"
+    "version": "6.3.3",
+    "curseForgeHash": 1083459992,
+    "modrinthHash": "b4a0e4937db9c83ec82a6809f8d53ab2b9e7a62c"
   },
   "amendments-1.20-2.2.3.jar": {
     "jarName": "amendments-1.20-2.2.3.jar",
@@ -1228,6 +1228,13 @@
     "curseForgeHash": 2391171831,
     "modrinthHash": "0b21651dc768383bcd4b6cc417335b4c43d208b3"
   },
+  "galosphere_spellbooks-1.1.1.jar": {
+    "jarName": "galosphere_spellbooks-1.1.1.jar",
+    "modId": "galosphere_spellbooks",
+    "version": "1.1.1",
+    "curseForgeHash": 701338220,
+    "modrinthHash": "54ec5ebe226e07277143623caf151a1107caefd6"
+  },
   "galospheric_delight-1.20.1-6.42.jar": {
     "jarName": "galospheric_delight-1.20.1-6.42.jar",
     "modId": "galospheric_delight",
@@ -1807,12 +1814,12 @@
     "curseForgeHash": 719002833,
     "modrinthHash": "ef3a1a4c2eb26e5be6d3abc0f03e7d74cdf64b3a"
   },
-  "multiplayerspawners-forge-1.20.1-1.0.3.jar": {
-    "jarName": "multiplayerspawners-forge-1.20.1-1.0.3.jar",
+  "Multiplayer Spawners - Forge - 1.20.1 - 1.1.0.jar": {
+    "jarName": "Multiplayer Spawners - Forge - 1.20.1 - 1.1.0.jar",
     "modId": "multiplayerspawners",
-    "version": "1.0.3",
-    "curseForgeHash": 2755048653,
-    "modrinthHash": "9473b716357fc4e6daec73a8d31c1fb6fc20735a"
+    "version": "1.1.0",
+    "curseForgeHash": 1213515324,
+    "modrinthHash": "4d6e216f5b4bce692cb255bb35437e468cc725ca"
   },
   "MutantMonsters-v8.0.8-1.20.1-Forge.jar": {
     "jarName": "MutantMonsters-v8.0.8-1.20.1-Forge.jar",
@@ -2157,6 +2164,13 @@
     "curseForgeHash": 1715840423,
     "modrinthHash": "804cb20635bec6d708617fb22e6bd62bed27a7a7"
   },
+  "refined_mod-1.20.1-1.1.0.jar": {
+    "jarName": "refined_mod-1.20.1-1.1.0.jar",
+    "modId": "refined_mod",
+    "version": "1.20.1-1.1.0",
+    "curseForgeHash": 1851034908,
+    "modrinthHash": "888cb821982f2ddea56c647e7ce865f066845d00"
+  },
   "relics-1.20.1-0.8.0.11.jar": {
     "jarName": "relics-1.20.1-0.8.0.11.jar",
     "modId": "relics",
@@ -2248,12 +2262,19 @@
     "curseForgeHash": 3446581747,
     "modrinthHash": "75c6418edc76da55ec89f417e8c43c9d1873fceb"
   },
-  "ShoulderSurfing-Forge-1.20.1-4.18.1.jar": {
-    "jarName": "ShoulderSurfing-Forge-1.20.1-4.18.1.jar",
+  "shoulder_surfing_irons_spells_integration-0.0.8-mc1.20.1-forge.jar": {
+    "jarName": "shoulder_surfing_irons_spells_integration-0.0.8-mc1.20.1-forge.jar",
+    "modId": "shoulder_surfing_irons_spells_integration",
+    "version": "0.0.8",
+    "curseForgeHash": 988481866,
+    "modrinthHash": "7ed27aa179f45d116ce2117a29ea23d235b64cc2"
+  },
+  "ShoulderSurfing-Forge-1.20.1-4.18.2.jar": {
+    "jarName": "ShoulderSurfing-Forge-1.20.1-4.18.2.jar",
     "modId": "shouldersurfing",
-    "version": "1.20.1-4.18.1",
-    "curseForgeHash": 1413955737,
-    "modrinthHash": "77b9cd4384a622f709ae69decb3ad4e6e44afe38"
+    "version": "1.20.1-4.18.2",
+    "curseForgeHash": 197734397,
+    "modrinthHash": "2385592f8a4101edd6627ce2a75811368e5d6abd"
   },
   "simplest_hammers-1.20.1-1.1.4.jar": {
     "jarName": "simplest_hammers-1.20.1-1.1.4.jar",
@@ -2310,13 +2331,6 @@
     "version": "8.0.1",
     "curseForgeHash": 832823702,
     "modrinthHash": "4704f3f4e3b06967d7f8e7ddcb704bf79b155395"
-  },
-  "smallships-forge-1.20.1-2.0.0-b1.4.jar": {
-    "jarName": "smallships-forge-1.20.1-2.0.0-b1.4.jar",
-    "modId": "smallships",
-    "version": "2.0.0-b1.4",
-    "curseForgeHash": 3450945761,
-    "modrinthHash": "9998ddc8a278e0b87ab642d289ae2a1e3dbebef6"
   },
   "sodiumdynamiclights-forge-1.0.10-1.20.1.jar": {
     "jarName": "sodiumdynamiclights-forge-1.0.10-1.20.1.jar",
@@ -2668,12 +2682,12 @@
     "curseForgeHash": 705587993,
     "modrinthHash": "2daeeeedb2251ef8202d68b586072e8262d4bee7"
   },
-  "underground_rooms-2.1.5.jar": {
-    "jarName": "underground_rooms-2.1.5.jar",
+  "underground_rooms-2.1.6.jar": {
+    "jarName": "underground_rooms-2.1.6.jar",
     "modId": "underground_rooms",
-    "version": "2.1.5",
-    "curseForgeHash": 103743261,
-    "modrinthHash": "8e6836f13148031fa686962a57db167c39b3eda0"
+    "version": "2.1.6",
+    "curseForgeHash": 708844417,
+    "modrinthHash": "af30eec28ea4c0910d2885b0ebe7965647068ce1"
   },
   "upgrade_aquatic-1.20.1-6.0.3.jar": {
     "jarName": "upgrade_aquatic-1.20.1-6.0.3.jar",
@@ -2745,12 +2759,12 @@
     "curseForgeHash": 2859683856,
     "modrinthHash": "e055b65d4d4cb5e1f4001fea1f9b2b9a6353af89"
   },
-  "waystones-forge-1.20.1-14.1.17.jar": {
-    "jarName": "waystones-forge-1.20.1-14.1.17.jar",
+  "waystones-forge-1.20.1-14.1.18.jar": {
+    "jarName": "waystones-forge-1.20.1-14.1.18.jar",
     "modId": "waystones",
-    "version": "14.1.17",
-    "curseForgeHash": 2179640189,
-    "modrinthHash": "0572e124fa1af248b5b978d7c615fb31629103e5"
+    "version": "14.1.18",
+    "curseForgeHash": 567290434,
+    "modrinthHash": "d1efe8340c77676a1f67c8b7fb713e5e0c965c9f"
   },
   "weaponmaster_ydm-forge-1.20.1-4.2.3.jar": {
     "jarName": "weaponmaster_ydm-forge-1.20.1-4.2.3.jar",
@@ -2758,6 +2772,13 @@
     "version": "4.2.3",
     "curseForgeHash": 4255693599,
     "modrinthHash": "9fe819dc110461f55909dabbed73e4fe3bdde158"
+  },
+  "whaleborne-1.20.1_beta-1.2.1.jar": {
+    "jarName": "whaleborne-1.20.1_beta-1.2.1.jar",
+    "modId": "whaleborne",
+    "version": "1.20.1_beta-1.2.1",
+    "curseForgeHash": 89567455,
+    "modrinthHash": "f343784eb2804d552e3cc8babdaf73ad9798305e"
   },
   "XaeroPlus-2.30.0+forge-1.20.1-WM1.40.2-MM25.3.2.jar": {
     "jarName": "XaeroPlus-2.30.0+forge-1.20.1-WM1.40.2-MM25.3.2.jar",

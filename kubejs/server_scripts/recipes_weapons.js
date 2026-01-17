@@ -2256,36 +2256,6 @@ event.custom({
     "show_notification": true
   });
 
-//Stalowe Rzeczy
- event.custom({
-    "type": "overgeared:forging",
-    "category": "equipment",
-    "blueprint": "HEAVYWEAPONS",
-    "requires_blueprint": false,
-    "hammering": 3,
-    "has_quality": true,
-    "minimum_quality": "poor",
-    "needs_minigame": false,
-    "has_polishing": false,
-    "key": {
-      "C": {
-        "item": "overgeared:heated_iron_ingot"
-      },
-      "P": {
-        "item": "spartanweaponry:pole"
-      }
-    },
-    "pattern": [
-      "  C",
-      " P ",
-      "C  "
-    ],
-    "result": {
-      "item": "simplyswords:iron_twinblade"
-    },
-    "show_notification": true
-  });
-
   //Stalowe rzeczy
 event.remove({ input: 'overgeared:steel_sword_blade' })
 event.remove({ output: 'overgeared:steel_sword_blade' })
@@ -2314,6 +2284,547 @@ event.custom({
     ],
     "result": {
       "item": "overgeared:steel_sword"
+    },
+    "show_notification": true
+  });
+  //Basic
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "LIGHTWEAPONS",
+    "requires_blueprint": false,
+    "hammering": 4,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "overgeared:heated_steel_ingot"
+      },
+      "H": {
+        "item": "spartanweaponry:handle"
+      }
+    },
+    "pattern": [
+      "C  ",
+      " H ",
+      "   "
+    ],
+    "result": {
+      "item": "kubejs:steel_dagger"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "LIGHTWEAPONS",
+    "requires_blueprint": false,
+    "hammering": 4,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "overgeared:heated_steel_ingot"
+      },
+      "H": {
+        "item": "spartanweaponry:handle"
+      }
+    },
+    "pattern": [
+      "  C",
+      " C ",
+      " H "
+    ],
+    "result": {
+      "item": "kubejs:steel_club"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "HEAVYWEAPONS",
+    "requires_blueprint": false,
+    "hammering": 4,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "overgeared:heated_steel_ingot"
+      },
+      "P": {
+        "item": "spartanweaponry:pole"
+      }
+    },
+    "pattern": [
+      "  P",
+      " C ",
+      "P  "
+    ],
+    "result": {
+      "item": "kubejs:steel_quarterstaff"
+    },
+    "show_notification": true
+  });
+  //Simply
+    //LIGHTWEAPONS
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "LIGHTWEAPONS",
+    "requires_blueprint": false,
+    "hammering": 4,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "overgeared:heated_steel_ingot"
+      },
+      "H": {
+        "item": "spartanweaponry:handle"
+      },
+      "N": {
+        "item": "overgeared:steel_nugget"
+      }
+    },
+    "pattern": [
+      "NCN",
+      "C C",
+      "NHN"
+    ],
+    "result": {
+      "item": "integrated_simply_swords:born_in_chaos/dark_metal/chakram"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "LIGHTWEAPONS",
+    "requires_blueprint": false,
+    "hammering": 4,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "overgeared:heated_steel_ingot"
+      },
+      "H": {
+        "item": "spartanweaponry:handle"
+      },
+      "N": {
+        "item": "overgeared:steel_nugget"
+      }
+    },
+    "pattern": [
+      " N ",
+      "CC ",
+      "H  "
+    ],
+    "result": {
+      "item": "integrated_simply_swords:born_in_chaos/dark_metal/cutlass"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "LIGHTWEAPONS",
+    "requires_blueprint": false,
+    "hammering": 4,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "overgeared:heated_steel_ingot"
+      },
+      "H": {
+        "item": "spartanweaponry:handle"
+      }
+    },
+    "pattern": [
+      "H  ",
+      " C ",
+      "  C"
+    ],
+    "result": {
+      "item": "integrated_simply_swords:born_in_chaos/dark_metal/longsword"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "LIGHTWEAPONS",
+    "requires_blueprint": false,
+    "hammering": 4,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "overgeared:heated_steel_ingot"
+      },
+      "H": {
+        "item": "spartanweaponry:handle"
+      }
+    },
+    "pattern": [
+      "  C",
+      " C ",
+      "H  "
+    ],
+    "result": {
+      "item": "integrated_simply_swords:born_in_chaos/dark_metal/rapier"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "LIGHTWEAPONS",
+    "requires_blueprint": false,
+    "hammering": 4,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "overgeared:heated_steel_ingot"
+      },
+      "H": {
+        "item": "spartanweaponry:handle"
+      }
+    },
+    "pattern": [
+      " C ",
+      "H  ",
+      "   "
+    ],
+    "result": {
+      "item": "integrated_simply_swords:born_in_chaos/dark_metal/sai"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "LIGHTWEAPONS",
+    "requires_blueprint": false,
+    "hammering": 4,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "overgeared:heated_steel_ingot"
+      },
+      "H": {
+        "item": "spartanweaponry:handle"
+      },
+      "P": {
+        "item": "spartanweaponry:pole"
+      }
+    },
+    "pattern": [
+      " C ",
+      " H ",
+      " P "
+    ],
+    "result": {
+      "item": "integrated_simply_swords:born_in_chaos/dark_metal/spear"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "LIGHTWEAPONS",
+    "requires_blueprint": false,
+    "hammering": 4,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "overgeared:heated_steel_ingot"
+      },
+      "H": {
+        "item": "spartanweaponry:handle"
+      },
+      "N": {
+        "item": "overgeared:steel_nugget"
+      }
+    },
+    "pattern": [
+      "   ",
+      " N ",
+      "CHC"
+    ],
+    "result": {
+      "item": "integrated_simply_swords:born_in_chaos/dark_metal/warglaive"
+    },
+    "show_notification": true
+  });
+    //HEAVYWEAPONS
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "HEAVYWEAPONS",
+    "requires_blueprint": false,
+    "hammering": 4,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "overgeared:heated_steel_ingot"
+      },
+      "H": {
+        "item": "spartanweaponry:handle"
+      },
+      "N": {
+        "item": "overgeared:steel_nugget"
+      }
+    },
+    "pattern": [
+      " NC",
+      "NCN",
+      "HN "
+    ],
+    "result": {
+      "item": "integrated_simply_swords:born_in_chaos/dark_metal/claymore"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "HEAVYWEAPONS",
+    "requires_blueprint": false,
+    "hammering": 4,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "overgeared:heated_steel_ingot"
+      },
+      "P": {
+        "item": "spartanweaponry:pole"
+      }
+    },
+    "pattern": [
+      "  C",
+      " PC",
+      "P  "
+    ],
+    "result": {
+      "item": "integrated_simply_swords:born_in_chaos/dark_metal/glaive"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "HEAVYWEAPONS",
+    "requires_blueprint": false,
+    "hammering": 4,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "overgeared:heated_steel_ingot"
+      },
+      "P": {
+        "item": "spartanweaponry:pole"
+      },
+      "H": {
+        "item": "spartanweaponry:handle"
+      },
+      "N": {
+        "item": "overgeared:steel_nugget"
+      }
+    },
+    "pattern": [
+      "CCC",
+      "NHN",
+      " P "
+    ],
+    "result": {
+      "item": "integrated_simply_swords:born_in_chaos/dark_metal/greataxe"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "HEAVYWEAPONS",
+    "requires_blueprint": false,
+    "hammering": 4,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "overgeared:heated_steel_ingot"
+      },
+      "P": {
+        "item": "spartanweaponry:pole"
+      },
+      "N": {
+        "item": "overgeared:steel_nugget"
+      }
+    },
+    "pattern": [
+      "CCC",
+      "NNN",
+      " P "
+    ],
+    "result": {
+      "item": "integrated_simply_swords:born_in_chaos/dark_metal/greathammer"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "HEAVYWEAPONS",
+    "requires_blueprint": false,
+    "hammering": 4,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "overgeared:heated_steel_ingot"
+      },
+      "P": {
+        "item": "spartanweaponry:pole"
+      },
+      "N": {
+        "item": "overgeared:steel_nugget"
+      }
+    },
+    "pattern": [
+      " CN",
+      "CPC",
+      "P  "
+    ],
+    "result": {
+      "item": "integrated_simply_swords:born_in_chaos/dark_metal/halberd"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "HEAVYWEAPONS",
+    "requires_blueprint": false,
+    "hammering": 4,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "overgeared:heated_steel_ingot"
+      },
+      "H": {
+        "item": "spartanweaponry:handle"
+      }
+    },
+    "pattern": [
+      "   ",
+      "HCC",
+      "   "
+    ],
+    "result": {
+      "item": "integrated_simply_swords:born_in_chaos/dark_metal/katana"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "HEAVYWEAPONS",
+    "requires_blueprint": false,
+    "hammering": 4,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "overgeared:heated_steel_ingot"
+      },
+      "P": {
+        "item": "spartanweaponry:pole"
+      },
+      "H": {
+        "item": "spartanweaponry:handle"
+      },
+      "N": {
+        "item": "overgeared:steel_nugget"
+      }
+    },
+    "pattern": [
+      "CCH",
+      "CP ",
+      "P  "
+    ],
+    "result": {
+      "item": "integrated_simply_swords:born_in_chaos/dark_metal/scythe"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "HEAVYWEAPONS",
+    "requires_blueprint": false,
+    "hammering": 4,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "overgeared:heated_steel_ingot"
+      },
+      "P": {
+        "item": "spartanweaponry:pole"
+      }
+    },
+    "pattern": [
+      "  C",
+      " P ",
+      "C  "
+    ],
+    "result": {
+      "item": "integrated_simply_swords:born_in_chaos/dark_metal/twinblade"
     },
     "show_notification": true
   });

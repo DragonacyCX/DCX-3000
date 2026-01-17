@@ -4,22 +4,10 @@
         "warriorsofpastepoch:bayonet_knife",
         "warriorsofpastepoch:musketeer_rapier",
         "warriorsofpastepoch:surgical_saw",
-        "integrated_simply_swords:silver/longsword",
-        "integrated_simply_swords:silver/twinblade",
-        "integrated_simply_swords:silver/rapier",
-        "integrated_simply_swords:silver/katana",
-        "integrated_simply_swords:silver/sai",
-        "integrated_simply_swords:silver/spear",
-        "integrated_simply_swords:silver/glaive",
-        "integrated_simply_swords:silver/warglaive",
-        "integrated_simply_swords:silver/cutlass",
-        "integrated_simply_swords:silver/claymore",
-        "integrated_simply_swords:silver/greataxe",
-        "integrated_simply_swords:silver/chakram",
-        "integrated_simply_swords:silver/scythe",
-        "integrated_simply_swords:silver/halberd",
-        "integrated_simply_swords:silver/greathammer",
-        "galospheric_delight:silver_hammer"
+        "#dcx:integrated_simply_swords_silver",
+        "#dcx:integrated_simply_swords_steel",
+        "#dcx:integrated_simply_swords_electrum",
+        "#dcx:integrated_simply_swords_necromium"
     ]
   }
   

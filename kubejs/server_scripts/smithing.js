@@ -10,9 +10,6 @@ ServerEvents.recipes(event => {
   event.smithing('cataclysm:ignitium_chestplate', 'cataclysm:ignitium_upgrade_smithing_template', 'luckys_armory:heavy_netherite_armor_chestplate', 'cataclysm:ignitium_ingot')
   event.smithing('cataclysm:ignitium_leggings', 'cataclysm:ignitium_upgrade_smithing_template', 'luckys_armory:heavy_netherite_armor_leggings', 'cataclysm:ignitium_ingot')
 
-//TYMCZASOWE
-event.smithing('integrated_simply_swords:oreganized/electrum/longsword', 'oreganized:electrum_upgrade_smithing_template', 'simplyswords:diamond_longsword', 'oreganized:electrum_ingot')
-
 //TARCZE
   //Drewno
   event.smithing('spartanshields:wooden_tower_shield', 'luckys_armory:smithing_template_leather_upgrade', 'spartanshields:wooden_basic_shield', 'quark:stick_block')
@@ -397,6 +394,55 @@ event.smithing('blue_skies:charoite_sword', 'elwmety:gold_template', 'blue_skies
   event.smithing('simplymore:diamond_khopesh', 'elwmety:diamond_template', 'simplymore:gold_khopesh', 'minecraft:diamond')
   event.smithing('simplymore:diamond_great_spear', 'elwmety:diamond_template', 'simplymore:gold_great_spear', 'minecraft:diamond')
   event.smithing('simplymore:diamond_deer_horns', 'elwmety:diamond_template', 'simplymore:gold_deer_horns', 'minecraft:diamond')
+
+  // Bronie Stal > Diamond
+  event.smithing('simplyswords:diamond_longsword', 'overgeared:diamond_upgrade_smithing_template', 'integrated_simply_swords:born_in_chaos/dark_metal/longsword', 'minecraft:diamond')
+  event.smithing('simplyswords:diamond_twinblade', 'overgeared:diamond_upgrade_smithing_template', 'integrated_simply_swords:born_in_chaos/dark_metal/twinblade', 'minecraft:diamond')
+  event.smithing('simplyswords:diamond_rapier', 'overgeared:diamond_upgrade_smithing_template', 'integrated_simply_swords:born_in_chaos/dark_metal/rapier', 'minecraft:diamond')
+  event.smithing('simplyswords:diamond_katana', 'overgeared:diamond_upgrade_smithing_template', 'integrated_simply_swords:born_in_chaos/dark_metal/katana', 'minecraft:diamond')
+  event.smithing('simplyswords:diamond_sai', 'overgeared:diamond_upgrade_smithing_template', 'integrated_simply_swords:born_in_chaos/dark_metal/sai', 'minecraft:diamond')
+  event.smithing('simplyswords:diamond_spear', 'overgeared:diamond_upgrade_smithing_template', 'integrated_simply_swords:born_in_chaos/dark_metal/spear', 'minecraft:diamond')
+  event.smithing('simplyswords:diamond_glaive', 'overgeared:diamond_upgrade_smithing_template', 'integrated_simply_swords:born_in_chaos/dark_metal/glaive', 'minecraft:diamond')
+  event.smithing('simplyswords:diamond_warglaive', 'overgeared:diamond_upgrade_smithing_template', 'integrated_simply_swords:born_in_chaos/dark_metal/warglaive', 'minecraft:diamond')
+  event.smithing('simplyswords:diamond_cutlass', 'overgeared:diamond_upgrade_smithing_template', 'integrated_simply_swords:born_in_chaos/dark_metal/cutlass', 'minecraft:diamond')
+  event.smithing('simplyswords:diamond_claymore', 'overgeared:diamond_upgrade_smithing_template', 'integrated_simply_swords:born_in_chaos/dark_metal/claymore', 'minecraft:diamond')
+  event.smithing('simplyswords:diamond_greataxe', 'overgeared:diamond_upgrade_smithing_template', 'integrated_simply_swords:born_in_chaos/dark_metal/greataxe', 'minecraft:diamond')
+  event.smithing('simplyswords:diamond_chakram', 'overgeared:diamond_upgrade_smithing_template', 'integrated_simply_swords:born_in_chaos/dark_metal/chakram', 'minecraft:diamond')
+  event.smithing('simplyswords:diamond_scythe', 'overgeared:diamond_upgrade_smithing_template', 'integrated_simply_swords:born_in_chaos/dark_metal/scythe', 'minecraft:diamond')
+  event.smithing('simplyswords:diamond_halberd', 'overgeared:diamond_upgrade_smithing_template', 'integrated_simply_swords:born_in_chaos/dark_metal/halberd', 'minecraft:diamond')
+  event.smithing('simplyswords:diamond_greathammer', 'overgeared:diamond_upgrade_smithing_template', 'integrated_simply_swords:born_in_chaos/dark_metal/greathammer', 'minecraft:diamond')
+
+  // Bronie Diamond > Electrum
+  event.remove({ id: 'integrated_simply_swords:oreganized/electrum/longsword' })
+  event.remove({ id: 'integrated_simply_swords:oreganized/electrum/twinblade' })
+  event.remove({ id: 'integrated_simply_swords:oreganized/electrum/rapier' })
+  event.remove({ id: 'integrated_simply_swords:oreganized/electrum/katana' })
+  event.remove({ id: 'integrated_simply_swords:oreganized/electrum/sai' })
+  event.remove({ id: 'integrated_simply_swords:oreganized/electrum/spear' })
+  event.remove({ id: 'integrated_simply_swords:oreganized/electrum/glaive' })
+  event.remove({ id: 'integrated_simply_swords:oreganized/electrum/warglaive' })
+  event.remove({ id: 'integrated_simply_swords:oreganized/electrum/cutlass' })
+  event.remove({ id: 'integrated_simply_swords:oreganized/electrum/claymore' })
+  event.remove({ id: 'integrated_simply_swords:oreganized/electrum/greataxe' })
+  event.remove({ id: 'integrated_simply_swords:oreganized/electrum/chakram' })
+  event.remove({ id: 'integrated_simply_swords:oreganized/electrum/scythe' })
+  event.remove({ id: 'integrated_simply_swords:oreganized/electrum/halberd' })
+  event.remove({ id: 'integrated_simply_swords:oreganized/electrum/greathammer' })
+  event.smithing('integrated_simply_swords:oreganized/electrum/longsword', 'oreganized:electrum_upgrade_smithing_template', 'simplyswords:diamond_longsword', 'oreganized:electrum_ingot')
+  event.smithing('integrated_simply_swords:oreganized/electrum/twinblade', 'oreganized:electrum_upgrade_smithing_template', 'simplyswords:diamond_twinblade', 'oreganized:electrum_ingot')
+  event.smithing('integrated_simply_swords:oreganized/electrum/rapier', 'oreganized:electrum_upgrade_smithing_template', 'simplyswords:diamond_rapier', 'oreganized:electrum_ingot')
+  event.smithing('integrated_simply_swords:oreganized/electrum/katana', 'oreganized:electrum_upgrade_smithing_template', 'simplyswords:diamond_katana', 'oreganized:electrum_ingot')
+  event.smithing('integrated_simply_swords:oreganized/electrum/sai', 'oreganized:electrum_upgrade_smithing_template', 'simplyswords:diamond_sai', 'oreganized:electrum_ingot')
+  event.smithing('integrated_simply_swords:oreganized/electrum/spear', 'oreganized:electrum_upgrade_smithing_template', 'simplyswords:diamond_spear', 'oreganized:electrum_ingot')
+  event.smithing('integrated_simply_swords:oreganized/electrum/glaive', 'oreganized:electrum_upgrade_smithing_template', 'simplyswords:diamond_glaive', 'oreganized:electrum_ingot')
+  event.smithing('integrated_simply_swords:oreganized/electrum/warglaive', 'oreganized:electrum_upgrade_smithing_template', 'simplyswords:diamond_warglaive', 'oreganized:electrum_ingot')
+  event.smithing('integrated_simply_swords:oreganized/electrum/cutlass', 'oreganized:electrum_upgrade_smithing_template', 'simplyswords:diamond_cutlass', 'oreganized:electrum_ingot')
+  event.smithing('integrated_simply_swords:oreganized/electrum/claymore', 'oreganized:electrum_upgrade_smithing_template', 'simplyswords:diamond_claymore', 'oreganized:electrum_ingot')
+  event.smithing('integrated_simply_swords:oreganized/electrum/greataxe', 'oreganized:electrum_upgrade_smithing_template', 'simplyswords:diamond_greataxe', 'oreganized:electrum_ingot')
+  event.smithing('integrated_simply_swords:oreganized/electrum/chakram', 'oreganized:electrum_upgrade_smithing_template', 'simplyswords:diamond_chakram', 'oreganized:electrum_ingot')
+  event.smithing('integrated_simply_swords:oreganized/electrum/scythe', 'oreganized:electrum_upgrade_smithing_template', 'simplyswords:diamond_scythe', 'oreganized:electrum_ingot')
+  event.smithing('integrated_simply_swords:oreganized/electrum/halberd', 'oreganized:electrum_upgrade_smithing_template', 'simplyswords:diamond_halberd', 'oreganized:electrum_ingot')
+  event.smithing('integrated_simply_swords:oreganized/electrum/greathammer', 'oreganized:electrum_upgrade_smithing_template', 'simplyswords:diamond_greathammer', 'oreganized:electrum_ingot')
 
   // Bronie Diamond > Netherite
   event.smithing('minecraft:netherite_sword', 'elwmety:netherite_template', 'minecraft:diamond_sword', 'minecraft:netherite_ingot')

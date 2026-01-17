@@ -23,5 +23,6 @@ ServerEvents.loaded(event => {
   event.server.gameRules.set("artifacts.everlastingBeef.enabled", false)
   event.server.gameRules.set("artifacts.powerGlove.attackDamageBonus", 2)
   event.server.gameRules.set("mobExplosionDropDecay", false)
+  event.server.gameRules.set("multiplayerspawners", toggle_break_message)
   event.server.persistentData.gameRules = true
 });

@@ -214,34 +214,6 @@
   "factor": 1.2
 },
 {
-  "structure": "blue_skies:everbright_blinding_dungeon",
-  "factor": 0.9
-},
-{
-  "structure": "blue_skies:everdawn_blinding_dungeon",
-  "factor": 0.9
-},
-{
-  "structure": "blue_skies:frozen_bunker",
-  "factor": 0.9
-},
-{
-  "structure": "blue_skies:gatekeeper_house",
-  "factor": 1.0
-},
-{
-  "structure": "blue_skies:nature_dungeon",
-  "factor": 0.9
-},
-{
-  "structure": "blue_skies:poison_dungeon",
-  "factor": 0.9
-},
-{
-  "structure": "blue_skies:village",
-  "factor": 0.8
-},
-{
   "structure": "born_in_chaos_v1:firewell",
   "factor": 0.0
 },

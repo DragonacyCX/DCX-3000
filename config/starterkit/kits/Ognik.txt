@@ -1,4 +1,4 @@
-'head' : '{Count:1b,id:"blue_skies:horizonite_helmet",tag:{Autoreforge:1b,Damage:0,Reforge:"quality_equipment.quality.tough"}}',
+'head' : '{Count:1b,id:"twilightforest:fiery_helmet",tag:{Autoreforge:1b,Damage:0,Reforge:"quality_equipment.quality.protective"}}',
 'chest' : '',
 'legs' : '{Count:1b,id:"irons_spellbooks:wandering_magician_leggings",tag:{Autoreforge:1b,Damage:0,Reforge:"quality_equipment.quality.protective"}}',
 'feet' : '',

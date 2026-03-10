@@ -230,6 +230,12 @@ event.custom({
   event.blasting('oreganized:lead_ingot', 'vintage:lead_sheet', 0.0, 100)
 
   //Stal
+event.remove({ input: 'hazennstuff:steel_ingot' })
+event.remove({ output: 'hazennstuff:steel_ingot' })
+event.remove({ input: 'hazennstuff:crude_metal' })
+event.remove({ output: 'hazennstuff:crude_metal' })
+event.remove({ input: 'hazennstuff:steel_nugget' })
+event.remove({ output: 'hazennstuff:steel_nugget' })
 event.remove({ id: 'overgeared:crude_steel' })
 event.remove({ id: 'overgeared:heated_steel_ingot' })
 event.recipes.create.mixing('overgeared:crude_steel', ['4x minecraft:iron_ingot', 'minecraft:coal']).heated()
@@ -642,6 +648,28 @@ event.shaped(
     event.remove({ id: 'elwmety:diamond_template_recipe' })
     event.remove({ id: 'elwmety:netherite_template_recipe' })
     
+    //TYMCZASOWE!!!
+event.shapeless(
+    Item.of('kubejs:iron_template', 1),
+    [
+      'elwmety:iron_template'
+    ])
+event.shapeless(
+    Item.of('kubejs:gold_template', 1),
+    [
+      'elwmety:gold_template'
+    ])
+event.shapeless(
+    Item.of('kubejs:diamond_template', 1),
+    [
+      'elwmety:diamond_template'
+    ])
+event.shapeless(
+    Item.of('kubejs:netherite_template', 1),
+    [
+      'elwmety:netherite_template'
+    ])
+    
     //Leather
     event.shaped(
         Item.of('luckys_armory:smithing_template_leather_upgrade', 2), // Output
@@ -671,7 +699,7 @@ event.shaped(
 
     //Iron
     event.shaped(
-        Item.of('elwmety:iron_template', 2), // Output
+        Item.of('kubejs:iron_template', 2), // Output
         [
             'TYT',
             'TBT',
@@ -679,13 +707,13 @@ event.shaped(
         ], 
         {
             T: 'luckys_armory:smithing_template_leather_upgrade',
-            Y: 'elwmety:iron_template',
+            Y: 'kubejs:iron_template',
             B: 'minecraft:iron_block'
         }
     ).id('custom:irontemplate');
 
     event.shaped(
-        Item.of('elwmety:iron_template', 2), // Output
+        Item.of('kubejs:iron_template', 2), // Output
         [
             'TYT',
             'TBT',
@@ -693,27 +721,27 @@ event.shaped(
         ], 
         {
             T: 'skyarena:iron_trophy',
-            Y: 'elwmety:iron_template',
+            Y: 'kubejs:iron_template',
             B: 'minecraft:iron_block'
         })
 
     //Gold
     event.shaped(
-        Item.of('elwmety:gold_template', 2), // Output
+        Item.of('kubejs:gold_template', 2), // Output
         [
             'TYT',
             'TBT',
             'TTT'
         ], 
         {
-            T: 'elwmety:iron_template',
-            Y: 'elwmety:gold_template',
+            T: 'kubejs:iron_template',
+            Y: 'kubejs:gold_template',
             B: 'minecraft:gold_block'
         }
     ).id('custom:goldtemplate');
 
     event.shaped(
-        Item.of('elwmety:gold_template', 2), // Output
+        Item.of('kubejs:gold_template', 2), // Output
         [
             'TYT',
             'TBT',
@@ -721,27 +749,27 @@ event.shaped(
         ], 
         {
             T: 'skyarena:gold_trophy',
-            Y: 'elwmety:gold_template',
+            Y: 'kubejs:gold_template',
             B: 'minecraft:gold_block'
         })
 
     //Diamond
     event.shaped(
-        Item.of('elwmety:diamond_template', 2), // Output
+        Item.of('kubejs:diamond_template', 2), // Output
         [
             'TYT',
             'TBT',
             'TTT'
         ], 
         {
-            T: 'elwmety:gold_template',
-            Y: 'elwmety:diamond_template',
+            T: 'kubejs:gold_template',
+            Y: 'kubejs:diamond_template',
             B: 'minecraft:diamond_block'
         }
     ).id('custom:diamondtemplate');
 
     event.shaped(
-        Item.of('elwmety:diamond_template', 2), // Output
+        Item.of('kubejs:diamond_template', 2), // Output
         [
             'TYT',
             'TBT',
@@ -749,27 +777,27 @@ event.shaped(
         ], 
         {
             T: 'skyarena:diamond_trophy',
-            Y: 'elwmety:diamond_template',
+            Y: 'kubejs:diamond_template',
             B: 'minecraft:diamond_block'
         })
 
     //Netherite
     event.shaped(
-        Item.of('elwmety:netherite_template', 2), // Output
+        Item.of('kubejs:netherite_template', 2), // Output
         [
             'TYT',
             'TBT',
             'TTT'
         ], 
         {
-            T: 'elwmety:diamond_template',
-            Y: 'elwmety:netherite_template',
+            T: 'kubejs:diamond_template',
+            Y: 'kubejs:netherite_template',
             B: 'minecraft:netherite_block'
         }
     ).id('custom:netheritetemplate');
 
     event.shaped(
-        Item.of('elwmety:netherite_template', 2), // Output
+        Item.of('kubejs:netherite_template', 2), // Output
         [
             'TYT',
             'TBT',
@@ -777,7 +805,7 @@ event.shaped(
         ], 
         {
             T: 'skyarena:netherite_trophy',
-            Y: 'elwmety:netherite_template',
+            Y: 'kubejs:netherite_template',
             B: 'minecraft:netherite_block'
         })
 
@@ -814,33 +842,5 @@ event.shaped(
             B: 'minecraft:bucket',
         }
     ).id('custom:tank');
-
-//END REMASTERED
-  //Cryptic Eye
-event.custom(
-  {
-	"type": "apotheosis:enchanting",
-	"conditions": [{
-		"type": "apotheosis:module",
-		"module": "enchantment"
-	}],
-	"input": {
-		"item": "minecraft:ender_eye"
-	},
-	"requirements": {
-		"eterna": 25,
-		"quanta": 20,
-		"arcana": 35
-	},
-	"max_requirements": {
-		"eterna": 30,
-		"quanta": 50,
-		"arcana": -1
-	},
-	"result": {
-		"item": "endrem:cryptic_eye",
-		"count": 1
-	}
-})
 
 })

@@ -436,6 +436,112 @@ event.custom({
     "show_notification": true
   });
 
+//STALOWE RZECZY
+event.remove({ id: 'overgeared:steel_helmet' })
+event.remove({ id: 'overgeared:steel_chestplate' })
+event.remove({ id: 'overgeared:steel_leggings' })
+event.remove({ id: 'overgeared:steel_boots' })
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "ARMOR",
+    "requires_blueprint": false,
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": true,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "overgeared:steel_plate"
+      }
+    },
+    "pattern": [
+      "CCC",
+      "C C",
+      "   "
+    ],
+    "result": {
+      "item": "overgeared:steel_helmet"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "ARMOR",
+    "requires_blueprint": false,
+    "hammering": 5,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": true,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "overgeared:steel_plate"
+      }
+    },
+    "pattern": [
+      "C C",
+      "CCC",
+      "CCC"
+    ],
+    "result": {
+      "item": "overgeared:steel_chestplate"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "ARMOR",
+    "requires_blueprint": false,
+    "hammering": 4,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": true,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "overgeared:steel_plate"
+      }
+    },
+    "pattern": [
+      "CCC",
+      "C C",
+      "C C"
+    ],
+    "result": {
+      "item": "overgeared:steel_leggings"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "ARMOR",
+    "requires_blueprint": false,
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": true,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "overgeared:steel_plate"
+      }
+    },
+    "pattern": [
+      "C C",
+      "C C",
+      "   "
+    ],
+    "result": {
+      "item": "overgeared:steel_boots"
+    },
+    "show_notification": true
+  });
+
 //ZŁOTE RZECZY
 event.remove({ id: 'minecraft:golden_helmet' })
 event.remove({ id: 'minecraft:golden_chestplate' })
@@ -1978,7 +2084,7 @@ event.custom({
   "key": {
     "a": { "item": "warriorsofpastepoch:thickened_skin" },
     "b": { "item": "warriorsofpastepoch:azure_fabric" },
-    "c": { "item": "overgeared:heated_steel_ingot" }
+    "c": { "item": "overgeared:steel_plate" }
   },
   "result": { 
     "item": "warriorsofpastepoch:muketers_armor_chestplate"},
@@ -2062,7 +2168,7 @@ event.custom({
   "key": {
     "a": { "item": "warriorsofpastepoch:sterile_tissue" },
     "b": { "item": "warriorsofpastepoch:thickened_skin" },
-    "c": { "item": "overgeared:heated_steel_ingot" }
+    "c": { "item": "overgeared:steel_plate" }
   },
   "result": { 
     "item": "warriorsofpastepoch:plague_doctor_armor_chestplate"
@@ -2571,232 +2677,6 @@ event.custom({
   "result": { "item": "luckys_armory:heavy_diamond_armor_boots" },
   "show_notification": true
 })
-
-//KLASOWE ŻETONY
-    //Pusty
-    //event.shaped(
-        //Item.of('class_emblems:empty_class_emblem', 1), // Output
-        //[
-            //'QIQ',
-          //  'IGI',
-          //  'QIQ'
-      //  ], 
-        //{
-          //  Q: 'minecraft:quartz',
-            //I: 'minecraft:iron_ingot',
-           // G: 'minecraft:glow_item_frame'
-        //}
-    //).id('custom:emptyemblem');
-
-    //Wiking
-    event.shaped(
-        Item.of('class_emblems:emblem_of_viking', 1), // Output
-        [
-            'WHX',
-            'CEL',
-            'YBZ'
-        ], 
-        {
-            W: 'minecraft:golden_axe',
-            X: 'weaponmod:battleaxe.gold',
-            Y: 'simplyswords:gold_greataxe',
-            Z: 'simplyswords:gold_cutlass',
-            H: 'luckys_armory:plated_armor_helmet',
-            C: 'luckys_armory:plated_armor_chestplate',
-            E: 'class_emblems:empty_class_emblem',
-            L: 'luckys_armory:plated_armor_leggings',
-            B: 'luckys_armory:plated_armor_boots'
-        }
-    ).id('custom:vikingemblem');
-
-    //Ninja
-    event.shaped(
-        Item.of('class_emblems:emblem_of_ninja', 1), // Output
-        [
-            'WHX',
-            'CEL',
-            'YBZ'
-        ], 
-        {
-            W: 'basicweapons:golden_dagger',
-            X: 'simplyswords:gold_sai',
-            Y: 'farmersdelight:golden_knife',
-            Z: 'weaponmod:katana.gold',
-            H: 'armoroftheages:japanese_light_armor_head',
-            C: 'armoroftheages:japanese_light_armor_chest',
-            E: 'class_emblems:empty_class_emblem',
-            L: 'armoroftheages:japanese_light_armor_legs',
-            B: 'armoroftheages:japanese_light_armor_feet'
-        }
-    ).id('custom:ninjaemblem');
-
-    //Knight
-    event.shaped(
-        Item.of('class_emblems:emblem_of_knight', 1), // Output
-        [
-            'WHX',
-            'CEL',
-            'YBZ'
-        ], 
-        {
-            W: 'minecraft:golden_sword',
-            X: 'simplyswords:gold_longsword',
-            Y: 'simplyswords:gold_claymore',
-            Z: 'simplyswords:gold_halberd',
-            H: 'armoroftheages:iron_plate_armor_head',
-            C: 'armoroftheages:iron_plate_armor_chest',
-            E: 'class_emblems:empty_class_emblem',
-            L: 'armoroftheages:iron_plate_armor_legs',
-            B: 'armoroftheages:iron_plate_armor_feet'
-        }
-    ).id('custom:knightemblem');
-
-    //Centurion
-    event.shaped(
-        Item.of('class_emblems:emblem_of_centurion', 1), // Output
-        [
-            'WHX',
-            'CEL',
-            'YBZ'
-        ], 
-        {
-            W: 'minecraft:golden_sword',
-            X: 'simplyswords:gold_longsword',
-            Y: 'simplyswords:gold_spear',
-            Z: 'basicweapons:golden_spear',
-            H: 'armoroftheages:centurion_armor_head',
-            C: 'armoroftheages:centurion_armor_chest',
-            E: 'class_emblems:empty_class_emblem',
-            L: 'armoroftheages:centurion_armor_legs',
-            B: 'armoroftheages:centurion_armor_feet'
-        }
-    ).id('custom:centurionemblem');
-
-    //Faraon
-    event.shaped(
-        Item.of('class_emblems:emblem_of_pharaoh', 1), // Output
-        [
-            'WHX',
-            'CEL',
-            'YBZ'
-        ], 
-        {
-            W: 'simplyswords:gold_cutlass',
-            X: 'simplyswords:gold_warglaive',
-            Y: 'simplyswords:gold_twinblade',
-            Z: 'simplyswords:gold_scythe',
-            H: 'armoroftheages:pharaoh_armor_head',
-            C: 'armoroftheages:pharaoh_armor_chest',
-            E: 'class_emblems:empty_class_emblem',
-            L: 'armoroftheages:pharaoh_armor_legs',
-            B: 'armoroftheages:pharaoh_armor_feet'
-        }
-    ).id('custom:pharaohemblem');
-
-    //Anubis
-    event.shaped(
-        Item.of('class_emblems:emblem_of_anubis', 1), // Output
-        [
-            'WHX',
-            'CEL',
-            'YBZ'
-        ], 
-        {
-            W: 'simplyswords:gold_cutlass',
-            X: 'simplyswords:gold_warglaive',
-            Y: 'simplyswords:gold_twinblade',
-            Z: 'simplyswords:gold_scythe',
-            H: 'armoroftheages:anubis_armor_head',
-            C: 'armoroftheages:anubis_armor_chest',
-            E: 'class_emblems:empty_class_emblem',
-            L: 'armoroftheages:anubis_armor_legs',
-            B: 'armoroftheages:anubis_armor_feet'
-        }
-    ).id('custom:anubisemblem');
-
-    //Quetzal
-    event.shaped(
-        Item.of('class_emblems:emblem_of_quetzalcoatl', 1), // Output
-        [
-            'WHX',
-            'CEL',
-            'YBZ'
-        ], 
-        {
-            W: 'minecraft:bow',
-            X: 'minecraft:crossbow',
-            Y: 'simplyswords:gold_chakram',
-            Z: 'simplyswords:gold_spear',
-            H: 'armoroftheages:quetzalcoatl_armor_head',
-            C: 'armoroftheages:quetzalcoatl_armor_chest',
-            E: 'class_emblems:empty_class_emblem',
-            L: 'armoroftheages:quetzalcoatl_armor_legs',
-            B: 'armoroftheages:quetzalcoatl_armor_feet'
-        }
-    ).id('custom:quetzalcoatlemblem');
-
-    //Samurai
-    event.shaped(
-        Item.of('class_emblems:emblem_of_samurai', 1), // Output
-        [
-            'WHX',
-            'CEL',
-            'YBZ'
-        ], 
-        {
-            W: 'simplyswords:gold_katana',
-            X: 'weaponmod:katana.gold',
-            Y: 'simplyswords:gold_glaive',
-            Z: 'basicweapons:golden_quarterstaff',
-            H: 'armoroftheages:o_yoroi_armor_head',
-            C: 'armoroftheages:o_yoroi_armor_chest',
-            E: 'class_emblems:empty_class_emblem',
-            L: 'armoroftheages:o_yoroi_armor_legs',
-            B: 'armoroftheages:o_yoroi_armor_feet'
-        }
-    ).id('custom:samuraiemblem');
-
-    //Paladyn
-    event.shaped(
-        Item.of('class_emblems:emblem_of_paladin', 1), // Output
-        [
-            'WHX',
-            'CEL',
-            'YBZ'
-        ], 
-        {
-            W: 'basicweapons_golden_hammer',
-            X: 'weaponmod:warhammer.gold',
-            Y: 'simplyswords:gold_greathammer',
-            Z: 'basicweapons:golden_club',
-            H: 'armoroftheages:holy_armor_head',
-            C: 'armoroftheages:holy_armor_chest',
-            E: 'class_emblems:empty_class_emblem',
-            L: 'armoroftheages:holy_armor_legs',
-            B: 'armoroftheages:holy_armor_feet'
-        }
-    ).id('custom:paladinemblem');
-
-    //Raijin
-    event.shaped(
-        Item.of('class_emblems:emblem_of_raijin', 1), // Output
-        [
-            'WHX',
-            'CEL',
-            'YBZ'
-        ], 
-        {
-            W: 'basicweapons:golden_dagger',
-            X: 'weaponmod:katana.gold',
-            Y: 'simplyswords:gold_chakram',
-            Z: 'basicweapons:golden_quarterstaff',
-            H: 'armoroftheages:raijin_armor_head',
-            C: 'armoroftheages:raijin_armor_head',
-            E: 'class_emblems:empty_class_emblem',
-            L: 'armoroftheages:raijin_armor_head',
-            B: 'armoroftheages:raijin_armor_head'
-        }
-    ).id('custom:raijinemblem');
 
 //GLOVES
 event.custom({

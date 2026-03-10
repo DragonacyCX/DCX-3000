@@ -13,8 +13,4 @@ event.addEntityLootModifier("warriorsofpastepoch:skeleton_musketeer").replaceLoo
 //Batwing
 event.addEntityLootModifier("minecraft:bat").replaceLoot("miners_delight:bat_wing", "warriorsofpastepoch:batwing", true);
 
-//End Remaster
-event.addLootTypeModifier(LootType.ENTITY)
-    .removeLoot("endrem:witch_pupil")
-    .removeLoot("endrem:undead_soul")
 });

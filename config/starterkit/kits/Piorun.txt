@@ -39,4 +39,4 @@
 33 : '',
 34 : '',
 35 : '',
-'effects' : 'irons_spellbooks:charged;lvl:1;duration:1062',
+'effects' : 'irons_spellbooks:charged;lvl:1;duration:6000',

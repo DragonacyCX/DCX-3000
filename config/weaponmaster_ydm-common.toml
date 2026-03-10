@@ -30,7 +30,7 @@
 	#Shield
 	shield = false
 	#Banner
-	banner = true
+	banner = false
 	#main hand
 	main_hand = false
 	#off hand

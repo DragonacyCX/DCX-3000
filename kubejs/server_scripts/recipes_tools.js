@@ -29,9 +29,9 @@ event.shaped(
 event.shaped(
         Item.of('overgeared:tier_a_smithing_anvil', 1), // Output
         [
-            'BBB',
-            'LZL',
-            'CCC'
+            'ABC',
+            'DZE',
+            'FGH'
         ], 
         {
             Z: 'overgeared:smithing_anvil',
@@ -1658,6 +1658,7 @@ event.replaceInput(
   'create:copper_sheet')
 
 //Patelnia i Garnki
+event.remove({ output: 'farmersdelight:skillet' })
 event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
@@ -1805,16 +1806,41 @@ event.shaped(
     ).id('dcx:spelunkery_magnet');
 
 //Plecaki
-event.replaceInput(
-  { output: 'sophisticatedbackpacks:backpack' },
-  '#forge:chests/wooden',
-  'supplementaries:sack')
+event.remove({ id: 'sophisticatedbackpacks:backpack' })
 event.remove({ id: 'sophisticatedbackpacks:copper_backpack' })
 event.remove({ id: 'sophisticatedbackpacks:iron_backpack_from_copper' })
 event.remove({ id: 'sophisticatedbackpacks:iron_backpack' })
 event.remove({ id: 'sophisticatedbackpacks:gold_backpack' })
 event.remove({ id: 'sophisticatedbackpacks:diamond_backpack' })
 event.remove({ id: 'sophisticatedbackpacks:netherite_backpack' })
+event.custom({
+  "type": "sophisticatedbackpacks:basic_backpack",
+  "conditions": [
+    {
+      "type": "sophisticatedcore:item_enabled",
+      "itemRegistryName": "sophisticatedbackpacks:backpack"
+    }
+  ],
+  "key": {
+    "C": {
+      "tag": "supplementaries:sacks"
+    },
+    "L": {
+      "tag": "forge:leather"
+    },
+    "S": {
+      "tag": "forge:string"
+    }
+  },
+  "pattern": [
+    "SLS",
+    "SCS",
+    "LLL"
+  ],
+  "result": {
+    "item": "sophisticatedbackpacks:backpack"
+  }
+}),
 event.custom({
     type: "sophisticatedbackpacks:backpack_upgrade",
     conditions: [
@@ -1856,7 +1882,7 @@ event.custom({
         item: "sophisticatedbackpacks:backpack"
       },
       I: {
-        item: "elwmety:iron_template"
+        item: "kubejs:iron_template"
       },
       G: {
         item: "minecraft:iron_block"
@@ -1884,7 +1910,7 @@ event.custom({
         item: "sophisticatedbackpacks:copper_backpack"
       },
       I: {
-        item: "elwmety:iron_template"
+        item: "kubejs:iron_template"
       },
       G: {
         item: "minecraft:iron_block"
@@ -1915,7 +1941,7 @@ event.custom({
         item: "sophisticatedbackpacks:iron_backpack"
       },
       I: {
-        item: "elwmety:gold_template"
+        item: "kubejs:gold_template"
       },
       G: {
         item: "minecraft:gold_block"
@@ -1943,7 +1969,7 @@ event.custom({
         item: "sophisticatedbackpacks:gold_backpack"
       },
       I: {
-        item: "elwmety:diamond_template"
+        item: "kubejs:diamond_template"
       },
       G: {
         item: "minecraft:diamond_block"

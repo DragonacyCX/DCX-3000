@@ -39,4 +39,4 @@
 33 : '',
 34 : '',
 35 : '',
-'effects' : 'mowziesmobs:poison_resist;lvl:1;duration:5068',
+'effects' : 'mowziesmobs:poison_resist;lvl:1;duration:6000',

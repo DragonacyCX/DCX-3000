@@ -2,7 +2,7 @@
 	"isHoldToAttackEnabled": true,
 	"isMiningWithWeaponsEnabled": false,
 	"isSwingThruGrassEnabled": true,
-	"isAttackInsteadOfMineWhenEnemiesCloseEnabled": false,
+	"isAttackInsteadOfMineWhenEnemiesCloseEnabled": true,
 	"isHighlightCrosshairEnabled": true,
 	"hudHighlightColor": 16711680,
 	"isShowingArmsInFirstPerson": false,

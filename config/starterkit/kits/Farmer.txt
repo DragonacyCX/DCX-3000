@@ -1,4 +1,4 @@
-'head' : '',
+'head' : '{Count:1b,id:"overweight_farming:straw_hat"}',
 'chest' : '',
 'legs' : '',
 'feet' : '',

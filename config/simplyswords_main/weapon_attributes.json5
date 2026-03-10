@@ -57,7 +57,7 @@
 	"gobber_damageModifier": 1.0,
 	"gobberNether_damageModifier": 3.0,
 	"gobberEnd_damageModifier": 6.0,
-	"longsword_attackSpeed": -2.4000000953674316,
+	"longsword_attackSpeed": -2.5,
 	"twinblade_attackSpeed": -2.0,
 	"rapier_attackSpeed": -1.7999999523162842,
 	"katana_attackSpeed": -2.0,

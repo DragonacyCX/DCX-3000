@@ -39,4 +39,4 @@
 33 : '',
 34 : '',
 35 : '',
-'effects' : 'alexsmobs:knockback_resistance;lvl:1;duration:4545',
+'effects' : 'alexsmobs:knockback_resistance;lvl:1;duration:6000',

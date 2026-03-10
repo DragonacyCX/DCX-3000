@@ -1,7 +1,7 @@
 {
 	// Which biomes are enabled, if disabled the biome will default to its vanilla counterpart for the given region
 	"enabled_biomes": {
-		"biomeswevegone:frosted_taiga": true,
+		"biomeswevegone:frosted_taiga": false,
 		"biomeswevegone:sakura_grove": false,
 		"biomeswevegone:cypress_swamplands": true,
 		"biomeswevegone:temperate_grove": true,
@@ -9,7 +9,7 @@
 		"biomeswevegone:ironwood_gour": true,
 		"biomeswevegone:forgotten_forest": true,
 		"biomeswevegone:dacite_shore": true,
-		"biomeswevegone:sierra_badlands": true,
+		"biomeswevegone:sierra_badlands": false,
 		"biomeswevegone:orchard": true,
 		"biomeswevegone:basalt_barrera": true,
 		"biomeswevegone:jacaranda_jungle": true,

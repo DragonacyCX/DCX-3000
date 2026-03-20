@@ -1,6 +1,6 @@
 ItemEvents.modification(event => {
 
-//Clears Rotten Stink
+//Clears Rotten Stink (Mint)
 event.modify('twilightdelight:refreshing_ice_cream', item => {
     item.foodProperties = food => 
     {food.removeEffect('born_in_chaos_v1:rotten_smell')}})
@@ -34,5 +34,10 @@ event.modify('neapolitan:mint_milkshake', item => {
 event.modify('neapolitan:mint_ice_cream', item => {
     item.foodProperties = food => 
     {food.removeEffect('born_in_chaos_v1:rotten_smell')}})
+
+//Stack size
+event.modify('autumnity:foul_soup', item => {
+    item.maxStackSize = 16
+  })
 
 })

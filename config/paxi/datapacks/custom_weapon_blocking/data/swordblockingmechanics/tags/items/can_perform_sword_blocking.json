@@ -2,9 +2,7 @@
     "replace": false,
     "values": [
         "#c:swords",
-        "#c:axes",
         "#minecraft:swords",
-        "#minecraft:axes",
         "basicweapons:wooden_spear",
         "basicweapons:stone_spear",
         "basicweapons:wooden_quarterstaff",

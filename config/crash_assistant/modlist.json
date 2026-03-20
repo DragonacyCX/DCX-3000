@@ -235,12 +235,12 @@
     "curseForgeHash": 3615878331,
     "modrinthHash": "696977ebf6868113663fea7882862109e725a068"
   },
-  "aquamirae_delight-1.5.2-forge-1.20.1.jar": {
-    "jarName": "aquamirae_delight-1.5.2-forge-1.20.1.jar",
+  "aquamirae_delight-2.0-forge-1.20.1.jar": {
+    "jarName": "aquamirae_delight-2.0-forge-1.20.1.jar",
     "modId": "aquamirae_delight",
-    "version": "1.5.2",
-    "curseForgeHash": 2024175725,
-    "modrinthHash": "3486cd1765ed0f84144f57ba039b818852b2cf54"
+    "version": "2.0",
+    "curseForgeHash": 3147197296,
+    "modrinthHash": "e361351af5da9671e4e44e147a382318921afecc"
   },
   "architectury-9.2.14-forge.jar": {
     "jarName": "architectury-9.2.14-forge.jar",
@@ -725,12 +725,12 @@
     "curseForgeHash": 3614955629,
     "modrinthHash": "afd9fa3fe95e8c086e8d439df403ed1e5ea5cbea"
   },
-  "CrashAssistant-forge-1.19-1.20.1-1.11.0.jar": {
-    "jarName": "CrashAssistant-forge-1.19-1.20.1-1.11.0.jar",
+  "CrashAssistant-forge-1.19-1.20.1-1.11.3.jar": {
+    "jarName": "CrashAssistant-forge-1.19-1.20.1-1.11.3.jar",
     "modId": "crash_assistant",
-    "version": "1.11.0",
-    "curseForgeHash": 3944427644,
-    "modrinthHash": "9b9e8f2e0a8b12e3944c06426244e3b9df87f007"
+    "version": "1.11.3",
+    "curseForgeHash": 1127087163,
+    "modrinthHash": "ef09d8a690da525180e3655e85dceade658391b2"
   },
   "create-1.20.1-6.0.6.jar": {
     "jarName": "create-1.20.1-6.0.6.jar",
@@ -1933,12 +1933,12 @@
     "curseForgeHash": 516527841,
     "modrinthHash": "984f774e71790deaec674c7587bd24e0711871b2"
   },
-  "Oh-The-Biomes-Weve-Gone-Forge-1.7.4.jar": {
-    "jarName": "Oh-The-Biomes-Weve-Gone-Forge-1.7.4.jar",
+  "Oh-The-Biomes-Weve-Gone-Forge-1.7.5.jar": {
+    "jarName": "Oh-The-Biomes-Weve-Gone-Forge-1.7.5.jar",
     "modId": "biomeswevegone",
-    "version": "1.7.4",
-    "curseForgeHash": 3226300198,
-    "modrinthHash": "168e2c7f7105bc578e05f0a347856438b5d9f4a6"
+    "version": "1.7.5",
+    "curseForgeHash": 1764237642,
+    "modrinthHash": "a0ffaf9086974ab6d63ade0e9d73e8446b4166a3"
   },
   "Oh-The-Trees-Youll-Grow-forge-1.20.1-1.5.0.jar": {
     "jarName": "Oh-The-Trees-Youll-Grow-forge-1.20.1-1.5.0.jar",

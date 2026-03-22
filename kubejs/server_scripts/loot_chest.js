@@ -14,27 +14,6 @@ LootJS.modifiers((event) => {
 //No farmer rope in minecarts
 event.addLootTableModifier("minecraft:chests/abandoned_mineshaft").removeLoot("farmersdelight:rope");
 
-//Medieval Buildings
-event.addLootTableModifier("medieval_buildings:chests/tiny_shack").replaceLoot("minecraft:diamond_pickaxe", "overgeared:copper_pickaxe");
-event.addLootTableModifier("medieval_buildings:chests/tiny_shack").replaceLoot("minecraft:diamond_axe", "overgeared:copper_axe");
-event.addLootTableModifier("medieval_buildings:chests/tiny_shack").replaceLoot("minecraft:diamond_hoe", "overgeared:copper_hoe");
-event.addLootTableModifier("medieval_buildings:chests/tiny_shack").replaceLoot("minecraft:diamond_shovel", "overgeared:copper_shovel");
-
-event.addLootTableModifier("medieval_buildings:chests/medium_shack_house").replaceLoot("minecraft:diamond", "overgeared:steel_ingot");
-
-event.addLootTableModifier("medieval_buildings:chests/tower").replaceLoot("minecraft:diamond", "overgeared:steel_ingot");
-event.addLootTableModifier("medieval_buildings:chests/tower").replaceLoot("minecraft:stone_sword", "overgeared:copper_sword");
-event.addLootTableModifier("medieval_buildings:chests/tower").replaceLoot("minecraft:diamond_sword", "overgeared:steel_sword");
-event.addLootTableModifier("medieval_buildings:chests/tower").replaceLoot("minecraft:totem_of_undying", "caverns_and_chasms:bejeweled_apple");
-event.addLootTableModifier("medieval_buildings:chests/tower").replaceLoot("minecraft:netherite_scrap", "irons_spellbooks:magic_cloth");
-
-event.addLootTableModifier("medieval_buildings:chests/town_inside").replaceLoot("minecraft:diamond", "overgeared:steel_ingot");
-event.addLootTableModifier("medieval_buildings:chests/town_inside").replaceLoot("minecraft:stone_sword", "overgeared:copper_sword");
-event.addLootTableModifier("medieval_buildings:chests/town_inside").replaceLoot("minecraft:diamond_sword", "overgeared:steel_sword");
-event.addLootTableModifier("medieval_buildings:chests/town_inside").replaceLoot("minecraft:totem_of_undying", "caverns_and_chasms:bejeweled_apple");
-event.addLootTableModifier("medieval_buildings:chests/town_inside").replaceLoot("minecraft:netherite_scrap", "irons_spellbooks:magic_cloth");
-event.addLootTableModifier("medieval_buildings:chests/town_inside").replaceLoot("minecraft:trident", "born_in_chaos_v1:trident_hayfork");
-
 //Underground Campsite Diamond > Steel
 event.addLootTableModifier("artifacts:chests/campsite_chest").replaceLoot("minecraft:diamond_pickaxe", "overgeared:steel_pickaxe");
 event.addLootTableModifier("artifacts:chests/campsite_chest").replaceLoot("minecraft:diamond_axe", "overgeared:steel_axe");

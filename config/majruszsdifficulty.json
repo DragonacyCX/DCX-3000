@@ -97,7 +97,7 @@
       "damage_multiplier": 0.2
     },
     "creeper_spawn_charged": {
-      "is_enabled": true,
+      "is_enabled": false,
       "required_game_stage": "normal",
       "chance": 0.125,
       "is_scaled_by_crd": true

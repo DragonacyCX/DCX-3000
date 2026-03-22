@@ -1318,13 +1318,13 @@
 	#Spawning options for dungeonnowloading:spawner_carrier
 	[dungeonnowloading.spawner_carrier]
 		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = false
+		allowNormalSpawning = true
 		#Should spawners be able to spawn the entity?
-		allowSpawners = false
+		allowSpawners = true
 		#Should spawn eggs be able to spawn the entity?
 		allowSpawnEggs = true
 		#Should the entity spawn via mob conversion? i.e. villager -> zombie
-		allowConversions = false
+		allowConversions = true
 
 	#Spawning options for dungeonnowloading:sealed_chaos
 	[dungeonnowloading.sealed_chaos]
@@ -14817,13 +14817,13 @@
 	#Spawning options for upgrade_aquatic:thrasher
 	[upgrade_aquatic.thrasher]
 		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = true
+		allowNormalSpawning = false
 		#Should spawners be able to spawn the entity?
-		allowSpawners = true
+		allowSpawners = false
 		#Should spawn eggs be able to spawn the entity?
-		allowSpawnEggs = true
+		allowSpawnEggs = false
 		#Should the entity spawn via mob conversion? i.e. villager -> zombie
-		allowConversions = true
+		allowConversions = false
 
 	#Spawning options for upgrade_aquatic:great_thrasher
 	[upgrade_aquatic.great_thrasher]
@@ -15633,6 +15633,28 @@
 
 	#Spawning options for refined_mod:bonfire_aoe
 	[refined_mod.bonfire_aoe]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#Should the entity spawn via mob conversion? i.e. villager -> zombie
+		allowConversions = true
+
+	#Spawning options for refined_mod:storm_blade_collider
+	[refined_mod.storm_blade_collider]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#Should the entity spawn via mob conversion? i.e. villager -> zombie
+		allowConversions = true
+
+	#Spawning options for refined_mod:glintstar_pebble
+	[refined_mod.glintstar_pebble]
 		#Should the entity be allowed to spawn normally?
 		allowNormalSpawning = true
 		#Should spawners be able to spawn the entity?

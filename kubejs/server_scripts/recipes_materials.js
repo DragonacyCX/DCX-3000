@@ -230,14 +230,20 @@ event.custom({
   event.blasting('oreganized:lead_ingot', 'vintage:lead_sheet', 0.0, 100)
 
   //Stal
-event.remove({ input: 'hazennstuff:steel_ingot' })
 event.remove({ output: 'hazennstuff:steel_ingot' })
+event.remove({ output: 'hazennstuff:steel_nugget' })
 event.remove({ input: 'hazennstuff:crude_metal' })
 event.remove({ output: 'hazennstuff:crude_metal' })
-event.remove({ input: 'hazennstuff:steel_nugget' })
-event.remove({ output: 'hazennstuff:steel_nugget' })
-event.remove({ id: 'overgeared:crude_steel' })
 event.remove({ id: 'overgeared:heated_steel_ingot' })
+event.replaceInput(
+  { input: 'hazennstuff:steel_ingot' },
+  'hazennstuff:steel_ingot',
+  'overgeared:steel_ingot')
+  event.replaceInput(
+  { input: 'hazennstuff:steel_nugget' },
+  'hazennstuff:steel_nugget',
+  'overgeared:steel_nugget')
+event.remove({ id: 'overgeared:crude_steel' })
 event.recipes.create.mixing('overgeared:crude_steel', ['4x minecraft:iron_ingot', 'minecraft:coal']).heated()
 event.custom({
     "type": "overgeared:forging",

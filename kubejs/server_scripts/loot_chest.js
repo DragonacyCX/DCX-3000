@@ -11,6 +11,9 @@ LootJS.modifiers((event) => {
 //event.addLootTableModifier("minecraft:chests/stronghold_crossing").removeLoot("overgeared:diamond_upgrade_smithing_template");
 //event.addLootTableModifier("minecraft:chests/abandoned_mineshaft").removeLoot("overgeared:diamond_upgrade_smithing_template");
 
+//Aquamirae Captain Cornelia Horn
+event.addLootTableModifier("aquamirae:chests/ship_2").randomChance(0.15).addLoot("aquamirae:shell_horn");
+
 //No farmer rope in minecarts
 event.addLootTableModifier("minecraft:chests/abandoned_mineshaft").removeLoot("farmersdelight:rope");
 

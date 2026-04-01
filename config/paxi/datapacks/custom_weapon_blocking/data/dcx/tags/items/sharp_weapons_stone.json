@@ -2,7 +2,6 @@
     "replace": false,
     "values": [
         "minecraft:stone_sword",
-        "basicweapons:stone_spear",
         "basicweapons:stone_dagger",
         "basicweapons:stone_spear",
         "farmersdelight:flint_knife"

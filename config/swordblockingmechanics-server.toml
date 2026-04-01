@@ -9,12 +9,12 @@ damage_sword = true
 required_attack_strength = 0.0
 #Percentage an incoming attack will be reduced by when blocking.
 #Range: 0.0 ~ 1.0
-blocked_damage = 0.7
+blocked_damage = 0.5
 #Allow blocking with swords, which will reduce most incoming attacks by 50% and render a parry animation.
 allow_blocking = true
 #Amount of ticks after starting to block in which an attack will be completely nullified like when blocking with a shield.
 #Range: 0 ~ 72000
-parry_window = 9
+parry_window = 8
 #Percentage to reduce knockback by while sword blocking.
 #Range: 0.0 ~ 1.0
 knockback_reduction = 0.5
@@ -23,9 +23,9 @@ knockback_reduction = 0.5
 protection_arc = 120.0
 #The strength a parried attacker will be knocked back by.
 #Range: 0.1 ~ 5.0
-parry_knockback_strength = 0.7
+parry_knockback_strength = 0.15
 #Damage sword when successfully parrying depending on the amount of damage blocked. Sword is only damaged when at least three damage points have been parried, just like a shield.
-damage_sword_on_parry = true
+damage_sword_on_parry = false
 #Incoming projectiles such as arrows or tridents will ricochet while blocking.
 deflect_projectiles = false
 #Percentage to slow down movement to while blocking.

@@ -464,7 +464,6 @@ event.remove({ id: 'spelunkery:sandpaper_polishing/diamond' })
 event.remove({ id: 'spelunkery:sandpaper_polishing/emerald' })
 event.remove({ id: 'spelunkery:sandpaper_polishing/lapis' })
 event.recipes.create.sandpaper_polishing('spelunkery:cinnabar', 'kubejs:rough_cinnabar')
-event.recipes.create.sandpaper_polishing('minecraft:redstone', 'spelunkery:cinnabar')
 event.recipes.create.sandpaper_polishing('minecraft:diamond', 'kubejs:rough_diamond')
 event.recipes.create.sandpaper_polishing('minecraft:lapis_lazuli', 'kubejs:rough_lazurite')
 event.recipes.create.sandpaper_polishing('caverns_and_chasms:spinel', 'kubejs:rough_spinel')
@@ -523,6 +522,25 @@ event.replaceInput(
   { input: 'sullysmod:rough_jade' },
   'sullysmod:rough_jade',
   'kubejs:rough_jade')
+
+//Kruszenie redstone na desce
+event.custom({
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "spelunkery:cinnabar"
+    }
+  ],
+  "result": [
+    {
+      "count": 1,
+      "item": "minecraft:redstone"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/hammer"
+  }
+});
 
 //Płótno
 event.remove({ id: 'farmersdelight:canvas' })

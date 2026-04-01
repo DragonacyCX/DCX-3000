@@ -17,3 +17,8 @@ keepCurios = "DEFAULT"
 		#Range: 1 ~ 48
 		maxSlotsPerPage = 48
 
+[[curiosSettings]]
+  identifier = "back"
+[[curiosSettings]]
+  identifier = "belt"
+

@@ -3,9 +3,7 @@
     "values": [
         "minecraft:netherite_sword",
         "minecraft:netherite_axe",
-        "basicweapons:netherite_spear",
         "basicweapons:netherite_dagger",
-        "basicweapons:netherite_spear",
         "farmersdelight:netherite_knife",
         "simplyswords:netherite_longsword",
         "simplyswords:netherite_twinblade",
@@ -17,7 +15,6 @@
         "simplyswords:netherite_warglaive",
         "simplyswords:netherite_cutlass",
         "simplyswords:netherite_claymore",
-        "simplyswords:netherite_greathammer",
         "simplyswords:netherite_greataxe",
         "simplyswords:netherite_chakram",
         "simplyswords:netherite_scythe",

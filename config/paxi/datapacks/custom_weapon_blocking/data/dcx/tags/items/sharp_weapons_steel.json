@@ -4,10 +4,20 @@
         "overgeared:steel_sword",
         "overgeared:steel_axe",
         "kubejs:steel_dagger",
-        "kubejs:steel_club",
-        "kubejs:steel_hammer",
-        "kubejs:steel_quarterstaff",
-        "kubejs:steel_spear"
+        "integrated_simply_swords:born_in_chaos/dark_metal/longsword",
+        "integrated_simply_swords:born_in_chaos/dark_metal/twinblade",
+        "integrated_simply_swords:born_in_chaos/dark_metal/rapier",
+        "integrated_simply_swords:born_in_chaos/dark_metal/katana",
+        "integrated_simply_swords:born_in_chaos/dark_metal/sai",
+        "integrated_simply_swords:born_in_chaos/dark_metal/spear",
+        "integrated_simply_swords:born_in_chaos/dark_metal/glaive",
+        "integrated_simply_swords:born_in_chaos/dark_metal/warglaive",
+        "integrated_simply_swords:born_in_chaos/dark_metal/cutlass",
+        "integrated_simply_swords:born_in_chaos/dark_metal/claymore",
+        "integrated_simply_swords:born_in_chaos/dark_metal/greataxe",
+        "integrated_simply_swords:born_in_chaos/dark_metal/chakram",
+        "integrated_simply_swords:born_in_chaos/dark_metal/scythe",
+        "integrated_simply_swords:born_in_chaos/dark_metal/halberd"
     ]
   }
   

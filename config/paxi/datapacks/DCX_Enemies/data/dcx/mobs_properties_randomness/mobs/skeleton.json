@@ -12,7 +12,7 @@
                     "conditions": [
                         {
                             "condition": "biome",
-                            "biomes": ["minecraft:bamboo_jungle", "minecraft:cherry_grove", "terralith:snowy_cherry_grove", "biomeswevegone:sakura_grove", "terralith:sakura_grove", "terralith:sakura_valley", "terralith:blooming_plateau", "terralith:blooming_valley", "environmental:blossom_valleys", "environmental:blossom_woods"]
+                            "biomes": ["minecraft:bamboo_jungle", "minecraft:cherry_grove", "terralith:snowy_cherry_grove", "biomeswevegone:sakura_grove", "terralith:sakura_grove", "terralith:sakura_valley", "atmospheric:kousa_jungle", "environmental:blossom_valleys", "environmental:blossom_woods"]
                         }
                     ]
                 }

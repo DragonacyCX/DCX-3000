@@ -2,6 +2,7 @@
     "replace": false,
     "values": [
         "#swordblockingmechanics:can_perform_sword_blocking",
+        "#c:axes",
         "#aetherdelight:knives"
     ]
   }

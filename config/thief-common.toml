@@ -16,7 +16,7 @@
 	# Crime severity for sleeping in a bed that belongs to a villager.
 	# Default: MEDIUM
 	#Allowed Values: NONE, LIGHT, MEDIUM, HEAVY
-	sleeping_in_villagers_bed = "LIGHT"
+	sleeping_in_villagers_bed = "NONE"
 	# Check for crimes only in #thief:protected structures. If disabled, whole world is 'protected'.
 	# Default: true.
 	crime_only_in_protected_structures = true

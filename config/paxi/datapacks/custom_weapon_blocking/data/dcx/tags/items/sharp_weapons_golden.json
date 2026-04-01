@@ -3,9 +3,7 @@
     "values": [
         "minecraft:golden_sword",
         "minecraft:golden_axe",
-        "basicweapons:golden_spear",
         "basicweapons:golden_dagger",
-        "basicweapons:golden_spear",
         "farmersdelight:golden_knife",
         "simplyswords:gold_longsword",
         "simplyswords:gold_twinblade",
@@ -17,7 +15,6 @@
         "simplyswords:gold_warglaive",
         "simplyswords:gold_cutlass",
         "simplyswords:gold_claymore",
-        "simplyswords:gold_greathammer",
         "simplyswords:gold_greataxe",
         "simplyswords:gold_chakram",
         "simplyswords:gold_scythe",

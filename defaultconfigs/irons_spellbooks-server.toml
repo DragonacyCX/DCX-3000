@@ -51,7 +51,7 @@
 	#Use these lists to change what items can interact with the Arcane Anvil's imbue system.
 	#/!\ Unsupported item types are not guaranteed to work out of the box.
 	#Imbue Whitelist. Use an item's id to allow it to be imbued, ex: "minecraft:iron_sword"
-	imbueWhitelist = ["alexsmobs:unsettling_kimono", "born_in_chaos_v1:nightmare_mantleofthe_night_chestplate", "#c:axes"]
+	imbueWhitelist = ["alexsmobs:unsettling_kimono", "born_in_chaos_v1:nightmare_mantleofthe_night_chestplate", "#c:axes", "#aetherdelight:knives"]
 	#Imbue Blacklist. Use an item's id to prevent it from being imbued, ex: "minecraft:iron_sword"
 	imbueBlacklist = []
 

@@ -1,9 +1,8 @@
 {
     "replace": false,
     "values": [
-        "kubejs:copper_club",
-        "kubejs:copper_hammer",
-        "kubejs:copper_quarterstaff"
+        "kubejs:copper_dagger",
+        "kubejs:copper_spear"
     ]
   }
   

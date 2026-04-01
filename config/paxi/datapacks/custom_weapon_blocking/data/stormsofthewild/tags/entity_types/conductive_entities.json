@@ -1,0 +1,35 @@
+{
+    "replace": false,
+    "values": [
+      "minecraft:vex",
+      "minecraft:copper_golem",
+      "quark:wraith",
+      "irons_spellbooks:citadel_keeper",
+      "irons_spellbooks:summoned_vex",
+      "alexscaves:teletor",
+      "alexscaves:magnetron",
+      "alexscaves:boundroid",
+      "alexscaves:ferrouslime",
+      "alexscaves:notor",
+      "alexscaves:nucleeper",
+      "alexscaves:mine_guardian",
+      "alexscaves:gumbeeper",
+      "aquamirae:captain_cornelia",
+      "born_in_chaos_v1:skeleton_thrasher",
+      "born_in_chaos_v1:skeleton_thrasher_not_despawn",
+      "born_in_chaos_v1:door_knight",
+      "born_in_chaos_v1:door_knight_not_despawn",
+      "born_in_chaos_v1:zombie_lumberjack",
+      "born_in_chaos_v1:fallen_chaos_knight",
+      "born_in_chaos_v1:restless_spirit",
+      "dungeonnowloading:spawner_carrier",
+      "dungeonnowloading:sealed_chaos",
+      "illagerinvasion:surrendered",
+      "mowziesmobs:ferrous_wroughtnaut",
+      "rottencreatures:undead_miner",
+      "rottencreatures:immortal",
+      "warriorsofpastepoch:skeleton_musketeer",
+      "takesapillage:legioner"
+    ]
+  }
+  

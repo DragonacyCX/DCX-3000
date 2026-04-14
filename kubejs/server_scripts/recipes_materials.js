@@ -98,6 +98,12 @@ event.custom({
   event.smelting('oreganized:silver_ingot', 'vintage:silver_sheet', 0.0, 200)
   event.blasting('oreganized:silver_ingot', 'vintage:silver_sheet', 0.0, 100)
 
+  //Cyna
+event.remove({ id: 'aquaculture:tin_can_to_iron_nugget' })
+event.remove({ id: 'aquaculture:tin_can_to_iron_nugget_from_blasting' })
+event.smelting('7x caverns_and_chasms:tin_nugget', 'aquaculture:tin_can', 0.7, 200)
+event.blasting('7x caverns_and_chasms:tin_nugget', 'aquaculture:tin_can', 0.7, 100)
+
   //Cynk
 event.custom({
     "type": "overgeared:forging",

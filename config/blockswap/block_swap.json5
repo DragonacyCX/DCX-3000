@@ -86,10 +86,8 @@ to make editing this file much easier.
 	   	}
 	*/
 	"swapper": {
-		"warriorsofpastepoch:depositof_forgotten_steel": "minecraft:deepslate",
+		"warriorsofpastepoch:depositof_forgotten_steel": "caverns_and_chasms:fragile_deepslate",
 		"born_in_chaos_v1:river_mint": "neapolitan:mint",
-		"galosphere:silver_ore": "minecraft:stone",
-		"galosphere:deepslate_silver_ore": "minecraft:deepslate",
 		"quark:gold_bars": "caverns_and_chasms:golden_bars",
 		"create:copper_bars": "caverns_and_chasms:waxed_copper_bars",
 		"quark:azalea_log": "caverns_and_chasms:azalea_log",

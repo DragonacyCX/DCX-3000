@@ -2,7 +2,7 @@
   "#dcx:integrated_simply_swords_silver": [
     {
       "attribute": "caverns_and_chasms:magic_damage",
-      "value": 2.0,
+      "value": 3.0,
       "operation": "ADDITION"
     }
   ]

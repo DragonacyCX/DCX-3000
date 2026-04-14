@@ -5,10 +5,7 @@ event.remove({ id: 'overgeared:copper_helmet' })
 event.remove({ id: 'overgeared:copper_chestplate' })
 event.remove({ id: 'overgeared:copper_leggings' })
 event.remove({ id: 'overgeared:copper_boots' })
-event.remove({ id: 'minecraft:copper_helmet' })
-event.remove({ id: 'minecraft:copper_chestplate' })
-event.remove({ id: 'minecraft:copper_leggings' })
-event.remove({ id: 'minecraft:copper_boots' })
+  //Lekka
 event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
@@ -110,6 +107,908 @@ event.custom({
     ],
     "result": {
       "item": "overgeared:copper_boots"
+    },
+    "show_notification": true
+  });
+
+  //Ciężka
+event.remove({ output: 'caverns_and_chasms:copper_helmet'})
+event.remove({ output: 'caverns_and_chasms:exposed_copper_helmet'})
+event.remove({ output: 'caverns_and_chasms:weathered_copper_helmet'})
+event.remove({ output: 'caverns_and_chasms:oxidized_copper_helmet'})
+event.remove({ output: 'caverns_and_chasms:waxed_copper_helmet'})
+event.remove({ output: 'caverns_and_chasms:waxed_exposed_copper_helmet'})
+event.remove({ output: 'caverns_and_chasms:waxed_weathered_copper_helmet'})
+event.remove({ output: 'caverns_and_chasms:waxed_oxidized_copper_helmet'})
+
+event.remove({ output: 'caverns_and_chasms:copper_chestplate'})
+event.remove({ output: 'caverns_and_chasms:exposed_copper_chestplate'})
+event.remove({ output: 'caverns_and_chasms:weathered_copper_chestplate'})
+event.remove({ output: 'caverns_and_chasms:oxidized_copper_chestplate'})
+event.remove({ output: 'caverns_and_chasms:waxed_copper_chestplate'})
+event.remove({ output: 'caverns_and_chasms:waxed_exposed_copper_chestplate'})
+event.remove({ output: 'caverns_and_chasms:waxed_weathered_copper_chestplate'})
+event.remove({ output: 'caverns_and_chasms:waxed_oxidized_copper_chestplate'})
+
+event.remove({ output: 'caverns_and_chasms:copper_leggings'})
+event.remove({ output: 'caverns_and_chasms:exposed_copper_leggings'})
+event.remove({ output: 'caverns_and_chasms:weathered_copper_leggings'})
+event.remove({ output: 'caverns_and_chasms:oxidized_copper_leggings'})
+event.remove({ output: 'caverns_and_chasms:waxed_copper_leggings'})
+event.remove({ output: 'caverns_and_chasms:waxed_exposed_copper_leggings'})
+event.remove({ output: 'caverns_and_chasms:waxed_weathered_copper_leggings'})
+event.remove({ output: 'caverns_and_chasms:waxed_oxidized_copper_leggings'})
+
+event.remove({ output: 'caverns_and_chasms:copper_boots'})
+event.remove({ output: 'caverns_and_chasms:exposed_copper_boots'})
+event.remove({ output: 'caverns_and_chasms:weathered_copper_boots'})
+event.remove({ output: 'caverns_and_chasms:oxidized_copper_boots'})
+event.remove({ output: 'caverns_and_chasms:waxed_copper_boots'})
+event.remove({ output: 'caverns_and_chasms:waxed_exposed_copper_boots'})
+event.remove({ output: 'caverns_and_chasms:waxed_weathered_copper_boots'})
+event.remove({ output: 'caverns_and_chasms:waxed_oxidized_copper_boots'})
+    //Blok miedzi
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "ARMOR",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": true,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:copper_block"
+      },
+      "I": {
+        "item": "minecraft:lightning_rod"
+      }
+    },
+    "pattern": [
+      " I ",
+      "CCC",
+      "C C"
+    ],
+    "result": {
+      "item": "caverns_and_chasms:copper_helmet"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "ARMOR",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 5,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": true,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:copper_block"
+      }
+    },
+    "pattern": [
+      "C C",
+      "CCC",
+      "CCC"
+    ],
+    "result": {
+      "item": "caverns_and_chasms:copper_chestplate"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "ARMOR",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 4,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": true,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:copper_block"
+      }
+    },
+    "pattern": [
+      "CCC",
+      "C C",
+      "C C"
+    ],
+    "result": {
+      "item": "caverns_and_chasms:copper_leggings"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "ARMOR",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": true,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:copper_block"
+      }
+    },
+    "pattern": [
+      "C C",
+      "C C",
+      "   "
+    ],
+    "result": {
+      "item": "caverns_and_chasms:copper_boots"
+    },
+    "show_notification": true
+  });
+    //Zwietrzała miedź
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "ARMOR",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": true,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:exposed_copper"
+      },
+      "I": {
+        "item": "caverns_and_chasms:exposed_lightning_rod"
+      }
+    },
+    "pattern": [
+      " I ",
+      "CCC",
+      "C C"
+    ],
+    "result": {
+      "item": "caverns_and_chasms:exposed_copper_helmet"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "ARMOR",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 5,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": true,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:exposed_copper"
+      }
+    },
+    "pattern": [
+      "C C",
+      "CCC",
+      "CCC"
+    ],
+    "result": {
+      "item": "caverns_and_chasms:exposed_copper_chestplate"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "ARMOR",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 4,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": true,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:exposed_copper"
+      }
+    },
+    "pattern": [
+      "CCC",
+      "C C",
+      "C C"
+    ],
+    "result": {
+      "item": "caverns_and_chasms:exposed_copper_leggings"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "ARMOR",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": true,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:exposed_copper"
+      }
+    },
+    "pattern": [
+      "C C",
+      "C C",
+      "   "
+    ],
+    "result": {
+      "item": "caverns_and_chasms:exposed_copper_boots"
+    },
+    "show_notification": true
+  });
+    //Zaśniedziała miedź
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "ARMOR",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": true,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:weathered_copper"
+      },
+      "I": {
+        "item": "caverns_and_chasms:weathered_lightning_rod"
+      }
+    },
+    "pattern": [
+      " I ",
+      "CCC",
+      "C C"
+    ],
+    "result": {
+      "item": "caverns_and_chasms:weathered_copper_helmet"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "ARMOR",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 5,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": true,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:weathered_copper"
+      }
+    },
+    "pattern": [
+      "C C",
+      "CCC",
+      "CCC"
+    ],
+    "result": {
+      "item": "caverns_and_chasms:weathered_copper_chestplate"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "ARMOR",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 4,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": true,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:weathered_copper"
+      }
+    },
+    "pattern": [
+      "CCC",
+      "C C",
+      "C C"
+    ],
+    "result": {
+      "item": "caverns_and_chasms:weathered_copper_leggings"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "ARMOR",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": true,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:weathered_copper"
+      }
+    },
+    "pattern": [
+      "C C",
+      "C C",
+      "   "
+    ],
+    "result": {
+      "item": "caverns_and_chasms:weathered_copper_boots"
+    },
+    "show_notification": true
+  });
+    //Utleniona miedź
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "ARMOR",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": true,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:oxidized_copper"
+      },
+      "I": {
+        "item": "caverns_and_chasms:oxidized_lightning_rod"
+      }
+    },
+    "pattern": [
+      " I ",
+      "CCC",
+      "C C"
+    ],
+    "result": {
+      "item": "caverns_and_chasms:oxidized_copper_helmet"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "ARMOR",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 5,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": true,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:oxidized_copper"
+      }
+    },
+    "pattern": [
+      "C C",
+      "CCC",
+      "CCC"
+    ],
+    "result": {
+      "item": "caverns_and_chasms:oxidized_copper_chestplate"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "ARMOR",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 4,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": true,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:oxidized_copper"
+      }
+    },
+    "pattern": [
+      "CCC",
+      "C C",
+      "C C"
+    ],
+    "result": {
+      "item": "caverns_and_chasms:oxidized_copper_leggings"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "ARMOR",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": true,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:oxidized_copper"
+      }
+    },
+    "pattern": [
+      "C C",
+      "C C",
+      "   "
+    ],
+    "result": {
+      "item": "caverns_and_chasms:oxidized_copper_boots"
+    },
+    "show_notification": true
+  });
+  //Ciężka
+    //Woskowany Blok miedzi
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "ARMOR",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": true,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:waxed_copper_block"
+      },
+      "I": {
+        "item": "caverns_and_chasms:waxed_lightning_rod"
+      }
+    },
+    "pattern": [
+      " I ",
+      "CCC",
+      "C C"
+    ],
+    "result": {
+      "item": "caverns_and_chasms:waxed_copper_helmet"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "ARMOR",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 5,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": true,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:waxed_copper_block"
+      }
+    },
+    "pattern": [
+      "C C",
+      "CCC",
+      "CCC"
+    ],
+    "result": {
+      "item": "caverns_and_chasms:waxed_copper_chestplate"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "ARMOR",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 4,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": true,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:waxed_copper_block"
+      }
+    },
+    "pattern": [
+      "CCC",
+      "C C",
+      "C C"
+    ],
+    "result": {
+      "item": "caverns_and_chasms:waxed_copper_leggings"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "ARMOR",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": true,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:waxed_copper_block"
+      }
+    },
+    "pattern": [
+      "C C",
+      "C C",
+      "   "
+    ],
+    "result": {
+      "item": "caverns_and_chasms:waxed_copper_boots"
+    },
+    "show_notification": true
+  });
+    //Woskowana Zwietrzała miedź
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "ARMOR",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": true,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:waxed_exposed_copper"
+      },
+      "I": {
+        "item": "caverns_and_chasms:waxed_exposed_lightning_rod"
+      }
+    },
+    "pattern": [
+      " I ",
+      "CCC",
+      "C C"
+    ],
+    "result": {
+      "item": "caverns_and_chasms:waxed_exposed_copper_helmet"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "ARMOR",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 5,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": true,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:waxed_exposed_copper"
+      }
+    },
+    "pattern": [
+      "C C",
+      "CCC",
+      "CCC"
+    ],
+    "result": {
+      "item": "caverns_and_chasms:waxed_exposed_copper_chestplate"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "ARMOR",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 4,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": true,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:waxed_exposed_copper"
+      }
+    },
+    "pattern": [
+      "CCC",
+      "C C",
+      "C C"
+    ],
+    "result": {
+      "item": "caverns_and_chasms:waxed_exposed_copper_leggings"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "ARMOR",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": true,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:waxed_exposed_copper"
+      }
+    },
+    "pattern": [
+      "C C",
+      "C C",
+      "   "
+    ],
+    "result": {
+      "item": "caverns_and_chasms:waxed_exposed_copper_boots"
+    },
+    "show_notification": true
+  });
+    //Woskowana Zaśniedziała miedź
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "ARMOR",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": true,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:waxed_weathered_copper"
+      },
+      "I": {
+        "item": "caverns_and_chasms:waxed_weathered_lightning_rod"
+      }
+    },
+    "pattern": [
+      " I ",
+      "CCC",
+      "C C"
+    ],
+    "result": {
+      "item": "caverns_and_chasms:waxed_weathered_copper_helmet"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "ARMOR",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 5,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": true,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:waxed_weathered_copper"
+      }
+    },
+    "pattern": [
+      "C C",
+      "CCC",
+      "CCC"
+    ],
+    "result": {
+      "item": "caverns_and_chasms:waxed_weathered_copper_chestplate"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "ARMOR",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 4,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": true,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:waxed_weathered_copper"
+      }
+    },
+    "pattern": [
+      "CCC",
+      "C C",
+      "C C"
+    ],
+    "result": {
+      "item": "caverns_and_chasms:waxed_weathered_copper_leggings"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "ARMOR",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": true,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:waxed_weathered_copper"
+      }
+    },
+    "pattern": [
+      "C C",
+      "C C",
+      "   "
+    ],
+    "result": {
+      "item": "caverns_and_chasms:waxed_weathered_copper_boots"
+    },
+    "show_notification": true
+  });
+    //Woskowana Utleniona miedź
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "ARMOR",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": true,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:waxed_oxidized_copper"
+      },
+      "I": {
+        "item": "caverns_and_chasms:waxed_oxidized_lightning_rod"
+      }
+    },
+    "pattern": [
+      " I ",
+      "CCC",
+      "C C"
+    ],
+    "result": {
+      "item": "caverns_and_chasms:waxed_oxidized_copper_helmet"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "ARMOR",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 5,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": true,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:waxed_oxidized_copper"
+      }
+    },
+    "pattern": [
+      "C C",
+      "CCC",
+      "CCC"
+    ],
+    "result": {
+      "item": "caverns_and_chasms:waxed_oxidized_copper_chestplate"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "ARMOR",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 4,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": true,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:waxed_oxidized_copper"
+      }
+    },
+    "pattern": [
+      "CCC",
+      "C C",
+      "C C"
+    ],
+    "result": {
+      "item": "caverns_and_chasms:waxed_oxidized_copper_leggings"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "ARMOR",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": true,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:waxed_oxidized_copper"
+      }
+    },
+    "pattern": [
+      "C C",
+      "C C",
+      "   "
+    ],
+    "result": {
+      "item": "caverns_and_chasms:waxed_oxidized_copper_boots"
     },
     "show_notification": true
   });

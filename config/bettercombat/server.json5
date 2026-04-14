@@ -19,7 +19,6 @@
 	*/
 	"hostile_player_vehicles": [
 		"alexsmobs:crocodile",
-		"upgrade_aquatic:thrasher",
 		"upgrade_aquatic:great_thrasher"
 	],
 	// Allows vanilla sweeping mechanic to work and Sweeping Edge enchantment

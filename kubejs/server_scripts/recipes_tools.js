@@ -10,7 +10,7 @@ event.shaped(
             'CCC'
         ], 
         {
-            B: '#caverns_and_chasms:cupric_fire_base_blocks',
+            B: 'minecraft:copper_block',
             C: 'minecraft:copper_ingot'
         })
 event.shaped(
@@ -232,127 +232,8 @@ event.remove({ input: 'overgeared:copper_shovel_head' })
 event.remove({ output: 'overgeared:copper_shovel_head' })
 event.remove({ input: 'overgeared:copper_hoe_head' })
 event.remove({ output: 'overgeared:copper_hoe_head' })
-event.remove({ id: 'minecraft:copper_pickaxe' })
-event.remove({ id: 'minecraft:copper_axe' })
-event.remove({ id: 'minecraft:copper_shovel' })
-event.remove({ id: 'minecraft:copper_hoe' })
 event.remove({ id: 'minecraft:brush' })
-event.custom({
-    "type": "overgeared:forging",
-    "category": "equipment",
-    "blueprint": "TOOLS",
-    "requires_blueprint": false,
-    "tier": "stone",
-    "hammering": 3,
-    "has_quality": true,
-    "minimum_quality": "poor",
-    "needs_minigame": false,
-    "has_polishing": false,
-    "key": {
-      "C": {
-        "item": "overgeared:heated_copper_ingot"
-      },
-      "H": {
-        "item": "spartanweaponry:simple_handle"
-      }
-    },
-    "pattern": [
-      "CCC",
-      " H ",
-      " H "
-    ],
-    "result": {
-      "item": "overgeared:copper_pickaxe"
-    },
-    "show_notification": true
-  });
-event.custom({
-    "type": "overgeared:forging",
-    "category": "equipment",
-    "blueprint": "TOOLS",
-    "requires_blueprint": false,
-    "tier": "stone",
-    "hammering": 3,
-    "has_quality": true,
-    "minimum_quality": "poor",
-    "needs_minigame": false,
-    "has_polishing": false,
-    "key": {
-      "C": {
-        "item": "overgeared:heated_copper_ingot"
-      },
-      "H": {
-        "item": "spartanweaponry:simple_handle"
-      }
-    },
-    "pattern": [
-      "CC ",
-      "CH ",
-      " H "
-    ],
-    "result": {
-      "item": "overgeared:copper_axe"
-    },
-    "show_notification": true
-  });
-event.custom({
-    "type": "overgeared:forging",
-    "category": "equipment",
-    "blueprint": "TOOLS",
-    "requires_blueprint": false,
-    "tier": "stone",
-    "hammering": 3,
-    "has_quality": true,
-    "minimum_quality": "poor",
-    "needs_minigame": false,
-    "has_polishing": false,
-    "key": {
-      "C": {
-        "item": "overgeared:heated_copper_ingot"
-      },
-      "H": {
-        "item": "spartanweaponry:simple_handle"
-      }
-    },
-    "pattern": [
-      " C ",
-      " H ",
-      " H "
-    ],
-    "result": {
-      "item": "overgeared:copper_shovel"
-    },
-    "show_notification": true
-  });
-event.custom({
-    "type": "overgeared:forging",
-    "category": "equipment",
-    "blueprint": "TOOLS",
-    "requires_blueprint": false,
-    "tier": "stone",
-    "hammering": 3,
-    "has_quality": true,
-    "minimum_quality": "poor",
-    "needs_minigame": false,
-    "has_polishing": false,
-    "key": {
-      "C": {
-        "item": "overgeared:heated_copper_ingot"
-      },
-      "H": {
-        "item": "spartanweaponry:simple_handle"
-      }
-    },
-    "pattern": [
-      "CC ",
-      " H ",
-      " H "
-    ],
-    "result": {
-      "item": "overgeared:copper_hoe"
-    },
-    "show_notification": true
-  });
+  //Zwykła Miedź
 event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
@@ -411,6 +292,983 @@ event.custom({
     ],
     "result": {
       "item": "minecraft:brush"
+    },
+    "show_notification": true
+  });
+  //Blok Miedzi
+event.remove({ output: 'caverns_and_chasms:copper_pickaxe'})
+event.remove({ output: 'caverns_and_chasms:exposed_copper_pickaxe'})
+event.remove({ output: 'caverns_and_chasms:weathered_copper_pickaxe'})
+event.remove({ output: 'caverns_and_chasms:oxidized_copper_pickaxe'})
+event.remove({ output: 'caverns_and_chasms:waxed_copper_pickaxe'})
+event.remove({ output: 'caverns_and_chasms:waxed_exposed_copper_pickaxe'})
+event.remove({ output: 'caverns_and_chasms:waxed_weathered_copper_pickaxe'})
+event.remove({ output: 'caverns_and_chasms:waxed_oxidized_copper_pickaxe'})
+
+event.remove({ output: 'caverns_and_chasms:copper_axe'})
+event.remove({ output: 'caverns_and_chasms:exposed_copper_axe'})
+event.remove({ output: 'caverns_and_chasms:weathered_copper_axe'})
+event.remove({ output: 'caverns_and_chasms:oxidized_copper_axe'})
+event.remove({ output: 'caverns_and_chasms:waxed_copper_axe'})
+event.remove({ output: 'caverns_and_chasms:waxed_exposed_copper_axe'})
+event.remove({ output: 'caverns_and_chasms:waxed_weathered_copper_axe'})
+event.remove({ output: 'caverns_and_chasms:waxed_oxidized_copper_axe'})
+
+event.remove({ output: 'caverns_and_chasms:copper_shovel'})
+event.remove({ output: 'caverns_and_chasms:exposed_copper_shovel'})
+event.remove({ output: 'caverns_and_chasms:weathered_copper_shovel'})
+event.remove({ output: 'caverns_and_chasms:oxidized_copper_shovel'})
+event.remove({ output: 'caverns_and_chasms:waxed_copper_shovel'})
+event.remove({ output: 'caverns_and_chasms:waxed_exposed_copper_shovel'})
+event.remove({ output: 'caverns_and_chasms:waxed_weathered_copper_shovel'})
+event.remove({ output: 'caverns_and_chasms:waxed_oxidized_copper_shovel'})
+
+event.remove({ output: 'caverns_and_chasms:copper_hoe'})
+event.remove({ output: 'caverns_and_chasms:exposed_copper_hoe'})
+event.remove({ output: 'caverns_and_chasms:weathered_copper_hoe'})
+event.remove({ output: 'caverns_and_chasms:oxidized_copper_hoe'})
+event.remove({ output: 'caverns_and_chasms:waxed_copper_hoe'})
+event.remove({ output: 'caverns_and_chasms:waxed_exposed_copper_hoe'})
+event.remove({ output: 'caverns_and_chasms:waxed_weathered_copper_hoe'})
+event.remove({ output: 'caverns_and_chasms:waxed_oxidized_copper_hoe'})
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "TOOLS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:copper_block"
+      },
+      "H": {
+        "item": "spartanweaponry:simple_handle"
+      }
+    },
+    "pattern": [
+      "CCC",
+      " H ",
+      " H "
+    ],
+    "result": {
+      "item": "overgeared:copper_pickaxe"
+    },
+    "show_notification": true
+  });
+event.remove({ id: 'overgeared:material_repair.copper_pickaxe'})
+event.remove({ id: 'overgeared:copper_nugget_from_smelting_copper_pickaxe' })
+event.remove({ id: 'overgeared:copper_nugget_from_blasting_copper_pickaxe' })
+event.smelting('minecraft:copper_ingot', 'overgeared:copper_pickaxe', 0.1, 200)
+event.blasting('minecraft:copper_ingot', 'overgeared:copper_pickaxe', 0.1, 100)
+
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "TOOLS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:copper_block"
+      },
+      "H": {
+        "item": "spartanweaponry:simple_handle"
+      }
+    },
+    "pattern": [
+      "CC ",
+      "CH ",
+      " H "
+    ],
+    "result": {
+      "item": "caverns_and_chasms:copper_axe"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "TOOLS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:copper_block"
+      },
+      "H": {
+        "item": "spartanweaponry:simple_handle"
+      }
+    },
+    "pattern": [
+      " C ",
+      " H ",
+      " H "
+    ],
+    "result": {
+      "item": "caverns_and_chasms:copper_shovel"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "TOOLS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:copper_block"
+      },
+      "H": {
+        "item": "spartanweaponry:simple_handle"
+      }
+    },
+    "pattern": [
+      "CC ",
+      " H ",
+      " H "
+    ],
+    "result": {
+      "item": "caverns_and_chasms:copper_hoe"
+    },
+    "show_notification": true
+  });
+  //Zwietrzała miedź
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "TOOLS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:exposed_copper"
+      },
+      "H": {
+        "item": "spartanweaponry:simple_handle"
+      }
+    },
+    "pattern": [
+      "CCC",
+      " H ",
+      " H "
+    ],
+    "result": {
+      "item": "overgeared:copper_pickaxe"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "TOOLS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:exposed_copper"
+      },
+      "H": {
+        "item": "spartanweaponry:simple_handle"
+      }
+    },
+    "pattern": [
+      "CC ",
+      "CH ",
+      " H "
+    ],
+    "result": {
+      "item": "caverns_and_chasms:exposed_copper_axe"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "TOOLS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:exposed_copper"
+      },
+      "H": {
+        "item": "spartanweaponry:simple_handle"
+      }
+    },
+    "pattern": [
+      " C ",
+      " H ",
+      " H "
+    ],
+    "result": {
+      "item": "caverns_and_chasms:exposed_copper_shovel"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "TOOLS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:exposed_copper"
+      },
+      "H": {
+        "item": "spartanweaponry:simple_handle"
+      }
+    },
+    "pattern": [
+      "CC ",
+      " H ",
+      " H "
+    ],
+    "result": {
+      "item": "caverns_and_chasms:exposed_copper_hoe"
+    },
+    "show_notification": true
+  });
+  //Zaśniedziała miedź
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "TOOLS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:weathered_copper"
+      },
+      "H": {
+        "item": "spartanweaponry:simple_handle"
+      }
+    },
+    "pattern": [
+      "CCC",
+      " H ",
+      " H "
+    ],
+    "result": {
+      "item": "overgeared:copper_pickaxe"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "TOOLS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:weathered_copper"
+      },
+      "H": {
+        "item": "spartanweaponry:simple_handle"
+      }
+    },
+    "pattern": [
+      "CC ",
+      "CH ",
+      " H "
+    ],
+    "result": {
+      "item": "caverns_and_chasms:weathered_copper_axe"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "TOOLS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:weathered_copper"
+      },
+      "H": {
+        "item": "spartanweaponry:simple_handle"
+      }
+    },
+    "pattern": [
+      " C ",
+      " H ",
+      " H "
+    ],
+    "result": {
+      "item": "caverns_and_chasms:weathered_copper_shovel"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "TOOLS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:weathered_copper"
+      },
+      "H": {
+        "item": "spartanweaponry:simple_handle"
+      }
+    },
+    "pattern": [
+      "CC ",
+      " H ",
+      " H "
+    ],
+    "result": {
+      "item": "caverns_and_chasms:weathered_copper_hoe"
+    },
+    "show_notification": true
+  });
+  //Utleniona miedź
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "TOOLS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:oxidized_copper"
+      },
+      "H": {
+        "item": "spartanweaponry:simple_handle"
+      }
+    },
+    "pattern": [
+      "CCC",
+      " H ",
+      " H "
+    ],
+    "result": {
+      "item": "overgeared:copper_pickaxe"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "TOOLS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:oxidized_copper"
+      },
+      "H": {
+        "item": "spartanweaponry:simple_handle"
+      }
+    },
+    "pattern": [
+      "CC ",
+      "CH ",
+      " H "
+    ],
+    "result": {
+      "item": "caverns_and_chasms:oxidized_copper_axe"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "TOOLS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:oxidized_copper"
+      },
+      "H": {
+        "item": "spartanweaponry:simple_handle"
+      }
+    },
+    "pattern": [
+      " C ",
+      " H ",
+      " H "
+    ],
+    "result": {
+      "item": "caverns_and_chasms:oxidized_copper_shovel"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "TOOLS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:oxidized_copper"
+      },
+      "H": {
+        "item": "spartanweaponry:simple_handle"
+      }
+    },
+    "pattern": [
+      "CC ",
+      " H ",
+      " H "
+    ],
+    "result": {
+      "item": "caverns_and_chasms:oxidized_copper_hoe"
+    },
+    "show_notification": true
+  });
+  //Woskowany Blok Miedzi
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "TOOLS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:waxed_copper_block"
+      },
+      "H": {
+        "item": "spartanweaponry:simple_handle"
+      }
+    },
+    "pattern": [
+      "CCC",
+      " H ",
+      " H "
+    ],
+    "result": {
+      "item": "caverns_and_chasms:waxed_copper_pickaxe"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "TOOLS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:waxed_copper_block"
+      },
+      "H": {
+        "item": "spartanweaponry:simple_handle"
+      }
+    },
+    "pattern": [
+      "CC ",
+      "CH ",
+      " H "
+    ],
+    "result": {
+      "item": "caverns_and_chasms:waxed_copper_axe"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "TOOLS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:waxed_copper_block"
+      },
+      "H": {
+        "item": "spartanweaponry:simple_handle"
+      }
+    },
+    "pattern": [
+      " C ",
+      " H ",
+      " H "
+    ],
+    "result": {
+      "item": "caverns_and_chasms:waxed_copper_shovel"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "TOOLS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:waxed_copper_block"
+      },
+      "H": {
+        "item": "spartanweaponry:simple_handle"
+      }
+    },
+    "pattern": [
+      "CC ",
+      " H ",
+      " H "
+    ],
+    "result": {
+      "item": "caverns_and_chasms:waxed_copper_hoe"
+    },
+    "show_notification": true
+  });
+  //Woskowana Zwietrzała Miedź
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "TOOLS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:waxed_exposed_copper"
+      },
+      "H": {
+        "item": "spartanweaponry:simple_handle"
+      }
+    },
+    "pattern": [
+      "CCC",
+      " H ",
+      " H "
+    ],
+    "result": {
+      "item": "caverns_and_chasms:waxed_exposed_copper_pickaxe"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "TOOLS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:waxed_exposed_copper"
+      },
+      "H": {
+        "item": "spartanweaponry:simple_handle"
+      }
+    },
+    "pattern": [
+      "CC ",
+      "CH ",
+      " H "
+    ],
+    "result": {
+      "item": "caverns_and_chasms:waxed_exposed_copper_axe"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "TOOLS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:waxed_exposed_copper"
+      },
+      "H": {
+        "item": "spartanweaponry:simple_handle"
+      }
+    },
+    "pattern": [
+      " C ",
+      " H ",
+      " H "
+    ],
+    "result": {
+      "item": "caverns_and_chasms:waxed_exposed_copper_shovel"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "TOOLS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:waxed_exposed_copper"
+      },
+      "H": {
+        "item": "spartanweaponry:simple_handle"
+      }
+    },
+    "pattern": [
+      "CC ",
+      " H ",
+      " H "
+    ],
+    "result": {
+      "item": "caverns_and_chasms:waxed_exposed_copper_hoe"
+    },
+    "show_notification": true
+  });
+  //Woskowana Zaśniedziała miedź
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "TOOLS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:waxed_weathered_copper"
+      },
+      "H": {
+        "item": "spartanweaponry:simple_handle"
+      }
+    },
+    "pattern": [
+      "CCC",
+      " H ",
+      " H "
+    ],
+    "result": {
+      "item": "caverns_and_chasms:waxed_weathered_copper_pickaxe"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "TOOLS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:waxed_weathered_copper"
+      },
+      "H": {
+        "item": "spartanweaponry:simple_handle"
+      }
+    },
+    "pattern": [
+      "CC ",
+      "CH ",
+      " H "
+    ],
+    "result": {
+      "item": "caverns_and_chasms:waxed_weathered_copper_axe"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "TOOLS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:waxed_weathered_copper"
+      },
+      "H": {
+        "item": "spartanweaponry:simple_handle"
+      }
+    },
+    "pattern": [
+      " C ",
+      " H ",
+      " H "
+    ],
+    "result": {
+      "item": "caverns_and_chasms:waxed_weathered_copper_shovel"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "TOOLS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:waxed_weathered_copper"
+      },
+      "H": {
+        "item": "spartanweaponry:simple_handle"
+      }
+    },
+    "pattern": [
+      "CC ",
+      " H ",
+      " H "
+    ],
+    "result": {
+      "item": "caverns_and_chasms:waxed_weathered_copper_hoe"
+    },
+    "show_notification": true
+  });
+  //Woskowana Utleniona miedź
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "TOOLS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:waxed_oxidized_copper"
+      },
+      "H": {
+        "item": "spartanweaponry:simple_handle"
+      }
+    },
+    "pattern": [
+      "CCC",
+      " H ",
+      " H "
+    ],
+    "result": {
+      "item": "caverns_and_chasms:waxed_oxidized_copper_pickaxe"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "TOOLS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:waxed_oxidized_copper"
+      },
+      "H": {
+        "item": "spartanweaponry:simple_handle"
+      }
+    },
+    "pattern": [
+      "CC ",
+      "CH ",
+      " H "
+    ],
+    "result": {
+      "item": "caverns_and_chasms:waxed_oxidized_copper_axe"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "TOOLS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:waxed_oxidized_copper"
+      },
+      "H": {
+        "item": "spartanweaponry:simple_handle"
+      }
+    },
+    "pattern": [
+      " C ",
+      " H ",
+      " H "
+    ],
+    "result": {
+      "item": "caverns_and_chasms:waxed_oxidized_copper_shovel"
+    },
+    "show_notification": true
+  });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "TOOLS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:waxed_oxidized_copper"
+      },
+      "H": {
+        "item": "spartanweaponry:simple_handle"
+      }
+    },
+    "pattern": [
+      "CC ",
+      " H ",
+      " H "
+    ],
+    "result": {
+      "item": "caverns_and_chasms:waxed_oxidized_copper_hoe"
     },
     "show_notification": true
   });
@@ -2050,6 +2908,15 @@ event.custom({
         }
     ).id('dcx:storage_magnet_upgrade_artifacts');
     
+    //Toolboxy z C&C
+    event.remove({ id: 'caverns_and_chasms:toolbox' })
+    event.remove({ id: 'caverns_and_chasms:exposed_toolbox' })
+    event.remove({ id: 'caverns_and_chasms:weathered_toolbox' })
+    event.remove({ id: 'caverns_and_chasms:oxidized_toolbox' })
+    event.remove({ id: 'caverns_and_chasms:waxed_toolbox' })
+    event.remove({ id: 'caverns_and_chasms:waxed_exposed_toolbox' })
+    event.remove({ id: 'caverns_and_chasms:waxed_weathered_toolbox' })
+    event.remove({ id: 'caverns_and_chasms:waxed_oxidized_toolbox' })
     
     //[KOMPASY]
     //Kompas Natury

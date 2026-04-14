@@ -42,7 +42,6 @@ event.replaceInput(
   'spartanweaponry:simple_handle')
 
   //Miedziane rzeczy
-event.remove({ id: 'minecraft:copper_sword' })
 event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
@@ -742,7 +741,256 @@ event.shaped(
         })
 
 //Miedziane Rzeczy
-    //Basic
+  //Blok Miedzi
+event.remove({ output: 'caverns_and_chasms:copper_sword'})
+event.remove({ output: 'caverns_and_chasms:exposed_copper_sword'})
+event.remove({ output: 'caverns_and_chasms:weathered_copper_sword'})
+event.remove({ output: 'caverns_and_chasms:oxidized_copper_sword'})
+event.remove({ output: 'caverns_and_chasms:waxed_copper_sword'})
+event.remove({ output: 'caverns_and_chasms:waxed_exposed_copper_sword'})
+event.remove({ output: 'caverns_and_chasms:waxed_weathered_copper_sword'})
+event.remove({ output: 'caverns_and_chasms:waxed_oxidized_copper_sword'})
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "LIGHTWEAPONS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:copper_block"
+      },
+      "H": {
+        "item": "spartanweaponry:simple_handle"
+      }
+    },
+    "pattern": [
+      " C ",
+      " C ",
+      " H "
+    ],
+    "result": {
+      "item": "caverns_and_chasms:copper_sword"
+    },
+    "show_notification": true
+  });
+  //Zwietrzała Miedź
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "LIGHTWEAPONS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:exposed_copper"
+      },
+      "H": {
+        "item": "spartanweaponry:simple_handle"
+      }
+    },
+    "pattern": [
+      " C ",
+      " C ",
+      " H "
+    ],
+    "result": {
+      "item": "caverns_and_chasms:exposed_copper_sword"
+    },
+    "show_notification": true
+  });
+  //Zaśniedziała Miedź
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "LIGHTWEAPONS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:weathered_copper"
+      },
+      "H": {
+        "item": "spartanweaponry:simple_handle"
+      }
+    },
+    "pattern": [
+      " C ",
+      " C ",
+      " H "
+    ],
+    "result": {
+      "item": "caverns_and_chasms:weathered_copper_sword"
+    },
+    "show_notification": true
+  });
+  //Utleniona Miedź
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "LIGHTWEAPONS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:oxidized_copper"
+      },
+      "H": {
+        "item": "spartanweaponry:simple_handle"
+      }
+    },
+    "pattern": [
+      " C ",
+      " C ",
+      " H "
+    ],
+    "result": {
+      "item": "caverns_and_chasms:oxidized_copper_sword"
+    },
+    "show_notification": true
+  });
+  //Woskowany Blok Miedzi
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "LIGHTWEAPONS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:waxed_copper_block"
+      },
+      "H": {
+        "item": "spartanweaponry:simple_handle"
+      }
+    },
+    "pattern": [
+      " C ",
+      " C ",
+      " H "
+    ],
+    "result": {
+      "item": "caverns_and_chasms:waxed_copper_sword"
+    },
+    "show_notification": true
+  });
+  //Woskowana Zwietrzała Miedź
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "LIGHTWEAPONS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:waxed_exposed_copper"
+      },
+      "H": {
+        "item": "spartanweaponry:simple_handle"
+      }
+    },
+    "pattern": [
+      " C ",
+      " C ",
+      " H "
+    ],
+    "result": {
+      "item": "caverns_and_chasms:waxed_exposed_copper_sword"
+    },
+    "show_notification": true
+  });
+  //Woskowana Zaśniedziała Miedź
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "LIGHTWEAPONS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:waxed_weathered_copper"
+      },
+      "H": {
+        "item": "spartanweaponry:simple_handle"
+      }
+    },
+    "pattern": [
+      " C ",
+      " C ",
+      " H "
+    ],
+    "result": {
+      "item": "caverns_and_chasms:waxed_weathered_copper_sword"
+    },
+    "show_notification": true
+  });
+  //Woskowana Utleniona Miedź
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "LIGHTWEAPONS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:waxed_oxidized_copper"
+      },
+      "H": {
+        "item": "spartanweaponry:simple_handle"
+      }
+    },
+    "pattern": [
+      " C ",
+      " C ",
+      " H "
+    ],
+    "result": {
+      "item": "caverns_and_chasms:waxed_oxidized_copper_sword"
+    },
+    "show_notification": true
+  });
+
+  //Basic
 event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
@@ -772,35 +1020,6 @@ event.custom({
     ],
     "result": {
       "item": "kubejs:copper_spear"
-    },
-    "show_notification": true
-  });
-event.custom({
-    "type": "overgeared:forging",
-    "category": "equipment",
-    "blueprint": "LIGHTWEAPONS",
-    "requires_blueprint": false,
-    "tier": "stone",
-    "hammering": 3,
-    "has_quality": true,
-    "minimum_quality": "poor",
-    "needs_minigame": false,
-    "has_polishing": false,
-    "key": {
-      "C": {
-        "item": "overgeared:heated_copper_ingot"
-      },
-      "H": {
-        "item": "spartanweaponry:simple_handle"
-      }
-    },
-    "pattern": [
-      " C ",
-      " C ",
-      " H "
-    ],
-    "result": {
-      "item": "overgeared:copper_sword"
     },
     "show_notification": true
   });

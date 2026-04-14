@@ -297,6 +297,17 @@
         "value": 5
       }
     },
+    "caverns_and_chasms:stealth": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "feathers:feathers.feather_regen": {
       "enabled": false,
       "min": {

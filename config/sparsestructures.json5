@@ -346,12 +346,20 @@
   "factor": 1.1
 },
 {
-  "structure": "deep_aether:brass_dungeon",
-  "factor": 1.2
+  "structure": "caverns_and_chasms:forges",
+  "factor": 1.1
 },
 {
-  "structure": "dungeoncrawl:dungeons",
-  "factor": 1.5
+  "structure": "caverns_and_chasms:tin_monoliths",
+  "factor": 1.0
+},
+{
+  "structure": "caverns_and_chasms:vaults",
+  "factor": 1.1
+},
+{
+  "structure": "deep_aether:brass_dungeon",
+  "factor": 1.2
 },
 {
   "structure": "dungeonnowloading:labyrinth",
@@ -376,6 +384,18 @@
 {
   "structure": "environmental:log_cabins",
   "factor": 0.9
+},
+{
+  "structure": "epic:large_dungeons",
+  "factor": 1.3
+},
+{
+  "structure": "epic:medium_dungeons",
+  "factor": 1.3
+},
+{
+  "structure": "epic:small_dungeons",
+  "factor": 1.3
 },
 {
   "structure": "explorify:supply_caches",

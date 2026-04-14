@@ -1,15 +1,22 @@
 var items_to_remove = 
 [
-//Copper Age Backport
-    'minecraft:copper_helmet', 
-    'minecraft:copper_chestplate',
-    'minecraft:copper_leggings',
-    'minecraft:copper_boots',
-    'minecraft:copper_sword',
-    'minecraft:copper_pickaxe',
-    'minecraft:copper_axe',
-    'minecraft:copper_shovel',
-    'minecraft:copper_hoe',
+//Caverns & Chasms
+    'caverns_and_chasms:toolbox',
+    'caverns_and_chasms:exposed_toolbox',
+    'caverns_and_chasms:weathered_toolbox',
+    'caverns_and_chasms:oxidized_toolbox',
+    'caverns_and_chasms:waxed_toolbox',
+    'caverns_and_chasms:waxed_exposed_toolbox',
+    'caverns_and_chasms:waxed_weathered_toolbox',
+    'caverns_and_chasms:waxed_oxidized_toolbox',
+    'caverns_and_chasms:copper_pickaxe',
+//Overgeared
+    'overgeared:copper_sword',
+    'overgeared:copper_axe',
+    'overgeared:copper_shovel',
+    'overgeared:copper_hoe',
+    'overgeared:copper_smithing_hammer',
+    'overgeared:smithing_hammer',
 //Rough Gems
     'spelunkery:rough_cinnabar',
     'spelunkery:rough_diamond',

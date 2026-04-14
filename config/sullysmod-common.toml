@@ -22,7 +22,7 @@
 	#Enables all artifact features
 	artifacts = true
 	#Enables copper buttons
-	copper_buttons = true
+	copper_buttons = false
 	#Enables gem lanterns
 	gem_lanterns = true
 	#Enables grindstone polishing

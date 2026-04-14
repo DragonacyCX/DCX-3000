@@ -1,5 +1,10 @@
 ItemEvents.modification(event => {
 
+//Miedziany kilof
+event.modify('overgeared:copper_pickaxe', item => {
+    item.maxDamage = 3191
+  })
+
 //Clears Rotten Stink (Mint)
 event.modify('twilightdelight:refreshing_ice_cream', item => {
     item.foodProperties = food => 

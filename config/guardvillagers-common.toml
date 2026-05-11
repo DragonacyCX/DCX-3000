@@ -58,7 +58,7 @@
 	"Mob Whitelist" = []
 
 ["golem stuff"]
-	"Allow Iron Golems to float on water?" = false
+	"Allow Iron Golems to float on water?" = true
 
 ["villager stuff"]
 	#This makes villagers run from polar bears, as anyone with common sense would.

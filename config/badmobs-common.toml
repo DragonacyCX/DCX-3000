@@ -1546,6 +1546,39 @@
 		#Should the entity spawn via mob conversion? i.e. villager -> zombie
 		allowConversions = true
 
+	#Spawning options for dungeonnowloading:garhold
+	[dungeonnowloading.garhold]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#Should the entity spawn via mob conversion? i.e. villager -> zombie
+		allowConversions = true
+
+	#Spawning options for dungeonnowloading:broken_garhold
+	[dungeonnowloading.broken_garhold]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#Should the entity spawn via mob conversion? i.e. villager -> zombie
+		allowConversions = true
+
+	#Spawning options for dungeonnowloading:seeping_soul
+	[dungeonnowloading.seeping_soul]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#Should the entity spawn via mob conversion? i.e. villager -> zombie
+		allowConversions = true
+
 #Options for the hunters_return mod.
 [hunters_return]
 
@@ -3475,141 +3508,6 @@
 
 	#Spawning options for cataclysm:lightning_spear
 	[cataclysm.lightning_spear]
-		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = true
-		#Should spawners be able to spawn the entity?
-		allowSpawners = true
-		#Should spawn eggs be able to spawn the entity?
-		allowSpawnEggs = true
-		#Should the entity spawn via mob conversion? i.e. villager -> zombie
-		allowConversions = true
-
-#Options for the seadwellers mod.
-[seadwellers]
-
-	#Spawning options for seadwellers:random_mermorph
-	[seadwellers.random_mermorph]
-		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = true
-		#Should spawners be able to spawn the entity?
-		allowSpawners = true
-		#Should spawn eggs be able to spawn the entity?
-		allowSpawnEggs = true
-		#Should the entity spawn via mob conversion? i.e. villager -> zombie
-		allowConversions = true
-
-	#Spawning options for seadwellers:mermorph_blacksmith
-	[seadwellers.mermorph_blacksmith]
-		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = true
-		#Should spawners be able to spawn the entity?
-		allowSpawners = true
-		#Should spawn eggs be able to spawn the entity?
-		allowSpawnEggs = true
-		#Should the entity spawn via mob conversion? i.e. villager -> zombie
-		allowConversions = true
-
-	#Spawning options for seadwellers:mermorph
-	[seadwellers.mermorph]
-		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = true
-		#Should spawners be able to spawn the entity?
-		allowSpawners = true
-		#Should spawn eggs be able to spawn the entity?
-		allowSpawnEggs = true
-		#Should the entity spawn via mob conversion? i.e. villager -> zombie
-		allowConversions = true
-
-	#Spawning options for seadwellers:mermorph_architect
-	[seadwellers.mermorph_architect]
-		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = true
-		#Should spawners be able to spawn the entity?
-		allowSpawners = true
-		#Should spawn eggs be able to spawn the entity?
-		allowSpawnEggs = true
-		#Should the entity spawn via mob conversion? i.e. villager -> zombie
-		allowConversions = true
-
-	#Spawning options for seadwellers:mermorph_farmer
-	[seadwellers.mermorph_farmer]
-		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = true
-		#Should spawners be able to spawn the entity?
-		allowSpawners = true
-		#Should spawn eggs be able to spawn the entity?
-		allowSpawnEggs = true
-		#Should the entity spawn via mob conversion? i.e. villager -> zombie
-		allowConversions = true
-
-	#Spawning options for seadwellers:mermorph_hunter
-	[seadwellers.mermorph_hunter]
-		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = true
-		#Should spawners be able to spawn the entity?
-		allowSpawners = true
-		#Should spawn eggs be able to spawn the entity?
-		allowSpawnEggs = true
-		#Should the entity spawn via mob conversion? i.e. villager -> zombie
-		allowConversions = true
-
-	#Spawning options for seadwellers:mermorph_collector
-	[seadwellers.mermorph_collector]
-		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = true
-		#Should spawners be able to spawn the entity?
-		allowSpawners = true
-		#Should spawn eggs be able to spawn the entity?
-		allowSpawnEggs = true
-		#Should the entity spawn via mob conversion? i.e. villager -> zombie
-		allowConversions = true
-
-	#Spawning options for seadwellers:mermorph_polar
-	[seadwellers.mermorph_polar]
-		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = true
-		#Should spawners be able to spawn the entity?
-		allowSpawners = true
-		#Should spawn eggs be able to spawn the entity?
-		allowSpawnEggs = true
-		#Should the entity spawn via mob conversion? i.e. villager -> zombie
-		allowConversions = true
-
-	#Spawning options for seadwellers:mermorph_river
-	[seadwellers.mermorph_river]
-		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = true
-		#Should spawners be able to spawn the entity?
-		allowSpawners = true
-		#Should spawn eggs be able to spawn the entity?
-		allowSpawnEggs = true
-		#Should the entity spawn via mob conversion? i.e. villager -> zombie
-		allowConversions = true
-
-	#Spawning options for seadwellers:mermorph_coral_orange
-	[seadwellers.mermorph_coral_orange]
-		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = true
-		#Should spawners be able to spawn the entity?
-		allowSpawners = true
-		#Should spawn eggs be able to spawn the entity?
-		allowSpawnEggs = true
-		#Should the entity spawn via mob conversion? i.e. villager -> zombie
-		allowConversions = true
-
-	#Spawning options for seadwellers:mermorph_coral_yellow
-	[seadwellers.mermorph_coral_yellow]
-		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = true
-		#Should spawners be able to spawn the entity?
-		allowSpawners = true
-		#Should spawn eggs be able to spawn the entity?
-		allowSpawnEggs = true
-		#Should the entity spawn via mob conversion? i.e. villager -> zombie
-		allowConversions = true
-
-	#Spawning options for seadwellers:mermorph_cavern
-	[seadwellers.mermorph_cavern]
 		#Should the entity be allowed to spawn normally?
 		allowNormalSpawning = true
 		#Should spawners be able to spawn the entity?
@@ -14546,6 +14444,28 @@
 		#Should the entity spawn via mob conversion? i.e. villager -> zombie
 		allowConversions = true
 
+	#Spawning options for gwrexpansions:magnetic_pin
+	[gwrexpansions.magnetic_pin]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#Should the entity spawn via mob conversion? i.e. villager -> zombie
+		allowConversions = true
+
+	#Spawning options for gwrexpansions:magnetic_bullet
+	[gwrexpansions.magnetic_bullet]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#Should the entity spawn via mob conversion? i.e. villager -> zombie
+		allowConversions = true
+
 #Options for the sullysmod mod.
 [sullysmod]
 
@@ -14835,141 +14755,6 @@
 
 	#Spawning options for mynethersdelight:strider_rock
 	[mynethersdelight.strider_rock]
-		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = true
-		#Should spawners be able to spawn the entity?
-		allowSpawners = true
-		#Should spawn eggs be able to spawn the entity?
-		allowSpawnEggs = true
-		#Should the entity spawn via mob conversion? i.e. villager -> zombie
-		allowConversions = true
-
-#Options for the upgrade_aquatic mod.
-[upgrade_aquatic]
-
-	#Spawning options for upgrade_aquatic:sonar_wave
-	[upgrade_aquatic.sonar_wave]
-		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = true
-		#Should spawners be able to spawn the entity?
-		allowSpawners = true
-		#Should spawn eggs be able to spawn the entity?
-		allowSpawnEggs = true
-		#Should the entity spawn via mob conversion? i.e. villager -> zombie
-		allowConversions = true
-
-	#Spawning options for upgrade_aquatic:nautilus
-	[upgrade_aquatic.nautilus]
-		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = true
-		#Should spawners be able to spawn the entity?
-		allowSpawners = true
-		#Should spawn eggs be able to spawn the entity?
-		allowSpawnEggs = true
-		#Should the entity spawn via mob conversion? i.e. villager -> zombie
-		allowConversions = true
-
-	#Spawning options for upgrade_aquatic:pike
-	[upgrade_aquatic.pike]
-		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = true
-		#Should spawners be able to spawn the entity?
-		allowSpawners = true
-		#Should spawn eggs be able to spawn the entity?
-		allowSpawnEggs = true
-		#Should the entity spawn via mob conversion? i.e. villager -> zombie
-		allowConversions = true
-
-	#Spawning options for upgrade_aquatic:perch
-	[upgrade_aquatic.perch]
-		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = true
-		#Should spawners be able to spawn the entity?
-		allowSpawners = true
-		#Should spawn eggs be able to spawn the entity?
-		allowSpawnEggs = true
-		#Should the entity spawn via mob conversion? i.e. villager -> zombie
-		allowConversions = true
-
-	#Spawning options for upgrade_aquatic:lionfish
-	[upgrade_aquatic.lionfish]
-		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = true
-		#Should spawners be able to spawn the entity?
-		allowSpawners = true
-		#Should spawn eggs be able to spawn the entity?
-		allowSpawnEggs = true
-		#Should the entity spawn via mob conversion? i.e. villager -> zombie
-		allowConversions = true
-
-	#Spawning options for upgrade_aquatic:thrasher
-	[upgrade_aquatic.thrasher]
-		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = false
-		#Should spawners be able to spawn the entity?
-		allowSpawners = false
-		#Should spawn eggs be able to spawn the entity?
-		allowSpawnEggs = false
-		#Should the entity spawn via mob conversion? i.e. villager -> zombie
-		allowConversions = false
-
-	#Spawning options for upgrade_aquatic:great_thrasher
-	[upgrade_aquatic.great_thrasher]
-		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = true
-		#Should spawners be able to spawn the entity?
-		allowSpawners = true
-		#Should spawn eggs be able to spawn the entity?
-		allowSpawnEggs = true
-		#Should the entity spawn via mob conversion? i.e. villager -> zombie
-		allowConversions = true
-
-	#Spawning options for upgrade_aquatic:flare
-	[upgrade_aquatic.flare]
-		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = true
-		#Should spawners be able to spawn the entity?
-		allowSpawners = true
-		#Should spawn eggs be able to spawn the entity?
-		allowSpawnEggs = true
-		#Should the entity spawn via mob conversion? i.e. villager -> zombie
-		allowConversions = true
-
-	#Spawning options for upgrade_aquatic:goose
-	[upgrade_aquatic.goose]
-		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = true
-		#Should spawners be able to spawn the entity?
-		allowSpawners = true
-		#Should spawn eggs be able to spawn the entity?
-		allowSpawnEggs = true
-		#Should the entity spawn via mob conversion? i.e. villager -> zombie
-		allowConversions = true
-
-	#Spawning options for upgrade_aquatic:box_jellyfish
-	[upgrade_aquatic.box_jellyfish]
-		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = true
-		#Should spawners be able to spawn the entity?
-		allowSpawners = true
-		#Should spawn eggs be able to spawn the entity?
-		allowSpawnEggs = true
-		#Should the entity spawn via mob conversion? i.e. villager -> zombie
-		allowConversions = true
-
-	#Spawning options for upgrade_aquatic:cassiopea_jellyfish
-	[upgrade_aquatic.cassiopea_jellyfish]
-		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = true
-		#Should spawners be able to spawn the entity?
-		allowSpawners = true
-		#Should spawn eggs be able to spawn the entity?
-		allowSpawnEggs = true
-		#Should the entity spawn via mob conversion? i.e. villager -> zombie
-		allowConversions = true
-
-	#Spawning options for upgrade_aquatic:immortal_jellyfish
-	[upgrade_aquatic.immortal_jellyfish]
 		#Should the entity be allowed to spawn normally?
 		allowNormalSpawning = true
 		#Should spawners be able to spawn the entity?
@@ -15862,6 +15647,268 @@
 
 	#Spawning options for aquamirae_delight:golden_moth
 	[aquamirae_delight.golden_moth]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#Should the entity spawn via mob conversion? i.e. villager -> zombie
+		allowConversions = true
+
+#Options for the wind_spellbooks mod.
+[wind_spellbooks]
+
+	#Spawning options for wind_spellbooks:tornado
+	[wind_spellbooks.tornado]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#Should the entity spawn via mob conversion? i.e. villager -> zombie
+		allowConversions = true
+
+	#Spawning options for wind_spellbooks:iron_slash
+	[wind_spellbooks.iron_slash]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#Should the entity spawn via mob conversion? i.e. villager -> zombie
+		allowConversions = true
+
+	#Spawning options for wind_spellbooks:dash_stop
+	[wind_spellbooks.dash_stop]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#Should the entity spawn via mob conversion? i.e. villager -> zombie
+		allowConversions = true
+
+	#Spawning options for wind_spellbooks:slash_effect
+	[wind_spellbooks.slash_effect]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#Should the entity spawn via mob conversion? i.e. villager -> zombie
+		allowConversions = true
+
+	#Spawning options for wind_spellbooks:almighty_push
+	[wind_spellbooks.almighty_push]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#Should the entity spawn via mob conversion? i.e. villager -> zombie
+		allowConversions = true
+
+	#Spawning options for wind_spellbooks:wind_blade
+	[wind_spellbooks.wind_blade]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#Should the entity spawn via mob conversion? i.e. villager -> zombie
+		allowConversions = true
+
+	#Spawning options for wind_spellbooks:aeromancer
+	[wind_spellbooks.aeromancer]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#Should the entity spawn via mob conversion? i.e. villager -> zombie
+		allowConversions = true
+
+#Options for the starcatcher mod.
+[starcatcher]
+
+	#Spawning options for starcatcher:fishing_bob
+	[starcatcher.fishing_bob]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#Should the entity spawn via mob conversion? i.e. villager -> zombie
+		allowConversions = true
+
+	#Spawning options for starcatcher:fish
+	[starcatcher.fish]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#Should the entity spawn via mob conversion? i.e. villager -> zombie
+		allowConversions = true
+
+	#Spawning options for starcatcher:broken_bottle
+	[starcatcher.broken_bottle]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#Should the entity spawn via mob conversion? i.e. villager -> zombie
+		allowConversions = true
+
+	#Spawning options for starcatcher:bottled_letter
+	[starcatcher.bottled_letter]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#Should the entity spawn via mob conversion? i.e. villager -> zombie
+		allowConversions = true
+
+#Options for the upgrade_aquatic mod.
+[upgrade_aquatic]
+
+	#Spawning options for upgrade_aquatic:sonar_wave
+	[upgrade_aquatic.sonar_wave]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#Should the entity spawn via mob conversion? i.e. villager -> zombie
+		allowConversions = true
+
+	#Spawning options for upgrade_aquatic:nautilus
+	[upgrade_aquatic.nautilus]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#Should the entity spawn via mob conversion? i.e. villager -> zombie
+		allowConversions = true
+
+	#Spawning options for upgrade_aquatic:pike
+	[upgrade_aquatic.pike]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#Should the entity spawn via mob conversion? i.e. villager -> zombie
+		allowConversions = true
+
+	#Spawning options for upgrade_aquatic:perch
+	[upgrade_aquatic.perch]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#Should the entity spawn via mob conversion? i.e. villager -> zombie
+		allowConversions = true
+
+	#Spawning options for upgrade_aquatic:lionfish
+	[upgrade_aquatic.lionfish]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#Should the entity spawn via mob conversion? i.e. villager -> zombie
+		allowConversions = true
+
+	#Spawning options for upgrade_aquatic:thrasher
+	[upgrade_aquatic.thrasher]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#Should the entity spawn via mob conversion? i.e. villager -> zombie
+		allowConversions = true
+
+	#Spawning options for upgrade_aquatic:great_thrasher
+	[upgrade_aquatic.great_thrasher]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#Should the entity spawn via mob conversion? i.e. villager -> zombie
+		allowConversions = true
+
+	#Spawning options for upgrade_aquatic:flare
+	[upgrade_aquatic.flare]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#Should the entity spawn via mob conversion? i.e. villager -> zombie
+		allowConversions = true
+
+	#Spawning options for upgrade_aquatic:goose
+	[upgrade_aquatic.goose]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#Should the entity spawn via mob conversion? i.e. villager -> zombie
+		allowConversions = true
+
+	#Spawning options for upgrade_aquatic:box_jellyfish
+	[upgrade_aquatic.box_jellyfish]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#Should the entity spawn via mob conversion? i.e. villager -> zombie
+		allowConversions = true
+
+	#Spawning options for upgrade_aquatic:cassiopea_jellyfish
+	[upgrade_aquatic.cassiopea_jellyfish]
+		#Should the entity be allowed to spawn normally?
+		allowNormalSpawning = true
+		#Should spawners be able to spawn the entity?
+		allowSpawners = true
+		#Should spawn eggs be able to spawn the entity?
+		allowSpawnEggs = true
+		#Should the entity spawn via mob conversion? i.e. villager -> zombie
+		allowConversions = true
+
+	#Spawning options for upgrade_aquatic:immortal_jellyfish
+	[upgrade_aquatic.immortal_jellyfish]
 		#Should the entity be allowed to spawn normally?
 		allowNormalSpawning = true
 		#Should spawners be able to spawn the entity?

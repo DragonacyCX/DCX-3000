@@ -1,4 +1,7 @@
 ServerEvents.recipes(event => {
+//Apotheosis rozdymka
+event.remove({ id: 'apotheosis:pufferfish' })
+
 //Chleb
 event.remove({ id: 'quark:tweaks/crafting/utility/bent/bread' })
 event.remove({ id: 'vintagedelight:oat_bread' })

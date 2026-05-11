@@ -1,0 +1,12 @@
+{
+  "showEnchantability": true,
+  "alwaysShowEnchantability": false,
+  "showRepairCost": false,
+  "alwaysShowRepairCost": false,
+  "showHarvestLevel": false,
+  "showEfficiency": false,
+  "showSwordEfficiency": false,
+  "showDurability": false,
+  "alwaysShowDurability": false,
+  "showHorseArmorProtection": true
+}

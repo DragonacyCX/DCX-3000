@@ -1,0 +1,16 @@
+{
+    "replace": false,
+    "values": [
+      "kubejs:copper_hammer",
+      "kubejs:copper_dagger",
+      "kubejs:copper_club",
+      "kubejs:copper_spear",
+      "kubejs:copper_quarterstaff",
+      "kubejs:steel_hammer",
+      "kubejs:steel_dagger",
+      "kubejs:steel_club",
+      "kubejs:steel_spear",
+      "kubejs:steel_quarterstaff"
+    ]
+  }
+  

@@ -1,0 +1,73 @@
+{
+  "configVersion": 1,
+  "tiers": [
+    {
+      "name": "wood",
+      "level": 0,
+      "displayName": "Wooden",
+      "color": "#8B6914",
+      "builtIn": true,
+      "iconItem": "minecraft:wooden_pickaxe"
+    },
+    {
+      "name": "gold",
+      "level": 0,
+      "displayName": "Golden",
+      "color": "#FFAA00",
+      "builtIn": true,
+      "iconItem": "minecraft:golden_pickaxe"
+    },
+    {
+      "name": "stone",
+      "level": 1,
+      "displayName": "Stone",
+      "color": "#888888",
+      "builtIn": true,
+      "iconItem": "minecraft:stone_pickaxe"
+    },
+    {
+      "name": "copper",
+      "level": 2,
+      "displayName": "Copper",
+      "color": "#B87333",
+      "builtIn": false,
+      "iconItem": "caverns_and_chasms:copper_pickaxe",
+      "after": "stone",
+      "before": "iron"
+    },
+    {
+      "name": "iron",
+      "level": 3,
+      "displayName": "Iron",
+      "color": "#C8C8C8",
+      "builtIn": true,
+      "iconItem": "minecraft:iron_pickaxe"
+    },
+    {
+      "name": "steel",
+      "level": 4,
+      "displayName": "Steel",
+      "color": "#71797E",
+      "builtIn": false,
+      "iconItem": "overgeared:steel_pickaxe",
+      "after": "iron",
+      "before": "diamond"
+    },
+    {
+      "name": "diamond",
+      "level": 5,
+      "displayName": "Diamond",
+      "color": "#55FFFF",
+      "builtIn": true,
+      "iconItem": "minecraft:diamond_pickaxe"
+    },
+    {
+      "name": "netherite",
+      "level": 6,
+      "displayName": "Netherite",
+      "color": "#4D3B3B",
+      "builtIn": true,
+      "iconItem": "minecraft:netherite_pickaxe"
+    }
+  ]
+}

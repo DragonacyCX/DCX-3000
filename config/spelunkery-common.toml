@@ -53,7 +53,7 @@
 	slime_growth_max = 5
 
 [worldgen]
-	stone_stripe_features = false
+	stone_stripe_features = true
 	sporophytes_in_lush_caves = true
 	dark_forest_portabellas = true
 

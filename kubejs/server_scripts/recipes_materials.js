@@ -1,6 +1,6 @@
 ServerEvents.recipes(event => {
 
-    //Zamiana i kasowanie różnych przepisów
+//Zamiana i kasowanie różnych przepisów
     event.remove({ id: 'create:haunting/lapis_recycling' })
     event.remove({ id: 'born_in_chaos_v1:bundleof_bones_l' })
     event.remove({ id: 'born_in_chaos_v1:bundleof_bones_k' })
@@ -463,6 +463,8 @@ event.custom({
 event.smelting('twilightforest:fiery_ingot', 'vintage:fiery_sheet', 0.0, 200)
 event.blasting('twilightforest:fiery_ingot', 'vintage:fiery_sheet', 0.0, 100)
 
+
+
 //Polerowanie Kamieni Szlachetnych (Rough Gems)
 event.remove({ id: 'st_gsoc:sandpaper_polishing/spinel' })
 event.remove({ id: 'spelunkery:sandpaper_polishing/cinnabar' })
@@ -548,6 +550,8 @@ event.custom({
   }
 });
 
+
+
 //Płótno
 event.remove({ id: 'farmersdelight:canvas' })
 event.shaped(
@@ -572,6 +576,8 @@ event.shaped(
         B: 'supplementaries:flax_block',
         C: 'farmersdelight:straw_bale'
     })
+
+
 
 //WARRIORS OF PAST EPOCH
 //Forgotten Steel na Dark Metal
@@ -623,14 +629,17 @@ event.shaped(
         N: 'overgeared:steel_nugget',
         L: 'born_in_chaos_v1:monster_skin'})
 
-//Leather Scraps
-event.shapeless(
-    Item.of('dolt_mod_how:leather_scraps', 2), // Output
-    [
-        'minecraft:leather'
-       ], 
-)
-//dolt_mod_how:leather_scraps!
+
+
+//SKÓRA (LEATHER)
+  //Leather Scraps
+event.remove({ id: 'fleshz:rotten_leather' })
+event.replaceInput(
+  { output: 'fleshz:prepared_hide' },
+  'minecraft:sugar',
+  '#forge:salt')
+
+
 
 //Polimer
 event.replaceInput(
@@ -840,37 +849,37 @@ event.shapeless(
         })
 
     //XP Tome i zbiornik
-    event.remove({ id: 'xpbook:xp_tome' })
-    event.shaped(
-        Item.of('xpbook:xp_tome', 1), // Output
-        [
-            'PFP',
-            'CBC',
-            'PDP'
-        ], 
-        {
-            P: 'minecraft:ender_pearl',
-            F: 'spelunkery:nephrite_fountain',
-            D: 'spelunkery:nephrite_diode',
-            C: 'spelunkery:carved_nephrite',
-            B: 'minecraft:book',
-        }
-    ).id('custom:xptome');
+    //event.remove({ id: 'xpbook:xp_tome' })
+    //event.shaped(
+    //    Item.of('xpbook:xp_tome', 1), // Output
+    //    [
+    //        'PFP',
+    //        'CBC',
+    //        'PDP'
+    //    ], 
+    //    {
+    //        P: 'minecraft:ender_pearl',
+    //        F: 'spelunkery:nephrite_fountain',
+    //        D: 'spelunkery:nephrite_diode',
+    //        C: 'spelunkery:carved_nephrite',
+    //        B: 'minecraft:book',
+    //    }
+    //).id('custom:xptome');
 
     event.remove({ id: 'sophisticatedbackpacks:tank_upgrade' })
-    event.shaped(
-        Item.of('sophisticatedbackpacks:tank_upgrade', 1), // Output
-        [
-            'GXG',
-            'GUG',
-            'GBG'
-        ], 
-        {
-            X: 'xpbook:xp_tome',
-            G: '#forge:glass',
-            U: 'sophisticatedbackpacks:upgrade_base',
-            B: 'minecraft:bucket',
-        }
-    ).id('custom:tank');
+    //event.shaped(
+    //    Item.of('sophisticatedbackpacks:tank_upgrade', 1), // Output
+    //    [
+    //        'GXG',
+    //        'GUG',
+    //        'GBG'
+    //    ], 
+    //    {
+    //        X: 'xpbook:xp_tome',
+    //        G: '#forge:glass',
+    //        U: 'sophisticatedbackpacks:upgrade_base',
+    //        B: 'minecraft:bucket',
+    //    }
+    //).id('custom:tank');
 
 })

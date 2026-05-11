@@ -10,7 +10,7 @@
 4 : '{Count:10b,id:"alexscaves:ink_bomb"}',
 5 : '{Count:10b,id:"minecraft:cooked_salmon"}',
 6 : '{Count:3b,id:"born_in_chaos_v1:sea_terror_eye"}',
-7 : '{Count:20b,id:"seadwellers:aquamarine"}',
+7 : '',
 8 : '{Count:1b,id:"aether:blue_cape"}',
 9 : '',
 10 : '',

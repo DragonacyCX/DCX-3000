@@ -1,45 +1,76 @@
-StartupEvents.registry('item', event => {
+//MIEDZIANY TIER
+ItemEvents.toolTierRegistry(event => {
+  event.add('copper', tier => {
+    tier.uses = 3191
+    tier.speed = 5
+    tier.attackDamageBonus = 0
+    tier.level = 1
+    tier.enchantmentValue = 13
+    tier.repairIngredient = 'minecraft:copper_block'
+  })
+})
+
+//SREBRNY TIER
+ItemEvents.toolTierRegistry(event => {
+  event.add('silver', tier => {
+    tier.uses = 157
+    tier.speed = 9
+    tier.attackDamageBonus = 0
+    tier.level = 2
+    tier.enchantmentValue = 18
+    tier.repairIngredient = '#forge:ingots/silver'
+  })
+})
+
+//STALOWY TIER
+ItemEvents.toolTierRegistry(event => {
+  event.add('steel', tier => {
+    tier.uses = 500
+    tier.speed = 7
+    tier.attackDamageBonus = 0
+    tier.level = 2
+    tier.enchantmentValue = 12
+    tier.repairIngredient = '#forge:ingots/steel'
+  })
+})
+
 //MIEDZIANE BRONIE
+StartupEvents.registry('item', event => {
 event.create('copper_hammer', 'sword')
-    .maxStackSize(1)
+    .tier('copper')
     .displayName("Copper Hammer")
-    .maxDamage(190)
     .attackDamageBaseline(6)
     .attackDamageBonus(1)
     .speedBaseline(-3.3)
     .texture('kubejs:item/copper_hammer')
 
 event.create('copper_dagger', 'sword')
-    .maxStackSize(1)
+    .tier('copper')
     .displayName("Copper Dagger")
-    .maxDamage(190)
     .attackDamageBaseline(1)
     .attackDamageBonus(1)
     .speedBaseline(-2.0)
     .texture('kubejs:item/copper_dagger')
 
 event.create('copper_club', 'sword')
-    .maxStackSize(1)
+    .tier('copper')
     .displayName("Copper Club")
-    .maxDamage(190)
     .attackDamageBaseline(5)
     .attackDamageBonus(1)
     .speedBaseline(-3.0)
     .texture('kubejs:item/copper_club')
 
 event.create('copper_spear', 'sword')
-    .maxStackSize(1)
+    .tier('copper')
     .displayName("Copper Spear")
-    .maxDamage(190)
     .attackDamageBaseline(3)
     .attackDamageBonus(1)
     .speedBaseline(-2.7)
     .texture('kubejs:item/copper_spear_held')
 
 event.create('copper_quarterstaff', 'sword')
-    .maxStackSize(1)
+    .tier('copper')
     .displayName("Copper Quarterstaff")
-    .maxDamage(190)
     .attackDamageBaseline(1)
     .attackDamageBonus(1)
     .speedBaseline(-2.3)

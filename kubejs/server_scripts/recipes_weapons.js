@@ -1004,7 +1004,7 @@ event.custom({
     "has_polishing": false,
     "key": {
       "C": {
-        "item": "overgeared:heated_copper_ingot"
+        "item": "minecraft:copper_block"
       },
       "H": {
         "item": "spartanweaponry:simple_handle"
@@ -1036,7 +1036,7 @@ event.custom({
     "has_polishing": false,
     "key": {
       "C": {
-        "item": "overgeared:heated_copper_ingot"
+        "item": "minecraft:copper_block"
       },
       "H": {
         "item": "spartanweaponry:simple_handle"
@@ -1065,7 +1065,7 @@ event.custom({
     "has_polishing": false,
     "key": {
       "C": {
-        "item": "overgeared:heated_copper_ingot"
+        "item": "minecraft:copper_block"
       },
       "H": {
         "item": "spartanweaponry:simple_handle"
@@ -1094,7 +1094,7 @@ event.custom({
     "has_polishing": false,
     "key": {
       "C": {
-        "item": "overgeared:heated_copper_ingot"
+        "item": "minecraft:copper_block"
       },
       "P": {
         "item": "spartanweaponry:simple_pole"
@@ -5255,7 +5255,6 @@ event.remove({ id: 'aquaculture:wooden_fillet_knife'})
 //Trident
 //Trójząb
 event.remove({ id: 'bettertridents:trident'})
-event.remove({ id: 'seadwellers:trident_repair'})
 event.remove({ id: 'upgrade_aquatic:trident'})
 event.remove({ id: 'apotheosis:inert_trident'})
    event.shaped(
@@ -5271,28 +5270,9 @@ event.remove({ id: 'apotheosis:inert_trident'})
         F: 'born_in_chaos_v1:trident_hayfork',
         R: 'upgrade_aquatic:prismarine_rod',
         S: 'minecraft:heart_of_the_sea',
-        A: 'seadwellers:aquamarine_crystal',
+        A: 'starcatcher:pearl',
         G: 'minecraft:gold_ingot'
     }
 ).id('dcx:fork_to_trident');
-   event.shaped(
-    Item.of('apotheosis:inert_trident', 1), // Output
-    [
-        'AZZ',
-        'GFZ',
-        'RSN'
-    ], 
-    {
-        Z: 'upgrade_aquatic:thrasher_tooth',
-        N: 'minecraft:nautilus_shell',
-        F: 'seadwellers:broken_trident',
-        R: 'upgrade_aquatic:prismarine_rod',
-        S: 'minecraft:heart_of_the_sea',
-        A: 'seadwellers:aquamarine_crystal',
-        G: 'minecraft:gold_ingot'
-    }
-).id('dcx:brokentrident_to_trident');
-
-
-
+   
 })

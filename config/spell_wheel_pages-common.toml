@@ -1,0 +1,12 @@
+
+#Spell Wheel Pages Configuration
+[general]
+	#Maximum number of spells shown per page in the Spell Wheel.
+	#When the player has more spells than this value, the wheel is split
+	#into multiple pages that can be navigated with the scroll wheel.
+	#Range: 2 ~ 20
+	maxSpellsPerPage = 10
+	#If true, the persistent spell bar (the HUD icons on screen) will
+	#only show spells from the currently active wheel page.
+	paginateSpellBar = false
+

@@ -116,10 +116,6 @@
 		[types.wood_type.mynethersdelight]
 			powdery = true
 
-		[types.wood_type.upgrade_aquatic]
-			driftwood = true
-			river = true
-
 		[types.wood_type.biomeswevegone]
 			aspen = true
 			baobab = true
@@ -146,8 +142,9 @@
 			witch_hazel = true
 			zelkova = true
 
-		[types.wood_type.dungeonnowloading]
-			azuro_oak = true
+		[types.wood_type.upgrade_aquatic]
+			driftwood = true
+			river = true
 
 	[types.leaves_type]
 
@@ -260,9 +257,6 @@
 			currant = true
 			grimwood = true
 
-		[types.leaves_type.upgrade_aquatic]
-			river = true
-
 		[types.leaves_type.biomeswevegone]
 			aspen = true
 			baobab = true
@@ -323,8 +317,8 @@
 			yellow_spruce = true
 			firecracker = true
 
-		[types.leaves_type.dungeonnowloading]
-			azuro = true
+		[types.leaves_type.upgrade_aquatic]
+			river = true
 
 #Disables specific entries
 [entries]
@@ -342,14 +336,6 @@
 			hollow_log = true
 			vertical_slab = true
 
-		[entries.wood_type.mcwbridges]
-			rope_bridge = true
-			rope_bridge_stair = true
-			log_bridge_stair = true
-			rail_bridge = true
-			bridge_pier = true
-			log_bridge_middle = true
-
 		[entries.wood_type.twilightforest]
 			hollow_log_horizontal = true
 			hollow_log_vertical = true
@@ -362,6 +348,9 @@
 
 		[entries.wood_type.farmersdelight]
 			cabinet = true
+
+		[entries.wood_type.fleshz]
+			wood_rack = true
 
 	[entries.leaves_type]
 

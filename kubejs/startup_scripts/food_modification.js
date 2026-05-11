@@ -1,10 +1,5 @@
 ItemEvents.modification(event => {
 
-//Miedziany kilof
-event.modify('overgeared:copper_pickaxe', item => {
-    item.maxDamage = 3191
-  })
-
 //Clears Rotten Stink (Mint)
 event.modify('twilightdelight:refreshing_ice_cream', item => {
     item.foodProperties = food => 
@@ -42,7 +37,8 @@ event.modify('neapolitan:mint_ice_cream', item => {
 
 //Stack size
 event.modify('autumnity:foul_soup', item => {
-    item.maxStackSize = 16
-  })
+    item.maxStackSize = 16})
+event.modify('alexscaves:jelly_bean', item => {
+    item.maxStackSize = 64})
 
 })

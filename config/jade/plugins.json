@@ -22,7 +22,7 @@
     "waxed": true,
     "harvest_tool.new_line": false,
     "entity_health.max_for_render": 40,
-    "entity_health.show_fractions": false,
+    "entity_health.show_fractions": true,
     "mob_spawner": true,
     "redstone": true,
     "fluid_storage": true,
@@ -37,7 +37,7 @@
     "block_states": false,
     "lectern": true,
     "entity_armor": true,
-    "harvest_tool.creative": false,
+    "harvest_tool.creative": true,
     "horse_stats": true,
     "item_tooltip": true,
     "entity_health": true,
@@ -58,7 +58,7 @@
     "filter": true,
     "backtank_capacity": true,
     "goggles.requires_goggles": true,
-    "goggles": true,
+    "goggles": false,
     "blaze_burner": true,
     "exact_block": true,
     "goggles.detailed": false,
@@ -82,8 +82,7 @@
     "mod_name": true
   },
   "apotheosis": {
-    "ench": true,
-    "spawner": true
+    "ench": true
   },
   "waystones": {
     "waystone": true

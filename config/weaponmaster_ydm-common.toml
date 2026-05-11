@@ -28,7 +28,7 @@
 	#Slot 9
 	s9 = true
 	#Shield
-	shield = false
+	shield = true
 	#Banner
 	banner = false
 	#main hand

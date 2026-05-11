@@ -253,6 +253,17 @@
         "value": 10
       }
     },
+    "wind_spellbooks:wind_spell_power": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
     "gtbcs_spell_lib:magic_projectile_damage": {
       "enabled": false,
       "min": {
@@ -914,6 +925,17 @@
       }
     },
     "quality_equipment:dig_speed": {
+      "enabled": false,
+      "min": {
+        "default": -100,
+        "value": -100
+      },
+      "max": {
+        "default": 100,
+        "value": 100
+      }
+    },
+    "wind_spellbooks:wind_magic_resist": {
       "enabled": false,
       "min": {
         "default": -100,

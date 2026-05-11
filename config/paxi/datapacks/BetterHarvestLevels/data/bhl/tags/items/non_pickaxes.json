@@ -1,0 +1,10 @@
+{
+  "values": [
+    "#forge:tools"
+  ],
+  "remove": [
+    "#minecraft:pickaxes",
+    "#forge:pickaxes",
+    "#forge:tools/pickaxes"
+  ]
+}

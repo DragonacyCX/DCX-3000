@@ -1,6 +1,6 @@
 {
   "enable": true,
   "repair": [],
-  "repairItems": ["minecraft:copper_ingot"],
+  "repairItems": [],
   "enchantments": []
 }

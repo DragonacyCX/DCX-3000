@@ -1,0 +1,17 @@
+{
+  "swapper": {
+		"born_in_chaos_v1:river_mint": "neapolitan:mint",
+		"biomeswevegone:aloe_vera": "atmospheric:aloe_vera",
+		"biomeswevegone:blooming_aloe_vera": "atmospheric:tall_aloe_vera",
+		"biomeswevegone:blueberry_bush": "fruitsdelight:blueberry_bush",
+		"create:copper_bars": "caverns_and_chasms:waxed_copper_bars",
+		"fruitsdelight:apple_crate": "quark:apple_crate",
+		"quark:azalea_log": "caverns_and_chasms:azalea_log",
+		"quark:stripped_azalea_log": "caverns_and_chasms:stripped_azalea_log",
+		"quark:gold_bars": "caverns_and_chasms:golden_bars",
+		"quark:potato_crate": "farmersdelight:potato_crate",
+		"quark:carrot_crate": "farmersdelight:carrot_crate",
+		"quark:beetroot_crate": "farmersdelight:beetroot_crate",
+		"warriorsofpastepoch:depositof_forgotten_steel": "caverns_and_chasms:fragile_deepslate"
+	 }
+}

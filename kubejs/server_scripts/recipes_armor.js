@@ -1,6 +1,899 @@
 ServerEvents.recipes(event => {
 //ZBROJE
-//MIEDZIANE RZECZY
+//DO USZYCIA
+  //Skórzane Rzeczy (Leather)
+event.remove({ id: 'minecraft:leather_helmet' })
+event.remove({ id: 'minecraft:leather_chestplate' })
+event.remove({ id: 'minecraft:leather_leggings' })
+event.remove({ id: 'minecraft:leather_boots' })
+event.custom({
+  "type": "sewingkit:sewing",
+  "materials": [
+    {
+      "count": 5,
+      "ingredient": {
+        "item": "minecraft:leather"
+      }
+    },
+    {
+      "count": 2,
+      "ingredient": {
+        "tag": "forge:string"
+      }
+    }
+  ],
+  "result": {
+    "item": "minecraft:leather_helmet"
+  },
+  "tool": {
+    "type": "sewingkit:tool_ingredient",
+    "tool_type": "sewingkit_sew"
+  }
+});
+event.custom({
+  "type": "sewingkit:sewing",
+  "materials": [
+    {
+      "count": 8,
+      "ingredient": {
+        "item": "minecraft:leather"
+      }
+    },
+    {
+      "count": 4,
+      "ingredient": {
+        "tag": "forge:string"
+      }
+    }
+  ],
+  "result": {
+    "item": "minecraft:leather_chestplate"
+  },
+  "tool": {
+    "type": "sewingkit:tool_ingredient",
+    "tool_type": "sewingkit_sew"
+  }
+});
+event.custom({
+  "type": "sewingkit:sewing",
+  "materials": [
+    {
+      "count": 7,
+      "ingredient": {
+        "item": "minecraft:leather"
+      }
+    },
+    {
+      "count": 3,
+      "ingredient": {
+        "tag": "forge:string"
+      }
+    }
+  ],
+  "result": {
+    "item": "minecraft:leather_leggings"
+  },
+  "tool": {
+    "type": "sewingkit:tool_ingredient",
+    "tool_type": "sewingkit_sew"
+  }
+});
+event.custom({
+  "type": "sewingkit:sewing",
+  "materials": [
+    {
+      "count": 4,
+      "ingredient": {
+        "item": "minecraft:leather"
+      }
+    },
+    {
+      "count": 2,
+      "ingredient": {
+        "tag": "forge:string"
+      }
+    }
+  ],
+  "result": {
+    "item": "minecraft:leather_boots"
+  },
+  "tool": {
+    "type": "sewingkit:tool_ingredient",
+    "tool_type": "sewingkit_sew"
+  }
+});
+  //Podarte rzeczy
+event.remove({ id: 'majruszsdifficulty:tattered_helmet' })
+event.remove({ id: 'majruszsdifficulty:tattered_chestplate' })
+event.remove({ id: 'majruszsdifficulty:tattered_leggings' })
+event.remove({ id: 'majruszsdifficulty:tattered_boots' })
+event.custom({
+  "type": "sewingkit:sewing",
+  "materials": [
+    {
+      "count": 5,
+      "ingredient": {
+        "item": "majruszsdifficulty:cloth"
+      }
+    },
+    {
+      "count": 2,
+      "ingredient": {
+        "tag": "forge:string"
+      }
+    }
+  ],
+  "result": {
+    "item": "majruszsdifficulty:tattered_helmet"
+  },
+  "tool": {
+    "type": "sewingkit:tool_ingredient",
+    "tool_type": "sewingkit_sew"
+  }
+});
+event.custom({
+  "type": "sewingkit:sewing",
+  "materials": [
+    {
+      "count": 8,
+      "ingredient": {
+        "item": "majruszsdifficulty:cloth"
+      }
+    },
+    {
+      "count": 4,
+      "ingredient": {
+        "tag": "forge:string"
+      }
+    }
+  ],
+  "result": {
+    "item": "majruszsdifficulty:tattered_chestplate"
+  },
+  "tool": {
+    "type": "sewingkit:tool_ingredient",
+    "tool_type": "sewingkit_sew"
+  }
+});
+event.custom({
+  "type": "sewingkit:sewing",
+  "materials": [
+    {
+      "count": 7,
+      "ingredient": {
+        "item": "majruszsdifficulty:cloth"
+      }
+    },
+    {
+      "count": 3,
+      "ingredient": {
+        "tag": "forge:string"
+      }
+    }
+  ],
+  "result": {
+    "item": "majruszsdifficulty:tattered_leggings"
+  },
+  "tool": {
+    "type": "sewingkit:tool_ingredient",
+    "tool_type": "sewingkit_sew"
+  }
+});
+event.custom({
+  "type": "sewingkit:sewing",
+  "materials": [
+    {
+      "count": 4,
+      "ingredient": {
+        "item": "majruszsdifficulty:cloth"
+      }
+    },
+    {
+      "count": 2,
+      "ingredient": {
+        "tag": "forge:string"
+      }
+    }
+  ],
+  "result": {
+    "item": "majruszsdifficulty:tattered_boots"
+  },
+  "tool": {
+    "type": "sewingkit:tool_ingredient",
+    "tool_type": "sewingkit_sew"
+  }
+});
+  //Szata Wędrownego Maga
+event.remove({ output: 'irons_spellbooks:wandering_magician_helmet' })
+event.remove({ output: 'irons_spellbooks:wandering_magician_chestplate' })
+event.remove({ output: 'irons_spellbooks:wandering_magician_leggings' })
+event.remove({ output: 'irons_spellbooks:wandering_magician_boots' })
+event.custom({
+  "type": "sewingkit:sewing",
+  "materials": [
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "minecraft:leather_helmet"
+      }
+    },
+    {
+      "count": 4,
+      "ingredient": {
+        "item": "irons_spellbooks:arcane_essence"
+      }
+    },
+    {
+      "count": 2,
+      "ingredient": {
+        "tag": "forge:string"
+      }
+    }
+  ],
+  "result": {
+    "item": "irons_spellbooks:wandering_magician_helmet"
+  },
+  "tool": {
+    "type": "sewingkit:tool_ingredient",
+    "tool_type": "sewingkit_sew"
+  }
+});
+event.custom({
+  "type": "sewingkit:sewing",
+  "materials": [
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "minecraft:leather_chestplate"
+      }
+    },
+    {
+      "count": 4,
+      "ingredient": {
+        "item": "irons_spellbooks:arcane_essence"
+      }
+    },
+    {
+      "count": 4,
+      "ingredient": {
+        "tag": "forge:string"
+      }
+    }
+  ],
+  "result": {
+    "item": "irons_spellbooks:wandering_magician_chestplate"
+  },
+  "tool": {
+    "type": "sewingkit:tool_ingredient",
+    "tool_type": "sewingkit_sew"
+  }
+});
+event.custom({
+  "type": "sewingkit:sewing",
+  "materials": [
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "minecraft:leather_leggings"
+      }
+    },
+    {
+      "count": 4,
+      "ingredient": {
+        "item": "irons_spellbooks:arcane_essence"
+      }
+    },
+    {
+      "count": 3,
+      "ingredient": {
+        "tag": "forge:string"
+      }
+    }
+  ],
+  "result": {
+    "item": "irons_spellbooks:wandering_magician_leggings"
+  },
+  "tool": {
+    "type": "sewingkit:tool_ingredient",
+    "tool_type": "sewingkit_sew"
+  }
+});
+event.custom({
+  "type": "sewingkit:sewing",
+  "materials": [
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "minecraft:leather_boots"
+      }
+    },
+    {
+      "count": 4,
+      "ingredient": {
+        "item": "irons_spellbooks:arcane_essence"
+      }
+    },
+    {
+      "count": 2,
+      "ingredient": {
+        "tag": "forge:string"
+      }
+    }
+  ],
+  "result": {
+    "item": "irons_spellbooks:wandering_magician_boots"
+  },
+  "tool": {
+    "type": "sewingkit:tool_ingredient",
+    "tool_type": "sewingkit_sew"
+  }
+});
+  //Szata Stracha Na Wróble
+event.remove({ output: 'irons_spellbooks:pumpkin_helmet' })
+event.remove({ output: 'irons_spellbooks:pumpkin_chestplate' })
+event.remove({ output: 'irons_spellbooks:pumpkin_leggings' })
+event.remove({ output: 'irons_spellbooks:pumpkin_boots' })
+event.custom({
+  "type": "sewingkit:sewing",
+  "materials": [
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "minecraft:leather_helmet"
+      }
+    },
+    {
+      "count": 3,
+      "ingredient": {
+        "item": "irons_spellbooks:magic_cloth"
+      }
+    },
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "minecraft:carved_pumpkin"
+      }
+    },
+    {
+      "count": 2,
+      "ingredient": {
+        "tag": "forge:string"
+      }
+    }
+  ],
+  "result": {
+    "item": "irons_spellbooks:pumpkin_helmet"
+  },
+  "tool": {
+    "type": "sewingkit:tool_ingredient",
+    "tool_level": "minecraft:iron",
+    "tool_type": "sewingkit_sew"
+  }
+});
+event.custom({
+  "type": "sewingkit:sewing",
+  "materials": [
+    {
+      "count": 2,
+      "ingredient": {
+        "item": "minecraft:leather"
+      }
+    },
+    {
+      "count": 4,
+      "ingredient": {
+        "item": "irons_spellbooks:magic_cloth"
+      }
+    },
+    {
+      "count": 2,
+      "ingredient": {
+        "item": "minecraft:hay_block"
+      }
+    },
+    {
+      "count": 4,
+      "ingredient": {
+        "tag": "forge:string"
+      }
+    }
+  ],
+  "result": {
+    "item": "irons_spellbooks:pumpkin_chestplate"
+  },
+  "tool": {
+    "type": "sewingkit:tool_ingredient",
+    "tool_level": "minecraft:iron",
+    "tool_type": "sewingkit_sew"
+  }
+});
+event.custom({
+  "type": "sewingkit:sewing",
+  "materials": [
+    {
+      "count": 3,
+      "ingredient": {
+        "item": "minecraft:leather"
+      }
+    },
+    {
+      "count": 2,
+      "ingredient": {
+        "item": "irons_spellbooks:magic_cloth"
+      }
+    },
+    {
+      "count": 2,
+      "ingredient": {
+        "item": "minecraft:hay_block"
+      }
+    },
+    {
+      "count": 3,
+      "ingredient": {
+        "tag": "forge:string"
+      }
+    }
+  ],
+  "result": {
+    "item": "irons_spellbooks:pumpkin_leggings"
+  },
+  "tool": {
+    "type": "sewingkit:tool_ingredient",
+    "tool_level": "minecraft:iron",
+    "tool_type": "sewingkit_sew"
+  }
+});
+event.custom({
+  "type": "sewingkit:sewing",
+  "materials": [
+    {
+      "count": 2,
+      "ingredient": {
+        "item": "minecraft:hay_block"
+      }
+    },
+    {
+      "count": 2,
+      "ingredient": {
+        "item": "irons_spellbooks:magic_cloth"
+      }
+    },
+    {
+      "count": 2,
+      "ingredient": {
+        "tag": "forge:string"
+      }
+    }
+  ],
+  "result": {
+    "item": "irons_spellbooks:pumpkin_boots"
+  },
+  "tool": {
+    "type": "sewingkit:tool_ingredient",
+    "tool_level": "minecraft:iron",
+    "tool_type": "sewingkit_sew"
+  }
+});
+
+  //Szata Czarodzieja
+event.remove({ output: 'irons_spellbooks:wizard_helmet' })
+event.remove({ output: 'irons_spellbooks:wizard_hat' })
+event.remove({ output: 'irons_spellbooks:wizard_chestplate' })
+event.remove({ output: 'irons_spellbooks:wizard_leggings' })
+event.remove({ output: 'irons_spellbooks:wizard_boots' })
+event.custom({
+  "type": "sewingkit:sewing",
+  "materials": [
+    {
+      "count": 5,
+      "ingredient": {
+        "item": "irons_spellbooks:magic_cloth"
+      }
+    },
+    {
+      "count": 2,
+      "ingredient": {
+        "tag": "forge:string"
+      }
+    }
+  ],
+  "result": {
+    "item": "irons_spellbooks:wizard_helmet"
+  },
+  "tool": {
+    "type": "sewingkit:tool_ingredient",
+    "tool_level": "minecraft:diamond",
+    "tool_type": "sewingkit_sew"
+  }
+});
+event.custom({
+  "type": "sewingkit:sewing",
+  "materials": [
+    {
+      "count": 5,
+      "ingredient": {
+        "item": "irons_spellbooks:magic_cloth"
+      }
+    },
+    {
+      "count": 2,
+      "ingredient": {
+        "tag": "forge:string"
+      }
+    }
+  ],
+  "result": {
+    "item": "irons_spellbooks:wizard_hat"
+  },
+  "tool": {
+    "type": "sewingkit:tool_ingredient",
+    "tool_level": "minecraft:diamond",
+    "tool_type": "sewingkit_sew"
+  }
+});
+event.custom({
+  "type": "sewingkit:sewing",
+  "materials": [
+    {
+      "count": 8,
+      "ingredient": {
+        "item": "irons_spellbooks:magic_cloth"
+      }
+    },
+    {
+      "count": 4,
+      "ingredient": {
+        "tag": "forge:string"
+      }
+    }
+  ],
+  "result": {
+    "item": "irons_spellbooks:wizard_chestplate"
+  },
+  "tool": {
+    "type": "sewingkit:tool_ingredient",
+    "tool_level": "minecraft:diamond",
+    "tool_type": "sewingkit_sew"
+  }
+});
+event.custom({
+  "type": "sewingkit:sewing",
+  "materials": [
+    {
+      "count": 7,
+      "ingredient": {
+        "item": "irons_spellbooks:magic_cloth"
+      }
+    },
+    {
+      "count": 3,
+      "ingredient": {
+        "tag": "forge:string"
+      }
+    }
+  ],
+  "result": {
+    "item": "irons_spellbooks:wizard_leggings"
+  },
+  "tool": {
+    "type": "sewingkit:tool_ingredient",
+    "tool_level": "minecraft:diamond",
+    "tool_type": "sewingkit_sew"
+  }
+});
+event.custom({
+  "type": "sewingkit:sewing",
+  "materials": [
+    {
+      "count": 4,
+      "ingredient": {
+        "item": "irons_spellbooks:magic_cloth"
+      }
+    },
+    {
+      "count": 2,
+      "ingredient": {
+        "tag": "forge:string"
+      }
+    }
+  ],
+  "result": {
+    "item": "irons_spellbooks:wizard_boots"
+  },
+  "tool": {
+    "type": "sewingkit:tool_ingredient",
+    "tool_level": "minecraft:diamond",
+    "tool_type": "sewingkit_sew"
+  }
+});
+
+  //Muszkieter
+event.remove({ id: 'warriorsofpastepoch:musketeer_hat_craft' })
+event.remove({ id: 'warriorsofpastepoch:musketeer_camisole_craft' })
+event.remove({ id: 'warriorsofpastepoch:musketeer_pants_craft' })
+event.remove({ id: 'warriorsofpastepoch:musketeer_boots_craft' })
+event.custom({
+  "type": "sewingkit:sewing",
+  "materials": [
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "minecraft:feather"
+      }
+    },
+    {
+      "count": 5,
+      "ingredient": {
+        "item": "warriorsofpastepoch:azure_fabric"
+      }
+    },
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "overgeared:steel_nugget"
+      }
+    },
+    {
+      "count": 2,
+      "ingredient": {
+        "tag": "forge:string"
+      }
+    }
+  ],
+  "result": {
+    "item": "warriorsofpastepoch:muketers_armor_helmet"
+  },
+  "tool": {
+    "type": "sewingkit:tool_ingredient",
+    "tool_level": "minecraft:iron",
+    "tool_type": "sewingkit_sew"
+  }
+});
+event.custom({
+  "type": "sewingkit:sewing",
+  "materials": [
+    {
+      "count": 3,
+      "ingredient": {
+        "item": "warriorsofpastepoch:thickened_skin"
+      }
+    },
+    {
+      "count": 4,
+      "ingredient": {
+        "item": "warriorsofpastepoch:azure_fabric"
+      }
+    },
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "overgeared:steel_plate"
+      }
+    },
+    {
+      "count": 4,
+      "ingredient": {
+        "tag": "forge:string"
+      }
+    }
+  ],
+  "result": {
+    "item": "warriorsofpastepoch:muketers_armor_chestplate"
+  },
+  "tool": {
+    "type": "sewingkit:tool_ingredient",
+    "tool_level": "minecraft:iron",
+    "tool_type": "sewingkit_sew"
+  }
+});
+event.custom({
+  "type": "sewingkit:sewing",
+  "materials": [
+    {
+      "count": 6,
+      "ingredient": {
+        "item": "warriorsofpastepoch:azure_fabric"
+      }
+    },
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "warriorsofpastepoch:thickened_skin"
+      }
+    },
+    {
+      "count": 3,
+      "ingredient": {
+        "tag": "forge:string"
+      }
+    }
+  ],
+  "result": {
+    "item": "warriorsofpastepoch:muketers_armor_leggings"
+  },
+  "tool": {
+    "type": "sewingkit:tool_ingredient",
+    "tool_level": "minecraft:iron",
+    "tool_type": "sewingkit_sew"
+  }
+});
+event.custom({
+  "type": "sewingkit:sewing",
+  "materials": [
+    {
+      "count": 2,
+      "ingredient": {
+        "item": "minecraft:leather"
+      }
+    },
+    {
+      "count": 2,
+      "ingredient": {
+        "item": "warriorsofpastepoch:thickened_skin"
+      }
+    },
+    {
+      "count": 2,
+      "ingredient": {
+        "tag": "forge:string"
+      }
+    }
+  ],
+  "result": {
+    "item": "warriorsofpastepoch:muketers_armor_boots"
+  },
+  "tool": {
+    "type": "sewingkit:tool_ingredient",
+    "tool_level": "minecraft:iron",
+    "tool_type": "sewingkit_sew"
+  }
+});
+
+  //Doktor Plaga
+event.remove({ id: 'warriorsofpastepoch:plague_doctor_mask_craft' })
+event.remove({ id: 'warriorsofpastepoch:plague_doctors_cloak_craft' })
+event.remove({ id: 'warriorsofpastepoch:plague_doctor_pants_craft' })
+event.remove({ id: 'warriorsofpastepoch:plague_doctors_boots_craft' })
+event.custom({
+  "type": "sewingkit:sewing",
+  "materials": [
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "warriorsofpastepoch:cistus"
+      }
+    },
+    {
+      "count": 3,
+      "ingredient": {
+        "item": "warriorsofpastepoch:sterile_tissue"
+      }
+    },
+    {
+      "count": 3,
+      "ingredient": {
+        "item": "warriorsofpastepoch:thickened_skin"
+      }
+    },
+    {
+      "count": 2,
+      "ingredient": {
+        "tag": "forge:string"
+      }
+    }
+  ],
+  "result": {
+    "item": "warriorsofpastepoch:plague_doctor_armor_helmet"
+  },
+  "tool": {
+    "type": "sewingkit:tool_ingredient",
+    "tool_level": "minecraft:iron",
+    "tool_type": "sewingkit_sew"
+  }
+});
+event.custom({
+  "type": "sewingkit:sewing",
+  "materials": [
+    {
+      "count": 3,
+      "ingredient": {
+        "item": "warriorsofpastepoch:thickened_skin"
+      }
+    },
+    {
+      "count": 4,
+      "ingredient": {
+        "item": "warriorsofpastepoch:sterile_tissue"
+      }
+    },
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "overgeared:steel_plate"
+      }
+    },
+    {
+      "count": 4,
+      "ingredient": {
+        "tag": "forge:string"
+      }
+    }
+  ],
+  "result": {
+    "item": "warriorsofpastepoch:plague_doctor_armor_chestplate"
+  },
+  "tool": {
+    "type": "sewingkit:tool_ingredient",
+    "tool_level": "minecraft:iron",
+    "tool_type": "sewingkit_sew"
+  }
+});
+event.custom({
+  "type": "sewingkit:sewing",
+  "materials": [
+    {
+      "count": 6,
+      "ingredient": {
+        "item": "warriorsofpastepoch:sterile_tissue"
+      }
+    },
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "warriorsofpastepoch:thickened_skin"
+      }
+    },
+    {
+      "count": 3,
+      "ingredient": {
+        "tag": "forge:string"
+      }
+    }
+  ],
+  "result": {
+    "item": "warriorsofpastepoch:plague_doctor_armor_leggings"
+  },
+  "tool": {
+    "type": "sewingkit:tool_ingredient",
+    "tool_level": "minecraft:iron",
+    "tool_type": "sewingkit_sew"
+  }
+});
+event.custom({
+  "type": "sewingkit:sewing",
+  "materials": [
+    {
+      "count": 2,
+      "ingredient": {
+        "item": "minecraft:leather"
+      }
+    },
+    {
+      "count": 2,
+      "ingredient": {
+        "item": "warriorsofpastepoch:thickened_skin"
+      }
+    },
+    {
+      "count": 2,
+      "ingredient": {
+        "tag": "forge:string"
+      }
+    }
+  ],
+  "result": {
+    "item": "warriorsofpastepoch:plague_doctor_armor_boots"
+  },
+  "tool": {
+    "type": "sewingkit:tool_ingredient",
+    "tool_level": "minecraft:iron",
+    "tool_type": "sewingkit_sew"
+  }
+});
+
+//DO WYKUCIA
+  //MIEDZIANE RZECZY
 event.remove({ id: 'overgeared:copper_helmet' })
 event.remove({ id: 'overgeared:copper_chestplate' })
 event.remove({ id: 'overgeared:copper_leggings' })
@@ -2945,90 +3838,6 @@ event.custom({
 })
 
 //Warriors of the Past Epoch
-
-  // Musketeer Armor
-event.remove({ id: 'warriorsofpastepoch:musketeer_hat_craft' })
-event.custom({
-  "type": "overgeared:forging",
-  "blueprint": ["ARMOR"],
-  "requires_blueprint": false,
-  "hammering": 3,
-  "has_polishing": false,
-  "pattern": [
-    "  a",
-    "bbb",
-    "bcb"
-  ],
-  "key": {
-    "a": { "item": "minecraft:feather" },
-    "b": { "item": "warriorsofpastepoch:azure_fabric" },
-    "c": { "item": "overgeared:steel_nugget" }
-  },
-  "result": { 
-    "item": "warriorsofpastepoch:muketers_armor_helmet"},
-  "show_notification": true
-})
-event.remove({ id: 'warriorsofpastepoch:musketeer_camisole_craft' })
-event.custom({
-  "type": "overgeared:forging",
-  "blueprint": ["ARMOR"],
-  "requires_blueprint": false,
-  "hammering": 5,
-  "has_polishing": false,
-  "pattern": [
-    "a a",
-    "bab",
-    "bcb"
-  ],
-  "key": {
-    "a": { "item": "warriorsofpastepoch:thickened_skin" },
-    "b": { "item": "warriorsofpastepoch:azure_fabric" },
-    "c": { "item": "overgeared:steel_plate" }
-  },
-  "result": { 
-    "item": "warriorsofpastepoch:muketers_armor_chestplate"},
-  "show_notification": true
-})
-event.remove({ id: 'warriorsofpastepoch:musketeer_pants_craft' })
-event.custom({
-  "type": "overgeared:forging",
-  "blueprint": ["ARMOR"],
-  "requires_blueprint": false,
-  "hammering": 4,
-  "has_polishing": false,
-  "pattern": [
-    "aba",
-    "a a",
-    "a a"
-  ],
-  "key": {
-    "a": { "item": "warriorsofpastepoch:azure_fabric" },
-    "b": { "item": "warriorsofpastepoch:thickened_skin" }
-  },
-  "result": { 
-    "item": "warriorsofpastepoch:muketers_armor_leggings"},
-  "show_notification": true
-})
-event.remove({ id: 'warriorsofpastepoch:musketeer_boots_craft' })
-event.custom({
-  "type": "overgeared:forging",
-  "blueprint": ["ARMOR"],
-  "requires_blueprint": false,
-  "hammering": 3,
-  "has_polishing": false,
-  "pattern": [
-    "a a",
-    "b b"
-  ],
-  "key": {
-    "a": { "item": "minecraft:leather" },
-    "b": { "item": "warriorsofpastepoch:thickened_skin" }
-  },
-  "result": { 
-    "item": "warriorsofpastepoch:muketers_armor_boots"},
-  "show_notification": true
-})
-
   // Plague Doctor Armor
 event.remove({ id: 'warriorsofpastepoch:plague_doctor_mask_craft' })
 event.custom({
@@ -3116,168 +3925,13 @@ event.custom({
   "show_notification": true
 })
 
-//Iron's Spells
-  //Wandering Magician
-event.remove({ output: 'irons_spellbooks:wandering_magician_helmet' })
-event.remove({ output: 'irons_spellbooks:wandering_magician_chestplate' })
-event.remove({ output: 'irons_spellbooks:wandering_magician_leggings' })
-event.remove({ output: 'irons_spellbooks:wandering_magician_boots' })
-event.shaped(
-        Item.of('irons_spellbooks:wandering_magician_helmet', 1), // Output
-        [
-            ' B ',
-            'BAB',
-            ' B '
-        ], 
-        {   A: 'minecraft:leather_helmet',
-            B: 'irons_spellbooks:arcane_essence',
-        })
-event.shaped(
-        Item.of('irons_spellbooks:wandering_magician_chestplate', 1), // Output
-        [
-            ' B ',
-            'BAB',
-            ' B '
-        ], 
-        {   A: 'minecraft:leather_chestplate',
-            B: 'irons_spellbooks:arcane_essence',
-        })
-event.shaped(
-        Item.of('irons_spellbooks:wandering_magician_leggings', 1), // Output
-        [
-            ' B ',
-            'BAB',
-            ' B '
-        ], 
-        {   A: 'minecraft:leather_leggings',
-            B: 'irons_spellbooks:arcane_essence',
-        })
-event.shaped(
-        Item.of('irons_spellbooks:wandering_magician_boots', 1), // Output
-        [
-            ' B ',
-            'BAB',
-            ' B '
-        ], 
-        {   A: 'minecraft:leather_boots',
-            B: 'irons_spellbooks:arcane_essence',
-        })
-
-  // Wizard Set
-event.remove({ output: 'irons_spellbooks:wizard_helmet' })
-event.remove({ output: 'irons_spellbooks:wizard_chestplate' })
-event.remove({ output: 'irons_spellbooks:wizard_leggings' })
-event.remove({ output: 'irons_spellbooks:wizard_boots' })
-event.custom({
-  "type": "overgeared:forging",
-  "blueprint": ["ARMOR"],
-  "requires_blueprint": false,
-  "hammering": 3,
-  "has_quality": true,
-  "minimum_quality": "poor",
-  "needs_minigame": false,
-  "has_polishing": false,
-  "tier": "above_a",
-  "key": {
-    "C": { "item": "irons_spellbooks:magic_cloth" }
-  },
-  "pattern": [
-    "CCC",
-    "C C"
-  ],
-  "result": { "item": "irons_spellbooks:wizard_helmet" },
-  "show_notification": true
-})
-event.custom({
-  "type": "overgeared:forging",
-  "blueprint": ["ARMOR"],
-  "requires_blueprint": false,
-  "hammering": 3,
-  "has_quality": true,
-  "minimum_quality": "poor",
-  "needs_minigame": false,
-  "has_polishing": false,
-  "tier": "above_a",
-  "key": {
-    "C": { "item": "irons_spellbooks:magic_cloth" }
-  },
-  "pattern": [
-    "  C",
-    " C ",
-    "CCC"
-  ],
-  "result": { "item": "irons_spellbooks:wizard_helmet" },
-  "show_notification": true
-})
-event.custom({
-  "type": "overgeared:forging",
-  "blueprint": ["ARMOR"],
-  "requires_blueprint": false,
-  "hammering": 3,
-  "has_quality": true,
-  "minimum_quality": "poor",
-  "needs_minigame": false,
-  "has_polishing": false,
-  "tier": "above_a",
-  "key": {
-    "C": { "item": "irons_spellbooks:magic_cloth" }
-  },
-  "pattern": [
-    "C C",
-    "CCC",
-    "CCC"
-  ],
-  "result": { "item": "irons_spellbooks:wizard_chestplate" },
-  "show_notification": true
-})
-event.custom({
-  "type": "overgeared:forging",
-  "blueprint": ["ARMOR"],
-  "requires_blueprint": false,
-  "hammering": 3,
-  "has_quality": true,
-  "minimum_quality": "poor",
-  "needs_minigame": false,
-  "has_polishing": false,
-  "tier": "above_a",
-  "key": {
-    "C": { "item": "irons_spellbooks:magic_cloth" }
-  },
-  "pattern": [
-    "CCC",
-    "C C",
-    "C C"
-  ],
-  "result": { "item": "irons_spellbooks:wizard_leggings" },
-  "show_notification": true
-})
-event.custom({
-  "type": "overgeared:forging",
-  "blueprint": ["ARMOR"],
-  "requires_blueprint": false,
-  "hammering": 3,
-  "has_quality": true,
-  "minimum_quality": "poor",
-  "needs_minigame": false,
-  "has_polishing": false,
-  "tier": "above_a",
-  "key": {
-    "C": { "item": "irons_spellbooks:magic_cloth" }
-  },
-  "pattern": [
-    "C C",
-    "C C"
-  ],
-  "result": { "item": "irons_spellbooks:wizard_boots" },
-  "show_notification": true
-})
-
   //Deepling Mage
 event.remove({ output: 'traveloptics:deepling_mage_armor_helmet' })
 event.remove({ output: 'traveloptics:deepling_mage_armor_robe' })
 event.remove({ output: 'traveloptics:deepling_mage_armor_leggings' })
 event.remove({ output: 'traveloptics:deepling_mage_armor_boots' })
 event.smithing('traveloptics:deepling_mage_armor_helmet', 'traveloptics:aqua_rune', 'irons_spellbooks:wizard_helmet', 'irons_spellbooks:arcane_essence')
+event.smithing('traveloptics:deepling_mage_armor_helmet', 'traveloptics:aqua_rune', 'irons_spellbooks:wizard_hat', 'irons_spellbooks:arcane_essence')
 event.smithing('traveloptics:deepling_mage_armor_robe', 'traveloptics:aqua_rune', 'irons_spellbooks:wizard_chestplate', 'irons_spellbooks:arcane_essence')
 event.smithing('traveloptics:deepling_mage_armor_leggings', 'traveloptics:aqua_rune', 'irons_spellbooks:wizard_leggings', 'irons_spellbooks:arcane_essence')
 event.smithing('traveloptics:deepling_mage_armor_boots', 'traveloptics:aqua_rune', 'irons_spellbooks:wizard_boots', 'irons_spellbooks:arcane_essence')

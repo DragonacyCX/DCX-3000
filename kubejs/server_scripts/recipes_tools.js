@@ -41,7 +41,7 @@ event.shaped(
             D: 'caverns_and_chasms:spinel_block',
             E: 'minecraft:lapis_block',
             F: 'caverns_and_chasms:amethyst_block',
-            G: 'seadwellers:aquamarine_block',
+            G: 'spelunkery:rough_quartz_block',
             H: 'sullysmod:jade_block'
         })
 
@@ -88,11 +88,45 @@ event.shaped(
     {
         B: '#forge:rods/wooden',
         L: 'spartanweaponry:handle'
-    }
-)
+    })
 
-//NARZĘDZIA
+//NARZĘDZIA//
+//DO USZYCIA
+event.remove({ id: 'spartanweaponry:cestus' })
+event.custom({
+  "type": "sewingkit:sewing",
+  "materials": [
+    {
+      "count": 3,
+      "ingredient": {
+        "item": "minecraft:leather"
+      }
+    },
+    {
+      "count": 1,
+      "ingredient": {
+        "item": "minecraft:white_wool"
+      }
+    },
+    {
+      "count": 1,
+      "ingredient": {
+        "tag": "forge:string"
+      }
+    }
+  ],
+  "result": {
+    "item": "spartanweaponry:cestus"
+  },
+  "tool": {
+    "type": "sewingkit:tool_ingredient",
+    "tool_type": "sewingkit_sew"
+  }
+});
+
 //Drewniane rzeczy
+event.remove({ output: 'overgeared:wooden_tongs'})
+event.remove({ output: 'sewingkit:wood_sewing_needle'})
 event.replaceInput(
   { output: 'basicweapons:wooden_hammer' },
   'minecraft:stick',
@@ -117,20 +151,9 @@ event.replaceInput(
   { output: 'minecraft:wooden_hoe' },
   'minecraft:stick',
   'spartanweaponry:simple_handle')
-event.remove({ output: 'overgeared:wooden_tongs'})
-event.shaped(
-        Item.of('overgeared:wooden_tongs', 1), // Output
-        [
-            ' B ',
-            'BCB',
-            ' B '
-        ], 
-        {
-            B: 'spartanweaponry:simple_handle',
-            C: 'spartanweaponry:handle'
-        })
 
 //Kamienne rzeczy
+event.remove({ output: 'sewingkit:stone_sewing_needle'})
 event.remove({ output: 'basicweapons:stone_hammer'})
 event.remove({ input: 'overgeared:stone_sword_blade' })
 event.remove({ output: 'overgeared:stone_sword_blade' })
@@ -233,7 +256,6 @@ event.remove({ output: 'overgeared:copper_shovel_head' })
 event.remove({ input: 'overgeared:copper_hoe_head' })
 event.remove({ output: 'overgeared:copper_hoe_head' })
 event.remove({ id: 'minecraft:brush' })
-  //Zwykła Miedź
 event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
@@ -247,7 +269,7 @@ event.custom({
     "has_polishing": false,
     "key": {
       "C": {
-        "item": "overgeared:heated_copper_ingot"
+        "item": "minecraft:copper_block"
       },
       "H": {
         "item": "spartanweaponry:simple_handle"
@@ -356,16 +378,10 @@ event.custom({
       " H "
     ],
     "result": {
-      "item": "overgeared:copper_pickaxe"
+      "item": "caverns_and_chasms:copper_pickaxe"
     },
     "show_notification": true
   });
-event.remove({ id: 'overgeared:material_repair.copper_pickaxe'})
-event.remove({ id: 'overgeared:copper_nugget_from_smelting_copper_pickaxe' })
-event.remove({ id: 'overgeared:copper_nugget_from_blasting_copper_pickaxe' })
-event.smelting('minecraft:copper_ingot', 'overgeared:copper_pickaxe', 0.1, 200)
-event.blasting('minecraft:copper_ingot', 'overgeared:copper_pickaxe', 0.1, 100)
-
 event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
@@ -479,7 +495,7 @@ event.custom({
       " H "
     ],
     "result": {
-      "item": "overgeared:copper_pickaxe"
+      "item": "caverns_and_chasms:exposed_copper_pickaxe"
     },
     "show_notification": true
   });
@@ -596,7 +612,7 @@ event.custom({
       " H "
     ],
     "result": {
-      "item": "overgeared:copper_pickaxe"
+      "item": "caverns_and_chasms:weathered_copper_pickaxe"
     },
     "show_notification": true
   });
@@ -713,7 +729,7 @@ event.custom({
       " H "
     ],
     "result": {
-      "item": "overgeared:copper_pickaxe"
+      "item": "caverns_and_chasms:oxidized_copper_pickaxe"
     },
     "show_notification": true
   });
@@ -1456,6 +1472,7 @@ event.custom({
   });
 
 //Żelazne Rzeczy
+event.remove({ output: 'sewingkit:iron_sewing_needle'})
 event.remove({ output: 'basicweapons:iron_hammer'})
 event.remove({ input: 'overgeared:iron_sword_blade' })
 event.remove({ output: 'overgeared:iron_sword_blade' })
@@ -1472,6 +1489,34 @@ event.remove({ id: 'dungeonsdelight:iron_cleaver'})
 event.remove({ id: 'betterarcheology:iron_brush'})
 event.remove({ output: 'simplest_hammers:iron_hammer' })
 event.remove({ id: 'aquaculture:iron_fishing_rod'})
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "TOOLS",
+    "requires_blueprint": false,
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "overgeared:heated_iron_ingot"
+      },
+      "H": {
+        "item": "minecraft:iron_nugget"
+      }
+    },
+    "pattern": [
+      " C ",
+      "H  ",
+      "   "
+    ],
+    "result": {
+      "item": "sewingkit:iron_sewing_needle"
+    },
+    "show_notification": true
+  });
 event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
@@ -1885,6 +1930,7 @@ event.custom({
   });
 
 //Złote Rzeczy
+event.remove({ output: 'sewingkit:gold_sewing_needle'})
 event.remove({ output: 'basicweapons:golden_hammer'})
 event.remove({ input: 'overgeared:golden_sword_blade' })
 event.remove({ output: 'overgeared:golden_sword_blade' })
@@ -2140,12 +2186,42 @@ event.custom({
   });
 
 //Diamentowe Rzeczy
+event.remove({ output: 'sewingkit:diamond_sewing_needle'})
 event.remove({ output: 'basicweapons:diamond_hammer'})
 event.remove({ id: 'farmersdelight:diamond_knife'})
 event.remove({ id: 'dungeonsdelight:diamond_cleaver'})
 event.remove({ id: 'betterarcheology:iron_brush'})
 event.remove({ output: 'simplest_hammers:diamond_hammer'})
 event.remove({ id: 'aquaculture:diamond_fishing_rod'})
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "TOOLS",
+    "requires_blueprint": false,
+    "tier": "above_a",
+    "hammering": 4,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:diamond"
+      },
+      "H": {
+        "item": "spelunkery:diamond_shard"
+      }
+    },
+    "pattern": [
+      " C ",
+      "H  ",
+      "   "
+    ],
+    "result": {
+      "item": "sewingkit:diamond_sewing_needle"
+    },
+    "show_notification": true
+  });
 event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
@@ -2418,6 +2494,7 @@ event.custom({
   });
 
 //Netherytowe rzeczy
+event.remove({ output: 'sewingkit:netherite_sewing_needle'})
 event.remove({ id: 'dungeonsdelight:netherite_cleaver'})
 event.remove({ id: 'netherdepthsupgrade:lava_fishing_rod'})
 event.custom({
@@ -2452,6 +2529,8 @@ event.custom({
     },
     "show_notification": true
   });
+
+event.smithing('sewingkit:netherite_sewing_needle', 'minecraft:netherite_upgrade_smithing_template', 'sewingkit:diamond_sewing_needle', 'minecraft:netherite_ingot')
 
 //==========//
 

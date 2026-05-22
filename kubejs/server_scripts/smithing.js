@@ -425,6 +425,7 @@ event.smithing('minecraft:crossbow', 'kubejs:iron_template', 'hunters_return:min
   event.remove({ id: 'integrated_simply_swords:oreganized/electrum/scythe' })
   event.remove({ id: 'integrated_simply_swords:oreganized/electrum/halberd' })
   event.remove({ id: 'integrated_simply_swords:oreganized/electrum/greathammer' })
+  event.smithing('kubejs:electrum_kanabo', 'oreganized:electrum_upgrade_smithing_template', 'kubejs:diamond_kanabo', 'oreganized:electrum_ingot')
   event.smithing('integrated_simply_swords:oreganized/electrum/longsword', 'oreganized:electrum_upgrade_smithing_template', 'simplyswords:diamond_longsword', 'oreganized:electrum_ingot')
   event.smithing('integrated_simply_swords:oreganized/electrum/twinblade', 'oreganized:electrum_upgrade_smithing_template', 'simplyswords:diamond_twinblade', 'oreganized:electrum_ingot')
   event.smithing('integrated_simply_swords:oreganized/electrum/rapier', 'oreganized:electrum_upgrade_smithing_template', 'simplyswords:diamond_rapier', 'oreganized:electrum_ingot')
@@ -442,6 +443,7 @@ event.smithing('minecraft:crossbow', 'kubejs:iron_template', 'hunters_return:min
   event.smithing('integrated_simply_swords:oreganized/electrum/greathammer', 'oreganized:electrum_upgrade_smithing_template', 'simplyswords:diamond_greathammer', 'oreganized:electrum_ingot')
 
   // Bronie Diamond > Netherite
+  event.smithing('kubejs:netherite_kanabo', 'minecraft:netherite_upgrade_smithing_template', 'kubejs:diamond_kanabo', 'minecraft:netherite_ingot')
   event.smithing('minecraft:netherite_sword', 'kubejs:netherite_template', 'minecraft:diamond_sword', 'minecraft:netherite_ingot')
   event.smithing('minecraft:netherite_axe', 'kubejs:netherite_template', 'minecraft:diamond_axe', 'minecraft:netherite_ingot')
   event.smithing('basicweapons:netherite_dagger', 'kubejs:netherite_template', 'basicweapons:diamond_dagger', 'minecraft:netherite_ingot')
@@ -473,6 +475,9 @@ event.smithing('minecraft:crossbow', 'kubejs:iron_template', 'hunters_return:min
   event.smithing('simplymore:netherite_khopesh', 'kubejs:netherite_template', 'simplymore:diamond_khopesh', 'minecraft:diamond')
   event.smithing('simplymore:netherite_great_spear', 'kubejs:netherite_template', 'simplymore:diamond_great_spear', 'minecraft:diamond')
   event.smithing('simplymore:netherite_deer_horns', 'kubejs:netherite_template', 'simplymore:diamond_deer_horns', 'minecraft:diamond')
+
+  // Bronie Diamond > Necromium
+  event.smithing('kubejs:necromium_kanabo', 'minecraft:netherite_upgrade_smithing_template', 'kubejs:diamond_kanabo', 'caverns_and_chasms:necromium_ingot')
 
   // Inne Bronie Netherite > Runic
   event.smithing('simplymore:runic_backhand_blade', 'simplyswords:runic_tablet', 'basicweapons:netherite_dagger', 'minecraft:diamond')

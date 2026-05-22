@@ -1,0 +1,10 @@
+{
+  "biome": "biomeswevegone:firecracker_chaparral",
+  "attribute": "irons_spellbooks:fire_spell_power",
+  "uuid": "e7029da0-03f5-466c-9576-a38e9b543d2b",
+  "value": 0.15,
+  "operation": "MULTIPLY_BASE",
+  "required_mod": [
+    "irons_spellbooks"
+  ]
+}

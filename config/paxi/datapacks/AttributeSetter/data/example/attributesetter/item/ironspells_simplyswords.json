@@ -83,6 +83,13 @@
       "operation": "MULTIPLY_BASE"
     }
   ],
+  "#dcx:spell_power_fire_five": [
+    {
+      "attribute": "irons_spellbooks:fire_spell_power",
+      "value": 0.05,
+      "operation": "MULTIPLY_BASE"
+    }
+  ],
   "#dcx:spell_power_geo_twenty": [
     {
       "attribute": "gtbcs_geomancy_plus:geo_spell_power",

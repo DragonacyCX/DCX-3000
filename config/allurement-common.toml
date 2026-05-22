@@ -51,7 +51,7 @@
 
 	[enchantments.spread_of_ailments]
 		#Crossbow enchantment that applies the user's active effects to their arrows
-		"Enable Spread of Ailments" = false
+		"Enable Spread of Ailments" = true
 
 [curses]
 

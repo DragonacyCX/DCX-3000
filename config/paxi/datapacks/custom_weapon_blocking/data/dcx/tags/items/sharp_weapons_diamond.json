@@ -15,7 +15,6 @@
         "simplyswords:diamond_warglaive",
         "simplyswords:diamond_cutlass",
         "simplyswords:diamond_claymore",
-        "simplyswords:diamond_greathammer",
         "simplyswords:diamond_greataxe",
         "simplyswords:diamond_chakram",
         "simplyswords:diamond_scythe",
@@ -25,7 +24,23 @@
         "simplymore:diamond_khopesh",
         "simplymore:diamond_lance",
         "simplymore:diamond_great_spear",
-        "simplymore:diamond_deer_horns"
+        "simplymore:diamond_deer_horns",
+
+        "integrated_simply_swords:oreganized/electrum/longsword",
+        "integrated_simply_swords:oreganized/electrum/twinblade",
+        "integrated_simply_swords:oreganized/electrum/rapier",
+        "integrated_simply_swords:oreganized/electrum/katana",
+        "integrated_simply_swords:oreganized/electrum/sai",
+        "integrated_simply_swords:oreganized/electrum/spear",
+        "integrated_simply_swords:oreganized/electrum/glaive",
+        "integrated_simply_swords:oreganized/electrum/warglaive",
+        "integrated_simply_swords:oreganized/electrum/cutlass",
+        "integrated_simply_swords:oreganized/electrum/claymore",
+        "integrated_simply_swords:oreganized/electrum/greataxe",
+        "integrated_simply_swords:oreganized/electrum/chakram",
+        "integrated_simply_swords:oreganized/electrum/scythe",
+        "integrated_simply_swords:oreganized/electrum/halberd",
+        "oreganized:electrum_knife"
     ]
   }
   

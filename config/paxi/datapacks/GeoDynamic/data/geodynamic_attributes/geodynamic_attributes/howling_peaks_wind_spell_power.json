@@ -1,0 +1,11 @@
+{
+  "biome": "biomeswevegone:howling_peaks",
+  "attribute": "wind_spellbooks:wind_spell_power",
+  "uuid": "87dc806c-ed6e-4b1c-876b-3130525f3f6a",
+  "value": 0.15,
+  "operation": "MULTIPLY_BASE",
+  "required_mod": [
+    "irons_spellbooks",
+    "wind_spellbooks"
+  ]
+}

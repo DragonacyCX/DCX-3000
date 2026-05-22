@@ -346,12 +346,6 @@ event.recipes.create.mixing('caverns_and_chasms:necromium_ingot', ['4x minecraft
 event.smelting('minecraft:netherite_ingot', 'vintage:netherite_sheet', 0.0, 200)
 event.blasting('minecraft:netherite_ingot', 'vintage:netherite_sheet', 0.0, 100)
 
-  //Arcane Ingot
-event.replaceInput(
-  { output: 'irons_spellbooks:arcane_ingot' },
-  '#irons_spellbooks:arcane_ingot_base',
-  'oreganized:silver_ingot')
-
   //Living Flesh
 event.remove({ id: 'caverns_and_chasms:living_flesh' })
 event.recipes.create.mixing('2x ', ['2x #dungeonsdelight:fleshes', 'irons_spellbooks:blood_vial', '2x oreganized:silver_ingot', '2x minecraft:ghast_tear'])
@@ -666,7 +660,14 @@ event.replaceInput(
           'born_in_chaos_v1:bundle_of_bones'
         ])
 
-    //Arcane Cloth
+//IRONS SPELLS
+  //Arcane Ingot
+event.replaceInput(
+  { output: 'irons_spellbooks:arcane_ingot' },
+  '#irons_spellbooks:arcane_ingot_base',
+  'oreganized:silver_ingot')
+
+  //Arcane Cloth
 event.remove({ id: 'irons_spellbooks:magic_cloth' })
 event.shaped(
     Item.of('irons_spellbooks:magic_cloth', 1), // Output
@@ -680,35 +681,18 @@ event.shaped(
         C: 'majruszsdifficulty:cloth'
     }
 ).id('dcx:crafting_arcane_cloth');
-        
-    //TEMPLEJTY (TEMPLATE kopiowanie)
-    event.remove({ id: 'elwmety:iron_template_recipe' })
-    event.remove({ id: 'elwmety:gold_template_recipe' })
-    event.remove({ id: 'elwmety:diamond_template_recipe' })
-    event.remove({ id: 'elwmety:netherite_template_recipe' })
-    
-    //TYMCZASOWE!!!
+
+  //Divine Pearl
+event.remove({ id: 'irons_spellbooks:divine_pearl' })
 event.shapeless(
-    Item.of('kubejs:iron_template', 1),
-    [
-      'elwmety:iron_template'
-    ])
-event.shapeless(
-    Item.of('kubejs:gold_template', 1),
-    [
-      'elwmety:gold_template'
-    ])
-event.shapeless(
-    Item.of('kubejs:diamond_template', 1),
-    [
-      'elwmety:diamond_template'
-    ])
-event.shapeless(
-    Item.of('kubejs:netherite_template', 1),
-    [
-      'elwmety:netherite_template'
-    ])
-    
+    Item.of('irons_spellbooks:divine_pearl', 1), // Output
+      [
+        'minecraft:gold_ingot',
+        'minecraft:amethyst_shard',
+        'aether:ambrosium_shard'
+      ])
+
+//TEMPLEJTY
     //Leather
     event.shaped(
         Item.of('luckys_armory:smithing_template_leather_upgrade', 2), // Output

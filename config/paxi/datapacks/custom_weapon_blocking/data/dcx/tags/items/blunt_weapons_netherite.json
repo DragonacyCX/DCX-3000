@@ -7,7 +7,11 @@
         "simplyswords:netherite_greathammer",
         "simplymore:netherite_pernach",
         "simplymore:netherite_quarterstaff",
-        "simplest_hammers:netherite_hammer"
+        "simplest_hammers:netherite_hammer",
+        "kubejs:netherite_kanabo",
+
+        "kubejs:necromium_kanabo",
+        "integrated_simply_swords:caverns_and_chasms/necromium/greathammer"
     ]
   }
   

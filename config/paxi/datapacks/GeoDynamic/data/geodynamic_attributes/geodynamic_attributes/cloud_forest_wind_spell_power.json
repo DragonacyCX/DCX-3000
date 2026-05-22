@@ -1,0 +1,11 @@
+{
+  "biome": "terralith:cloud_forest",
+  "attribute": "wind_spellbooks:wind_spell_power",
+  "uuid": "fa9529e1-8fab-4723-b9b6-7e1183b6674f",
+  "value": 0.15,
+  "operation": "MULTIPLY_BASE",
+  "required_mod": [
+    "irons_spellbooks",
+    "wind_spellbooks"
+  ]
+}

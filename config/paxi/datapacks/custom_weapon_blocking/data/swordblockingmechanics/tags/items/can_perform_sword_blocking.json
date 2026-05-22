@@ -39,7 +39,17 @@
         "kubejs:steel_hammer",
         "kubejs:steel_quarterstaff",
         "spartanweaponry:cestus",
-        "spartanweaponry:studded_cestus"
+        "spartanweaponry:studded_cestus",
+        "kubejs:wooden_kanabo",
+        "kubejs:stone_kanabo",
+        "kubejs:golden_kanabo",
+        "kubejs:copper_kanabo",
+        "kubejs:silver_kanabo",
+        "kubejs:iron_kanabo",
+        "kubejs:steel_kanabo",
+        "kubejs:diamond_kanabo",
+        "kubejs:silver_kanabo",
+        "kubejs:electrum_kanabo"
     ],
     "remove": [
         "#simplyswords:uniques",

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "biomeswevegone:amaranth_grassland",
+    "biomeswevegone:prairie",
+    "biomeswevegone:coconino_meadow",
+    "terralith:blooming_plateau",
+    "terralith:highlands"
+  ]
+}

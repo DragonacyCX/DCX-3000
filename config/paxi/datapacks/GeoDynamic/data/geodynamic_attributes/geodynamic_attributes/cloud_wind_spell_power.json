@@ -1,0 +1,11 @@
+{
+  "biome": "deep_aether:cloud",
+  "attribute": "wind_spellbooks:wind_spell_power",
+  "uuid": "b8952f39-80d4-4751-97ba-cbb930677f10",
+  "value": 0.15,
+  "operation": "MULTIPLY_BASE",
+  "required_mod": [
+    "irons_spellbooks",
+    "wind_spellbooks"
+  ]
+}

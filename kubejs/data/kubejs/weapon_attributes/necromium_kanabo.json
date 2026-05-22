@@ -1,0 +1,6 @@
+{
+  "parent": "simplyswords:base/base_greathammer",
+  "attributes": {
+    "attack_range": 4.0
+  }
+}

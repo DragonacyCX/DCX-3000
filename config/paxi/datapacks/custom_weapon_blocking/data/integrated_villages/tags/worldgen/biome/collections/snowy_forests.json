@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "biomeswevegone:frosted_coniferous_forest",
+    "biomeswevegone:frosted_taiga",
+    "terralith:snowy_maple_forest",
+    "terralith:snowy_cherry_grove",
+    "terralith:snowy_shield",
+    "terralith:wintry_forest",
+    "terralith:wintry_lowlands",
+    "terralith:siberian_grove",
+    "terralith:siberian_taiga"
+  ]
+}

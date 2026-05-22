@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "biomeswevegone:redwood_thicket",
+    "biomeswevegone:cika_woods",
+    "biomeswevegone:coniferous_forest",
+    "biomeswevegone:frosted_coniferous_forest",
+    "terralith:wintry_lowlands",
+    "terralith:wintry_forest"
+  ]
+}

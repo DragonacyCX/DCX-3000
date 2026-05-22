@@ -59,7 +59,9 @@
         "irons_spellbooks:blood_staff",
         "irons_spellbooks:lightning_rod",
         "irons_spellbooks:artificer_cane",
-        "irons_spellbooks:hither_thither_wand"
+        "irons_spellbooks:hither_thither_wand",
+
+        "#starcatcher:rods"
     ]
   }
   

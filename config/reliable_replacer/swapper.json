@@ -1,10 +1,11 @@
 {
   "swapper": {
-		"born_in_chaos_v1:river_mint": "neapolitan:mint",
 		"biomeswevegone:aloe_vera": "atmospheric:aloe_vera",
 		"biomeswevegone:blooming_aloe_vera": "atmospheric:tall_aloe_vera",
 		"biomeswevegone:blueberry_bush": "fruitsdelight:blueberry_bush",
+		"born_in_chaos_v1:river_mint": "neapolitan:mint",
 		"create:copper_bars": "caverns_and_chasms:waxed_copper_bars",
+		"dungeons_plus:granite_iron_ore": "spelunkery:granite_iron_ore",
 		"fruitsdelight:apple_crate": "quark:apple_crate",
 		"quark:azalea_log": "caverns_and_chasms:azalea_log",
 		"quark:stripped_azalea_log": "caverns_and_chasms:stripped_azalea_log",
@@ -12,6 +13,10 @@
 		"quark:potato_crate": "farmersdelight:potato_crate",
 		"quark:carrot_crate": "farmersdelight:carrot_crate",
 		"quark:beetroot_crate": "farmersdelight:beetroot_crate",
+		"spelunkery:granite_diamond_ore": "minecraft:granite",
+		"spelunkery:andesite_diamond_ore": "minecraft:andesite",
+		"spelunkery:diorite_diamond_ore": "minecraft:diorite",
+		"spelunkery:tuff_diamond_ore": "minecraft:tuff",
 		"warriorsofpastepoch:depositof_forgotten_steel": "caverns_and_chasms:fragile_deepslate"
 	 }
 }

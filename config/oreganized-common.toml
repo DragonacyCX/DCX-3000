@@ -8,7 +8,7 @@
 	#Pillagers have a chance to spawn with a lead bolt in their offhand
 	pillagerSpawnWithBolts = true
 	#The scribe is able to silk-touch pickaxe-related blocks
-	scribeSilkTouchStone = true
+	scribeSilkTouchStone = false
 	#Time in ticks molten lead waits until flowing downwards
 	#Range: 0 ~ 2000
 	moltenLeadDelay = 200

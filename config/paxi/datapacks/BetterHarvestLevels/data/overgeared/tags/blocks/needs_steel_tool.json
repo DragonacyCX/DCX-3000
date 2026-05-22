@@ -1,7 +1,14 @@
 {
   "values": [
     "minecraft:diamond_block",
+    "spelunkery:rough_diamond_block",
     "minecraft:diamond_ore",
-    "minecraft:deepslate_diamond_ore"
+    "minecraft:deepslate_diamond_ore",
+    "born_in_chaos_v1:infected_diamond_ore",
+    "born_in_chaos_v1:infected_deepslate_diamond_ore",
+    "spelunkery:granite_diamond_ore",
+    "spelunkery:andesite_diamond_ore",
+    "spelunkery:diorite_diamond_ore",
+    "spelunkery:tuff_diamond_ore"
   ]
 }

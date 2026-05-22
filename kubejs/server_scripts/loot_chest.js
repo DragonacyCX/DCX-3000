@@ -14,14 +14,15 @@ LootJS.modifiers((event) => {
 //Aquamirae Captain Cornelia Horn
 event.addLootTableModifier("aquamirae:chests/ship_2").randomChance(0.15).addLoot("aquamirae:shell_horn");
 
-//No farmer rope in minecarts
+//Minecarts
 event.addLootTableModifier("minecraft:chests/abandoned_mineshaft").removeLoot("farmersdelight:rope");
+event.addLootTableModifier("minecraft:chests/abandoned_mineshaft").removeLoot("spelunkery:wooden_rails");
 
 //Underground Campsite Diamond > Steel
-event.addLootTableModifier("artifacts:chests/campsite_chest").replaceLoot("minecraft:diamond_pickaxe", "overgeared:steel_pickaxe");
-event.addLootTableModifier("artifacts:chests/campsite_chest").replaceLoot("minecraft:diamond_axe", "overgeared:steel_axe");
-event.addLootTableModifier("artifacts:chests/campsite_chest").replaceLoot("minecraft:diamond_shovel", "overgeared:steel_shovel");
-event.addLootTableModifier("artifacts:chests/campsite_chest").replaceLoot("minecraft:diamond", "overgeared:steel_ingot");
+event.addLootTableModifier("artifacts:chests/campsite_chest").replaceLoot("minecraft:diamond_pickaxe", "caverns_and_chasms:silver_pickaxe");
+event.addLootTableModifier("artifacts:chests/campsite_chest").replaceLoot("minecraft:diamond_axe", "caverns_and_chasms:silver_axe");
+event.addLootTableModifier("artifacts:chests/campsite_chest").replaceLoot("minecraft:diamond_shovel", "caverns_and_chasms:silver_shovel");
+event.addLootTableModifier("artifacts:chests/campsite_chest").replaceLoot("minecraft:diamond", "oreganized:silver_ingot");
 
 //No OP rings in chests
 event.addLootTypeModifier(LootType.CHEST)
@@ -72,6 +73,10 @@ event.addLootTypeModifier(LootType.CHEST)
   event.addLootTypeModifier(LootType.CHEST).matchLoot("simplyswords:diamond_scythe").replaceLoot("simplyswords:diamond_scythe", "integrated_simply_swords:born_in_chaos/dark_metal/scythe");
   event.addLootTypeModifier(LootType.CHEST).matchLoot("simplyswords:diamond_halberd").replaceLoot("simplyswords:diamond_halberd", "integrated_simply_swords:born_in_chaos/dark_metal/halberd");
   event.addLootTypeModifier(LootType.CHEST).matchLoot("simplyswords:diamond_greathammer").replaceLoot("simplyswords:diamond_greathammer", "integrated_simply_swords:born_in_chaos/dark_metal/greathammer");
+
+//Spelunkery
+event.addLootTypeModifier(LootType.CHEST)
+    .removeLoot("spelunkery:parachute")
 
   //No Netherite ingots in bastions (except scraps)
 

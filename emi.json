@@ -22,13 +22,173 @@
       "stack": "item:irons_spellbooks:wandering_magician_chestplate{Damage:0}"
     },
     {
+      "stack": "item:irons_spellbooks:wandering_magician_boots{Damage:0}"
+    },
+    {
+      "stack": "item:sewingkit:bone_sewing_needle{Damage:0}"
+    },
+    {
+      "stack": "item:sewingkit:sewing_station"
+    },
+    {
+      "stack": "item:sewingkit:wool_hat{Damage:0}"
+    },
+    {
+      "stack": "item:sewingkit:wool_shirt{Damage:0}"
+    },
+    {
+      "stack": "item:sewingkit:wool_pants{Damage:0}"
+    },
+    {
+      "stack": "item:sewingkit:wool_shoes{Damage:0}"
+    },
+    {
+      "stack": "item:integrated_simply_swords:born_in_chaos/dark_metal/longsword{Damage:0}"
+    },
+    {
+      "stack": "item:integrated_simply_swords:silver/longsword{Damage:0}"
+    },
+    {
       "stack": "item:irons_spellbooks:wandering_magician_leggings{Damage:0}"
     },
     {
-      "stack": "item:irons_spellbooks:wandering_magician_boots{Damage:0}"
+      "stack": "item:integrated_simply_swords:oreganized/electrum/longsword{Damage:0}"
     }
   ],
   "lookup_history": [
+    {
+      "type": "item",
+      "id": "minecraft:glowstone",
+      "amount": 64
+    },
+    "item:traveloptics:dark_gem_of_the_living_void",
+    {
+      "type": "item",
+      "id": "alexscaves:shadow_silk",
+      "amount": 2
+    },
+    "item:alexscaves:dark_tatters",
+    "item:alexscaves:fertilizer",
+    "item:alexscaves:guano",
+    "item:integrated_simply_swords:silver/halberd{Damage:0}",
+    "item:integrated_simply_swords:oreganized/electrum/longsword{Damage:0}",
+    "item:kubejs:electrum_kanabo{Damage:0}",
+    "item:vintagedelight:white_chefs_hat",
+    "item:simplyswords:waxweaver{Damage:0}",
+    "item:simplyswords:ribboncleaver{Damage:0}",
+    "item:simplyswords:soulstealer{Damage:0}",
+    "item:simplyswords:diamond_halberd{Damage:0}",
+    "item:simplyswords:diamond_scythe{Damage:0}",
+    "item:simplyswords:diamond_chakram{Damage:0}",
+    "item:simplyswords:diamond_greataxe{Damage:0}",
+    "item:simplyswords:diamond_greathammer{Damage:0}",
+    "item:simplyswords:diamond_claymore{Damage:0}",
+    "item:simplyswords:diamond_cutlass{Damage:0}",
+    "item:simplyswords:diamond_warglaive{Damage:0}",
+    "item:simplyswords:diamond_glaive{Damage:0}",
+    "item:simplyswords:diamond_spear{Damage:0}",
+    "item:simplyswords:diamond_sai{Damage:0}",
+    "item:simplyswords:diamond_katana{Damage:0}",
+    "item:simplyswords:diamond_rapier{Damage:0}",
+    "item:simplyswords:diamond_twinblade{Damage:0}",
+    "item:simplyswords:diamond_longsword{Damage:0}",
+    "item:simplyswords:netherite_halberd{Damage:0}",
+    "item:simplyswords:runic_halberd{Damage:0}",
+    "item:simplyswords:netherite_glaive{Damage:0}",
+    "item:simplyswords:netherite_spear{Damage:0}",
+    "item:simplyswords:runic_twinblade{Damage:0}",
+    "item:simplyswords:netherite_sai{Damage:0}",
+    "item:overgeared:steel_sword{Damage:0}",
+    "item:caverns_and_chasms:silver_sword{Damage:0}",
+    "item:minecraft:golden_sword{Damage:0}",
+    "item:integrated_simply_swords:born_in_chaos/dark_metal/claymore{Damage:0}",
+    "item:simplyswords:runic_rapier{Damage:0}",
+    "item:twilightforest:fiery_sword{Damage:0}",
+    "item:refined_mod:flame_tongue_sword{Damage:0,\"irons_spellbooks:spell_container\":{data:[{id:\"irons_spellbooks:flaming_strike\",index:0,level:3,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:1b}}",
+    "item:caverns_and_chasms:necromium_sword{Damage:0}",
+    "item:minecraft:netherite_sword{Damage:0}",
+    "item:dungeonnowloading:spawner_sword{Damage:0}",
+    "item:kobolds:kobold_iron_sword{Damage:0}",
+    "item:oreganized:electrum_sword{Damage:0}",
+    "item:caverns_and_chasms:copper_sword{Damage:0}",
+    "item:minecraft:stone_sword{Damage:0}",
+    "item:minecraft:wooden_sword{Damage:0}",
+    "item:simplymore:timekeeper{Damage:0}",
+    "item:simplymore:the_pan{Damage:0}",
+    "item:biomeswevegone:green_apple",
+    "item:starcatcher:starcatcher_guide",
+    "item:simplymore:culterex{Damage:0}",
+    "item:simplymore:lustrous_moxie{Damage:0}",
+    "item:simplymore:runic_grandsword{Damage:0}",
+    "item:simplymore:ruyi_jingu_bang{Damage:0}",
+    "item:simplymore:tidebreaker{Damage:0}",
+    "item:simplymore:stasis{Damage:0}",
+    "item:simplymore:myrmedge{Damage:0}",
+    "item:spartanweaponry:cestus{Damage:0}",
+    "item:oreganized:electrum_knife{Damage:0}",
+    "item:simplyswords:awakened_lichblade{Damage:0}",
+    "item:irons_spellbooks:scroll{\"irons_spellbooks:spell_container\":{data:[{id:\"traveloptics:tsunami\",index:0,level:4,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}",
+    "item:simplyswords:magiscythe{Damage:0}",
+    "item:irons_spellbooks:scroll{\"irons_spellbooks:spell_container\":{data:[{id:\"traveloptics:extinction\",index:0,level:1,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}",
+    "item:overgeared:steel_tongs{Damage:0}",
+    "item:sewingkit:sewing_station",
+    [
+      "item:sewingkit:bone_sewing_needle{Damage:0}",
+      "item:sewingkit:diamond_sewing_needle{Damage:0}",
+      "item:sewingkit:gold_sewing_needle{Damage:0}",
+      "item:sewingkit:iron_sewing_needle{Damage:0}",
+      "item:sewingkit:netherite_sewing_needle{Damage:0}",
+      "item:sewingkit:stone_sewing_needle{Damage:0}",
+      "item:sewingkit:wood_sewing_needle{Damage:0}"
+    ],
+    "#item:minecraft:wool",
+    "item:minecraft:white_wool",
+    "item:sewingkit:wool_shirt{Damage:0}",
+    "item:sewingkit:wool_hat{Damage:0}",
+    {
+      "type": "item",
+      "id": "minecraft:copper_ingot",
+      "amount": 3
+    },
+    "item:sewingkit:bone_sewing_needle{Damage:0}",
+    "item:minecraft:brown_wool",
+    "item:minecraft:red_wool",
+    "item:kobolds:kobold_template",
+    "item:betterarcheology:bomb",
+    "item:create:cardboard_sword",
+    "item:biomeswevegone:ironwood_wood",
+    "item:deep_aether:stratus_helmet{Autoreforge:1b,Damage:0,Reforge:\"quality_equipment.quality.cumbersome\"}",
+    "item:minecraft:tropical_fish",
+    "item:minecraft:crafting_table",
+    "item:starcatcher:exposed_copper_hook{\"starcatcher:minigame_modifiers\":[\"starcatcher:slightly_faster_handle_speed\"]}",
+    "item:starcatcher:gunpowder_bait",
+    "item:starcatcher:dripstone_bait",
+    "item:starcatcher:lush_bait",
+    "item:starcatcher:mossy_hook",
+    "item:starcatcher:gold_hook",
+    "item:starcatcher:oxidised_copper_hook",
+    "item:starcatcher:echoing_hook",
+    "item:starcatcher:frozen_hook",
+    "item:starcatcher:heavy_hook",
+    "item:starcatcher:stone_hook",
+    "item:starcatcher:amethyst_hook",
+    "item:starcatcher:shiny_hook",
+    "item:starcatcher:starcatcher_rod",
+    "item:starcatcher:hook",
+    "item:selling_bin:selling_bin",
+    "item:starcatcher:boot",
+    "item:starcatcher:seeking_worm",
+    "item:starcatcher:almighty_worm",
+    "item:starcatcher:dev_worm",
+    "item:starcatcher:worm",
+    "#item:starcatcher:worms",
+    "item:starcatcher:starcatcher_twine",
+    "item:majruszsdifficulty:tattered_chestplate{Autoreforge:1b,Damage:0,Reforge:\"quality_equipment.quality.solid\"}",
+    {
+      "type": "item",
+      "id": "farmersdelight:rotten_tomato",
+      "amount": 10
+    },
     "item:biomeswevegone:cattail_sprout",
     "item:biomeswevegone:cattail_thatch",
     "item:caverns_and_chasms:aegis{Damage:0}",
@@ -43,7 +203,6 @@
     "item:spartanweaponry:lead_longbow{Damage:0}",
     "item:biomeswevegone:blueberry_pie",
     "item:spartanweaponry:weapon_oil{Oil:{Effect:\"spartanweaponry:wither_long\"}}",
-    "item:simplymore:culterex{Damage:0}",
     "item:dungeonsdelight:stained_cleaver{Damage:0}",
     "item:spelunkery:parachute{Damage:0,active:0b,used:0b}",
     "item:alexscaves:jelly_bean{Potion:\"minecraft:long_slowness\"}",
@@ -63,7 +222,6 @@
     "item:caverns_and_chasms:cupric_campfire",
     "item:caverns_and_chasms:weathered_copper_ingot",
     "item:caverns_and_chasms:waxed_chiseled_copper",
-    "item:minecraft:copper_ingot",
     "item:caverns_and_chasms:chiseled_copper",
     "item:caverns_and_chasms:waxed_weathered_copper_bulb",
     "item:caverns_and_chasms:waxed_exposed_copper_bricks",
@@ -157,15 +315,11 @@
     "item:spelunkery:rough_diamond",
     "item:spelunkery:rough_lazurite",
     "item:spelunkery:rough_lazurite_shard",
-    "item:sewingkit:sewing_station",
     "item:sewingkit:storing_sewing_station",
     "#item:minecraft:planks",
-    "item:sewingkit:wool_hat{Damage:0}",
     "item:sewingkit:wool_pants{Damage:0}",
-    "item:sewingkit:wool_shirt{Damage:0}",
     "item:majruszsdifficulty:tattered_boots{Damage:0}",
     "item:majruszsdifficulty:tattered_leggings{Damage:0}",
-    "item:majruszsdifficulty:tattered_chestplate{Damage:0}",
     "item:majruszsdifficulty:tattered_helmet{Damage:0}",
     "item:oreganized:scribe{Damage:0}",
     "item:oreganized:grooved_packed_ice",
@@ -177,7 +331,6 @@
     "item:caverns_and_chasms:oxidized_copper_button",
     "item:caverns_and_chasms:weathered_copper_button",
     "item:apotheosis:potion_charm{Damage:0,Potion:\"majruszsdifficulty:wither\"}",
-    "item:overgeared:steel_tongs{Damage:0}",
     "item:overgeared:iron_tongs{Damage:0}",
     "item:overgeared:steel_tong",
     "item:overgeared:iron_tong",
@@ -213,7 +366,9 @@
   ],
   "craft_history": [],
   "recipe_defaults": {
-    "added": [],
+    "added": [
+      "toomanyrecipeviewers:/sewingkit/kjs/1jtqsl3ludlj7idi4igty4xxy"
+    ],
     "tags": {},
     "resolutions": {},
     "disabled": []

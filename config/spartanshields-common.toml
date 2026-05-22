@@ -69,14 +69,14 @@
 		#Range: 0 ~ 100000
 		durability = 320
 		#Set to true to disable Tin Shields
-		disable = false
+		disable = true
 
 	[modded_common.bronze]
 		#Durability for Bronze Shields
 		#Range: 0 ~ 100000
 		durability = 680
 		#Set to true to disable Bronze Shields
-		disable = false
+		disable = true
 
 	[modded_common.steel]
 		#Durability for Steel Shields
@@ -111,21 +111,21 @@
 		#Range: 0 ~ 100000
 		durability = 420
 		#Set to true to disable Nickel Shields
-		disable = false
+		disable = true
 
 	[modded_common.invar]
 		#Durability for Invar Shields
 		#Range: 0 ~ 100000
 		durability = 720
 		#Set to true to disable Invar Shields
-		disable = false
+		disable = true
 
 	[modded_common.constantan]
 		#Durability for Constantan Shields
 		#Range: 0 ~ 100000
 		durability = 640
 		#Set to true to disable Constantan Shields
-		disable = false
+		disable = true
 
 	[modded_common.platinum]
 		#Durability for Platinum Shields
@@ -139,7 +139,7 @@
 		#Range: 0 ~ 100000
 		durability = 720
 		#Set to true to disable Aluminum Shields
-		disable = false
+		disable = true
 
 [modded_botania]
 

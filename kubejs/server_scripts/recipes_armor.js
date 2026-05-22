@@ -1,6 +1,108 @@
 ServerEvents.recipes(event => {
 //ZBROJE
 //DO USZYCIA
+  //Wełniane rzeczy (wool)
+event.remove({ id: 'sewingkit:wool_hat' })
+event.remove({ id: 'sewingkit:wool_shirt' })
+event.remove({ id: 'sewingkit:wool_pants' })
+event.remove({ id: 'sewingkit:wool_shoes' })
+event.custom({
+  "type": "sewingkit:sewing",
+  "materials": [
+    {
+      "count": 5,
+      "ingredient": {
+        "tag": "minecraft:wool"
+      }
+    },
+    {
+      "count": 2,
+      "ingredient": {
+        "tag": "forge:string"
+      }
+    }
+  ],
+  "result": {
+    "item": "sewingkit:wool_hat"
+  },
+  "tool": {
+    "type": "sewingkit:tool_ingredient",
+    "tool_type": "sewingkit_sew"
+  }
+});
+event.custom({
+  "type": "sewingkit:sewing",
+  "materials": [
+    {
+      "count": 8,
+      "ingredient": {
+        "tag": "minecraft:wool"
+      }
+    },
+    {
+      "count": 4,
+      "ingredient": {
+        "tag": "forge:string"
+      }
+    }
+  ],
+  "result": {
+    "item": "sewingkit:wool_shirt"
+  },
+  "tool": {
+    "type": "sewingkit:tool_ingredient",
+    "tool_type": "sewingkit_sew"
+  }
+});
+event.custom({
+  "type": "sewingkit:sewing",
+  "materials": [
+    {
+      "count": 7,
+      "ingredient": {
+        "tag": "minecraft:wool"
+      }
+    },
+    {
+      "count": 3,
+      "ingredient": {
+        "tag": "forge:string"
+      }
+    }
+  ],
+  "result": {
+    "item": "sewingkit:wool_pants"
+  },
+  "tool": {
+    "type": "sewingkit:tool_ingredient",
+    "tool_type": "sewingkit_sew"
+  }
+});
+event.custom({
+  "type": "sewingkit:sewing",
+  "materials": [
+    {
+      "count": 4,
+      "ingredient": {
+        "tag": "minecraft:wool"
+      }
+    },
+    {
+      "count": 2,
+      "ingredient": {
+        "tag": "forge:string"
+      }
+    }
+  ],
+  "result": {
+    "item": "sewingkit:wool_shoes"
+  },
+  "tool": {
+    "type": "sewingkit:tool_ingredient",
+    "tool_type": "sewingkit_sew"
+  }
+});
+
   //Skórzane Rzeczy (Leather)
 event.remove({ id: 'minecraft:leather_helmet' })
 event.remove({ id: 'minecraft:leather_chestplate' })
@@ -2449,7 +2551,7 @@ event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
     "blueprint": "ARMOR",
-    "requires_blueprint": false,
+    "requires_blueprint": true,
     "tier": "above_a",
     "hammering": 3,
     "has_quality": true,
@@ -2475,7 +2577,7 @@ event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
     "blueprint": "ARMOR",
-    "requires_blueprint": false,
+    "requires_blueprint": true,
     "tier": "above_a",
     "hammering": 5,
     "has_quality": true,
@@ -2501,7 +2603,7 @@ event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
     "blueprint": "ARMOR",
-    "requires_blueprint": false,
+    "requires_blueprint": true,
     "tier": "above_a",
     "hammering": 4,
     "has_quality": true,
@@ -2527,7 +2629,7 @@ event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
     "blueprint": "ARMOR",
-    "requires_blueprint": false,
+    "requires_blueprint": true,
     "tier": "above_a",
     "hammering": 3,
     "has_quality": true,

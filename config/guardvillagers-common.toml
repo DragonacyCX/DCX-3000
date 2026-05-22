@@ -32,7 +32,7 @@
 	#Range: -999.9000244140625 ~ 999.0
 	"Chance to drop equipment" = 0.0
 	#This makes guards form a phalanx
-	"Have guards form a phalanx?" = true
+	"Have guards form a phalanx?" = false
 	#Range: -500.0 ~ 900.0
 	"Guard health" = 30.0
 	"Have guards patrol the village regularly?" = false

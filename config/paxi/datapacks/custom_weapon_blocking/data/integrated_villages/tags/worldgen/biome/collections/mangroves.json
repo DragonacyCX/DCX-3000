@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "biomeswevegone:white_mangrove_marshes",
+    "biomeswevegone:bayou",
+    "biomeswevegone:cypress_swamplands"
+  ]
+}

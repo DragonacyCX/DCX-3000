@@ -4,7 +4,8 @@
         "basicweapons:stone_quarterstaff",
         "basicweapons:stone_club",
         "basicweapons:stone_hammer",
-        "simplest_hammers:stone_hammer"
+        "simplest_hammers:stone_hammer",
+        "kubejs:stone_kanabo"
     ]
   }
   

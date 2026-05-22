@@ -1,4 +1,5 @@
-//MIEDZIANY TIER
+//TIERY
+  //MIEDZIANY TIER
 ItemEvents.toolTierRegistry(event => {
   event.add('copper', tier => {
     tier.uses = 3191
@@ -10,7 +11,7 @@ ItemEvents.toolTierRegistry(event => {
   })
 })
 
-//SREBRNY TIER
+  //SREBRNY TIER
 ItemEvents.toolTierRegistry(event => {
   event.add('silver', tier => {
     tier.uses = 157
@@ -22,7 +23,7 @@ ItemEvents.toolTierRegistry(event => {
   })
 })
 
-//STALOWY TIER
+  //STALOWY TIER
 ItemEvents.toolTierRegistry(event => {
   event.add('steel', tier => {
     tier.uses = 500
@@ -34,32 +35,10 @@ ItemEvents.toolTierRegistry(event => {
   })
 })
 
-//MIEDZIANE BRONIE
+//TWORZENIE BRONI
 StartupEvents.registry('item', event => {
-event.create('copper_hammer', 'sword')
-    .tier('copper')
-    .displayName("Copper Hammer")
-    .attackDamageBaseline(6)
-    .attackDamageBonus(1)
-    .speedBaseline(-3.3)
-    .texture('kubejs:item/copper_hammer')
 
-event.create('copper_dagger', 'sword')
-    .tier('copper')
-    .displayName("Copper Dagger")
-    .attackDamageBaseline(1)
-    .attackDamageBonus(1)
-    .speedBaseline(-2.0)
-    .texture('kubejs:item/copper_dagger')
-
-event.create('copper_club', 'sword')
-    .tier('copper')
-    .displayName("Copper Club")
-    .attackDamageBaseline(5)
-    .attackDamageBonus(1)
-    .speedBaseline(-3.0)
-    .texture('kubejs:item/copper_club')
-
+  //SPEAR
 event.create('copper_spear', 'sword')
     .tier('copper')
     .displayName("Copper Spear")
@@ -68,6 +47,58 @@ event.create('copper_spear', 'sword')
     .speedBaseline(-2.7)
     .texture('kubejs:item/copper_spear_held')
 
+  //HAMMER
+event.create('copper_hammer', 'sword')
+    .tier('copper')
+    .displayName("Copper Hammer")
+    .attackDamageBaseline(6)
+    .attackDamageBonus(1)
+    .speedBaseline(-3.3)
+    .texture('kubejs:item/copper_hammer')
+
+event.create('steel_hammer', 'sword')
+    .tier('steel')
+    .displayName("Steel Hammer")
+    .attackDamageBaseline(9)
+    .attackDamageBonus(1)
+    .speedBaseline(-3.5)
+    .texture('kubejs:item/steel_hammer')
+
+  //DAGGER
+event.create('copper_dagger', 'sword')
+    .tier('copper')
+    .displayName("Copper Dagger")
+    .attackDamageBaseline(1)
+    .attackDamageBonus(1)
+    .speedBaseline(-2.0)
+    .texture('kubejs:item/copper_dagger')
+
+event.create('steel_dagger', 'sword')
+    .tier('steel')
+    .displayName("Steel Dagger")
+    .attackDamageBaseline(3)
+    .attackDamageBonus(1)
+    .speedBaseline(-2.0)
+    .texture('kubejs:item/steel_dagger')
+
+  //CLUB
+event.create('copper_club', 'sword')
+    .tier('copper')
+    .displayName("Copper Club")
+    .attackDamageBaseline(5)
+    .attackDamageBonus(1)
+    .speedBaseline(-3.0)
+    .texture('kubejs:item/copper_club')
+
+event.create('steel_club', 'sword')
+    .tier('steel')
+    .displayName("Steel Club")
+    .attackDamageBaseline(7)
+    .attackDamageBonus(1)
+    .speedBaseline(-3.0)
+    .texture('kubejs:item/steel_club')
+
+  //QUARTERSTAFF
 event.create('copper_quarterstaff', 'sword')
     .tier('copper')
     .displayName("Copper Quarterstaff")
@@ -76,41 +107,109 @@ event.create('copper_quarterstaff', 'sword')
     .speedBaseline(-2.3)
     .texture('kubejs:item/copper_quarterstaff_held')
 
-//STALOWE BRONIE
-event.create('steel_hammer', 'sword')
-    .maxStackSize(1)
-    .displayName("Steel Hammer")
-    .maxDamage(500)
-    .attackDamageBaseline(9)
-    .attackDamageBonus(1)
-    .speedBaseline(-3.5)
-    .texture('kubejs:item/steel_hammer')
-
-event.create('steel_dagger', 'sword')
-    .maxStackSize(1)
-    .displayName("Steel Dagger")
-    .maxDamage(500)
-    .attackDamageBaseline(3)
-    .attackDamageBonus(1)
-    .speedBaseline(-2.0)
-    .texture('kubejs:item/steel_dagger')
-
-event.create('steel_club', 'sword')
-    .maxStackSize(1)
-    .displayName("Steel Club")
-    .maxDamage(500)
-    .attackDamageBaseline(7)
-    .attackDamageBonus(1)
-    .speedBaseline(-3.0)
-    .texture('kubejs:item/steel_club')
-
 event.create('steel_quarterstaff', 'sword')
-    .maxStackSize(1)
+    .tier('steel')
     .displayName("steel Quarterstaff")
-    .maxDamage(500)
     .attackDamageBaseline(3)
     .attackDamageBonus(1)
     .speedBaseline(-2.3)
     .texture('kubejs:item/steel_quarterstaff_held')
+
+  //KANABO
+event.create('wooden_kanabo', 'sword')
+    .maxStackSize(1)
+    .displayName("Wooden Kanabo")
+    .maxDamage(59)
+    .attackDamageBaseline(5)
+    .attackDamageBonus(1)
+    .speedBaseline(-3.1)
+    .texture('kubejs:item/wooden_kanabo')
+
+event.create('golden_kanabo', 'sword')
+    .maxStackSize(1)
+    .displayName("Golden Kanabo")
+    .maxDamage(32)
+    .attackDamageBaseline(5)
+    .attackDamageBonus(1)
+    .speedBaseline(-3.1)
+    .texture('kubejs:item/golden_kanabo')
+
+event.create('stone_kanabo', 'sword')
+    .maxStackSize(1)
+    .maxDamage(131)
+    .displayName("Stone Kanabo")
+    .attackDamageBaseline(6)
+    .attackDamageBonus(1)
+    .speedBaseline(-3.1)
+    .texture('kubejs:item/stone_kanabo')
+
+event.create('copper_kanabo', 'sword')
+    .tier('copper')
+    .displayName("Copper Kanabo")
+    .attackDamageBaseline(6)
+    .attackDamageBonus(1)
+    .speedBaseline(-3.1)
+    .texture('kubejs:item/copper_kanabo')
+
+event.create('silver_kanabo', 'sword')
+    .tier('silver')
+    .displayName("Silver Kanabo")
+    .attackDamageBaseline(5)
+    .attackDamageBonus(1)
+    .speedBaseline(-3.1)
+    .texture('kubejs:item/silver_kanabo')
+
+event.create('iron_kanabo', 'sword')
+    .maxStackSize(1)
+    .displayName("Iron Kanabo")
+    .maxDamage(250)
+    .attackDamageBaseline(7)
+    .attackDamageBonus(1)
+    .speedBaseline(-3.1)
+    .texture('kubejs:item/iron_kanabo')
+    
+event.create('steel_kanabo', 'sword')
+    .tier('steel')
+    .displayName("Steel Kanabo")
+    .attackDamageBaseline(8)
+    .attackDamageBonus(1)
+    .speedBaseline(-3.1)
+    .texture('kubejs:item/steel_kanabo')
+
+event.create('diamond_kanabo', 'sword')
+    .maxStackSize(1)
+    .displayName("Diamond Kanabo")
+    .maxDamage(1561)
+    .attackDamageBaseline(8)
+    .attackDamageBonus(1)
+    .speedBaseline(-3.1)
+    .texture('kubejs:item/diamond_kanabo')
+
+event.create('electrum_kanabo', 'sword')
+    .maxStackSize(1)
+    .displayName("Electrum Kanabo")
+    .maxDamage(1561)
+    .attackDamageBaseline(9)
+    .attackDamageBonus(1)
+    .speedBaseline(-3.1)
+    .texture('kubejs:item/electrum_kanabo')
+
+event.create('netherite_kanabo', 'sword')
+    .maxStackSize(1)
+    .displayName("Netherite Kanabo")
+    .maxDamage(2031)
+    .attackDamageBaseline(9)
+    .attackDamageBonus(1)
+    .speedBaseline(-3.1)
+    .texture('kubejs:item/netherite_kanabo')
+
+event.create('necromium_kanabo', 'sword')
+    .maxStackSize(1)
+    .displayName("Necromium Kanabo")
+    .maxDamage(2031)
+    .attackDamageBaseline(9)
+    .attackDamageBonus(1)
+    .speedBaseline(-3.1)
+    .texture('kubejs:item/necromium_kanabo')
 
 })

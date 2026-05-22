@@ -7,7 +7,10 @@
         "simplyswords:diamond_greathammer",
         "simplymore:diamond_pernach",
         "simplymore:diamond_quarterstaff",
-        "simplest_hammers:diamond_hammer"
+        "simplest_hammers:diamond_hammer",
+        "kubejs:diamond_kanabo",
+
+        "kubejs:electrum_kanabo"
     ]
   }
   

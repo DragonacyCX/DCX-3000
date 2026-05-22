@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "biomeswevegone:orchard",
+    "biomeswevegone:redwood_thicket",
+    "biomeswevegone:overgrowth_woodlands",
+    "biomeswevegone:tropical_rainforest",
+    "biomeswevegone:cika_woods",
+    "biomeswevegone:ebony_woods",
+    "biomeswevegone:coniferous_forest",
+    "biomeswevegone:frosted_coniferous_forest",
+    "biomeswevegone:weeping_witch_forest"
+  ]
+}

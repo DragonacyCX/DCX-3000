@@ -1,0 +1,17 @@
+{
+    "replace": false,
+    "values": [
+      "environmental:deer",
+      "twilightforest:deer",
+      "undergarden:dweller",
+      "aether:flying_cow",
+      "quark:foxhound",
+      "undergarden:gloomper",
+      "environmental:reindeer",
+      "aether_redux:shimmercow",
+      "environmental:zebra",
+      "environmental:zonkey",
+      "environmental:zorse"
+    ]
+  }
+  

@@ -1,0 +1,22 @@
+{
+    "replace": false,
+    "values": [
+        "aether:gravitite_pickaxe",
+        "aether:valkyrie_pickaxe",
+        "aquaculture:neptunium_pickaxe",
+        "cataclysm:black_steel_pickaxe",
+        "caverns_and_chasms:necromium_pickaxe",
+        "deep_aether:stratus_pickaxe",
+        "dungeonnowloading:mendstone_pickaxe",
+        "lost_aether_content:phoenix_pickaxe",
+        "majruszsdifficulty:enderium_pickaxe",
+        "minecraft:diamond_pickaxe",
+        "minecraft:netherite_pickaxe",
+        "oreganized:electrum_pickaxe",
+        "overgeared:steel_pickaxe",
+        "twilightforest:fiery_pickaxe",
+        "undergarden:forgotten_pickaxe",
+        "undergarden:froststeel_pickaxe"
+    ]
+}
+  

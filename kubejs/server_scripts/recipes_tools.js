@@ -1,5 +1,8 @@
 ServerEvents.recipes(event => {
-//KOWADŁA
+//Misc shi
+event.remove({ output: 'spelunkery:parachute'})
+
+  //KOWADŁA
 event.remove({ output: 'overgeared:copper_smithing_hammer'})
 event.remove({ output: 'overgeared:smithing_hammer'})
 event.shaped(
@@ -91,6 +94,19 @@ event.shaped(
     })
 
 //NARZĘDZIA//
+//Szycie
+event.remove({ output: 'sewingkit:bone_sewing_needle'})
+event.shaped(
+        Item.of('sewingkit:bone_sewing_needle', 1), // Output
+        [
+            ' B ',
+            'B  ',
+            '   '
+        ], 
+        {
+            B: 'minecraft:bone'
+        })
+
 //DO USZYCIA
 event.remove({ id: 'spartanweaponry:cestus' })
 event.custom({
@@ -378,7 +394,7 @@ event.custom({
       " H "
     ],
     "result": {
-      "item": "caverns_and_chasms:copper_pickaxe"
+      "item": "overgeared:copper_pickaxe"
     },
     "show_notification": true
   });
@@ -495,7 +511,7 @@ event.custom({
       " H "
     ],
     "result": {
-      "item": "caverns_and_chasms:exposed_copper_pickaxe"
+      "item": "overgeared:copper_pickaxe"
     },
     "show_notification": true
   });
@@ -612,7 +628,7 @@ event.custom({
       " H "
     ],
     "result": {
-      "item": "caverns_and_chasms:weathered_copper_pickaxe"
+      "item": "overgeared:copper_pickaxe"
     },
     "show_notification": true
   });
@@ -729,7 +745,7 @@ event.custom({
       " H "
     ],
     "result": {
-      "item": "caverns_and_chasms:oxidized_copper_pickaxe"
+      "item": "overgeared:copper_pickaxe"
     },
     "show_notification": true
   });
@@ -846,7 +862,7 @@ event.custom({
       " H "
     ],
     "result": {
-      "item": "caverns_and_chasms:waxed_copper_pickaxe"
+      "item": "overgeared:copper_pickaxe"
     },
     "show_notification": true
   });
@@ -963,7 +979,7 @@ event.custom({
       " H "
     ],
     "result": {
-      "item": "caverns_and_chasms:waxed_exposed_copper_pickaxe"
+      "item": "overgeared:copper_pickaxe"
     },
     "show_notification": true
   });
@@ -1080,7 +1096,7 @@ event.custom({
       " H "
     ],
     "result": {
-      "item": "caverns_and_chasms:waxed_weathered_copper_pickaxe"
+      "item": "overgeared:copper_pickaxe"
     },
     "show_notification": true
   });
@@ -1197,7 +1213,7 @@ event.custom({
       " H "
     ],
     "result": {
-      "item": "caverns_and_chasms:waxed_oxidized_copper_pickaxe"
+      "item": "overgeared:copper_pickaxe"
     },
     "show_notification": true
   });
@@ -2197,7 +2213,7 @@ event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
     "blueprint": "TOOLS",
-    "requires_blueprint": false,
+    "requires_blueprint": true,
     "tier": "above_a",
     "hammering": 4,
     "has_quality": true,
@@ -2226,7 +2242,7 @@ event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
     "blueprint": "TOOLS",
-    "requires_blueprint": false,
+    "requires_blueprint": true,
     "tier": "above_a",
     "hammering": 4,
     "has_quality": true,
@@ -2255,7 +2271,7 @@ event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
     "blueprint": "TOOLS",
-    "requires_blueprint": false,
+    "requires_blueprint": true,
     "tier": "above_a",
     "hammering": 4,
     "has_quality": true,
@@ -2284,7 +2300,7 @@ event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
     "blueprint": "TOOLS",
-    "requires_blueprint": false,
+    "requires_blueprint": true,
     "tier": "above_a",
     "hammering": 4,
     "has_quality": true,
@@ -2313,7 +2329,7 @@ event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
     "blueprint": "TOOLS",
-    "requires_blueprint": false,
+    "requires_blueprint": true,
     "tier": "above_a",
     "hammering": 4,
     "has_quality": true,
@@ -2342,7 +2358,7 @@ event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
     "blueprint": "TOOLS",
-    "requires_blueprint": false,
+    "requires_blueprint": true,
     "tier": "above_a",
     "hammering": 4,
     "has_quality": true,
@@ -2371,7 +2387,7 @@ event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
     "blueprint": "TOOLS",
-    "requires_blueprint": false,
+    "requires_blueprint": true,
     "tier": "above_a",
     "hammering": 4,
     "has_quality": true,
@@ -2400,7 +2416,7 @@ event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
     "blueprint": "TOOLS",
-    "requires_blueprint": false,
+    "requires_blueprint": true,
     "tier": "above_a",
     "hammering": 4,
     "has_quality": true,
@@ -2432,7 +2448,7 @@ event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
     "blueprint": "TOOLS",
-    "requires_blueprint": false,
+    "requires_blueprint": true,
     "tier": "above_a",
     "hammering": 4,
     "has_quality": true,
@@ -2464,7 +2480,7 @@ event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
     "blueprint": "TOOLS",
-    "requires_blueprint": false,
+    "requires_blueprint": true,
     "tier": "above_a",
     "hammering": 4,
     "has_quality": true,
@@ -2501,7 +2517,7 @@ event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
     "blueprint": "TOOLS",
-    "requires_blueprint": false,
+    "requires_blueprint": true,
     "tier": "above_a",
     "hammering": 4,
     "has_quality": true,

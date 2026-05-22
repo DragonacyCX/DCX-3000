@@ -1,0 +1,11 @@
+{
+  "biome": "biomeswevegone:windswept_desert",
+  "attribute": "wind_spellbooks:wind_spell_power",
+  "uuid": "9455e834-fe54-4823-8f43-52172e3aaac8",
+  "value": 0.15,
+  "operation": "MULTIPLY_BASE",
+  "required_mod": [
+    "irons_spellbooks",
+    "wind_spellbooks"
+  ]
+}

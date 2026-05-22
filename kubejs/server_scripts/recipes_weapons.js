@@ -417,7 +417,7 @@ event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
     "blueprint": "RANGED",
-    "requires_blueprint": false,
+    "requires_blueprint": true,
     "tier": "above_a",
     "hammering": 4,
     "has_quality": true,
@@ -452,7 +452,7 @@ event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
     "blueprint": "RANGED",
-    "requires_blueprint": false,
+    "requires_blueprint": true,
     "tier": "above_a",
     "hammering": 4,
     "has_quality": true,
@@ -492,7 +492,7 @@ event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
     "blueprint": "RANGED",
-    "requires_blueprint": false,
+    "requires_blueprint": true,
     "tier": "above_a",
     "hammering": 4,
     "has_quality": true,
@@ -527,7 +527,7 @@ event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
     "blueprint": "RANGED",
-    "requires_blueprint": false,
+    "requires_blueprint": true,
     "tier": "above_a",
     "hammering": 4,
     "has_quality": true,
@@ -567,7 +567,7 @@ event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
     "blueprint": "RANGED",
-    "requires_blueprint": false,
+    "requires_blueprint": true,
     "tier": "above_a",
     "hammering": 4,
     "has_quality": true,
@@ -602,7 +602,7 @@ event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
     "blueprint": "RANGED",
-    "requires_blueprint": false,
+    "requires_blueprint": true,
     "tier": "above_a",
     "hammering": 4,
     "has_quality": true,
@@ -662,6 +662,17 @@ event.shaped(
             F: '#minecraft:planks',
             H: 'spartanweaponry:simple_handle',
             P: 'spartanweaponry:simple_pole'
+        })
+event.shaped(
+        Item.of('kubejs:wooden_kanabo', 1), // Output
+        [
+            '  B',
+            ' B ',
+            'C  '
+        ], 
+        {
+            B: '#minecraft:planks',
+            C: 'basicweapons:wooden_club'
         })
 
 //Kamienne rzeczy
@@ -738,6 +749,18 @@ event.shaped(
             F: 'minecraft:flint',
             H: 'spartanweaponry:simple_handle',
             P: 'spartanweaponry:simple_pole'
+        })
+event.shaped(
+        Item.of('kubejs:stone_kanabo', 1), // Output
+        [
+            ' KB',
+            'KBK',
+            'CK '
+        ], 
+        {
+            B: '#minecraft:stone_tool_materials',
+            K: 'minecraft:flint',
+            C: 'basicweapons:stone_club'
         })
 
 //Miedziane Rzeczy
@@ -1110,6 +1133,38 @@ event.custom({
     },
     "show_notification": true
   });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "HEAVYWEAPONS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "minecraft:copper_block"
+      },
+      "N": {
+        "item": "minecraft:copper_ingot"
+      },
+      "H": {
+        "item": "kubejs:copper_club"
+      }
+    },
+    "pattern": [
+      " NC",
+      "NCN",
+      "HN "
+    ],
+    "result": {
+      "item": "kubejs:copper_kanabo"
+    },
+    "show_notification": true
+  });
 
 //Srebrne Rzeczy
 event.remove({ output: 'caverns_and_chasms:silver_sword' })
@@ -1128,6 +1183,7 @@ event.remove({ output: 'integrated_simply_swords:silver/chakram' })
 event.remove({ output: 'integrated_simply_swords:silver/scythe' })
 event.remove({ output: 'integrated_simply_swords:silver/halberd' })
 event.remove({ output: 'integrated_simply_swords:silver/greathammer' })
+  //Basic
 event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
@@ -1157,6 +1213,39 @@ event.custom({
     },
     "show_notification": true
   });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "HEAVYWEAPONS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": false,
+    "key": {
+      "C": {
+        "item": "oreganized:silver_ingot"
+      },
+      "N": {
+        "item": "oreganized:silver_nugget"
+      },
+      "H": {
+        "item": "caverns_and_chasms:silver_sword"
+      }
+    },
+    "pattern": [
+      " NC",
+      "NCN",
+      "HN "
+    ],
+    "result": {
+      "item": "kubejs:silver_kanabo"
+    },
+    "show_notification": true
+  });
+
   //Simply
     //LIGHTWEAPONS
 event.custom({
@@ -1657,8 +1746,8 @@ event.remove({ output: 'simplyswords:iron_katana' })
 event.remove({ output: 'simplyswords:iron_scythe' })
 event.remove({ output: 'simplyswords:iron_twinblade' })
 
-event.remove({ output: 'simplyswords:iron_backhand_blade' })
-event.remove({ output: 'simplyswords:iron_dagger' })
+event.remove({ output: 'simplymore:iron_backhand_blade' })
+event.remove({ output: 'simplymore:iron_dagger' })
 
     //Basic
 event.custom({
@@ -1773,6 +1862,38 @@ event.custom({
     },
     "show_notification": true
   });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "HEAVYWEAPONS",
+    "requires_blueprint": false,
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": true,
+    "key": {
+      "C": {
+        "item": "overgeared:heated_iron_ingot"
+      },
+      "N": {
+        "item": "minecraft:iron_nugget"
+      },
+      "H": {
+        "item": "basicweapons:iron_club"
+      }
+    },
+    "pattern": [
+      " NC",
+      "NCN",
+      "HN "
+    ],
+    "result": {
+      "item": "kubejs:iron_kanabo"
+    },
+    "show_notification": true
+  });
+
   //Simply
     //LIGHTWEAPONS
 event.custom({
@@ -2591,6 +2712,38 @@ event.custom({
     },
     "show_notification": true
   });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "HEAVYWEAPONS",
+    "requires_blueprint": false,
+    "hammering": 4,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": true,
+    "key": {
+      "C": {
+        "item": "overgeared:heated_steel_ingot"
+      },
+      "N": {
+        "item": "overgeared:steel_nugget"
+      },
+      "H": {
+        "item": "kubejs:steel_club"
+      }
+    },
+    "pattern": [
+      " NC",
+      "NCN",
+      "HN "
+    ],
+    "result": {
+      "item": "kubejs:steel_kanabo"
+    },
+    "show_notification": true
+  });
+
   //Simply
     //LIGHTWEAPONS
 event.custom({
@@ -3196,6 +3349,39 @@ event.custom({
     },
     "show_notification": true
   });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "HEAVYWEAPONS",
+    "requires_blueprint": false,
+    "tier": "stone",
+    "hammering": 3,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": true,
+    "key": {
+      "C": {
+        "item": "minecraft:gold_ingot"
+      },
+      "N": {
+        "item": "minecraft:gold_nugget"
+      },
+      "H": {
+        "item": "basicweapons:golden_club"
+      }
+    },
+    "pattern": [
+      " NC",
+      "NCN",
+      "HN "
+    ],
+    "result": {
+      "item": "kubejs:golden_kanabo"
+    },
+    "show_notification": true
+  });
+
   //Simply
     //LIGHTWEAPONS
 event.custom({
@@ -3957,7 +4143,7 @@ event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
     "blueprint": "LIGHTWEAPONS",
-    "requires_blueprint": false,
+    "requires_blueprint": true,
     "tier": "above_a",
     "hammering": 4,
     "has_quality": true,
@@ -3986,7 +4172,7 @@ event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
     "blueprint": "LIGHTWEAPONS",
-    "requires_blueprint": false,
+    "requires_blueprint": true,
     "tier": "above_a",
     "hammering": 4,
     "has_quality": true,
@@ -4015,7 +4201,7 @@ event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
     "blueprint": "LIGHTWEAPONS",
-    "requires_blueprint": false,
+    "requires_blueprint": true,
     "tier": "above_a",
     "hammering": 4,
     "has_quality": true,
@@ -4044,7 +4230,7 @@ event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
     "blueprint": "HEAVYWEAPONS",
-    "requires_blueprint": false,
+    "requires_blueprint": true,
     "tier": "above_a",
     "hammering": 4,
     "has_quality": true,
@@ -4069,13 +4255,46 @@ event.custom({
     },
     "show_notification": true
   });
+event.custom({
+    "type": "overgeared:forging",
+    "category": "equipment",
+    "blueprint": "HEAVYWEAPONS",
+    "requires_blueprint": false,
+    "tier": "above_a",
+    "hammering": 4,
+    "has_quality": true,
+    "minimum_quality": "poor",
+    "needs_minigame": false,
+    "has_polishing": true,
+    "key": {
+      "C": {
+        "item": "minecraft:diamond"
+      },
+      "N": {
+        "item": "spelunkery:diamond_shard"
+      },
+      "H": {
+        "item": "basicweapons:diamond_club"
+      }
+    },
+    "pattern": [
+      " NC",
+      "NCN",
+      "HN "
+    ],
+    "result": {
+      "item": "kubejs:diamond_kanabo"
+    },
+    "show_notification": true
+  });
+
   //Simply
     //LIGHTWEAPONS
 event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
     "blueprint": "LIGHTWEAPONS",
-    "requires_blueprint": false,
+    "requires_blueprint": true,
     "tier": "above_a",
     "hammering": 4,
     "has_quality": true,
@@ -4107,7 +4326,7 @@ event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
     "blueprint": "LIGHTWEAPONS",
-    "requires_blueprint": false,
+    "requires_blueprint": true,
     "tier": "above_a",
     "hammering": 4,
     "has_quality": true,
@@ -4139,7 +4358,7 @@ event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
     "blueprint": "LIGHTWEAPONS",
-    "requires_blueprint": false,
+    "requires_blueprint": true,
     "tier": "above_a",
     "hammering": 4,
     "has_quality": true,
@@ -4171,7 +4390,7 @@ event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
     "blueprint": "LIGHTWEAPONS",
-    "requires_blueprint": false,
+    "requires_blueprint": true,
     "tier": "above_a",
     "hammering": 4,
     "has_quality": true,
@@ -4203,7 +4422,7 @@ event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
     "blueprint": "LIGHTWEAPONS",
-    "requires_blueprint": false,
+    "requires_blueprint": true,
     "tier": "above_a",
     "hammering": 4,
     "has_quality": true,
@@ -4235,7 +4454,7 @@ event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
     "blueprint": "LIGHTWEAPONS",
-    "requires_blueprint": false,
+    "requires_blueprint": true,
     "tier": "above_a",
     "hammering": 4,
     "has_quality": true,
@@ -4264,7 +4483,7 @@ event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
     "blueprint": "LIGHTWEAPONS",
-    "requires_blueprint": false,
+    "requires_blueprint": true,
     "tier": "above_a",
     "hammering": 4,
     "has_quality": true,
@@ -4296,7 +4515,7 @@ event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
     "blueprint": "LIGHTWEAPONS",
-    "requires_blueprint": false,
+    "requires_blueprint": true,
     "tier": "above_a",
     "hammering": 4,
     "has_quality": true,
@@ -4325,7 +4544,7 @@ event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
     "blueprint": "LIGHTWEAPONS",
-    "requires_blueprint": false,
+    "requires_blueprint": true,
     "tier": "above_a",
     "hammering": 4,
     "has_quality": true,
@@ -4354,7 +4573,7 @@ event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
     "blueprint": "LIGHTWEAPONS",
-    "requires_blueprint": false,
+    "requires_blueprint": true,
     "tier": "above_a",
     "hammering": 4,
     "has_quality": true,
@@ -4383,7 +4602,7 @@ event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
     "blueprint": "LIGHTWEAPONS",
-    "requires_blueprint": false,
+    "requires_blueprint": true,
     "tier": "above_a",
     "hammering": 4,
     "has_quality": true,
@@ -4415,7 +4634,7 @@ event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
     "blueprint": "LIGHTWEAPONS",
-    "requires_blueprint": false,
+    "requires_blueprint": true,
     "tier": "above_a",
     "hammering": 4,
     "has_quality": true,
@@ -4448,7 +4667,7 @@ event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
     "blueprint": "HEAVYWEAPONS",
-    "requires_blueprint": false,
+    "requires_blueprint": true,
     "tier": "above_a",
     "hammering": 4,
     "has_quality": true,
@@ -4480,7 +4699,7 @@ event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
     "blueprint": "HEAVYWEAPONS",
-    "requires_blueprint": false,
+    "requires_blueprint": true,
     "tier": "above_a",
     "hammering": 4,
     "has_quality": true,
@@ -4509,7 +4728,7 @@ event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
     "blueprint": "HEAVYWEAPONS",
-    "requires_blueprint": false,
+    "requires_blueprint": true,
     "tier": "above_a",
     "hammering": 4,
     "has_quality": true,
@@ -4541,7 +4760,7 @@ event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
     "blueprint": "HEAVYWEAPONS",
-    "requires_blueprint": false,
+    "requires_blueprint": true,
     "tier": "above_a",
     "hammering": 4,
     "has_quality": true,
@@ -4573,7 +4792,7 @@ event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
     "blueprint": "HEAVYWEAPONS",
-    "requires_blueprint": false,
+    "requires_blueprint": true,
     "tier": "above_a",
     "hammering": 4,
     "has_quality": true,
@@ -4605,7 +4824,7 @@ event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
     "blueprint": "HEAVYWEAPONS",
-    "requires_blueprint": false,
+    "requires_blueprint": true,
     "tier": "above_a",
     "hammering": 4,
     "has_quality": true,
@@ -4640,7 +4859,7 @@ event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
     "blueprint": "HEAVYWEAPONS",
-    "requires_blueprint": false,
+    "requires_blueprint": true,
     "tier": "above_a",
     "hammering": 4,
     "has_quality": true,
@@ -4672,7 +4891,7 @@ event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
     "blueprint": "HEAVYWEAPONS",
-    "requires_blueprint": false,
+    "requires_blueprint": true,
     "tier": "above_a",
     "hammering": 4,
     "has_quality": true,
@@ -4704,7 +4923,7 @@ event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
     "blueprint": "HEAVYWEAPONS",
-    "requires_blueprint": false,
+    "requires_blueprint": true,
     "tier": "above_a",
     "hammering": 4,
     "has_quality": true,
@@ -4733,7 +4952,7 @@ event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
     "blueprint": "HEAVYWEAPONS",
-    "requires_blueprint": false,
+    "requires_blueprint": true,
     "tier": "above_a",
     "hammering": 4,
     "has_quality": true,
@@ -4768,7 +4987,7 @@ event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
     "blueprint": "HEAVYWEAPONS",
-    "requires_blueprint": false,
+    "requires_blueprint": true,
     "tier": "above_a",
     "hammering": 4,
     "has_quality": true,
@@ -4822,7 +5041,7 @@ event.remove({ output: 'born_in_chaos_v1:intoxicating_dagger'})
   // Shell Mace (iron, lightweapon)
 event.custom({
   "type": "overgeared:forging",
-  "blueprint": ["LIGHTWEAPONS"],
+  "blueprint": "LIGHTWEAPONS",
   "requires_blueprint": false,
   "hammering": 3,
   "has_quality": true,
@@ -4846,8 +5065,8 @@ event.custom({
   // Darkwarblade (above_a, heavyweapon)
 event.custom({
   "type": "overgeared:forging",
-  "blueprint": ["HEAVYWEAPONS"],
-  "requires_blueprint": false,
+  "blueprint": "HEAVYWEAPONS",
+  "requires_blueprint": true,
   "hammering": 4,
   "has_quality": true,
   "minimum_quality": "poor",
@@ -4870,8 +5089,8 @@ event.custom({
   // Skullbreaker Hammer (above_a, lightweapon)
 event.custom({
   "type": "overgeared:forging",
-  "blueprint": ["LIGHTWEAPONS"],
-  "requires_blueprint": false,
+  "blueprint": "LIGHTWEAPONS",
+  "requires_blueprint": true,
   "hammering": 4,
   "has_quality": true,
   "minimum_quality": "poor",
@@ -4894,8 +5113,8 @@ event.custom({
   // Great Reaper Axe (above_a, lightweapon)
 event.custom({
   "type": "overgeared:forging",
-  "blueprint": ["LIGHTWEAPONS"],
-  "requires_blueprint": false,
+  "blueprint": "LIGHTWEAPONS",
+  "requires_blueprint": true,
   "hammering": 4,
   "has_quality": true,
   "minimum_quality": "poor",
@@ -4918,8 +5137,8 @@ event.custom({
   // Sharpened Dark Metal Sword (above_a, lightweapon)
 event.custom({
   "type": "overgeared:forging",
-  "blueprint": ["LIGHTWEAPONS"],
-  "requires_blueprint": false,
+  "blueprint": "LIGHTWEAPONS",
+  "requires_blueprint": true,
   "hammering": 4,
   "has_quality": true,
   "minimum_quality": "poor",
@@ -4942,14 +5161,13 @@ event.custom({
   // Spiritual Sword (iron, lightweapon)
 event.custom({
   "type": "overgeared:forging",
-  "blueprint": ["LIGHTWEAPONS"],
+  "blueprint": "LIGHTWEAPONS",
   "requires_blueprint": false,
   "hammering": 4,
   "has_quality": true,
   "minimum_quality": "poor",
   "needs_minigame": false,
   "has_polishing": false,
-  "tier": "above_a",
   "key": {
     "a": { "item": "born_in_chaos_v1:seedof_chaos" },
     "b": { "item": "born_in_chaos_v1:dark_metal_nugget" },
@@ -4967,8 +5185,8 @@ event.custom({
   // Nightmare Scythe (above_a, heavyweapon)
 event.custom({
   "type": "overgeared:forging",
-  "blueprint": ["HEAVYWEAPONS"],
-  "requires_blueprint": false,
+  "blueprint": "HEAVYWEAPONS",
+  "requires_blueprint": true,
   "hammering": 4,
   "has_quality": true,
   "minimum_quality": "poor",
@@ -4992,8 +5210,8 @@ event.custom({
   // Spider Bite Sword (above_a, lightweapon)
 event.custom({
   "type": "overgeared:forging",
-  "blueprint": ["LIGHTWEAPONS"],
-  "requires_blueprint": false,
+  "blueprint": "LIGHTWEAPONS",
+  "requires_blueprint": true,
   "hammering": 4,
   "has_quality": true,
   "minimum_quality": "poor",
@@ -5017,8 +5235,8 @@ event.custom({
   // Frostbitten Blade (above_a, lightweapon)
 event.custom({
   "type": "overgeared:forging",
-  "blueprint": ["LIGHTWEAPONS"],
-  "requires_blueprint": false,
+  "blueprint": "LIGHTWEAPONS",
+  "requires_blueprint": true,
   "hammering": 4,
   "has_quality": true,
   "minimum_quality": "poor",
@@ -5042,8 +5260,8 @@ event.custom({
   // Soul Cutlass (above_a, lightweapon)
 event.custom({
   "type": "overgeared:forging",
-  "blueprint": ["LIGHTWEAPONS"],
-  "requires_blueprint": false,
+  "blueprint": "LIGHTWEAPONS",
+  "requires_blueprint": true,
   "hammering": 4,
   "has_quality": true,
   "minimum_quality": "poor",
@@ -5068,14 +5286,13 @@ event.custom({
   // Dark Ritual Dagger (iron, lightweapon)
 event.custom({
   "type": "overgeared:forging",
-  "blueprint": ["LIGHTWEAPONS"],
+  "blueprint": "LIGHTWEAPONS",
   "requires_blueprint": false,
   "hammering": 4,
   "has_quality": true,
   "minimum_quality": "poor",
   "needs_minigame": false,
   "has_polishing": false,
-  "tier": "above_a",
   "key": {
     "a": { "item": "born_in_chaos_v1:nightmare_claw" },
     "b": { "item": "born_in_chaos_v1:dark_metal_nugget" },
@@ -5094,14 +5311,13 @@ event.custom({
   // Intoxicating Dagger (iron, lightweapon)
 event.custom({
   "type": "overgeared:forging",
-  "blueprint": ["LIGHTWEAPONS"],
+  "blueprint": "LIGHTWEAPONS",
   "requires_blueprint": false,
   "hammering": 4,
   "has_quality": true,
   "minimum_quality": "poor",
   "needs_minigame": false,
   "has_polishing": false,
-  "tier": "above_a",
   "key": {
     "b": { "item": "born_in_chaos_v1:dark_metal_ingot" },
     "c": { "item": "born_in_chaos_v1:intoxicating_decoction" },
@@ -5122,7 +5338,7 @@ event.remove({ id: 'warriorsofpastepoch:musketeer_rapier_craft' })
 event.custom({
   "type": "overgeared:forging",
   "tier": "above_a",
-  "blueprint": ["LIGHTWEAPONS"],
+  "blueprint": "LIGHTWEAPONS",
   "requires_blueprint": false,
   "hammering": 4,
   "has_polishing": false,
@@ -5148,7 +5364,7 @@ event.remove({ id: 'warriorsofpastepoch:bayonet_knife_craft' })
 event.custom({
   "type": "overgeared:forging",
   "tier": "above_a",
-  "blueprint": ["LIGHTWEAPONS"],
+  "blueprint": "LIGHTWEAPONS",
   "requires_blueprint": false,
   "hammering": 4,
   "has_polishing": false,
@@ -5173,7 +5389,7 @@ event.remove({ id: 'warriorsofpastepoch:surgical_saw_craft' })
 event.custom({
   "type": "overgeared:forging",
   "tier": "above_a",
-  "blueprint": ["LIGHTWEAPONS"],
+  "blueprint": "LIGHTWEAPONS",
   "requires_blueprint": false,
   "hammering": 4,
   "has_polishing": false,

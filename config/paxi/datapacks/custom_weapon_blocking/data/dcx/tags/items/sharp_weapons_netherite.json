@@ -24,7 +24,22 @@
         "simplymore:netherite_khopesh",
         "simplymore:netherite_lance",
         "simplymore:netherite_great_spear",
-        "simplymore:netherite_deer_horns"
+        "simplymore:netherite_deer_horns",
+
+        "integrated_simply_swords:caverns_and_chasms/necromium/longsword",
+        "integrated_simply_swords:caverns_and_chasms/necromium/twinblade",
+        "integrated_simply_swords:caverns_and_chasms/necromium/rapier",
+        "integrated_simply_swords:caverns_and_chasms/necromium/katana",
+        "integrated_simply_swords:caverns_and_chasms/necromium/sai",
+        "integrated_simply_swords:caverns_and_chasms/necromium/spear",
+        "integrated_simply_swords:caverns_and_chasms/necromium/glaive",
+        "integrated_simply_swords:caverns_and_chasms/necromium/warglaive",
+        "integrated_simply_swords:caverns_and_chasms/necromium/cutlass",
+        "integrated_simply_swords:caverns_and_chasms/necromium/claymore",
+        "integrated_simply_swords:caverns_and_chasms/necromium/greataxe",
+        "integrated_simply_swords:caverns_and_chasms/necromium/chakram",
+        "integrated_simply_swords:caverns_and_chasms/necromium/scythe",
+        "integrated_simply_swords:caverns_and_chasms/necromium/halberd"
     ]
   }
   

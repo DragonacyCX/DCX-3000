@@ -604,7 +604,7 @@
                 },
                 {
                     "item": "minecraft:iron_axe",
-                    "weight": 2,
+                    "weight": 5,
                     "functions": [
                         {
                             "function": "enchant",
@@ -1072,6 +1072,463 @@
                 },
                 {
                     "item": "simplymore:iron_great_spear",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "property": "equipment",
+            "slot": "offhand",
+            "items": 
+            [
+                {
+                    "item": "minecraft:shield",
+                    "weight": 10,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "spartanshields:silver_basic_shield",
+                    "weight": 6,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "spartanshields:silver_tower_shield",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "spartanshields:wooden_basic_shield",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "spartanshields:wooden_tower_shield",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "spartanshields:stone_basic_shield",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "spartanshields:stone_tower_shield",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "spartanshields:copper_basic_shield",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "spartanshields:copper_tower_shield",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "spartanshields:iron_basic_shield",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "spartanshields:iron_tower_shield",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "spartanshields:golden_basic_shield",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "spartanshields:golden_tower_shield",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "spartanshields:diamond_basic_shield",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "spartanshields:diamond_tower_shield",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "spartanshields:obsidian_basic_shield",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "spartanshields:obsidian_tower_shield",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "spartanshields:steel_basic_shield",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "spartanshields:steel_tower_shield",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "spartanshields:electrum_basic_shield",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "spartanshields:electrum_tower_shield",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "spartanshields:lead_basic_shield",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "spartanshields:lead_tower_shield",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "spartanshields:platinum_basic_shield",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant",
+                            "type": "random",
+                            "allow_treasure": "false",
+                            "lvl": 3,
+                            "conditions": [
+                                {
+                                    "condition": "chance",
+                                    "chance": 0.1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "item": "spartanshields:platinum_tower_shield",
                     "weight": 2,
                     "functions": [
                         {

@@ -4,7 +4,7 @@
 // Immediately Invoked Function Expression to prevent polluting the global namespace
 (() => {
 	// --- CONFIGURATION ---
-	const PARRY_RUSH_DURATION = 35; // Ticks (20 ticks = 1 second)
+	const PARRY_RUSH_DURATION = 30; // Ticks (20 ticks = 1 second)
 	// 0.5 = +50% Attack Speed. 1.0 = +100% (Double Speed).
 	const ATTACK_SPEED_MULTIPLIER = 0.6;
 

@@ -2,10 +2,10 @@ ServerEvents.recipes(event => {
 //ZBROJE
 //DO USZYCIA
   //Wełniane rzeczy (wool)
-event.remove({ id: 'sewingkit:wool_hat' })
-event.remove({ id: 'sewingkit:wool_shirt' })
-event.remove({ id: 'sewingkit:wool_pants' })
-event.remove({ id: 'sewingkit:wool_shoes' })
+event.remove({ id: 'sewingkit:wool_hat_via_sewing' })
+event.remove({ id: 'sewingkit:wool_shirt_via_sewing' })
+event.remove({ id: 'sewingkit:wool_pants_via_sewing' })
+event.remove({ id: 'sewingkit:wool_shoes_via_sewing' })
 event.custom({
   "type": "sewingkit:sewing",
   "materials": [
@@ -108,6 +108,11 @@ event.remove({ id: 'minecraft:leather_helmet' })
 event.remove({ id: 'minecraft:leather_chestplate' })
 event.remove({ id: 'minecraft:leather_leggings' })
 event.remove({ id: 'minecraft:leather_boots' })
+event.remove({ id: 'sewingkit:leather_helmet_via_sewing' })
+event.remove({ id: 'sewingkit:leather_chestplate_via_sewing' })
+event.remove({ id: 'sewingkit:leather_leggings_via_sewing' })
+event.remove({ id: 'sewingkit:leather_boots_via_sewing' })
+event.remove({ id: 'sewingkit:leather_horse_armor_via_sewing' })
 event.custom({
   "type": "sewingkit:sewing",
   "materials": [

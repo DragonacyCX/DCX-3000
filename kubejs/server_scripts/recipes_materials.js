@@ -5,7 +5,17 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'born_in_chaos_v1:bundleof_bones_l' })
     event.remove({ id: 'born_in_chaos_v1:bundleof_bones_k' })
 
-//Węgiel
+//SEWING KIT
+event.remove({ id: 'sewingkit:wool_roll_from_carpet' })
+event.remove({ id: 'sewingkit:leather_sheet_from_rabbit_hide' })
+event.remove({ id: 'sewingkit:wool_roll_from_wool' })
+event.remove({ id: 'sewingkit:wool_trim_from_wool' })
+event.remove({ id: 'sewingkit:leather_sheet_from_leather' })
+event.remove({ id: 'sewingkit:leather_strip_from_leather' })
+event.remove({ id: 'sewingkit:wool_trim_from_carpet' })
+
+//INNE RUDY
+  //Węgiel
 event.shapeless(
         Item.of('spelunkery:charcoal_lump', 6), // arg 1: output
         [
@@ -99,10 +109,10 @@ event.custom({
   event.blasting('oreganized:silver_ingot', 'vintage:silver_sheet', 0.0, 100)
 
   //Cyna
-event.remove({ id: 'aquaculture:tin_can_to_iron_nugget' })
-event.remove({ id: 'aquaculture:tin_can_to_iron_nugget_from_blasting' })
-event.smelting('7x caverns_and_chasms:tin_nugget', 'aquaculture:tin_can', 0.7, 200)
-event.blasting('7x caverns_and_chasms:tin_nugget', 'aquaculture:tin_can', 0.7, 100)
+//event.remove({ id: 'aquaculture:tin_can_to_iron_nugget' })
+//event.remove({ id: 'aquaculture:tin_can_to_iron_nugget_from_blasting' })
+//event.smelting('7x caverns_and_chasms:tin_nugget', 'aquaculture:tin_can', 0.7, 200)
+//event.blasting('7x caverns_and_chasms:tin_nugget', 'aquaculture:tin_can', 0.7, 100)
 
   //Cynk
 event.custom({

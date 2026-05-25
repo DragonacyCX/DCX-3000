@@ -16,8 +16,8 @@ event.addEntityLootModifier("born_in_chaos_v1:diamond_termite").matchOffHand(Ite
 event.addEntityLootModifier("born_in_chaos_v1:diamond_termite").matchMainHand(Item.of("aether:valkyrie_pickaxe").ignoreNBT()).addLoot("spelunkery:rough_diamond_shard");
 event.addEntityLootModifier("born_in_chaos_v1:diamond_termite").matchOffHand(Item.of("aether:valkyrie_pickaxe").ignoreNBT()).addLoot("spelunkery:rough_diamond_shard");
 
-event.addEntityLootModifier("born_in_chaos_v1:diamond_termite").matchMainHand(Item.of("aquaculture:neptunium_pickaxe").ignoreNBT()).addLoot("spelunkery:rough_diamond_shard");
-event.addEntityLootModifier("born_in_chaos_v1:diamond_termite").matchOffHand(Item.of("aquaculture:neptunium_pickaxe").ignoreNBT()).addLoot("spelunkery:rough_diamond_shard");
+//event.addEntityLootModifier("born_in_chaos_v1:diamond_termite").matchMainHand(Item.of("aquaculture:neptunium_pickaxe").ignoreNBT()).addLoot("spelunkery:rough_diamond_shard");
+//event.addEntityLootModifier("born_in_chaos_v1:diamond_termite").matchOffHand(Item.of("aquaculture:neptunium_pickaxe").ignoreNBT()).addLoot("spelunkery:rough_diamond_shard");
 
 event.addEntityLootModifier("born_in_chaos_v1:diamond_termite").matchMainHand(Item.of("cataclysm:black_steel_pickaxe").ignoreNBT()).addLoot("spelunkery:rough_diamond_shard");
 event.addEntityLootModifier("born_in_chaos_v1:diamond_termite").matchOffHand(Item.of("cataclysm:black_steel_pickaxe").ignoreNBT()).addLoot("spelunkery:rough_diamond_shard");

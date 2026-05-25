@@ -11,6 +11,17 @@
         "value": 100
       }
     },
+    "opposing_force:jump_power": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
     "forge:step_height_addition": {
       "enabled": false,
       "min": {
@@ -968,6 +979,17 @@
         "value": 1000000035
       }
     },
+    "opposing_force:experience_gain": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
     "galosphere:illager_resistance": {
       "enabled": false,
       "min": {
@@ -1199,6 +1221,39 @@
         "value": 100
       }
     },
+    "opposing_force:ranged_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
+    "opposing_force:stealth": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
+    "opposing_force:summon_duration": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
     "ancientcurses:dodge_chance": {
       "enabled": false,
       "min": {
@@ -1320,6 +1375,17 @@
         "value": 2048
       }
     },
+    "opposing_force:summon_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
     "minecraft:generic.armor": {
       "enabled": true,
       "min": {
@@ -1340,6 +1406,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "opposing_force:air_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
       }
     },
     "obscure_api:critical_hit": {

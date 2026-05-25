@@ -53,9 +53,128 @@
     },
     {
       "stack": "item:integrated_simply_swords:oreganized/electrum/longsword{Damage:0}"
+    },
+    {
+      "stack": "item:oreganized:electrum_helmet{Damage:0}"
+    },
+    {
+      "stack": "item:oreganized:electrum_chestplate{Damage:0}"
+    },
+    {
+      "stack": "item:oreganized:electrum_leggings{Damage:0}"
+    },
+    {
+      "stack": "item:oreganized:electrum_boots{Damage:0}"
+    },
+    {
+      "stack": "item:minecraft:leather_helmet{Damage:0}"
+    },
+    {
+      "stack": "item:minecraft:leather_chestplate{Damage:0}"
+    },
+    {
+      "stack": "item:minecraft:leather_leggings{Damage:0}"
+    },
+    {
+      "stack": "item:minecraft:leather_boots{Damage:0}"
+    },
+    {
+      "stack": "item:alexscaves:heavy_bone"
+    },
+    {
+      "stack": "item:via_romana:charting_map"
+    },
+    {
+      "stack": "item:farmersdelight:dumplings"
+    },
+    {
+      "stack": "item:corn_delight:tortilla_chip"
     }
   ],
   "lookup_history": [
+    "item:overgeared:stone_anvil",
+    "item:overgeared:tier_a_smithing_anvil",
+    "item:caverns_and_chasms:copper_helmet{Damage:0}",
+    "item:starcatcher:oxidised_copper_hook{\"starcatcher:minigame_modifiers\":[\"starcatcher:slower_handle_speed\"]}",
+    "item:spartanweaponry:copper_longbow{Damage:0}",
+    "item:kubejs:copper_kanabo{Damage:0}",
+    "item:caverns_and_chasms:copper_hoe{Damage:0}",
+    "item:caverns_and_chasms:copper_shovel{Damage:0}",
+    "item:caverns_and_chasms:copper_sword{Damage:0}",
+    "item:kubejs:copper_hammer{Damage:0}",
+    {
+      "type": "item",
+      "id": "irons_spellbooks:magic_cloth",
+      "amount": 5
+    },
+    "item:sewingkit:sewing_station",
+    "item:sewingkit:storing_sewing_station",
+    "item:supplementaries:ash",
+    {
+      "type": "item",
+      "id": "cataclysm:lacrima",
+      "amount": 7
+    },
+    "item:irons_spellbooks:scroll{\"irons_spellbooks:spell_container\":{data:[{id:\"traveloptics:herald_of_acropolis\",index:0,level:3,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}",
+    "item:traveloptics:tome_of_abyssal_flora{\"irons_spellbooks:spell_container\":{data:[],maxSpells:12,mustEquip:1b,spellWheel:1b}}",
+    {
+      "type": "item",
+      "id": "cataclysm:void_jaw",
+      "amount": 3
+    },
+    "item:cataclysm:ignitium_chestplate{Damage:0}",
+    "item:cataclysm:ignitium_helmet{Damage:0}",
+    "item:cataclysm:bone_reptile_chestplate{Damage:0}",
+    "item:cataclysm:bone_reptile_helmet{Damage:0}",
+    "item:sewingkit:leather_sheet",
+    "item:sewingkit:wool_shirt{Damage:0}",
+    "item:sewingkit:wool_hat{Damage:0}",
+    {
+      "type": "item",
+      "id": "atmospheric:carmine_husk",
+      "amount": 5
+    },
+    "item:irons_spellbooks:scroll{\"irons_spellbooks:spell_container\":{data:[{id:\"irons_spellbooks:slow\",index:0,level:1,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}",
+    "item:irons_spellbooks:scroll{\"irons_spellbooks:spell_container\":{data:[{id:\"wind_spellbooks:almighty_push\",index:0,level:2,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}",
+    "item:minecraft:bowl",
+    "item:ecologics:coconut_husk",
+    "item:supplementaries:wicker_fence",
+    "item:ecologics:stripped_azalea_wood",
+    "item:starcatcher:ironjaw_herring{\"starcatcher:caught_fish_info\":{percentile:70.76231f,rarity:\"uncommon\",size:26,weight:258}}",
+    "item:brewincompatdelight:white_wine",
+    "item:netherdepthsupgrade:lava_fishing_rod{Damage:0}",
+    "item:starcatcher:amethyst_hook{\"starcatcher:catch_modifiers\":[\"starcatcher:survives_lava\"]}",
+    "item:farmersdelight:dumplings",
+    "item:farmersdelight:flint_knife{Autoreforge:1b,Damage:0,Reforge:\"quality_equipment.quality.sharp\"}",
+    "item:spartanweaponry:cestus{Autoreforge:1b,Damage:0,Reforge:\"quality_equipment.quality.worthless\"}",
+    "item:quark:dragon_scale",
+    "item:create:copper_nugget",
+    "#item:forge:nuggets/copper",
+    "item:minecraft:copper_ingot",
+    "item:spelunkery:raw_copper_nugget",
+    "item:netherdepthsupgrade:wither_bonefish",
+    "item:starcatcher:sage_catfish",
+    "item:farmersdelight:cod_slice",
+    "item:abnormals_delight:pike_slice",
+    "item:undergardendelight:raw_gwibling_fillet",
+    "item:abnormals_delight:duck_fillet",
+    "item:sewingkit:wool_shoes{Damage:0}",
+    "item:alexscaves:heavy_bone",
+    {
+      "type": "item",
+      "id": "sewingkit:wool_roll",
+      "amount": 3
+    },
+    "item:vintage:cast_iron_sheet",
+    "item:minecraft:tnt",
+    "item:irons_spellbooks:spellbreaker{Damage:0,\"irons_spellbooks:spell_container\":{data:[{id:\"irons_spellbooks:counterspell\",index:0,level:1,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:1b}}",
+    "item:minecraft:writable_book",
+    "item:kubejs:iron_kanabo{Autoreforge:1b,Damage:0,Reforge:\"quality_equipment.quality.graceful\"}",
+    "item:kubejs:electrum_kanabo{Damage:0}",
+    "item:kubejs:silver_kanabo{Autoreforge:1b,Damage:0,Reforge:\"quality_equipment.quality.rusted\"}",
+    "item:upgrade_aquatic:driftwood_chest_boat",
+    "item:via_romana:charting_map",
+    "item:simplymore:revvengine{Damage:0}",
     {
       "type": "item",
       "id": "minecraft:glowstone",
@@ -72,7 +191,6 @@
     "item:alexscaves:guano",
     "item:integrated_simply_swords:silver/halberd{Damage:0}",
     "item:integrated_simply_swords:oreganized/electrum/longsword{Damage:0}",
-    "item:kubejs:electrum_kanabo{Damage:0}",
     "item:vintagedelight:white_chefs_hat",
     "item:simplyswords:waxweaver{Damage:0}",
     "item:simplyswords:ribboncleaver{Damage:0}",
@@ -110,7 +228,6 @@
     "item:dungeonnowloading:spawner_sword{Damage:0}",
     "item:kobolds:kobold_iron_sword{Damage:0}",
     "item:oreganized:electrum_sword{Damage:0}",
-    "item:caverns_and_chasms:copper_sword{Damage:0}",
     "item:minecraft:stone_sword{Damage:0}",
     "item:minecraft:wooden_sword{Damage:0}",
     "item:simplymore:timekeeper{Damage:0}",
@@ -124,14 +241,12 @@
     "item:simplymore:tidebreaker{Damage:0}",
     "item:simplymore:stasis{Damage:0}",
     "item:simplymore:myrmedge{Damage:0}",
-    "item:spartanweaponry:cestus{Damage:0}",
     "item:oreganized:electrum_knife{Damage:0}",
     "item:simplyswords:awakened_lichblade{Damage:0}",
     "item:irons_spellbooks:scroll{\"irons_spellbooks:spell_container\":{data:[{id:\"traveloptics:tsunami\",index:0,level:4,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}",
     "item:simplyswords:magiscythe{Damage:0}",
     "item:irons_spellbooks:scroll{\"irons_spellbooks:spell_container\":{data:[{id:\"traveloptics:extinction\",index:0,level:1,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}",
     "item:overgeared:steel_tongs{Damage:0}",
-    "item:sewingkit:sewing_station",
     [
       "item:sewingkit:bone_sewing_needle{Damage:0}",
       "item:sewingkit:diamond_sewing_needle{Damage:0}",
@@ -143,13 +258,6 @@
     ],
     "#item:minecraft:wool",
     "item:minecraft:white_wool",
-    "item:sewingkit:wool_shirt{Damage:0}",
-    "item:sewingkit:wool_hat{Damage:0}",
-    {
-      "type": "item",
-      "id": "minecraft:copper_ingot",
-      "amount": 3
-    },
     "item:sewingkit:bone_sewing_needle{Damage:0}",
     "item:minecraft:brown_wool",
     "item:minecraft:red_wool",
@@ -166,12 +274,10 @@
     "item:starcatcher:lush_bait",
     "item:starcatcher:mossy_hook",
     "item:starcatcher:gold_hook",
-    "item:starcatcher:oxidised_copper_hook",
     "item:starcatcher:echoing_hook",
     "item:starcatcher:frozen_hook",
     "item:starcatcher:heavy_hook",
     "item:starcatcher:stone_hook",
-    "item:starcatcher:amethyst_hook",
     "item:starcatcher:shiny_hook",
     "item:starcatcher:starcatcher_rod",
     "item:starcatcher:hook",
@@ -267,11 +373,9 @@
     "item:fruitsdelight:apple_jelly",
     "item:mowziesmobs:glowing_jelly",
     "item:everycomp:tf/aether_redux/jellyshroom_banister",
-    "item:aquaculturedelight:jellyfish_jelly",
     "item:basicweapons:stone_spear{Damage:0}",
     "item:spartanweaponry:explosive_charge",
     "item:spartanweaponry:dynamite",
-    "item:minecraft:tnt",
     "item:minecraft:tnt_minecart",
     "item:supplementaries:flint_block",
     "item:caverns_and_chasms:flint_block",
@@ -315,7 +419,6 @@
     "item:spelunkery:rough_diamond",
     "item:spelunkery:rough_lazurite",
     "item:spelunkery:rough_lazurite_shard",
-    "item:sewingkit:storing_sewing_station",
     "#item:minecraft:planks",
     "item:sewingkit:wool_pants{Damage:0}",
     "item:majruszsdifficulty:tattered_boots{Damage:0}",

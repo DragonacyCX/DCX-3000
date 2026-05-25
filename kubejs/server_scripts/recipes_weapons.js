@@ -5461,12 +5461,12 @@ event.shaped(
     })
 
 //Unifikacja noży
-event.remove({ id: 'aquaculture:diamond_fillet_knife'})
-event.remove({ id: 'aquaculture:stone_fillet_knife'})
-event.remove({ id: 'aquaculture:gold_fillet_knife'})
-event.remove({ id: 'aquaculture:iron_fillet_knife'})
-event.remove({ id: 'aquaculture:neptunium_fillet_knife'})
-event.remove({ id: 'aquaculture:wooden_fillet_knife'})
+// event.remove({ id: 'aquaculture:diamond_fillet_knife'})
+// event.remove({ id: 'aquaculture:stone_fillet_knife'})
+// event.remove({ id: 'aquaculture:gold_fillet_knife'})
+// event.remove({ id: 'aquaculture:iron_fillet_knife'})
+// event.remove({ id: 'aquaculture:neptunium_fillet_knife'})
+// event.remove({ id: 'aquaculture:wooden_fillet_knife'})
 
 //Trident
 //Trójząb

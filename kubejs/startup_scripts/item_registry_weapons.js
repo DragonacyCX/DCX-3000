@@ -7,7 +7,7 @@ ItemEvents.toolTierRegistry(event => {
     tier.attackDamageBonus = 0
     tier.level = 1
     tier.enchantmentValue = 13
-    tier.repairIngredient = 'minecraft:copper_block'
+    tier.repairIngredient = '#forge:ingots/copper'
   })
 })
 

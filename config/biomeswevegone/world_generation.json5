@@ -36,7 +36,7 @@
 		"biomeswevegone:cika_woods": true,
 		"biomeswevegone:zelkova_forest": true,
 		"biomeswevegone:lush_stacks": true,
-		"biomeswevegone:mojave_desert": true,
+		"biomeswevegone:mojave_desert": false,
 		"biomeswevegone:araucaria_savanna": false,
 		"biomeswevegone:windswept_desert": true,
 		"biomeswevegone:rainbow_beach": true,

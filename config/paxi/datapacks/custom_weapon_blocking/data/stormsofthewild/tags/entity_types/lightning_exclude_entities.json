@@ -1,8 +1,8 @@
 {
     "replace": false,
     "values": [
-      "guardvillagers:guard"
-      
+      "guardvillagers:guard",
+      "minecraft:iron_golem"
     ]
   }
   

@@ -483,10 +483,10 @@ event.smithing('minecraft:crossbow', 'kubejs:iron_template', 'hunters_return:min
   event.smithing('simplymore:runic_backhand_blade', 'simplyswords:runic_tablet', 'basicweapons:netherite_dagger', 'minecraft:diamond')
 
 // Wędki
-  event.smithing('aquaculture:iron_fishing_rod', 'kubejs:iron_template', 'minecraft:fishing_rod', 'minecraft:iron_ingot')
-  event.smithing('aquaculture:gold_fishing_rod', 'kubejs:gold_template', 'aquaculture:iron_fishing_rod', 'minecraft:gold_ingot')
-  event.smithing('aquaculture:diamond_fishing_rod', 'kubejs:diamond_template', 'aquaculture:gold_fishing_rod', 'minecraft:diamond')
-  event.smithing('aquaculture:neptunium_fishing_rod', 'minecraft:glow_ink_sac', 'aquaculture:diamond_fishing_rod', 'aquaculture:neptunium_ingot')
+  // event.smithing('aquaculture:iron_fishing_rod', 'kubejs:iron_template', 'minecraft:fishing_rod', 'minecraft:iron_ingot')
+  // event.smithing('aquaculture:gold_fishing_rod', 'kubejs:gold_template', 'aquaculture:iron_fishing_rod', 'minecraft:gold_ingot')
+  // event.smithing('aquaculture:diamond_fishing_rod', 'kubejs:diamond_template', 'aquaculture:gold_fishing_rod', 'minecraft:diamond')
+  // event.smithing('aquaculture:neptunium_fishing_rod', 'minecraft:glow_ink_sac', 'aquaculture:diamond_fishing_rod', 'aquaculture:neptunium_ingot')
 
 //Pędzle
   event.smithing('betterarcheology:iron_brush', 'kubejs:iron_template', 'minecraft:brush', 'minecraft:iron_ingot')

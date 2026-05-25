@@ -1,6 +1,6 @@
 {
   "attributes": {
-    "attack_range": 2,
+    "attack_range": 2.25,
     "category": "fist",
     "attacks": [
       {

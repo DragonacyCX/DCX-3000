@@ -692,7 +692,7 @@
 	oil_uses_normal = 20
 	#Max uses for sustained oils before the effect wears off
 	#Range: 1 ~ 1000
-	oil_uses_long = 30
+	oil_uses_long = 50
 	#Damage modifier that standard oils inflict
 	#Range: 1.0E-4 ~ 1.0
 	oil_damage_modifier_normal = 0.20000000298023224

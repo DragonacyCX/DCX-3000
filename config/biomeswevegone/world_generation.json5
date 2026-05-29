@@ -38,7 +38,7 @@
 		"biomeswevegone:lush_stacks": true,
 		"biomeswevegone:mojave_desert": false,
 		"biomeswevegone:araucaria_savanna": false,
-		"biomeswevegone:windswept_desert": true,
+		"biomeswevegone:windswept_desert": false,
 		"biomeswevegone:rainbow_beach": true,
 		"biomeswevegone:bayou": true,
 		"biomeswevegone:rugged_badlands": true,

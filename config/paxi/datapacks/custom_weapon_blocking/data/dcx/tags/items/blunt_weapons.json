@@ -12,6 +12,16 @@
         "#dcx:blunt_weapons_steel",
         "#dcx:blunt_weapons_diamond",
         "#dcx:blunt_weapons_netherite"
+    ],
+    "remove": [
+        "basicweapons:wooden_hammer",
+        "basicweapons:stone_hammer",
+        "kubejs:copper_hammer",
+        "basicweapons:iron_hammer",
+        "basicweapons:steel_hammer",
+        "basicweapons:golden_hammer",
+        "basicweapons:diamond_hammer",
+        "basicweapons:netherite_hammer"
     ]
-  }
+}
   

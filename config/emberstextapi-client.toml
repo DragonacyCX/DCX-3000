@@ -29,5 +29,5 @@
 	#Range: 64 ~ 2048
 	textLayoutCacheSize = 256
 	#Master toggle for SDF font rendering. When false, SDF fonts fall back to vanilla bitmap.
-	sdfEnabled = true
+	sdfEnabled = false
 

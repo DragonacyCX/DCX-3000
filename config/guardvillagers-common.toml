@@ -70,7 +70,7 @@
 	#Guards won't attack mobs in this list at all, for example, putting "minecraft:creeper" in this list will make guards ignore creepers.
 	"Mob Blacklist" = ["minecraft:villager", "minecraft:iron_golem", "minecraft:wandering_trader", "guardvillagers:guard", "minecraft:creeper", "alexsmobs:komodo_dragon", "minecraft:enderman", "born_in_chaos_v1:phantom_creeper", "born_in_chaos_v1:phantom_creeper_copy", "graveyard:skeleton_creeper", "royalvariations:royal_creeper", "royalvariations:royal_enderman", "mutantmonsters:mutant_creeper", "mutantmonsters:creeper_minion", "mutantmonsters:mutant_enderman", "mutantmonsters:mutant_snow_golem", "alexscaves:nucleeper", "majruszsdifficulty:creeperling", "savage_and_ravage:creepie", "born_in_chaos_v1:skeleton_demoman"]
 	#Guards will additionally attack mobs ids put in this list, for example, putting "minecraft:cow" in this list will make guards attack cows.
-	"Mob Whitelist" = []
+	"Mob Whitelist" = ["rottencreatures:scarab"]
 
 ["golem stuff"]
 	"Allow Iron Golems to float on water?" = true

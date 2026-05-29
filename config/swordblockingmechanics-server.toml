@@ -3,7 +3,7 @@ require_both_hands = false
 #Prioritize usable off-hand items over sword blocking from the main hand. Items not recognized by default can be included in a dedicated item tag.
 prioritize_off_hand = true
 #Damage sword when blocking an attack depending on the amount of damage blocked. Sword is only damaged when at least three damage points have been blocked, just like a shield.
-damage_sword = true
+damage_sword = false
 #The minimum attack strength required to be able to start blocking.
 #Range: 0.0 ~ 1.0
 required_attack_strength = 0.0
@@ -25,7 +25,7 @@ protection_arc = 120.0
 #Range: 0.1 ~ 5.0
 parry_knockback_strength = 0.15
 #Damage sword when successfully parrying depending on the amount of damage blocked. Sword is only damaged when at least three damage points have been parried, just like a shield.
-damage_sword_on_parry = false
+damage_sword_on_parry = true
 #Incoming projectiles such as arrows or tridents will ricochet while blocking.
 deflect_projectiles = false
 #Percentage to slow down movement to while blocking.

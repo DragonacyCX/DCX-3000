@@ -1,0 +1,11 @@
+{
+  "biome": "#minecraft:is_beach",
+  "attribute": "traveloptics:aqua_spell_power",
+  "uuid": "39b87f05-6205-44d5-83f4-267e34b5008e",
+  "value": 0.1,
+  "operation": "MULTIPLY_BASE",
+  "required_mod": [
+    "irons_spellbooks",
+    "wind_spellbooks"
+  ]
+}

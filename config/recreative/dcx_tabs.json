@@ -112,6 +112,28 @@
     },
     {
         "action": "modify_tab",
+        "tabs": ["dungeonsdelight:dungeonsdelight_tab"],
+        "remove_items": [
+            "dungeonsdelight:diamond_cleaver",
+            "dungeonsdelight:flint_cleaver",
+            "dungeonsdelight:golden_cleaver",
+            "dungeonsdelight:iron_cleaver",
+            "dungeonsdelight:netherite_cleaver",
+            "dungeonsdelight:stained_cleaver"
+        ]
+    },
+    {
+        "action": "modify_tab",
+        "tabs": ["dungeonsdelight:zdungeonsdelight_compat_tab"],
+        "remove_items": [
+            "dungeonsdelight:fiery_cleaver",
+            "dungeonsdelight:ironwood_cleaver",
+            "dungeonsdelight:knightmetal_cleaver",
+            "dungeonsdelight:steeleaf_cleaver"
+        ]
+    },
+    {
+        "action": "modify_tab",
         "tabs": ["ecologics:tab"],
         "remove_items": [
             "ecologics:azalea_boat",

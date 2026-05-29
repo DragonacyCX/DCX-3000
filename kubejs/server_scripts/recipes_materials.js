@@ -4,6 +4,7 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'create:haunting/lapis_recycling' })
     event.remove({ id: 'born_in_chaos_v1:bundleof_bones_l' })
     event.remove({ id: 'born_in_chaos_v1:bundleof_bones_k' })
+    event.remove({ output: 'spelunkery:diamond_grindstone' })
 
 //SEWING KIT
 event.remove({ id: 'sewingkit:wool_roll_from_carpet' })
@@ -13,6 +14,22 @@ event.remove({ id: 'sewingkit:wool_trim_from_wool' })
 event.remove({ id: 'sewingkit:leather_sheet_from_leather' })
 event.remove({ id: 'sewingkit:leather_strip_from_leather' })
 event.remove({ id: 'sewingkit:wool_trim_from_carpet' })
+
+//SKÓRA (LEATHER)
+event.remove({ id: 'fleshz:rotten_leather' })
+event.remove({ id: 'spelunkery:leather' })
+event.replaceInput(
+  { output: 'fleshz:prepared_hide' },
+  'minecraft:sugar',
+  '#forge:salt')
+event.replaceOutput(
+  { input: 'born_in_chaos_v1:monster_skin' },
+  'minecraft:leather',
+  'fleshz:hide')
+event.replaceOutput(
+  { input: 'irons_spellbooks:hogskin' },
+  'minecraft:leather',
+  'fleshz:hide')
 
 //INNE RUDY
   //Węgiel
@@ -632,18 +649,6 @@ event.shaped(
     {
         N: 'overgeared:steel_nugget',
         L: 'born_in_chaos_v1:monster_skin'})
-
-
-
-//SKÓRA (LEATHER)
-  //Leather Scraps
-event.remove({ id: 'fleshz:rotten_leather' })
-event.replaceInput(
-  { output: 'fleshz:prepared_hide' },
-  'minecraft:sugar',
-  '#forge:salt')
-
-
 
 //Polimer
 event.replaceInput(

@@ -1,0 +1,10 @@
+{
+  "biome": "#minecraft:is_river",
+  "attribute": "forge:swim_speed",
+  "uuid": "8637183a-2785-486f-8b2c-2cbe31ea8835",
+  "value": 0.15,
+  "operation": "MULTIPLY_BASE",
+  "required_mod": [
+    "traveloptics"
+  ]
+}

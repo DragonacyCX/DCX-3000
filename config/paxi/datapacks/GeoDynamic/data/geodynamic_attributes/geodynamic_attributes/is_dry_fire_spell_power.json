@@ -1,0 +1,10 @@
+{
+  "biome": "#minecraft:is_dry",
+  "attribute": "irons_spellbooks:fire_spell_power",
+  "uuid": "79cf10cb-f983-4c17-aa28-c6f8290aebdd",
+  "value": 0.1,
+  "operation": "MULTIPLY_BASE",
+  "required_mod": [
+    "irons_spellbooks"
+  ]
+}

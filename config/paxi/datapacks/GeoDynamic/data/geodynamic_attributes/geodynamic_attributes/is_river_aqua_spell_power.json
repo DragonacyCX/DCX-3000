@@ -1,0 +1,10 @@
+{
+  "biome": "#minecraft:is_river",
+  "attribute": "traveloptics:aqua_spell_power",
+  "uuid": "c9783e8f-9122-46cb-b2dd-7312d3a7f7e8",
+  "value": 0.15,
+  "operation": "MULTIPLY_BASE",
+  "required_mod": [
+    "traveloptics"
+  ]
+}

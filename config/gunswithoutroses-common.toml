@@ -7,3 +7,13 @@
 	#Default: false
 	allowPunch = false
 
+#General
+[geneal]
+	#Multiplier to knockback dealt by bullet damage (tag gunswithoutroses:is_bullet)
+	#For example 0.1 = damage from bullets is only 10% of normal (so -90% knockback compared to a regular hit)
+	#I suggest keeping this low because gatlings and shotguns have ridiculous kiting if it's high
+	#This does NOT affect bonus knockback from like enchantments (Punch if enabled), guns, or bullets (BPaS's Caliberries)
+	#Default: 0.1
+	#Range: 0.0 ~ 1.0
+	gunKnockback = 0.1
+

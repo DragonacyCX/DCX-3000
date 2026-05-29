@@ -4,10 +4,10 @@
 	[mobs.frowzy]
 		#Maximum height frowzy can spawn
 		#Range: -64 ~ 320
-		frowzySpawnHeight = 32
+		frowzySpawnHeight = 96
 		#Chance for frowzy to replace zombie spawns underground
 		#Range: 0.0 ~ 1.0
-		frowzyReplaceZombieChance = 0.5
+		frowzyReplaceZombieChance = 0.3
 
 	[mobs.guzzler]
 		#Maximum height guzzlers can spawn
@@ -21,13 +21,13 @@
 
 	[mobs.skyvern]
 		#Do Skyverns spawn
-		skyvernSpawning = true
+		skyvernSpawning = false
 		#Compounding spawn chance for Skyverns, default is 2%
 		#Range: 0.0 ~ 1.0
-		skyvernSpawnChance = 0.02
+		skyvernSpawnChance = 0.0
 		#The time between Skyvern spawn attempts in ticks, default is 30 seconds
 		#Range: 20 ~ 2400
-		skyvernSpawnTimer = 600
+		skyvernSpawnTimer = 2400
 		#Spawn height for Skyverns, default is cloud height
 		#Range: -64 ~ 320
 		skyvernSpawnHeight = 196
@@ -59,7 +59,7 @@
 
 	[mobs.progression]
 		#Should mobs tagged as Post-Nether only spawn after entering the nether. Setting this to false allows Post-Nether mobs to spawn at any time
-		postNether = true
+		postNether = false
 		#Should mobs tagged as Post-End only spawn after at least one Ender dragon has been defeated. Setting this to false allows Post-End mobs to spawn at any time
-		postEnd = true
+		postEnd = false
 

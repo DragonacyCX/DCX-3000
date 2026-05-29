@@ -385,7 +385,7 @@ event.custom({
         "item": "minecraft:copper_block"
       },
       "H": {
-        "item": "spartanweaponry:simple_handle"
+        "tag": "dcx:copper_storage_blocks"
       }
     },
     "pattern": [
@@ -506,35 +506,6 @@ event.custom({
       }
     },
     "pattern": [
-      "CCC",
-      " H ",
-      " H "
-    ],
-    "result": {
-      "item": "overgeared:copper_pickaxe"
-    },
-    "show_notification": true
-  });
-event.custom({
-    "type": "overgeared:forging",
-    "category": "equipment",
-    "blueprint": "TOOLS",
-    "requires_blueprint": false,
-    "tier": "stone",
-    "hammering": 3,
-    "has_quality": true,
-    "minimum_quality": "poor",
-    "needs_minigame": false,
-    "has_polishing": false,
-    "key": {
-      "C": {
-        "item": "minecraft:exposed_copper"
-      },
-      "H": {
-        "item": "spartanweaponry:simple_handle"
-      }
-    },
-    "pattern": [
       "CC ",
       "CH ",
       " H "
@@ -603,35 +574,6 @@ event.custom({
     "show_notification": true
   });
   //Zaśniedziała miedź
-event.custom({
-    "type": "overgeared:forging",
-    "category": "equipment",
-    "blueprint": "TOOLS",
-    "requires_blueprint": false,
-    "tier": "stone",
-    "hammering": 3,
-    "has_quality": true,
-    "minimum_quality": "poor",
-    "needs_minigame": false,
-    "has_polishing": false,
-    "key": {
-      "C": {
-        "item": "minecraft:weathered_copper"
-      },
-      "H": {
-        "item": "spartanweaponry:simple_handle"
-      }
-    },
-    "pattern": [
-      "CCC",
-      " H ",
-      " H "
-    ],
-    "result": {
-      "item": "overgeared:copper_pickaxe"
-    },
-    "show_notification": true
-  });
 event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
@@ -740,35 +682,6 @@ event.custom({
       }
     },
     "pattern": [
-      "CCC",
-      " H ",
-      " H "
-    ],
-    "result": {
-      "item": "overgeared:copper_pickaxe"
-    },
-    "show_notification": true
-  });
-event.custom({
-    "type": "overgeared:forging",
-    "category": "equipment",
-    "blueprint": "TOOLS",
-    "requires_blueprint": false,
-    "tier": "stone",
-    "hammering": 3,
-    "has_quality": true,
-    "minimum_quality": "poor",
-    "needs_minigame": false,
-    "has_polishing": false,
-    "key": {
-      "C": {
-        "item": "minecraft:oxidized_copper"
-      },
-      "H": {
-        "item": "spartanweaponry:simple_handle"
-      }
-    },
-    "pattern": [
       "CC ",
       "CH ",
       " H "
@@ -837,35 +750,6 @@ event.custom({
     "show_notification": true
   });
   //Woskowany Blok Miedzi
-event.custom({
-    "type": "overgeared:forging",
-    "category": "equipment",
-    "blueprint": "TOOLS",
-    "requires_blueprint": false,
-    "tier": "stone",
-    "hammering": 3,
-    "has_quality": true,
-    "minimum_quality": "poor",
-    "needs_minigame": false,
-    "has_polishing": false,
-    "key": {
-      "C": {
-        "item": "minecraft:waxed_copper_block"
-      },
-      "H": {
-        "item": "spartanweaponry:simple_handle"
-      }
-    },
-    "pattern": [
-      "CCC",
-      " H ",
-      " H "
-    ],
-    "result": {
-      "item": "overgeared:copper_pickaxe"
-    },
-    "show_notification": true
-  });
 event.custom({
     "type": "overgeared:forging",
     "category": "equipment",
@@ -974,35 +858,6 @@ event.custom({
       }
     },
     "pattern": [
-      "CCC",
-      " H ",
-      " H "
-    ],
-    "result": {
-      "item": "overgeared:copper_pickaxe"
-    },
-    "show_notification": true
-  });
-event.custom({
-    "type": "overgeared:forging",
-    "category": "equipment",
-    "blueprint": "TOOLS",
-    "requires_blueprint": false,
-    "tier": "stone",
-    "hammering": 3,
-    "has_quality": true,
-    "minimum_quality": "poor",
-    "needs_minigame": false,
-    "has_polishing": false,
-    "key": {
-      "C": {
-        "item": "minecraft:waxed_exposed_copper"
-      },
-      "H": {
-        "item": "spartanweaponry:simple_handle"
-      }
-    },
-    "pattern": [
       "CC ",
       "CH ",
       " H "
@@ -1091,35 +946,6 @@ event.custom({
       }
     },
     "pattern": [
-      "CCC",
-      " H ",
-      " H "
-    ],
-    "result": {
-      "item": "overgeared:copper_pickaxe"
-    },
-    "show_notification": true
-  });
-event.custom({
-    "type": "overgeared:forging",
-    "category": "equipment",
-    "blueprint": "TOOLS",
-    "requires_blueprint": false,
-    "tier": "stone",
-    "hammering": 3,
-    "has_quality": true,
-    "minimum_quality": "poor",
-    "needs_minigame": false,
-    "has_polishing": false,
-    "key": {
-      "C": {
-        "item": "minecraft:waxed_weathered_copper"
-      },
-      "H": {
-        "item": "spartanweaponry:simple_handle"
-      }
-    },
-    "pattern": [
       "CC ",
       "CH ",
       " H "
@@ -1188,35 +1014,6 @@ event.custom({
     "show_notification": true
   });
   //Woskowana Utleniona miedź
-event.custom({
-    "type": "overgeared:forging",
-    "category": "equipment",
-    "blueprint": "TOOLS",
-    "requires_blueprint": false,
-    "tier": "stone",
-    "hammering": 3,
-    "has_quality": true,
-    "minimum_quality": "poor",
-    "needs_minigame": false,
-    "has_polishing": false,
-    "key": {
-      "C": {
-        "item": "minecraft:waxed_oxidized_copper"
-      },
-      "H": {
-        "item": "spartanweaponry:simple_handle"
-      }
-    },
-    "pattern": [
-      "CCC",
-      " H ",
-      " H "
-    ],
-    "result": {
-      "item": "overgeared:copper_pickaxe"
-    },
-    "show_notification": true
-  });
 event.custom({
     "type": "overgeared:forging",
     "category": "equipment",

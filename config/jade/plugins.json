@@ -64,6 +64,9 @@
     "goggles.detailed": false,
     "placard": true
   },
+  "jadeaddons.lootr": {
+    "info": true
+  },
   "aether_redux": {
     "logicator": true
   },

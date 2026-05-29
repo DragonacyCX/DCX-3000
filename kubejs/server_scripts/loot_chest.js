@@ -24,6 +24,10 @@ event.addLootTableModifier("artifacts:chests/campsite_chest").replaceLoot("minec
 event.addLootTableModifier("artifacts:chests/campsite_chest").replaceLoot("minecraft:diamond_shovel", "caverns_and_chasms:silver_shovel");
 event.addLootTableModifier("artifacts:chests/campsite_chest").replaceLoot("minecraft:diamond", "oreganized:silver_ingot");
 
+//Dungeon's Delight x DungeonNowLoading
+event.addLootTypeModifier(LootType.CHEST).replaceLoot("dungeonnowloading:spawner_fragment", "dungeonsdelight:stained_scrap_fragment");
+event.addLootTypeModifier(LootType.CHEST).replaceLoot("dungeonnowloading:spawner_frame", "dungeonsdelight:stained_scrap");
+
 //No OP rings in chests
 event.addLootTypeModifier(LootType.CHEST)
     .removeLoot("irons_spellbooks:mana_ring")
@@ -33,7 +37,7 @@ event.addLootTypeModifier(LootType.CHEST)
     .removeLoot("irons_spellbooks:poisonward_ring")
     .removeLoot("irons_spellbooks:concentration_amulet")
 
-//No extra SimplyMore
+//SimplyMore
     .removeLoot("simplymore:stasis")
     .removeLoot("simplymore:iron_backhand_blade")
     .removeLoot("simplymore:gold_backhand_blade")
@@ -45,7 +49,7 @@ event.addLootTypeModifier(LootType.CHEST)
     .removeLoot("simplymore:netherite_dagger")
     .removeLoot("simplymore:runic_dagger")
 
-//No basicweapons
+//Basicweapons
     .removeLoot("basicweapons:iron_spear")
     .removeLoot("basicweapons:golden_spear")
     .removeLoot("basicweapons:diamond_spear")

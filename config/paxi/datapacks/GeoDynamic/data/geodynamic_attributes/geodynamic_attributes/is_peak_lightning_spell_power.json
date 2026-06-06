@@ -1,0 +1,10 @@
+{
+  "biome": "#forge:is_peak",
+  "attribute": "irons_spellbooks:lightning_spell_power",
+  "uuid": "1aa8c25c-a54b-45dc-8e59-1c44922ae9b8",
+  "value": 0.15,
+  "operation": "MULTIPLY_BASE",
+  "required_mod": [
+    "irons_spellbooks"
+  ]
+}

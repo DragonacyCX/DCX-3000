@@ -3,13 +3,8 @@
     "properties": 
     [
         {
-            "property": "potion_effect",
-            "effect": "enemyexpansion:overtime",
-            "amplifier": {
-            "min": 0,
-            "max": 0
-            },
-            "hide_particles": true
+            "property": "custom_name",
+            "overrides": "Lover"
         }
     ]
 }

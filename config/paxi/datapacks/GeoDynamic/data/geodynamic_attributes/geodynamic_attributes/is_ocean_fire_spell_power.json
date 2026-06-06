@@ -1,0 +1,10 @@
+{
+  "biome": "#minecraft:is_ocean",
+  "attribute": "irons_spellbooks:fire_spell_power",
+  "uuid": "1aecc0f3-396d-4c72-b8de-7f7c4cd83de7",
+  "value": -0.5,
+  "operation": "MULTIPLY_BASE",
+  "required_mod": [
+    "irons_spellbooks"
+  ]
+}

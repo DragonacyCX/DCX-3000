@@ -382,10 +382,10 @@ event.custom({
     "has_polishing": false,
     "key": {
       "C": {
-        "item": "minecraft:copper_block"
+        "tag": "dcx:copper_storage_blocks"
       },
       "H": {
-        "tag": "dcx:copper_storage_blocks"
+        "item": "spartanweaponry:simple_handle"
       }
     },
     "pattern": [
@@ -2812,7 +2812,6 @@ event.custom({
     
     //[KOMPASY]
     //Kompas Natury
-    event.remove({ id: 'naturescompass:natures_compass' })
     event.shaped(
         Item.of('naturescompass:naturescompass', 1), // Output
         [

@@ -98,9 +98,273 @@
     },
     {
       "stack": "item:irons_spellbooks:scroll{\"irons_spellbooks:spell_container\":{data:[{id:\"wind_spellbooks:tailwind\",index:0,level:1,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}"
+    },
+    {
+      "stack": "item:overgeared:copper_pickaxe{Damage:0}"
+    },
+    {
+      "stack": "item:integrated_simply_swords:oreganized/electrum/scythe{Damage:0}"
+    },
+    {
+      "stack": "item:integrated_simply_swords:caverns_and_chasms/necromium/scythe{Damage:0}"
+    },
+    {
+      "stack": "item:environmental:cartwheel"
+    },
+    {
+      "stack": "#item:brewinandchewin:cheese_wedges"
+    },
+    {
+      "stack": "#item:brewinandchewin:cheese_wedges"
+    },
+    {
+      "stack": "item:brewinandchewin:scarlet_cheese_wedge"
+    },
+    {
+      "stack": "item:dolt_mod_how:wardenzola_wedge"
+    },
+    {
+      "stack": "item:brewinandchewin:scarlet_pierogi",
+      "recipe": "toomanyrecipeviewers:/brewinandchewin/cooking/scarlet_pierogi"
+    },
+    {
+      "stack": "item:vintagedelight:salt_dust"
+    },
+    {
+      "stack": "item:vintagedelight:vinegar_bottle"
+    },
+    {
+      "stack": "item:vintagedelight:cheese_curds"
+    },
+    {
+      "stack": "item:naturescompass:naturescompass{}"
+    },
+    {
+      "stack": "item:vintagedelight:golden_egg"
     }
   ],
   "lookup_history": [
+    "item:farmersdelight:horse_feed",
+    "item:vintagedelight:vinegar_bottle",
+    "item:minecraft:leather",
+    "item:caverns_and_chasms:chiseled_dripstone_bricks",
+    "item:caverns_and_chasms:chiseled_polished_andesite",
+    "item:caverns_and_chasms:dripstone_shingles",
+    "item:alexscavesdelight:cut_sweetish_fish_yellow",
+    "item:alexscavesdelight:cut_sweetish_fish_pink",
+    "item:alexscavesdelight:cut_cooked_trilocararis",
+    "item:environmental:white_lotus_flower",
+    "item:minecraft:torchflower",
+    "item:create:wooden_bracket",
+    "item:neapolitan:chocolate_bar",
+    "item:alexscaves:block_of_chocolate",
+    "item:alexscaves:block_of_polished_chocolate",
+    "item:alexscaves:block_of_chiseled_chocolate",
+    "item:aether:iron_gloves{Damage:0}",
+    "item:integrated_simply_swords:oreganized/electrum/greathammer{Damage:0}",
+    "item:kubejs:electrum_kanabo{Damage:0}",
+    "item:caverns_and_chasms:golden_bars",
+    "item:atmospheric:ivory_travertine",
+    "item:atmospheric:chiseled_ivory_travertine",
+    "item:armoroftheages:holy_armor_head{Damage:0}",
+    "item:everycomp:q/aether/golden_oak_leaf_carpet",
+    {
+      "type": "item",
+      "id": "quark:gold_bars",
+      "amount": 35
+    },
+    "item:undergarden:cloggrum_battleaxe{Damage:0}",
+    "#item:quark:ancient_logs",
+    "item:quark:ancient_planks",
+    "item:quark:ancient_planks_slab",
+    {
+      "type": "item",
+      "id": "suppsquared:quark/item_shelf_ancient",
+      "amount": 64
+    },
+    "item:oreganized:waxed_light_blue_concrete_powder",
+    "item:irons_spellbooks:scroll{\"irons_spellbooks:spell_container\":{data:[{id:\"refined_mod:create_bonfire\",index:0,level:1,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}",
+    "item:caverns_and_chasms:raw_tin",
+    "item:born_in_chaos_v1:dark_rod",
+    {
+      "type": "item",
+      "id": "irons_spellbooks:scroll",
+      "nbt": "{\"irons_spellbooks:spell_container\":{data:[{id:\"irons_spellbooks:acid_orb\",index:0,level:2,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}",
+      "amount": 64
+    },
+    "item:sullysmod:cooked_piranha",
+    "item:sullysmod:piranha",
+    "item:alexsmobsdelight:cooked_bear_meat",
+    "#item:alexsmobsdelight:cooked_bear_meat",
+    {
+      "type": "item",
+      "id": "alexsmobsdelight:cooked_bear_meat_slice",
+      "amount": 2
+    },
+    {
+      "type": "item",
+      "id": "alexsmobsdelight:raw_bear_meat",
+      "amount": 3
+    },
+    "item:astikorcarts:animal_cart",
+    "item:astikorcarts:wheel",
+    "item:alexsmobsdelight:cooked_seal_meat",
+    {
+      "type": "item",
+      "id": "alexsmobsdelight:seal_meat",
+      "amount": 2
+    },
+    "item:alexsmobsdelight:coastal_kiviak",
+    "item:alexsmobsdelight:seal_leather_brown",
+    "item:alexsmobsdelight:cooked_maggot",
+    "item:alexsmobs:maggot",
+    "item:alexsmobsdelight:pickled_maggots",
+    "item:alexsmobsdelight:raw_seagull",
+    {
+      "type": "item",
+      "id": "born_in_chaos_v1:marigolds",
+      "amount": 2
+    },
+    "item:biomeswevegone:rose",
+    "item:farmersdelight:pie_crust",
+    "item:dungeonsdelight:wardenzola",
+    "item:brewinandchewin:flaxen_cheese_wedge",
+    "item:brewinandchewin:scarlet_cheese_wedge",
+    "item:vintagedelight:cheese_slice",
+    "item:minecraft:campfire",
+    "item:brewinandchewin:flaxen_cheese_wheel",
+    "item:vintagedelight:cheese_pizza_slice",
+    "item:spelunkery:magnetic_compass",
+    "item:naturescompass:naturescompass",
+    "item:minecraft:recovery_compass",
+    "item:irons_spellbooks:wayward_compass",
+    "item:irons_spellbooks:netherite_spell_book{\"irons_spellbooks:spell_container\":{data:[],maxSpells:12,mustEquip:1b,spellWheel:1b}}",
+    "item:vintagedelight:cheese_wheel",
+    "item:vintagedelight:cheese_curds",
+    "item:brewinandchewin:scarlet_cheese_wheel",
+    "item:brewinandchewin:fiery_fondue_pot",
+    "item:brewinandchewin:unripe_scarlet_cheese_wheel",
+    "item:alexsmobsdelight:cheese_seal_stick",
+    "item:veggiesdelight:potato_noodle",
+    {
+      "type": "fluid",
+      "id": "brewinandchewin:scarlet_cheese",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "brewinandchewin:flaxen_cheese",
+      "amount": 1000
+    },
+    "item:brewinandchewin:unripe_flaxen_cheese_wheel",
+    {
+      "type": "fluid",
+      "id": "brewinandchewin:rice_wine",
+      "amount": 1000
+    },
+    "item:brewinandchewin:rice_wine",
+    "item:brewinandchewin:vodka",
+    "item:upgrade_aquatic:mulberry_jam_block",
+    "item:upgrade_aquatic:mulberry_jam_bottle",
+    "item:alexscavesdelight:magma_jem",
+    "item:vintagedelight:pepper_jam_mason_jar",
+    "item:spelunkery:salt",
+    "item:galospheric_delight:membranburger",
+    {
+      "type": "item",
+      "id": "vintagedelight:salt_dust",
+      "amount": 2
+    },
+    "item:spelunkery:rock_salt",
+    {
+      "type": "item",
+      "id": "vintagedelight:salt_bucket",
+      "remainder": "item:minecraft:bucket"
+    },
+    "item:brewinandchewin:scarlet_pierogi",
+    "item:alexsmobsdelight:cheese",
+    "item:vintagedelight:sweet_berry_jam_bottle",
+    "#item:forge:jam_bottles",
+    "item:vintagedelight:cheese_mold",
+    "item:warriorsofpastepoch:moldy_cheese",
+    "item:mynethersdelight:ghast_sourdough",
+    "item:mynethersdelight:bread_loaf",
+    "item:mynethersdelight:slices_of_bread",
+    "#item:forge:bread",
+    "item:alexsmobsdelight:cheese_seal_burger",
+    "item:vintagedelight:cheese_pizza",
+    "item:environmental:cartwheel",
+    {
+      "type": "item",
+      "id": "spelunkery:glowstick",
+      "amount": 4
+    },
+    "#item:spelunkery:glowsticks",
+    "item:kubejs:iron_kanabo{Damage:0}",
+    "item:alexsmobsdelight:banana_slice",
+    "item:alexsmobsdelight:banana_bow{Damage:0}",
+    "item:alexsmobsdelight:banana_slug_slime_custard",
+    "item:neapolitan:banana",
+    "item:alexsmobsdelight:surflygfisk",
+    "item:alexsmobsdelight:crocodile_tooth",
+    "item:alexsmobsdelight:crocodile_knife{Damage:0}",
+    "item:alexsmobsdelight:whale_tooth_pickaxe{Damage:0}",
+    "item:alexsmobsdelight:mantis_shrimp_scythe{Damage:0}",
+    "item:create:brass_scaffolding",
+    "item:environmental:plum",
+    "item:quark:seed_pouch{itemCount:64,storedItem:{Count:1b,id:\"minecraft:wheat_seeds\"}}",
+    "item:simplyswords:iron_scythe{Autoreforge:1b,Damage:1,Reforge:\"quality_equipment.quality.long\"}",
+    "item:integrated_simply_swords:born_in_chaos/dark_metal/scythe{Autoreforge:1b,Damage:0,Reforge:\"quality_equipment.quality.graceful\"}",
+    "item:simplyswords:netherite_scythe{Damage:0}",
+    {
+      "type": "fluid",
+      "id": "brewinandchewin:beer",
+      "amount": 250
+    },
+    "item:brewinandchewin:beer",
+    "item:brewinandchewin:tankard",
+    "item:brewinandchewin:coaster",
+    "item:brewincompatdelight:hard_lemonade",
+    "item:brewinandchewin:jerky",
+    {
+      "type": "fluid",
+      "id": "brewinandchewin:steel_toe_stout",
+      "amount": 1000
+    },
+    {
+      "type": "fluid",
+      "id": "brewinandchewin:strongroot_ale",
+      "amount": 1000
+    },
+    "item:brewinandchewin:steel_toe_stout",
+    "item:brewincompatdelight:screwdriver",
+    {
+      "type": "fluid",
+      "id": "brewinandchewin:honey",
+      "amount": 0
+    },
+    {
+      "type": "fluid",
+      "id": "brewincompatdelight:gin",
+      "amount": 0
+    },
+    "item:spartanweaponry:bolt",
+    "item:overgeared:copper_pickaxe{Damage:0}",
+    "#item:forge:glass_panes",
+    "item:oreganized:light_gray_crystal_glass_pane",
+    "item:caverns_and_chasms:hold_button",
+    "item:spelunkery:obsidian_hammer_and_chisel{Damage:0}",
+    {
+      "type": "item",
+      "id": "quark:grate",
+      "amount": 64
+    },
+    "item:caverns_and_chasms:copper_lantern",
+    "item:suppsquared:copper_lantern",
+    "item:minecraft:lantern",
+    "item:caverns_and_chasms:cupric_lantern",
+    "item:suppsquared:brass_lantern",
+    "item:quark:dirt_bricks_stairs",
     "item:hazennstuff:devastator{Damage:0,\"irons_spellbooks:spell_container\":{data:[{id:\"irons_spellbooks:blood_slash\",index:0,level:5,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:1b}}",
     "item:irons_spellbooks:scroll{\"irons_spellbooks:spell_container\":{data:[{id:\"irons_spellbooks:blood_slash\",index:0,level:2,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}",
     "item:alexsmobs:blood_sprayer{Damage:0}",
@@ -144,11 +408,9 @@
       "id": "spelunkery:diamond_grindstone",
       "amount": 64
     },
-    "item:born_in_chaos_v1:dark_rod",
     "item:aether_treasure_reforging:valkyrum_ingot",
     "item:aether:valkyrie_helmet{Autoreforge:1b,Damage:0,Reforge:\"quality_equipment.quality.heavy\"}",
     "item:oreganized:electrum_helmet{Damage:0}",
-    "item:minecraft:leather",
     "item:fleshz:prepared_hide",
     "item:fleshz:hide",
     "item:vintage:shadow_steel_spring",
@@ -239,8 +501,6 @@
     "item:minecraft:tnt",
     "item:irons_spellbooks:spellbreaker{Damage:0,\"irons_spellbooks:spell_container\":{data:[{id:\"irons_spellbooks:counterspell\",index:0,level:1,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:1b}}",
     "item:minecraft:writable_book",
-    "item:kubejs:iron_kanabo{Autoreforge:1b,Damage:0,Reforge:\"quality_equipment.quality.graceful\"}",
-    "item:kubejs:electrum_kanabo{Damage:0}",
     "item:kubejs:silver_kanabo{Autoreforge:1b,Damage:0,Reforge:\"quality_equipment.quality.rusted\"}",
     "item:upgrade_aquatic:driftwood_chest_boat",
     "item:via_romana:charting_map",
@@ -391,7 +651,6 @@
     "item:veggiesdelight:dandelion_leaf",
     "item:supplementaries:bamboo_spikes",
     "item:minecraft:soul_campfire",
-    "item:spelunkery:glowstick",
     "item:galosphere:silver_tiles",
     "item:galosphere:silver_lattice",
     "item:minecraft:amethyst_block",
@@ -3102,7 +3361,6 @@
     "item:spelunkery:parachute{Damage:0}",
     "item:biomeswevegone:aloe_vera",
     "item:overgeared:copper_shovel{Damage:0}",
-    "item:overgeared:copper_pickaxe{Damage:0}",
     "item:overgeared:copper_axe{Damage:0}",
     "item:overgeared:copper_hoe{Damage:0}",
     "item:overgeared:copper_sword{Damage:0}",
@@ -3274,6 +3532,11 @@
     "item:vintage:rhodium_wire",
     "item:vintage:rose_gold_wire",
     "item:vintage:lead_wire",
-    "item:vintage:invar_wire"
+    "item:vintage:invar_wire",
+    "item:simplymore:gold_dagger{Damage:0}",
+    "item:simplymore:diamond_dagger{Damage:0}",
+    "item:simplymore:netherite_dagger{Damage:0}",
+    "item:simplymore:runic_dagger{Damage:0}",
+    "item:simplymore:iron_dagger{Damage:0}"
   ]
 }

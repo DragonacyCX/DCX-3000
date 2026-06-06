@@ -1,4 +1,10 @@
 LootJS.modifiers((event) => {
+//NETHEROWE MOBY W OVERWORLDZIE
+event.addEntityLootModifier("minecraft:hoglin").anyDimension("minecraft:overworld").removeLoot("fleshz:hide");
+event.addEntityLootModifier("minecraft:hoglin").anyDimension("minecraft:overworld").removeLoot("irons_spellbooks:hogskin");
+event.addEntityLootModifier("minecraft:hoglin").anyDimension("minecraft:overworld").removeLoot("mynethersdelight:hoglin_loin");
+
+event.addEntityLootModifier("minecraft:wither_skeleton").anyDimension("minecraft:overworld").removeLoot("minecraft:wither_skeleton_skull");
 
 //Maggoty zamiast Corpse Maggotów
     event.addEntityLootModifier("born_in_chaos_v1:maggot").replaceLoot("born_in_chaos_v1:corpse_maggot", "alexsmobs:maggot", true);
@@ -10,6 +16,7 @@ LootJS.modifiers((event) => {
 //Diamond Termite
     //event.addEntityLootModifier("born_in_chaos_v1:diamond_termite").replaceLoot("born_in_chaos_v1:diamond_termite_shard", "spelunkery:rough_diamond_shard", true);
 event.addEntityLootModifier("born_in_chaos_v1:diamond_termite").removeLoot("born_in_chaos_v1:diamond_termite_shard");
+
 event.addEntityLootModifier("born_in_chaos_v1:diamond_termite").matchMainHand(Item.of("aether:gravitite_pickaxe").ignoreNBT()).addLoot("spelunkery:rough_diamond_shard");
 event.addEntityLootModifier("born_in_chaos_v1:diamond_termite").matchOffHand(Item.of("aether:gravitite_pickaxe").ignoreNBT()).addLoot("spelunkery:rough_diamond_shard");
 

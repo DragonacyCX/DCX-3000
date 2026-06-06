@@ -2,43 +2,43 @@
   "minecraft:horse": [
     {
       "attribute": "minecraft:generic.movement_speed",
-      "value": 1.1,
-      "operation": "MULTIPLY_BASE"
+      "value": 0.25,
+      "operation": "ADDITION"
     }
   ],
   "minecraft:donkey": [
     {
       "attribute": "minecraft:generic.movement_speed",
-      "value": 1.1,
-      "operation": "MULTIPLY_BASE"
+      "value": 0.25,
+      "operation": "ADDITION"
     }
   ],
   "minecraft:mule": [
     {
       "attribute": "minecraft:generic.movement_speed",
-      "value": 1.1,
-      "operation": "MULTIPLY_BASE"
+      "value": 0.25,
+      "operation": "ADDITION"
     }
   ],
   "environmental:zebra": [
     {
       "attribute": "minecraft:generic.movement_speed",
-      "value": 1.1,
-      "operation": "MULTIPLY_BASE"
+      "value": 0.25,
+      "operation": "ADDITION"
     }
   ],
   "environmental:zonkey": [
     {
       "attribute": "minecraft:generic.movement_speed",
-      "value": 1.1,
-      "operation": "MULTIPLY_BASE"
+      "value": 0.25,
+      "operation": "ADDITION"
     }
   ],
   "environmental:zorse": [
     {
       "attribute": "minecraft:generic.movement_speed",
-      "value": 1.1,
-      "operation": "MULTIPLY_BASE"
+      "value": 0.25,
+      "operation": "ADDITION"
     }
   ]
 }

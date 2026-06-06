@@ -1,0 +1,38 @@
+{
+  "inputs": [
+	"minecraft:cactus",
+	"atmospheric:aloe_vera",
+	"atmospheric:barrel_cactus",
+  	"atmospheric:barrel_cactus_batch",
+	"atmospheric:snowy_barrel_cactus",
+  	"atmospheric:snowy_cactus",
+	"biomeswevegone:barrel_cactus",
+	"biomeswevegone:carved_barrel_cactus",
+	"biomeswevegone:flowering_barrel_cactus",
+	"biomeswevegone:golden_spined_cactus",
+	"biomeswevegone:mini_cactus",
+	"biomeswevegone:prickly_pear_cactus",
+	"ecologics:prickly_pear",
+	"environmental:cactus_bobble"
+	],
+  "remove": true,
+  "structures": [
+		"ctov:small/village_desert",
+		"ctov:small/village_desert_oasis",
+		"ctov:small/village_dark_forest",
+		"ctov:small/village_mesa",
+		"ctov:small/village_mesa_fortified",
+		"ctov:medium/village_desert",
+		"ctov:medium/village_desert_oasis",
+		"ctov:medium/village_mesa",
+		"ctov:medium/village_mesa_fortified",
+		"ctov:large/village_desert",
+		"ctov:large/village_desert_oasis",
+		"ctov:large/village_mesa",
+		"ctov:large/village_mesa_fortified",
+		"integrated_villages:clockwork_village",
+		"revampedvillages:desert_village"
+    ],
+  "player_blocks": false,
+  "retrogen": false
+}

@@ -1,0 +1,11 @@
+{
+  "biome": "yungscavebiomes:lost_caves",
+  "attribute": "wind_spellbooks:wind_spell_power",
+  "uuid": "d53e5bf6-154e-4b49-a9b9-fd47a848aa88",
+  "value": 0.1,
+  "operation": "MULTIPLY_BASE",
+  "required_mod": [
+    "irons_spellbooks",
+    "wind_spellbooks"
+  ]
+}

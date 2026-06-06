@@ -59,6 +59,8 @@
         "irons_spellbooks:artificer_cane",
         "irons_spellbooks:hither_thither_wand",
 
+        "wind_spellbooks:wind_staff",
+
         "#starcatcher:rods"
     ]
   }

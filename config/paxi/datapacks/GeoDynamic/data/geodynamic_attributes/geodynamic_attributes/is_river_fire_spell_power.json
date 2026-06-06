@@ -1,7 +1,7 @@
 {
-  "biome": "#minecraft:is_water",
+  "biome": "#minecraft:is_river",
   "attribute": "irons_spellbooks:fire_spell_power",
-  "uuid": "b1cc1f11-0126-4a29-9b1e-474ef223dbc3",
+  "uuid": "8808abad-4d0b-4869-a17d-ccdef290fbe9",
   "value": -0.5,
   "operation": "MULTIPLY_BASE",
   "required_mod": [

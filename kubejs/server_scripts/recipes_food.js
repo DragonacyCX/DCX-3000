@@ -74,18 +74,18 @@ event.replaceInput(
   'born_in_chaos_v1:corpse_maggot',            // Arg 2: the item to replace
   'alexsmobs:maggot'         // Arg 3: the item to replace it with
 )
-event.shapeless(
-    Item.of('alexsdelight:maggot_salad', 1), // Output
-    [
-        'farmersdelight:mixed_salad',
-        'born_in_chaos_v1:fried_maggot'])
+// event.shapeless(
+//     Item.of('alexsdelight:maggot_salad', 1), // Output
+//     [
+//         'farmersdelight:mixed_salad',
+//         'born_in_chaos_v1:fried_maggot'])
 
 //Ser w ser pleśniowy
 event.custom({
   "type": "vintagedelight:fermenting",
   "processingTime": 6000,
   "ingredients": [
-    {"item": "vintagedelight:cheese_slice"},
+    {"item": "#brewinandchewin:cheese_wedges"},
     {"item": "alexsmobs:maggot"},
     {"tag": "forge:mushrooms"},
     {"tag": "forge:mushrooms"}
@@ -94,6 +94,72 @@ event.custom({
     "count": 1,
     "item": "warriorsofpastepoch:moldy_cheese"
   }
+})
+
+//Unifikacja Sera
+event.remove({ id: 'vintagedelight:cheese_wheel_from_slices' })
+event.remove({ id: 'vintagedelight:cutting/cheese_wheel_from_cutting' })
+event.remove({ id: 'vintagedelight:cheese_mold' })
+event.remove({ id: 'vintagedelight:cooking/cheese_curds' })
+event.remove({ id: 'brewinandchewin:fermenting/flaxen_cheese_from_milk' })
+event.custom({
+"type": "brewinandchewin:fermenting",
+  "basefluid": {
+    "count": 1000,
+    "fluid": "minecraft:milk"
+  },
+  "experience": 1.0,
+  "fermentingtime": 9600,
+  "ingredients": [
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "minecraft:pumpkin_seeds"
+    },
+    {
+      "item": "vintagedelight:salt_dust"
+    },
+    {
+      "item": "vintagedelight:vinegar_bottle"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1000,
+    "fluid": "brewinandchewin:flaxen_cheese"
+  },
+  "temperature": 4
+})
+event.remove({ id: 'brewinandchewin:fermenting/scarlet_cheese_from_milk' })
+event.custom({
+"type": "brewinandchewin:fermenting",
+  "basefluid": {
+    "count": 1000,
+    "fluid": "minecraft:milk"
+  },
+  "experience": 1.0,
+  "fermentingtime": 9600,
+  "ingredients": [
+    {
+      "item": "minecraft:crimson_fungus"
+    },
+    {
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "item": "vintagedelight:salt_dust"
+    },
+    {
+      "item": "vintagedelight:vinegar_bottle"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "count": 1000,
+    "fluid": "brewinandchewin:scarlet_cheese"
+  },
+  "temperature": 5
 })
 
 //Unifikacja mięty

@@ -760,6 +760,16 @@
     },
     {
         "action": "modify_tab",
+        "tabs": ["vintagedelight:vintage_tab"],
+        "remove_items": [
+            "vintagedelight:cheese_curds",
+            "vintagedelight:cheese_slice",
+            "vintagedelight:cheese_mold",
+            "vintagedelight:cheese_wheel"
+        ]
+    },
+    {
+        "action": "modify_tab",
         "tabs": ["vintage:vintage_tab"],
         "remove_items": [
             "vintage:aluminum_rod",

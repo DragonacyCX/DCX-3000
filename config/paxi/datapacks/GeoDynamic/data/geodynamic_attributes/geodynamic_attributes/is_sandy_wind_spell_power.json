@@ -1,8 +1,8 @@
 {
-  "biome": "#minecraft:is_sandy",
+  "biome": "#forge:is_sandy",
   "attribute": "wind_spellbooks:wind_spell_power",
   "uuid": "ed807063-27bb-4251-b03a-d21eee352326",
-  "value": 0.15,
+  "value": 0.1,
   "operation": "MULTIPLY_BASE",
   "required_mod": [
     "irons_spellbooks",

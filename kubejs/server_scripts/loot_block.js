@@ -54,4 +54,10 @@ event.addBlockLootModifier("spelunkery:andesite_jade_ore").replaceLoot("sullysmo
 event.addBlockLootModifier("spelunkery:diorite_jade_ore").replaceLoot("sullysmod:rough_jade", "kubejs:rough_jade", true);
 event.addBlockLootModifier("spelunkery:tuff_jade_ore").replaceLoot("sullysmod:rough_jade", "kubejs:rough_jade", true);
 
+//Turquoise from modded copper ores
+event.addBlockLootModifier("spelunkery:andesite_copper_ore").randomChance(0.005).addLoot("caverns_and_chasms:turquoise");
+event.addBlockLootModifier("spelunkery:diorite_copper_ore").randomChance(0.005).addLoot("caverns_and_chasms:turquoise");
+event.addBlockLootModifier("spelunkery:granite_copper_ore").randomChance(0.007).addLoot("caverns_and_chasms:turquoise");
+event.addBlockLootModifier("spelunkery:tuff_copper_ore").randomChance(0.005).addLoot("caverns_and_chasms:turquoise");
+
 });

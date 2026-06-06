@@ -364,6 +364,12 @@ event.custom({
   event.smelting('minecraft:gold_ingot', 'create:golden_sheet', 0.0, 200)
   event.blasting('minecraft:gold_ingot', 'create:golden_sheet', 0.0, 100)
 
+  //Electrum
+event.replaceInput(
+  { output: 'caverns_and_chasms:golden_bars' },
+  'minecraft:gold_ingot',
+  'oreganized:electrum_ingot')
+
   //Netherite i Necromium
 event.remove({ id: 'minecraft:netherite_ingot' })
 event.remove({ id: 'caverns_and_chasms:necromium_ingot' })

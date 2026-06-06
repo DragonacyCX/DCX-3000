@@ -16,9 +16,11 @@ event.addLootTableModifier("aquamirae:chests/ship_2").randomChance(0.15).addLoot
 
 //Minecarts
 event.addLootTableModifier("minecraft:chests/abandoned_mineshaft").removeLoot("farmersdelight:rope");
-event.addLootTableModifier("minecraft:chests/abandoned_mineshaft").removeLoot("spelunkery:wooden_rails");
+event.addLootTableModifier("minecraft:chests/abandoned_mineshaft").removeLoot("spelunkery:wooden_rail");
+event.addLootTableModifier("minecraft:chests/abandoned_mineshaft").removeLoot("spelunkery:dust_bun");
+event.addLootTableModifier("minecraft:chests/abandoned_mineshaft").removeLoot("minecraft:torch");
 
-//Underground Campsite Diamond > Steel
+//Underground Campsite Diamond > Silver
 event.addLootTableModifier("artifacts:chests/campsite_chest").replaceLoot("minecraft:diamond_pickaxe", "caverns_and_chasms:silver_pickaxe");
 event.addLootTableModifier("artifacts:chests/campsite_chest").replaceLoot("minecraft:diamond_axe", "caverns_and_chasms:silver_axe");
 event.addLootTableModifier("artifacts:chests/campsite_chest").replaceLoot("minecraft:diamond_shovel", "caverns_and_chasms:silver_shovel");

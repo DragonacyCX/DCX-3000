@@ -1,0 +1,11 @@
+{
+    "replace": false,
+    "values": [
+      "#brewinandchewin:cheese_wedges"
+    ],
+    "remove": [
+      "alexsmobsdelight:cheese",
+      "vintagedelight:cheese_slice"
+    ]
+  }
+  

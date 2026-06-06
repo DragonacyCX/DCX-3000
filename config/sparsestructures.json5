@@ -366,6 +366,38 @@
   "factor": 1.7
 },
 {
+  "structure": "dungeons_arise:heavenly_challenger",
+  "factor": 0.0
+},
+{
+  "structure": "dungeons_arise:heavenly_conqueror",
+  "factor": 0.0
+},
+{
+  "structure": "dungeons_arise:heavenly_rider",
+  "factor": 0.0
+},
+{
+  "structure": "dungeons_arise:heavenly_challenger",
+  "factor": 0.0
+},
+{
+  "structure": "dungeons_arise:keep_kayra",
+  "factor": 0.0
+},
+{
+  "structure": "dungeons_arise:mechanical_nest",
+  "factor": 0.0
+},
+{
+  "structure": "dungeons_arise:shiraz_palace",
+  "factor": 0.0
+},
+{
+  "structure": "dungeons_arise:small_blimp",
+  "factor": 0.0
+},
+{
   "structure": "dungeons_enhanced:black_citadel",
   "factor": 1.0
 },
@@ -415,7 +447,7 @@
 },
 {
   "structure": "idas:idas_common",
-  "factor": 1.0
+  "factor": 1.3
 },
 {
   "structure": "idas:idas_nether",
@@ -427,11 +459,11 @@
 },
 {
   "structure": "idas:idas_rare",
-  "factor": 1.0
+  "factor": 1.1
 },
 {
   "structure": "idas:idas_small",
-  "factor": 1.0
+  "factor": 1.2
 },
 {
   "structure": "idas:idas_small_nether",
@@ -499,11 +531,11 @@
 },
 {
   "structure": "kobolds:kobold_den",
-  "factor": 1.2
+  "factor": 1.1
 },
 {
   "structure": "kobolds:kobold_den_pirate",
-  "factor": 1.2
+  "factor": 1.0
 },
 {
   "structure": "lost_aether_content:platinum_dungeon",
@@ -555,6 +587,10 @@
 },
 {
   "structure": "mvs:other_decoration/stone_bee",
+  "factor": 0.0
+},
+{
+  "structure": "mvs:wooden_wheat_farm",
   "factor": 0.0
 },
 {

@@ -1,0 +1,25 @@
+{
+    "replace": false,
+    "values": [
+      "integrated_simply_swords:oreganized/electrum/scythe",
+      "integrated_simply_swords:caverns_and_chasms/necromium/scythe",
+      "integrated_simply_swords:born_in_chaos/dark_metal/scythe",
+      "integrated_simply_swords:silver/scythe",
+      "knavesneeds:twilight_forest/fiery/scythe",
+      "knavesneeds:twilight_forest/ironwood/scythe",
+      "knavesneeds:twilight_forest/knightmetal/scythe",
+      "knavesneeds:twilight_forest/steeleaf/scythe",
+      "knavesneeds:undergarden/cloggrum/scythe",
+      "knavesneeds:undergarden/forgotten/scythe",
+      "knavesneeds:undergarden/froststeel/scythe",
+      "knavesneeds:undergarden/utherium/scythe",
+      "born_in_chaos_v1:nightmare_scythe",
+      "simply_compatible:gravitite_scythe",
+      "simply_compatible:zanite_scythe",
+      "simply_compatible:ignitium_scythe",
+      "traveloptics:stellothorn",
+      "traveloptics:abyssal_tidecaller",
+      "traveloptics:voidstrike_reaper"
+    ]
+  }
+  

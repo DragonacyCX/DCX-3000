@@ -1,0 +1,11 @@
+{
+  "biome": "#forge:is_peak",
+  "attribute": "wind_spellbooks:wind_spell_power",
+  "uuid": "3b60ce53-ebca-4cdf-8e75-39ec272d4931",
+  "value": 0.15,
+  "operation": "MULTIPLY_BASE",
+  "required_mod": [
+    "irons_spellbooks",
+    "wind_spellbooks"
+  ]
+}

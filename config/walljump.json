@@ -3,7 +3,7 @@
   "autoRotation": false,
   "onFallDoubleJump": false,
   "onFallWallCling": true,
-  "exhaustionWallJump": 1.0,
+  "exhaustionWallJump": 1.5,
   "minFallDistance": 3.0,
   "elytraSpeedBoost": 0.0,
   "sprintSpeedBoost": 0.0,

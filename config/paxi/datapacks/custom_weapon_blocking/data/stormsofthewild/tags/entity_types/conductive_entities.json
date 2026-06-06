@@ -32,6 +32,9 @@
       "rottencreatures:immortal",
       "warriorsofpastepoch:skeleton_musketeer",
       "takesapillage:legioner"
+    ],
+    "remove": [
+    "minecraft:iron_golem"
     ]
-  }
+}
   

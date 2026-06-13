@@ -13,7 +13,7 @@
 ["Heated Items"]
 	#How many ticks before a heated item cools off in inventory (default: 1200 = 60s)
 	#Range: > 1
-	heatedItemCooldownTicks = 700
+	heatedItemCooldownTicks = 400
 
 ["Arrow Fletching Settings"]
 	#Enable or disable all Fletching recipes and related tab

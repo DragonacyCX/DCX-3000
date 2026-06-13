@@ -1,0 +1,6 @@
+{
+  "parent": "integrated_simply_swords:item/template_chakram",
+  "textures": {
+    "layer0": "integrated_simply_swords:item/oreganized/electrum/electrum_chakram"
+  }
+}

@@ -1,0 +1,6 @@
+{
+"parent": "integrated_simply_swords:item/big_handheld",
+"textures": {
+"layer0": "integrated_simply_swords:item/caverns_and_chasms/necromium/necromium_spear"
+}
+}

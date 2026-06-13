@@ -1,0 +1,39 @@
+{
+    "block.caverns_and_chasms.golden_bars": "Elektrumowe kraty",
+    
+    "item.caverns_and_chasms.copper_helmet": "Ciężki miedziany hełm",
+    "item.caverns_and_chasms.exposed_copper_helmet": "Ciężki zwietrzały miedziany hełm",
+    "item.caverns_and_chasms.weathered_copper_helmet": "Ciężki zaśniedziały miedziany hełm",
+    "item.caverns_and_chasms.oxidized_copper_helmet": "Ciężki utleniony miedziany hełm",
+    "item.caverns_and_chasms.waxed_copper_helmet": "Ciężki woskowany miedziany hełm",
+    "item.caverns_and_chasms.waxed_exposed_copper_helmet": "Ciężki woskowany zwietrzały miedziany hełm",
+    "item.caverns_and_chasms.waxed_weathered_copper_helmet": "Ciężki woskowany zaśniedziały miedziany hełm",
+    "item.caverns_and_chasms.waxed_oxidized_copper_helmet": "Ciężki woskowany utleniony miedziany hełm",
+
+    "item.caverns_and_chasms.copper_chestplate": "Ciężki miedziany napierśnik",
+    "item.caverns_and_chasms.exposed_copper_chestplate": "Ciężki zwietrzały miedziany napierśnik",
+    "item.caverns_and_chasms.weathered_copper_chestplate": "Ciężki zaśniedziały miedziany napierśnik",
+    "item.caverns_and_chasms.oxidized_copper_chestplate": "Ciężki utleniony miedziany napierśnik",
+    "item.caverns_and_chasms.waxed_copper_chestplate": "Ciężki woskowany miedziany napierśnik",
+    "item.caverns_and_chasms.waxed_exposed_copper_chestplate": "Ciężki woskowany zwietrzały miedziany napierśnik",
+    "item.caverns_and_chasms.waxed_weathered_copper_chestplate": "Ciężki woskowany zaśniedziały miedziany napierśnik",
+    "item.caverns_and_chasms.waxed_oxidized_copper_chestplate": "Ciężki woskowany utleniony miedziany napierśnik",
+
+    "item.caverns_and_chasms.copper_leggings": "Ciężkie miedziane nogawice",
+    "item.caverns_and_chasms.exposed_copper_leggings": "Ciężkie zwietrzałe miedziane nogawice",
+    "item.caverns_and_chasms.weathered_copper_leggings": "Ciężkie zaśniedziałe miedziane nogawice",
+    "item.caverns_and_chasms.oxidized_copper_leggings": "Ciężkie utlenione miedziane nogawice",
+    "item.caverns_and_chasms.waxed_copper_leggings": "Ciężkie woskowane miedziane nogawice",
+    "item.caverns_and_chasms.waxed_exposed_copper_leggings": "Ciężkie woskowane zwietrzałe miedziane nogawice",
+    "item.caverns_and_chasms.waxed_weathered_copper_leggings": "Ciężkie woskowane zaśniedziałe miedziane nogawice",
+    "item.caverns_and_chasms.waxed_oxidized_copper_leggings": "Ciężkie woskowane utlenione miedziane nogawice",
+
+    "item.caverns_and_chasms.copper_boots": "Ciężkie miedziane buty",
+    "item.caverns_and_chasms.exposed_copper_boots": "Ciężkie zwietrzałe miedziane buty",
+    "item.caverns_and_chasms.weathered_copper_boots": "Ciężkie zaśniedziałe miedziane buty",
+    "item.caverns_and_chasms.oxidized_copper_boots": "Ciężkie utlenione miedziane buty",
+    "item.caverns_and_chasms.waxed_copper_boots": "Ciężkie woskowane miedziane buty",
+    "item.caverns_and_chasms.waxed_exposed_copper_boots": "Ciężkie woskowane zwietrzałe miedziane buty",
+    "item.caverns_and_chasms.waxed_weathered_copper_boots": "Ciężkie woskowane zaśniedziałe miedziane buty",
+    "item.caverns_and_chasms.waxed_oxidized_copper_boots": "Ciężkie woskowane utlenione miedziane buty"
+}

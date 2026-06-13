@@ -389,6 +389,14 @@
     "curseForgeHash": 1940083731,
     "modrinthHash": "3d309df955df5e936524dce787bb833aead4e415"
   },
+  "bcattributes-1.20.1-0.2.0.jar": {
+    "jarName": "bcattributes-1.20.1-0.2.0.jar",
+    "modId": "bcattributes",
+    "name": "Better Combat Attributes",
+    "version": "0.2.0",
+    "curseForgeHash": 3893523906,
+    "modrinthHash": "186ac37092f4fcec62fa175f26fee254eb08c4d0"
+  },
   "berry_good-1.20.1-7.0.0.jar": {
     "jarName": "berry_good-1.20.1-7.0.0.jar",
     "modId": "berry_good",
@@ -565,6 +573,14 @@
     "curseForgeHash": 1991663135,
     "modrinthHash": "5e3696edd938777cda826ece85688eaff899de62"
   },
+  "chalk-1.20.1-1.6.7.jar": {
+    "jarName": "chalk-1.20.1-1.6.7.jar",
+    "modId": "chalk",
+    "name": "Chalk",
+    "version": "1.6.7",
+    "curseForgeHash": 2339474770,
+    "modrinthHash": "42f34947910ca428497fac0bf2566a45959a51a5"
+  },
   "ChaosMoon-1.20.1-1.0.1.jar": {
     "jarName": "ChaosMoon-1.20.1-1.0.1.jar",
     "modId": "chaosmoon",
@@ -645,13 +661,13 @@
     "curseForgeHash": 3745361553,
     "modrinthHash": "a702af576794dd409eef1e709229ca65b5816496"
   },
-  "collective-1.20.1-8.22.jar": {
-    "jarName": "collective-1.20.1-8.22.jar",
+  "collective-1.20.1-8.25.jar": {
+    "jarName": "collective-1.20.1-8.25.jar",
     "modId": "collective",
     "name": "Collective",
-    "version": "8.22",
-    "curseForgeHash": 1537661902,
-    "modrinthHash": "14928c245ac6966bf9316be5233a8aead943e6d4"
+    "version": "8.25",
+    "curseForgeHash": 843137078,
+    "modrinthHash": "5ec26087b60946e24048bce96997b90b55e6369b"
   },
   "CombatNouveau-v8.0.5-1.20.1-Forge.jar": {
     "jarName": "CombatNouveau-v8.0.5-1.20.1-Forge.jar",
@@ -684,14 +700,6 @@
     "version": "1.0.5-1.20.1",
     "curseForgeHash": 2126964318,
     "modrinthHash": "986597ae06f01c9209c111ba6276a171e8977a2c"
-  },
-  "configurableextramobdrops-1.20.1-3.5.jar": {
-    "jarName": "configurableextramobdrops-1.20.1-3.5.jar",
-    "modId": "configurableextramobdrops",
-    "name": "Configurable Extra Mob Drops",
-    "version": "3.5",
-    "curseForgeHash": 2902687292,
-    "modrinthHash": "43d1585d90c0a6923bdbf55f53b7eb16ea34cc75"
   },
   "configured-forge-1.20.1-2.2.3.jar": {
     "jarName": "configured-forge-1.20.1-2.2.3.jar",
@@ -1849,13 +1857,13 @@
     "curseForgeHash": 1511080087,
     "modrinthHash": "7a1f74a0cc178013808b09f409341d7277ebb72a"
   },
-  "modernfix-forge-5.27.44+mc1.20.1.jar": {
-    "jarName": "modernfix-forge-5.27.44+mc1.20.1.jar",
+  "modernfix-forge-5.27.49+mc1.20.1.jar": {
+    "jarName": "modernfix-forge-5.27.49+mc1.20.1.jar",
     "modId": "modernfix",
     "name": "ModernFix",
-    "version": "5.27.44+mc1.20.1",
-    "curseForgeHash": 2114467562,
-    "modrinthHash": "52dee1b8283625e8f0dc537e4b4c6b81081bc0df"
+    "version": "5.27.49+mc1.20.1",
+    "curseForgeHash": 1044043013,
+    "modrinthHash": "89486a59b4eaf0fe6177ba84b39bddcafbfd18d9"
   },
   "monobank-1.20.1-1.1.5.jar": {
     "jarName": "monobank-1.20.1-1.1.5.jar",
@@ -2289,13 +2297,13 @@
     "curseForgeHash": 3151848185,
     "modrinthHash": "285b7c7616971338ccbe0022c9ea0f8ad3036aaf"
   },
-  "quality_equipment-1.6-forge_neoforge-1.20.1.jar": {
-    "jarName": "quality_equipment-1.6-forge_neoforge-1.20.1.jar",
-    "modId": "quality_equipment",
-    "name": "Quality Equipment",
-    "version": "1.6",
-    "curseForgeHash": 3901659012,
-    "modrinthHash": "eb6ac3a707e8bb5d2c87ef24e9c3fc6ded106170"
+  "quality_forked-1.0.7a-all.jar": {
+    "jarName": "quality_forked-1.0.7a-all.jar",
+    "modId": "quality_forked",
+    "name": "Quality Equipment Forked",
+    "version": "1.0.7a",
+    "curseForgeHash": 4015989077,
+    "modrinthHash": "76db1a919d0ab7ec710dba7d0fa4b827eb5a4bab"
   },
   "Quark-4.0-462.jar": {
     "jarName": "Quark-4.0-462.jar",
@@ -2745,21 +2753,21 @@
     "curseForgeHash": 158418826,
     "modrinthHash": "dafaeba2507ffc8b301f62569044536e795b8404"
   },
-  "starcatcher-2.3.12-FORGE-1.20.1.jar": {
-    "jarName": "starcatcher-2.3.12-FORGE-1.20.1.jar",
+  "starcatcher-2.3.13.1-FORGE-1.20.1.jar": {
+    "jarName": "starcatcher-2.3.13.1-FORGE-1.20.1.jar",
     "modId": "starcatcher",
     "name": "starcatcher",
-    "version": "2.3.12-FORGE-1.20.1",
-    "curseForgeHash": 1084522555,
-    "modrinthHash": "a395138073b24773b99970c04bb9e650ee600c18"
+    "version": "2.3.13.1-FORGE-1.20.1",
+    "curseForgeHash": 852927463,
+    "modrinthHash": "310287edfb76ac475a386a0f157d9771f9e7dcf1"
   },
-  "starterkit-1.20.1-8.0.jar": {
-    "jarName": "starterkit-1.20.1-8.0.jar",
+  "starterkit-1.20.1-8.1.jar": {
+    "jarName": "starterkit-1.20.1-8.1.jar",
     "modId": "starterkit",
     "name": "Starter Kit",
-    "version": "8.0",
-    "curseForgeHash": 651230229,
-    "modrinthHash": "3091e65fd5136a0ee055299710bae8c823908be0"
+    "version": "8.1",
+    "curseForgeHash": 4183598038,
+    "modrinthHash": "4eb8a9f28d32dfb678c6cfed1d992a9ededa842d"
   },
   "statuseffectbars-1.20.1-Forge-1.0.3.jar": {
     "jarName": "statuseffectbars-1.20.1-Forge-1.0.3.jar",
@@ -3081,13 +3089,13 @@
     "curseForgeHash": 662305921,
     "modrinthHash": "2d96968a650213da21cd5bf6e3f74e72ff7b36b4"
   },
-  "villagernames-1.20.1-8.4.jar": {
-    "jarName": "villagernames-1.20.1-8.4.jar",
+  "villagernames-1.20.1-8.5.jar": {
+    "jarName": "villagernames-1.20.1-8.5.jar",
     "modId": "villagernames",
     "name": "Villager Names",
-    "version": "8.4",
-    "curseForgeHash": 1927337831,
-    "modrinthHash": "f89ea99c4a5ac840588623a32bd963aa572eacfc"
+    "version": "8.5",
+    "curseForgeHash": 2092555550,
+    "modrinthHash": "c660325ae276cf000253143dd1f58fd22a8e7d33"
   },
   "vintage-1.20.1-1.3.5.jar": {
     "jarName": "vintage-1.20.1-1.3.5.jar",
@@ -3121,13 +3129,13 @@
     "curseForgeHash": 4038167096,
     "modrinthHash": "c66e3ba74bfea5bc221a30dad0a4b4216e0ca2a6"
   },
-  "walljump-1.20.1-1.3.7-forge.jar": {
-    "jarName": "walljump-1.20.1-1.3.7-forge.jar",
+  "walljump-1.20.1-1.3.8-forge.jar": {
+    "jarName": "walljump-1.20.1-1.3.8-forge.jar",
     "modId": "walljump",
     "name": "Wall-Jump TXF",
-    "version": "1.20.1-1.3.7-forge",
-    "curseForgeHash": 3887618992,
-    "modrinthHash": "50b5cf83fce9e0e83dba2d8f9863d1b86fa8ee5e"
+    "version": "1.20.1-1.3.8-forge",
+    "curseForgeHash": 253324332,
+    "modrinthHash": "73743c6b8e60d609a8fd694e07c452af8a79f610"
   },
   "wares-1.20.1-1.2.10.jar": {
     "jarName": "wares-1.20.1-1.2.10.jar",

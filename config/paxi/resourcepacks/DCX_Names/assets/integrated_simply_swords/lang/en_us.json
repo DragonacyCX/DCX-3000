@@ -1,0 +1,21 @@
+{
+  "item.integrated_simply_swords.born_in_chaos.dark_metal.longsword"                        : "Steel Longsword",
+  "item.integrated_simply_swords.born_in_chaos.dark_metal.twinblade"                        : "Steel Twinblade",
+  "item.integrated_simply_swords.born_in_chaos.dark_metal.rapier"                           : "Steel Rapier",
+  "item.integrated_simply_swords.born_in_chaos.dark_metal.katana"                           : "Steel Katana",
+  "item.integrated_simply_swords.born_in_chaos.dark_metal.sai"                              : "Steel Sai",
+  "item.integrated_simply_swords.born_in_chaos.dark_metal.spear"                            : "Steel Spear",
+  "item.integrated_simply_swords.born_in_chaos.dark_metal.glaive"                           : "Steel Glaive",
+  "item.integrated_simply_swords.born_in_chaos.dark_metal.warglaive"                        : "Steel Warglaive",
+  "item.integrated_simply_swords.born_in_chaos.dark_metal.cutlass"                          : "Steel Cutlass",
+  "item.integrated_simply_swords.born_in_chaos.dark_metal.claymore"                         : "Steel Claymore",
+  "item.integrated_simply_swords.born_in_chaos.dark_metal.greataxe"                         : "Steel Greataxe",
+  "item.integrated_simply_swords.born_in_chaos.dark_metal.greathammer"                      : "Steel Greathammer",
+  "item.integrated_simply_swords.born_in_chaos.dark_metal.chakram"                          : "Steel Chakram",
+  "item.integrated_simply_swords.born_in_chaos.dark_metal.scythe"                           : "Steel Scythe",
+  "item.integrated_simply_swords.born_in_chaos.dark_metal.halberd"                          : "Steel Halberd",
+
+  "tooltip.electrum_sword": "Bonus Damage While Moving Fast",
+  "tooltip.necromium_sword": "Slows Down Targets"
+  }
+  

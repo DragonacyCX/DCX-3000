@@ -1,0 +1,6 @@
+{
+  "parent": "integrated_simply_swords:item/long_handheld",
+  "textures": {
+    "layer0": "integrated_simply_swords:item/generic/silver/silver_halberd"
+  }
+}

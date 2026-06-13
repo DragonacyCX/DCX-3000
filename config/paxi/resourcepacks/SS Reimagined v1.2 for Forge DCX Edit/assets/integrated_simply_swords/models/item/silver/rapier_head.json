@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "integrated_simply_swords:item/generic/silver/silver_rapier_head"
+  }
+}

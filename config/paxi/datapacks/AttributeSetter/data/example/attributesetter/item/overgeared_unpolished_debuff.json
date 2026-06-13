@@ -1,0 +1,14 @@
+{
+  "{tag:{Polished:0b}}": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "value": -0.15,
+      "operation": "MULTIPLY_BASE"
+    },
+    {
+      "attribute": "quality_forked:dig_speed",
+      "value": -0.15,
+      "operation": "MULTIPLY_BASE"
+    }
+  ]
+}

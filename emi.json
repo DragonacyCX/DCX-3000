@@ -141,9 +141,194 @@
     },
     {
       "stack": "item:vintagedelight:golden_egg"
+    },
+    {
+      "stack": "item:supplementaries:ash"
+    },
+    {
+      "stack": "item:kubejs:wooden_kanabo{Damage:0}"
+    },
+    {
+      "stack": "item:kubejs:golden_kanabo{Damage:0}"
+    },
+    {
+      "stack": "item:kubejs:stone_kanabo{Damage:0}"
+    },
+    {
+      "stack": "item:kubejs:copper_kanabo{Damage:0}"
+    },
+    {
+      "stack": "item:kubejs:silver_kanabo{Damage:0}"
+    },
+    {
+      "stack": "item:kubejs:steel_kanabo{Damage:0}"
+    },
+    {
+      "stack": "item:kubejs:diamond_kanabo{Damage:0}"
+    },
+    {
+      "stack": "item:kubejs:electrum_kanabo{Damage:0}"
+    },
+    {
+      "stack": "item:kubejs:netherite_kanabo{Damage:0}"
+    },
+    {
+      "stack": "item:kubejs:necromium_kanabo{Damage:0}"
+    },
+    {
+      "stack": "item:kubejs:iron_kanabo{Damage:0}"
+    },
+    {
+      "stack": "item:simplyswords:iron_greathammer{Damage:0}"
+    },
+    {
+      "stack": "item:overgeared:smithing_anvil"
+    },
+    {
+      "stack": "item:naturescompass:naturescompass"
+    },
+    {
+      "stack": "item:quality_forked:reforging_station"
     }
   ],
   "lookup_history": [
+    "item:born_in_chaos_v1:fangofthe_hound_leader",
+    "item:warriorsofpastepoch:musketeer_rapier{Damage:0,tool_quality:60}",
+    "item:born_in_chaos_v1:trident_hayfork{Damage:0}",
+    "item:caverns_and_chasms:zirconia",
+    "item:caverns_and_chasms:zirconia_block",
+    "item:irons_spellbooks:silver_ring",
+    "item:caverns_and_chasms:toolbelt{Damage:0,tool_quality:35}",
+    "item:aether:iron_ring",
+    "item:aether_redux:logicator",
+    "item:quality_forked:reforging_station",
+    "item:kubejs:iron_kanabo{Autoreforge:1b,Damage:14,Reforge:\"quality_equipment.quality.broken\",tool_quality:60}",
+    [
+      "item:kubejs:wooden_kanabo{Damage:0}",
+      "item:simplyswords:iron_greathammer{Damage:0}",
+      "item:royalvariations:royal_knight_cuirass{Damage:0}",
+      "item:spartanweaponry:studded_cestus{Damage:0}",
+      "item:basicweapons:iron_glaive{Damage:0}",
+      "item:kubejs:necromium_kanabo{Damage:0}",
+      "item:armoroftheages:o_yoroi_armor_legs{Damage:0}",
+      "item:kobolds:kobold_iron_axe{Damage:0}",
+      "item:armoroftheages:iron_plate_armor_legs{Damage:0}",
+      "item:armoroftheages:iron_plate_armor_feet{Damage:0}",
+      "item:simplymore:iron_quarterstaff{Damage:0}",
+      "item:kubejs:electrum_kanabo{Damage:0}",
+      "item:spartanweaponry:iron_pike{Damage:0}",
+      "item:aetherdelight:veridium_knife{Damage:0}",
+      "item:alexscavesdelight:scarlet_neodymium_knife{Damage:0}",
+      "item:luckys_armory:heavy_iron_armor_leggings{Damage:0}",
+      "item:minecraft:chainmail_helmet{Damage:0}",
+      "item:spartanweaponry:iron_halberd{Damage:0}",
+      "item:spartanweaponry:iron_glaive{Damage:0}",
+      "item:aetherdelight:holystone_knife{Damage:0}",
+      "item:alexsmobs:ghostly_pickaxe{Damage:0}",
+      "item:luckys_armory:heavy_iron_armor_open_helmet{Damage:0}",
+      "item:armoroftheages:iron_plate_armor_chest{Damage:0}",
+      "item:minecraft:iron_pickaxe{Damage:0}",
+      "item:minecraft:iron_leggings{Damage:0}",
+      "item:alexscavesdelight:azure_neodymium_knife{Damage:0}",
+      "item:minecraft:iron_hoe{Damage:0}",
+      "item:kobolds:kobold_iron_shovel{Damage:0}",
+      "item:sewingkit:iron_sewing_needle{Damage:0}",
+      "item:royalvariations:royal_knight_helmet{Damage:0}",
+      "item:overgeared:iron_tongs{Damage:0}",
+      "item:kobolds:kobold_iron_pickaxe{Damage:0}",
+      "item:basicweapons:iron_quarterstaff{Damage:0}",
+      "item:basicweapons:iron_spear{Damage:0}",
+      "item:simplymore:iron_backhand_blade{Damage:0}",
+      "item:kubejs:stone_kanabo{Damage:0}",
+      "item:spartanweaponry:iron_spear{Damage:0}",
+      "item:born_in_chaos_v1:wood_splitter_axe{Damage:0}",
+      "item:armoroftheages:o_yoroi_armor_head{Damage:0}",
+      "item:minecraft:chainmail_chestplate{Damage:0}",
+      "item:irons_spellbooks:claymore{Damage:0}",
+      "item:armoroftheages:o_yoroi_armor_chest{Damage:0}",
+      "item:kobolds:kobold_iron_sword{Damage:0}",
+      "item:kubejs:diamond_kanabo{Damage:0}",
+      "item:minecraft:chainmail_leggings{Damage:0}",
+      "item:dungeonnowloading:mendstone_pickaxe{Damage:0}",
+      "item:minecraft:iron_helmet{Damage:0}",
+      "item:simplymore:iron_pernach{Damage:0}",
+      "item:aetherdelight:stratus_knife{Damage:0}",
+      "item:kobolds:kobold_iron_hoe{Damage:0}",
+      "item:spartanweaponry:iron_quarterstaff{Damage:0}",
+      "item:armoroftheages:o_yoroi_armor_feet{Damage:0}",
+      "item:luckys_armory:heavy_iron_armor_chestplate{Damage:0}",
+      "item:armoroftheages:iron_plate_armor_head{Damage:0}",
+      "item:luckys_armory:heavy_iron_armor_helmet{Damage:0}",
+      "item:minecraft:iron_shovel{Damage:0}",
+      "item:alexsmobs:tendon_whip{Damage:0}",
+      "item:basicweapons:iron_club{Damage:0}",
+      "item:savage_and_ravage:cleaver_of_beheading{Damage:0}",
+      "item:born_in_chaos_v1:trident_hayfork{Damage:0}",
+      "item:royalvariations:royal_knight_boots{Damage:0}",
+      "item:spartanweaponry:iron_scythe{Damage:0}",
+      "item:kubejs:golden_kanabo{Damage:0}",
+      "item:irons_spellbooks:tarnished_helmet{Damage:0,\"irons_spellbooks:spell_container\":{data:[],maxSpells:1,mustEquip:1b,spellWheel:1b}}",
+      "item:simplest_hammers:iron_hammer{Damage:0}",
+      "item:simplymore:iron_dagger{Damage:0}",
+      "item:aetherdelight:gravitite_knife{Damage:0}",
+      "item:luckys_armory:heavy_iron_armor_boots{Damage:0}",
+      "item:kubejs:iron_kanabo{Damage:0}",
+      "item:aetherdelight:zanite_knife{Damage:0}",
+      "item:spartanweaponry:iron_lance{Damage:0}",
+      "item:royalvariations:royal_knight_leggings{Damage:0}",
+      "item:kubejs:netherite_kanabo{Damage:0}",
+      "item:minecraft:iron_chestplate{Damage:0}",
+      "item:spartanweaponry:studded_club{Damage:0}",
+      "item:aetherdelight:skyjade_knife{Damage:0}",
+      "item:dungeonsdelight:iron_cleaver{Damage:0}",
+      "item:spartanweaponry:iron_parrying_dagger{Damage:0}",
+      "item:basicweapons:iron_hammer{Damage:0}",
+      "item:alexsmobs:skelewag_sword{Damage:0}",
+      "#item:dcx:sharp_weapons_iron",
+      "#item:spartanweaponry:zombie_spawn_weapons",
+      "#item:supplementaries:ignite_flint_blocks"
+    ],
+    "item:minecraft:iron_ingot",
+    "item:simplyswords:iron_greathammer{Autoreforge:1b,Damage:3,Reforge:\"quality_equipment.quality.long\",tool_quality:70}",
+    "item:simplyswords:iron_glaive{Damage:0}",
+    "item:simplyswords:iron_twinblade{Damage:0}",
+    "item:simplyswords:iron_cutlass{Damage:0}",
+    "item:simplyswords:iron_warglaive{Damage:0}",
+    "item:chalk:chalk_box{GlowUses:8,Items:[{Count:1b,id:\"chalk:red_chalk\",tag:{Damage:0}},{Count:1b,id:\"minecraft:air\",tag:{}},{Count:1b,id:\"minecraft:air\",tag:{}},{Count:1b,id:\"minecraft:air\",tag:{}},{Count:1b,id:\"chalk:white_chalk\",tag:{Damage:0}},{Count:1b,id:\"minecraft:air\",tag:{}},{Count:1b,id:\"minecraft:air\",tag:{}},{Count:1b,id:\"minecraft:air\",tag:{}},{Count:16b,id:\"minecraft:glow_ink_sac\"}]}",
+    "item:minecraft:birch_fence",
+    "item:dungeonnowloading:mendstone_chalk{Damage:0}",
+    "item:chalk:yellow_chalk{Damage:0}",
+    "item:chalk:lime_chalk{Damage:0}",
+    "item:chalk:pink_chalk{Damage:0}",
+    "item:chalk:light_blue_chalk{Damage:0}",
+    "item:kubejs:copper_kanabo{Damage:0}",
+    "item:kubejs:copper_quarterstaff{Damage:0}",
+    "item:kubejs:copper_club{Damage:0}",
+    "item:kubejs:copper_dagger{Damage:0}",
+    "item:spartanweaponry:copper_longbow{Damage:0}",
+    "item:spartanshields:copper_tower_shield{Damage:0}",
+    "item:spartanshields:copper_basic_shield{Damage:0}",
+    "item:caverns_and_chasms:copper_sword{Damage:0}",
+    "item:overgeared:copper_pickaxe{Damage:0}",
+    "item:caverns_and_chasms:copper_hoe{Damage:0}",
+    "item:caverns_and_chasms:copper_axe{Damage:0}",
+    "item:caverns_and_chasms:copper_shovel{Damage:0}",
+    "item:kubejs:diamond_kanabo{Damage:0}",
+    "item:kubejs:necromium_kanabo{Autoreforge:1b,Damage:0,Reforge:\"quality_equipment.quality.long\"}",
+    "item:minecraft:iron_pickaxe{Autoreforge:1b,Damage:0,ForgingQuality:\"well\",Polished:1b,Reforge:\"quality_equipment.quality.vicious\"}",
+    "item:veggiesdelight:cauliflower_bread",
+    "item:veggiesdelight:cauliflower_floret",
+    "item:farmersdelight:mixed_salad",
+    "item:farmersdelight:fruit_salad",
+    "item:farmersdelight:nether_salad",
+    "item:alexscaves:serene_salad",
+    "item:sullysmod:bug_meat",
+    "item:spelunkery:diamond_grindstone",
+    "item:naturescompass:naturescompass",
+    "item:traveloptics:neodymium_infused_mechanized_catalyst",
+    "item:traveloptics:mechanized_catalyst",
+    "item:overgeared:smithing_anvil",
+    "item:quark:rope",
     "item:farmersdelight:horse_feed",
     "item:vintagedelight:vinegar_bottle",
     "item:minecraft:leather",
@@ -235,7 +420,6 @@
     "item:brewinandchewin:flaxen_cheese_wheel",
     "item:vintagedelight:cheese_pizza_slice",
     "item:spelunkery:magnetic_compass",
-    "item:naturescompass:naturescompass",
     "item:minecraft:recovery_compass",
     "item:irons_spellbooks:wayward_compass",
     "item:irons_spellbooks:netherite_spell_book{\"irons_spellbooks:spell_container\":{data:[],maxSpells:12,mustEquip:1b,spellWheel:1b}}",
@@ -300,7 +484,6 @@
       "amount": 4
     },
     "#item:spelunkery:glowsticks",
-    "item:kubejs:iron_kanabo{Damage:0}",
     "item:alexsmobsdelight:banana_slice",
     "item:alexsmobsdelight:banana_bow{Damage:0}",
     "item:alexsmobsdelight:banana_slug_slime_custard",
@@ -349,7 +532,6 @@
       "amount": 0
     },
     "item:spartanweaponry:bolt",
-    "item:overgeared:copper_pickaxe{Damage:0}",
     "#item:forge:glass_panes",
     "item:oreganized:light_gray_crystal_glass_pane",
     "item:caverns_and_chasms:hold_button",
@@ -383,11 +565,6 @@
     "item:irons_spellbooks:scroll{\"irons_spellbooks:spell_container\":{data:[{id:\"irons_spellbooks:devour\",index:0,level:1,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}",
     "item:supplementaries:wind_vane",
     "item:irons_spellbooks:scroll{\"irons_spellbooks:spell_container\":{data:[{id:\"wind_spellbooks:tailwind\",index:0,level:1,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}",
-    {
-      "type": "item",
-      "id": "caverns_and_chasms:zirconia",
-      "amount": 64
-    },
     "item:irons_spellbooks:scroll{\"irons_spellbooks:spell_container\":{data:[{id:\"refined_mod:frost_strike\",index:0,level:2,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}",
     "item:minecraft:iron_axe{Autoreforge:1b,Damage:0,Enchantments:[{id:\"majruszsenchantments:death_wish\",lvl:1s}],Reforge:\"quality_equipment.quality.sharp\",\"irons_spellbooks:spell_container\":{data:[{id:\"irons_spellbooks:frostwave\",index:0,level:2}],maxSpells:1,mustEquip:0b,spellWheel:1b}}",
     "item:irons_spellbooks:scroll{\"irons_spellbooks:spell_container\":{data:[{id:\"irons_spellbooks:frostwave\",index:0,level:4,locked:1b}],maxSpells:1,mustEquip:0b,spellWheel:0b}}",
@@ -403,11 +580,6 @@
     "item:kubejs:rough_jade",
     "item:sullysmod:rough_jade_block",
     "item:sullysmod:rough_jade_bricks",
-    {
-      "type": "item",
-      "id": "spelunkery:diamond_grindstone",
-      "amount": 64
-    },
     "item:aether_treasure_reforging:valkyrum_ingot",
     "item:aether:valkyrie_helmet{Autoreforge:1b,Damage:0,Reforge:\"quality_equipment.quality.heavy\"}",
     "item:oreganized:electrum_helmet{Damage:0}",
@@ -428,11 +600,6 @@
     "item:overgeared:tier_a_smithing_anvil",
     "item:caverns_and_chasms:copper_helmet{Damage:0}",
     "item:starcatcher:oxidised_copper_hook{\"starcatcher:minigame_modifiers\":[\"starcatcher:slower_handle_speed\"]}",
-    "item:spartanweaponry:copper_longbow{Damage:0}",
-    "item:kubejs:copper_kanabo{Damage:0}",
-    "item:caverns_and_chasms:copper_hoe{Damage:0}",
-    "item:caverns_and_chasms:copper_shovel{Damage:0}",
-    "item:caverns_and_chasms:copper_sword{Damage:0}",
     "item:kubejs:copper_hammer{Damage:0}",
     {
       "type": "item",

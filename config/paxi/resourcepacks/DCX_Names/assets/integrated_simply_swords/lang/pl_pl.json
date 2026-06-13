@@ -1,0 +1,21 @@
+{
+  "item.integrated_simply_swords.born_in_chaos.dark_metal.longsword"                        : "Stalowy miecz długi",
+  "item.integrated_simply_swords.born_in_chaos.dark_metal.twinblade"                        : "Stalowe śmigło",
+  "item.integrated_simply_swords.born_in_chaos.dark_metal.rapier"                           : "Stalowa szpada",
+  "item.integrated_simply_swords.born_in_chaos.dark_metal.katana"                           : "Stalowa katana",
+  "item.integrated_simply_swords.born_in_chaos.dark_metal.sai"                              : "Stalowy sai",
+  "item.integrated_simply_swords.born_in_chaos.dark_metal.spear"                            : "Stalowa włócznia",
+  "item.integrated_simply_swords.born_in_chaos.dark_metal.glaive"                           : "Stalowa glewia",
+  "item.integrated_simply_swords.born_in_chaos.dark_metal.warglaive"                        : "Stalowy rogal",
+  "item.integrated_simply_swords.born_in_chaos.dark_metal.cutlass"                          : "Stalowa szabla",
+  "item.integrated_simply_swords.born_in_chaos.dark_metal.claymore"                         : "Stalowy pałasz",
+  "item.integrated_simply_swords.born_in_chaos.dark_metal.greataxe"                         : "Stalowy topór bojowy",
+  "item.integrated_simply_swords.born_in_chaos.dark_metal.greathammer"                      : "Stalowy młot bojowy",
+  "item.integrated_simply_swords.born_in_chaos.dark_metal.chakram"                          : "Stalowy chakram",
+  "item.integrated_simply_swords.born_in_chaos.dark_metal.scythe"                           : "Stalowa kosa",
+  "item.integrated_simply_swords.born_in_chaos.dark_metal.halberd"                          : "Stalowa halabarda",
+
+  "tooltip.electrum_sword": "Bonusowe Obrażenia Przy Szybkim Ruchu",
+  "tooltip.necromium_sword": "Spowalnia Cel"
+  }
+  

@@ -44,6 +44,17 @@
         "value": 1000
       }
     },
+    "bcattributes:sweep_angle": {
+      "enabled": false,
+      "min": {
+        "default": -360,
+        "value": -360
+      },
+      "max": {
+        "default": 360,
+        "value": 360
+      }
+    },
     "minecraft:generic.follow_range": {
       "enabled": true,
       "min": {
@@ -144,6 +155,17 @@
       }
     },
     "gunswithoutroses:gwr.damage_base": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "quality_forked:magic_resistance": {
       "enabled": false,
       "min": {
         "default": -1024,
@@ -297,6 +319,28 @@
         "value": 100
       }
     },
+    "quality_forked:jump_height": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 16,
+        "value": 16
+      }
+    },
+    "quality_forked:damage_resistance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "irons_spellbooks:cast_time_reduction": {
       "enabled": false,
       "min": {
@@ -317,6 +361,28 @@
       "max": {
         "default": 5,
         "value": 5
+      }
+    },
+    "bcattributes:dual_wielding_main_hand_damage_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "bcattributes:dual_wielding_off_hand_damage_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "caverns_and_chasms:stealth": {
@@ -451,6 +517,17 @@
         "value": 100
       }
     },
+    "bcattributes:reworked_sweeping_maximum_damage_penalty": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "irons_spellbooks:holy_spell_power": {
       "enabled": false,
       "min": {
@@ -583,6 +660,17 @@
         "value": 30
       }
     },
+    "quality_forked:magic_damage": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "caverns_and_chasms:magic_protection": {
       "enabled": false,
       "min": {
@@ -614,6 +702,17 @@
       "max": {
         "default": 30,
         "value": 30
+      }
+    },
+    "quality_forked:dig_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "irons_spellbooks:lightning_spell_power": {
@@ -1034,6 +1133,28 @@
         "value": 100000
       }
     },
+    "bcattributes:upswing_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 0.2,
+        "value": 0.2
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "bcattributes:attack_interval_cap": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "combatroll:distance": {
       "enabled": false,
       "min": {
@@ -1156,6 +1277,17 @@
       }
     },
     "forge:swim_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "bcattributes:target_search_range_multiplier": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -1309,6 +1441,17 @@
         "value": 100
       }
     },
+    "bcattributes:reworked_sweeping_enchant_restores": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "traveloptics:aqua_magic_resist": {
       "enabled": false,
       "min": {
@@ -1318,6 +1461,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "bcattributes:reworked_sweeping_extra_target_count": {
+      "enabled": false,
+      "min": {
+        "default": 1,
+        "value": 1
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "obscure_api:parry": {
@@ -1397,6 +1551,17 @@
         "value": 1000000
       }
     },
+    "quality_forked:projectile_damage": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "irons_spellbooks:blood_spell_power": {
       "enabled": false,
       "min": {
@@ -1428,6 +1593,17 @@
       "max": {
         "default": 100,
         "value": 100
+      }
+    },
+    "bcattributes:sweep_range_damage_falloff": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "attributeslib:current_hp_damage": {
@@ -1483,6 +1659,39 @@
       "max": {
         "default": 1000000035,
         "value": 1000000035
+      }
+    },
+    "bcattributes:movement_speed_while_attacking": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "bcattributes:max_sweep_targets": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "bcattributes:dual_wielding_attack_speed_multiplier": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
       }
     },
     "combatroll:count": {

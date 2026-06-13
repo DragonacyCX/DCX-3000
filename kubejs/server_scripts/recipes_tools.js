@@ -282,7 +282,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "minecraft:copper_block"
@@ -311,7 +311,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "overgeared:heated_copper_ingot"
@@ -379,7 +379,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "tag": "dcx:copper_storage_blocks"
@@ -408,7 +408,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "minecraft:copper_block"
@@ -437,7 +437,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "minecraft:copper_block"
@@ -466,7 +466,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "minecraft:copper_block"
@@ -496,7 +496,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "minecraft:exposed_copper"
@@ -525,7 +525,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "minecraft:exposed_copper"
@@ -554,7 +554,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "minecraft:exposed_copper"
@@ -584,7 +584,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "minecraft:weathered_copper"
@@ -613,7 +613,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "minecraft:weathered_copper"
@@ -642,7 +642,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "minecraft:weathered_copper"
@@ -672,7 +672,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "minecraft:oxidized_copper"
@@ -701,7 +701,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "minecraft:oxidized_copper"
@@ -730,7 +730,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "minecraft:oxidized_copper"
@@ -760,7 +760,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "minecraft:waxed_copper_block"
@@ -789,7 +789,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "minecraft:waxed_copper_block"
@@ -818,7 +818,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "minecraft:waxed_copper_block"
@@ -848,7 +848,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "minecraft:waxed_exposed_copper"
@@ -877,7 +877,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "minecraft:waxed_exposed_copper"
@@ -906,7 +906,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "minecraft:waxed_exposed_copper"
@@ -936,7 +936,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "minecraft:waxed_weathered_copper"
@@ -965,7 +965,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "minecraft:waxed_weathered_copper"
@@ -994,7 +994,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "minecraft:waxed_weathered_copper"
@@ -1024,7 +1024,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "minecraft:waxed_oxidized_copper"
@@ -1053,7 +1053,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "minecraft:waxed_oxidized_copper"
@@ -1082,7 +1082,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "minecraft:waxed_oxidized_copper"
@@ -1119,7 +1119,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "oreganized:silver_ingot"
@@ -1148,7 +1148,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "oreganized:silver_ingot"
@@ -1177,7 +1177,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "oreganized:silver_ingot"
@@ -1206,7 +1206,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "oreganized:silver_ingot"
@@ -1235,7 +1235,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "oreganized:silver_ingot"
@@ -1264,7 +1264,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "oreganized:silver_ingot"
@@ -1311,7 +1311,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "overgeared:heated_iron_ingot"
@@ -1339,7 +1339,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "overgeared:heated_iron_ingot"
@@ -1367,7 +1367,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "overgeared:heated_iron_ingot"
@@ -1395,7 +1395,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "overgeared:heated_iron_ingot"
@@ -1423,7 +1423,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "overgeared:heated_iron_ingot"
@@ -1451,7 +1451,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "overgeared:heated_iron_ingot"
@@ -1479,7 +1479,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "overgeared:heated_iron_ingot"
@@ -1507,7 +1507,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "overgeared:heated_iron_ingot"
@@ -1538,7 +1538,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "overgeared:heated_iron_ingot"
@@ -1569,7 +1569,7 @@ event.custom({
 //    "has_quality": true,
 //    "minimum_quality": "poor",
 //    "needs_minigame": false,
-//    "has_polishing": false,
+//    "has_polishing": true,
 //    "key": {
 //      "C": {
 //        "item": "overgeared:heated_iron_ingot"
@@ -1610,7 +1610,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "overgeared:heated_steel_ingot"
@@ -1638,7 +1638,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "overgeared:heated_steel_ingot"
@@ -1666,7 +1666,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "overgeared:heated_steel_ingot"
@@ -1694,7 +1694,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "overgeared:heated_steel_ingot"
@@ -1722,7 +1722,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "overgeared:heated_steel_ingot"
@@ -1769,7 +1769,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "minecraft:gold_ingot"
@@ -1798,7 +1798,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "minecraft:gold_ingot"
@@ -1827,7 +1827,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "minecraft:gold_ingot"
@@ -1856,7 +1856,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "minecraft:gold_ingot"
@@ -1885,7 +1885,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "minecraft:gold_ingot"
@@ -1914,7 +1914,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "minecraft:gold_ingot"
@@ -1943,7 +1943,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "minecraft:gold_ingot"
@@ -1975,7 +1975,7 @@ event.custom({
 //     "has_quality": true,
 //     "minimum_quality": "poor",
 //     "needs_minigame": false,
-//     "has_polishing": false,
+//     "has_polishing": true,
 //     "key": {
 //       "C": {
 //         "item": "minecraft:gold_ingot"
@@ -2016,7 +2016,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "minecraft:diamond"
@@ -2045,7 +2045,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "minecraft:diamond"
@@ -2074,7 +2074,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "minecraft:diamond"
@@ -2103,7 +2103,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "minecraft:diamond"
@@ -2132,7 +2132,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "minecraft:diamond"
@@ -2161,7 +2161,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "minecraft:diamond"
@@ -2190,7 +2190,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "minecraft:diamond"
@@ -2219,7 +2219,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "minecraft:diamond"
@@ -2251,7 +2251,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "minecraft:diamond"
@@ -2283,7 +2283,7 @@ event.custom({
 //     "has_quality": true,
 //     "minimum_quality": "poor",
 //     "needs_minigame": false,
-//     "has_polishing": false,
+//     "has_polishing": true,
 //     "key": {
 //       "C": {
 //         "item": "minecraft:diamond"
@@ -2320,7 +2320,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "N": {
         "item": "minecraft:netherite_scrap"
@@ -2419,7 +2419,7 @@ event.custom({
     "has_quality": true,
     "minimum_quality": "poor",
     "needs_minigame": false,
-    "has_polishing": false,
+    "has_polishing": true,
     "key": {
       "C": {
         "item": "overgeared:heated_iron_ingot"

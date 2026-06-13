@@ -1,0 +1,6 @@
+{
+  "parent": "integrated_simply_swords:item/template_greathammer_head",
+  "textures": {
+    "texture": "integrated_simply_swords:item/caverns_and_chasms/necromium/necromium_greathammer"
+  }
+}

@@ -56,9 +56,9 @@
 	#Sets a percentage for how many vanilla zombies should be replaced by bouldering zombies in deepslate levels.
 	zombie_deepslate_replacement_rate = 1.0
 	#Sets a percentage for how many vanilla spiders should be replaced by jungle spiders in jungle biomes.
-	spider_jungle_replacement_rate = 1.0
+	spider_jungle_replacement_rate = 0.0
 	#Sets a percentage for how many vanilla skeletons should be replaced by the mauled in deepslate levels.
-	skeleton_deepslate_replacement_rate = 0.5
+	skeleton_deepslate_replacement_rate = 0.2
 
 #Experimental Entity Modifications
 [experimental_entity_modifications]

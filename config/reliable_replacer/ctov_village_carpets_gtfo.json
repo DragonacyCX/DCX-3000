@@ -1,4 +1,5 @@
-{
+[
+ {
   "inputs": ["#minecraft:wool_carpets"],
   "remove": true,
   "structures": [
@@ -68,4 +69,14 @@
     ],
   "player_blocks": false,
   "retrogen": false
-}
+ },
+ {
+  "inputs": ["minecraft:yellow_carpet"],
+  "remove": true,
+  "structures": [
+		"integrated_villages:kutcha_village"
+    ],
+  "player_blocks": false,
+  "retrogen": false
+  }
+]

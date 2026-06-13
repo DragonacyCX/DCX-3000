@@ -1,3 +1,26 @@
 {
-	"values": ["minecraft:villager", "minecraft:iron_golem", "irons_spellbooks:priest", "goblintraders:goblin_trader", "goblintraders:vein_goblin_trader", "minecraft:wandering_trader", "guardvillagers:guard", "minecraft:horse", "minecraft:donkey", "minecraft:mule", "realmrpg_quests:angler", "realmrpg_quests:cook", "realmrpg_quests:monster_hunter", "realmrpg_quests:piglin_gambler"]
+	"values": [
+		"minecraft:villager",
+		"minecraft:wandering_trader",
+		"minecraft:iron_golem",
+		"minecraft:horse",
+		"minecraft:donkey",
+		"minecraft:mule",
+		"goblintraders:goblin_trader",
+		"goblintraders:vein_goblin_trader",
+		"guardvillagers:guard",
+		"irons_spellbooks:priest",
+		"realmrpg_quests:angler",
+		"realmrpg_quests:cook",
+		"realmrpg_quests:monster_hunter",
+		"realmrpg_quests:piglin_gambler",
+		"kobolds:kobold",
+		"kobolds:kobold_captain",
+		"kobolds:kobold_child",
+		"kobolds:kobold_enchanter",
+		"kobolds:kobold_engineer",
+		"kobolds:kobold_pirate",
+		"kobolds:kobold_rascal",
+		"kobolds:kobold_warrior"
+	]
 }
